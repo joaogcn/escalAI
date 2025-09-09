@@ -31,16 +31,7 @@ def get_mercado_status():
     except requests.exceptions.RequestException:
         return None
 
-@st.cache_data(ttl=300)
-def get_destaques():
-    """Busca os jogadores mais escalados na API do Cartola."""
-    try:
-        response = requests.get(f"{CARTOLA_BASE_URL}/mercado/destaques")
-        if response.status_code == 200:
-            return response.json()
-        return None
-    except requests.exceptions.RequestException:
-        return None
+
 
 @st.cache_data
 def load_historical_data(year, rodada):
