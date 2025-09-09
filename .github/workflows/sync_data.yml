@@ -1,0 +1,38 @@
+
+name: Sincronizar Dados do caRtola
+
+on:
+  schedule:
+    - cron: '0 0 * * 0' # Roda todo domingo à meia-noite
+  workflow_dispatch: # Permite execução manual
+
+jobs:
+  sync-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout do repositório principal
+        uses: actions/checkout@v4
+
+      - name: Checkout do repositório caRtola
+        uses: actions/checkout@v4
+        with:
+          repository: henriquepgomide/caRtola
+          path: cartola-clone
+
+      - name: Criar pasta de destino
+        run: mkdir -p dados_cartola/raw
+
+      - name: Sincronizar arquivos de dados
+        run: rsync -av --delete cartola-clone/data/01_raw/ dados_cartola/raw/
+
+      - name: Commit e Push das alterações
+        run: |
+          git config --global user.name 'GitHub Actions'
+          git config --global user.email 'github-actions@github.com'
+          git add dados_cartola/raw/
+          if ! git diff --staged --quiet; then
+            git commit -m "Atualiza dados brutos do caRtola"
+            git push
+          else
+            echo "Nenhuma alteração nos dados."
+          fi
