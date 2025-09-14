@@ -1,10 +1,9 @@
 import streamlit as st
-from datetime import datetime
 import pandas as pd
 import plotly.express as px
 import requests
 import os
-import glob
+from datetime import datetime
 
 # Configuração da página
 st.set_page_config(
@@ -16,7 +15,7 @@ st.set_page_config(
 
 # --- Constantes ---
 CARTOLA_BASE_URL = "https://api.cartolafc.globo.com"
-DATA_PATH = "dados_cartola/raw"
+CONSOLIDATED_DATA_PATH = "dados_cartola/02_intermediate/dados_consolidados.parquet"
 
 # --- Funções de Carregamento de Dados ---
 
@@ -31,36 +30,33 @@ def get_mercado_status():
     except requests.exceptions.RequestException:
         return None
 
-@st.cache_data(ttl=300)
-def get_destaques():
-    """Busca os jogadores mais escalados na API do Cartola."""
-    try:
-        response = requests.get(f"{CARTOLA_BASE_URL}/mercado/destaques")
-        if response.status_code == 200:
-            return response.json()
-        return None
-    except requests.exceptions.RequestException:
-        return None
-
 @st.cache_data
-def load_historical_data(year, rodada):
-    """Carrega os dados históricos de uma rodada específica a partir de um arquivo CSV local."""
-    file_path = os.path.join(DATA_PATH, str(year), f"rodada-{rodada}.csv")
-    if os.path.exists(file_path):
-        return pd.read_csv(file_path)
+def load_data():
+    """Carrega os dados consolidados a partir do arquivo Parquet."""
+    if os.path.exists(CONSOLIDATED_DATA_PATH):
+        return pd.read_parquet(CONSOLIDATED_DATA_PATH)
     return None
 
-@st.cache_data
-def get_available_years_and_rounds():
-    """Verifica as pastas de dados para encontrar anos e rodadas disponíveis."""
-    years = [d for d in os.listdir(DATA_PATH) if os.path.isdir(os.path.join(DATA_PATH, d))]
-    return sorted([int(y) for y in years if y.isdigit()], reverse=True)
+def get_available_rounds(df):
+    """Gera a lista de rodadas disponíveis a partir do DataFrame consolidado."""
+    if df is None or 'ano' not in df or 'rodada_id' not in df:
+        return []
+    
+    # Agrupa por ano e rodada, ordena e formata a string
+    rounds = df[['ano', 'rodada_id']].drop_duplicates().sort_values(
+        by=['ano', 'rodada_id'], ascending=[False, False]
+    )
+    return [f"{int(ano)} - Rodada {int(rodada_id)}" for ano, rodada_id in rounds.itertuples(index=False)]
+
 
 # --- Interface Principal ---
 
 def main():
     st.title("⚽ EscalAI - Análise de Dados do Cartola FC")
     st.markdown("---")
+
+    # Carrega o DataFrame principal uma vez
+    df_consolidado = load_data()
 
     # --- Sidebar ---
     with st.sidebar:
@@ -70,26 +66,42 @@ def main():
             ["🏠 Dashboard (Ao Vivo)", "👥 Análise de Jogadores (Histórico)", "🏆 Análise de Clubes (Histórico)"]
         )
 
-        st.header("🔍 Filtros de Dados Históricos")
-        available_years = get_available_years_and_rounds()
-        if not available_years:
-            st.warning("Nenhum dado histórico encontrado. Execute a Action para sincronizar.")
-            year = 2024
-            rodada = 1
-        else:
-            year = st.selectbox("Temporada:", available_years)
-            rodada = st.number_input("Rodada:", min_value=1, max_value=38, value=1)
+        st.header("🔍 Filtro de Dados Históricos")
+        
+        year = None
+        rodada = None
+        df_historical = pd.DataFrame() # DataFrame vazio por padrão
 
-    # Carregar dados históricos com base na seleção da sidebar
-    df_historical = load_historical_data(year, rodada)
+        if df_consolidado is None:
+            st.warning("Arquivo de dados consolidados não encontrado. Execute o script de limpeza primeiro.")
+        else:
+            available_rounds = get_available_rounds(df_consolidado)
+            if not available_rounds:
+                st.warning("Nenhuma rodada encontrada nos dados consolidados.")
+            else:
+                selected_round_str = st.selectbox("Temporada e Rodada:", available_rounds)
+                if selected_round_str:
+                    year_str, rodada_str = selected_round_str.split(" - Rodada ")
+                    year = int(year_str)
+                    rodada = int(rodada_str)
+                    
+                    # Filtra o DataFrame principal para a rodada selecionada
+                    df_historical = df_consolidado[(df_consolidado['ano'] == year) & (df_consolidado['rodada_id'] == rodada)].copy()
 
     # --- Navegação das Páginas ---
     if page == "🏠 Dashboard (Ao Vivo)":
         show_dashboard()
     elif page == "👥 Análise de Jogadores (Histórico)":
-        show_jogadores_page(df_historical)
+        if not df_historical.empty:
+            show_jogadores_page(df_historical)
+        else:
+            st.info("Selecione uma temporada e rodada para ver a análise dos jogadores.")
     elif page == "🏆 Análise de Clubes (Histórico)":
-        show_clubes_page(df_historical)
+        if not df_historical.empty:
+            show_clubes_page(df_historical)
+        else:
+            st.info("Selecione uma temporada e rodada para ver a análise dos clubes.")
+
 
 # --- Páginas da Aplicação ---
 
@@ -106,63 +118,77 @@ def show_dashboard():
         col1.metric("Status", status_map.get(status_mercado_id, "N/A"))
         col2.metric("Rodada Atual", mercado_status.get('rodada_atual', 'N/A'))
         col3.metric("Times Escalados", f"{mercado_status.get('times_escalados', 0):,}")
-        col4.metric("Fechamento", datetime.fromtimestamp(mercado_status.get('fechamento', {}).get('timestamp', 0)).strftime('%d/%m %H:%M'))
+        
+        fechamento_ts = mercado_status.get('fechamento', {}).get('timestamp', 0)
+        if fechamento_ts > 0:
+            fechamento_str = datetime.fromtimestamp(fechamento_ts).strftime('%d/%m %H:%M')
+        else:
+            fechamento_str = "N/A"
+        col4.metric("Fechamento", fechamento_str)
     else:
         st.warning("Não foi possível carregar o status do mercado.")
 
     
-
 def show_jogadores_page(df):
     """Página para análise de jogadores com base em dados históricos."""
     st.header("👥 Análise de Jogadores (Dados Históricos)")
 
-    if df is None:
-        st.error("Dados para a temporada e rodada selecionadas não encontrados. Verifique a pasta `dados_cartola/raw`.")
+    if df.empty:
+        st.error("Dados para a temporada e rodada selecionadas não encontrados.")
         return
-
-    st.dataframe(df)
 
     st.subheader("Filtros Avançados")
     col1, col2, col3 = st.columns(3)
-    posicoes = ["Todas"] + df['atletas.posicao_id'].unique().tolist()
-    clubes = ["Todos"] + df['atletas.clube.id.full.name'].unique().tolist()
+    
+    posicoes = ["Todas"] + df['posicao_id'].unique().tolist()
+    clubes = ["Todos"] + df['clube.nome'].unique().tolist()
 
     posicao_filtro = col1.selectbox("Posição:", posicoes)
     clube_filtro = col2.selectbox("Clube:", clubes)
-    min_preco = col3.slider("Preço Mínimo:", float(df['atletas.preco_num'].min()), float(df['atletas.preco_num'].max()))
+    min_preco = col3.slider("Preço Mínimo:", float(df['preco_num'].min()), float(df['preco_num'].max()))
 
-    df_filtrado = df[df['atletas.preco_num'] >= min_preco]
+    df_filtrado = df[df['preco_num'] >= min_preco]
     if posicao_filtro != "Todas":
-        df_filtrado = df_filtrado[df_filtrado['atletas.posicao_id'] == posicao_filtro]
+        df_filtrado = df_filtrado[df_filtrado['posicao_id'] == posicao_filtro]
     if clube_filtro != "Todos":
-        df_filtrado = df_filtrado[df_filtrado['atletas.clube.id.full.name'] == clube_filtro]
+        df_filtrado = df_filtrado[df_filtrado['clube.nome'] == clube_filtro]
 
     st.write(f"**Mostrando {len(df_filtrado)} de {len(df)} jogadores.**")
-    st.dataframe(df_filtrado)
+    
+    # --- Ocultar Colunas ---
+    cols_to_hide = [
+        'Unnamed: 0', 'foto', 'slug', 'atleta_id', 'clube_id', 
+        'minimo_para_valorizar', 'apelido_abreviado', 'temporada_id', 'PI',
+        'gato_mestre.media_pontos_mandante', 'gato_mestre.media_pontos_visitante',
+        'gato_mestre.media_minutos_jogados', 'gato_mestre.minutos_jogados'
+    ]
+    cols_to_hide_existing = [col for col in cols_to_hide if col in df_filtrado.columns]
+    
+    st.dataframe(df_filtrado.drop(columns=cols_to_hide_existing))
 
     st.subheader("Visualizações")
     col1, col2 = st.columns(2)
-    fig_preco = px.histogram(df_filtrado, x="atletas.preco_num", title="Distribuição de Preços")
+    fig_preco = px.histogram(df_filtrado, x="preco_num", title="Distribuição de Preços")
     col1.plotly_chart(fig_preco, use_container_width=True)
 
-    fig_pontos = px.histogram(df_filtrado, x="atletas.pontos_num", title="Distribuição de Pontos")
+    fig_pontos = px.histogram(df_filtrado, x="pontos_num", title="Distribuição de Pontos")
     col2.plotly_chart(fig_pontos, use_container_width=True)
 
 def show_clubes_page(df):
     """Página para análise de clubes com base em dados históricos."""
     st.header("🏆 Análise de Clubes (Dados Históricos)")
 
-    if df is None:
+    if df.empty:
         st.error("Dados para a temporada e rodada selecionadas não encontrados.")
         return
 
     st.subheader("Jogadores por Clube")
-    clubes_count = df['atletas.clube.id.full.name'].value_counts()
+    clubes_count = df['clube.nome'].value_counts()
     fig = px.bar(clubes_count, x=clubes_count.index, y=clubes_count.values, title="Número de Jogadores por Clube")
     st.plotly_chart(fig, use_container_width=True)
 
     st.subheader("Média de Pontos por Clube")
-    media_pontos_clube = df.groupby('atletas.clube.id.full.name')['atletas.pontos_num'].mean().sort_values(ascending=False)
+    media_pontos_clube = df.groupby('clube.nome')['pontos_num'].mean().sort_values(ascending=False)
     st.dataframe(media_pontos_clube)
 
 if __name__ == "__main__":
