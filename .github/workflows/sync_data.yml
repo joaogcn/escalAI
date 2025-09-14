@@ -1,5 +1,4 @@
-
-name: Sincronizar Dados do caRtola
+name: Sincronizar e Processar Dados
 
 on:
   schedule:
@@ -7,7 +6,7 @@ on:
   workflow_dispatch: # Permite execução manual
 
 jobs:
-  sync-data:
+  sync-and-process:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -21,19 +20,29 @@ jobs:
           repository: henriquepgomide/caRtola
           path: cartola-clone
 
-      - name: Criar pasta de destino
-        run: mkdir -p dados_cartola/raw
-
-      - name: Sincronizar arquivos de dados
+      - name: Sincronizar arquivos de dados brutos
         run: rsync -av --delete cartola-clone/data/01_raw/ dados_cartola/raw/
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Instalar dependências
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Gerar arquivo consolidado
+        run: python scripts/01_data_cleaning.py
 
       - name: Commit e Push das alterações
         run: |
           git config --global user.name 'GitHub Actions'
           git config --global user.email 'github-actions@github.com'
-          git add dados_cartola/raw/
+          git add dados_cartola/raw/ dados_cartola/02_intermediate/dados_consolidados.parquet
           if ! git diff --staged --quiet; then
-            git commit -m "Atualiza dados brutos do caRtola"
+            git commit -m "[Bot] Atualiza dados brutos e consolidados"
             git push
           else
             echo "Nenhuma alteração nos dados."

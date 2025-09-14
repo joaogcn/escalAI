@@ -17,10 +17,8 @@ def clean_data():
     # --- 1. Carga e Consolidação ---
     print(f"Analisando diretórios de anos em '{RAW_DATA_PATH}'...")
     
-    # Identifica todos os diretórios de anos
     try:
         all_year_dirs = [d for d in os.listdir(RAW_DATA_PATH) if os.path.isdir(os.path.join(RAW_DATA_PATH, d)) and d.isdigit()]
-        # Ordena os anos em ordem decrescente e pega os últimos 4
         sorted_years = sorted(all_year_dirs, key=int, reverse=True)
         year_dirs = sorted_years[:4]
         print(f"Processando os últimos {len(year_dirs)} anos de dados: {year_dirs}")
@@ -45,12 +43,12 @@ def clean_data():
         
         for file in rodada_files:
             try:
-                # Lê o CSV
-                df_rodada = pd.read_csv(file)
+                try:
+                    df_rodada = pd.read_csv(file, encoding='utf-8')
+                except UnicodeDecodeError:
+                    df_rodada = pd.read_csv(file, encoding='latin-1')
                 
-                # Adiciona a coluna de ano
                 df_rodada['ano'] = int(year)
-                
                 df_list.append(df_rodada)
             except Exception as e:
                 print(f"AVISO: Erro ao processar o arquivo {file}. Erro: {e}")
@@ -66,14 +64,60 @@ def clean_data():
     df = pd.concat(df_list, ignore_index=True)
     print("Dados consolidados.")
 
-    # --- 2. Diagnóstico Inicial ---
+    # --- 2. Padronização dos Nomes dos Times ---
+    print("\nPadronizando nomes de times...")
+    if 'atletas.clube.id.full.name' in df.columns:
+        # Corrigir problemas de encoding primeiro
+        encoding_fixes = {
+            'AmÃ©rica-MG': 'América-MG',
+            'AthlÃ©tico-PR': 'Athlético-PR',
+            'AtlÃ©tico-MG': 'Atlético-MG',
+            'CuiabÃ¡': 'Cuiabá',
+            'GoiÃ¡s': 'Goiás',
+            'GrÃªmio': 'Grêmio',
+            'SÃ£o Paulo': 'São Paulo',
+        }
+        for bad_name, good_name in encoding_fixes.items():
+            df['atletas.clube.id.full.name'] = df['atletas.clube.id.full.name'].str.replace(bad_name, good_name, regex=False)
+
+        # Padronizar abreviações
+        abbreviation_fixes = {
+            'BAH': 'Bahia',
+            'BOT': 'Botafogo',
+            'CAM': 'Atlético-MG',
+            'CEA': 'Ceará',
+            'COR': 'Corinthians',
+            'CRU': 'Cruzeiro',
+            'FLA': 'Flamengo',
+            'FLU': 'Fluminense',
+            'FOR': 'Fortaleza',
+            'GRE': 'Grêmio',
+            'INT': 'Internacional',
+            'JUV': 'Juventude',
+            'PAL': 'Palmeiras',
+            'SAN': 'Santos',
+            'SAO': 'São Paulo',
+            'VAS': 'Vasco',
+            'VIT': 'Vitória',
+            'RBB': 'Bragantino',
+            'MIR': 'Mirassol',
+            'SPT': 'Sport',
+        }
+        df['atletas.clube.id.full.name'] = df['atletas.clube.id.full.name'].replace(abbreviation_fixes)
+        
+        print("Nomes de times padronizados.")
+    else:
+        print("AVISO: Coluna 'atletas.clube.id.full.name' não encontrada para padronização.")
+
+
+    # --- 3. Diagnóstico Inicial ---
     print("\n--- Diagnóstico Inicial do DataFrame ---")
     print("Formato do DataFrame (Linhas, Colunas):", df.shape)
     print("Verificando valores nulos por coluna:")
     print(df.isnull().sum())
     print("---" * 35)
 
-    # --- 3. Limpeza e Transformação ---
+    # --- 4. Limpeza e Transformação ---
     print("\nSimplificando nomes de colunas...")
     df.columns = [col.replace('atletas.', '').replace('id.full.name', 'nome') for col in df.columns]
     print("Nomes de colunas simplificados.")
@@ -94,26 +138,22 @@ def clean_data():
     if 'clube.nome' in df.columns:
         df['clube.nome'] = df['clube.nome'].astype('category')
     
-    # Padronizando a coluna de posição para um formato único
     if 'posicao_id' in df.columns:
         pos_map = {
             '1': 'gol', '2': 'lat', '3': 'zag', '4': 'mei', '5': 'ata', '6': 'tec',
             'gol': 'gol', 'lat': 'lat', 'zag': 'zag', 'mei': 'mei', 'ata': 'ata', 'tec': 'tec'
         }
-        # Converte para string, mapeia os valores e define o tipo como categoria
         df['posicao_id'] = df['posicao_id'].astype(str).str.lower().map(pos_map).astype('category')
 
-    # Padronizando a coluna de status
     if 'status_id' in df.columns:
         df['status_id'] = pd.to_numeric(df['status_id'], errors='coerce').fillna(0).astype('category')
 
     print("Tipos de dados ajustados para melhor performance.")
 
-    # --- 4. Salvando o Resultado ---
+    # --- 5. Salvando o Resultado ---
     print(f"\nSalvando o DataFrame limpo em '{OUTPUT_FILE}'...")
     os.makedirs(INTERMEDIATE_DATA_PATH, exist_ok=True)
     
-    # Diagnóstico final de colunas
     print("\nColunas finais do DataFrame antes de salvar:")
     print(df.columns.tolist())
     

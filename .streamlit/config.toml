@@ -1,0 +1,15 @@
+[theme]
+# Cor primária para elementos interativos
+primaryColor = "#FFA500" # Laranja
+
+# Cor de fundo principal
+backgroundColor = "#000000" # Preto
+
+# Cor de fundo da sidebar
+secondaryBackgroundColor = "#1C1C1E" # Cinza escuro
+
+# Cor do texto
+textColor = "#FFFFFF" # Branco
+
+# Fonte
+font = "sans serif"
