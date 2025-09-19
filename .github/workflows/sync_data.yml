@@ -2,7 +2,7 @@ name: Sincronizar e Processar Dados
 
 on:
   schedule:
-    - cron: '0 0 * * 0' # Roda todo domingo à meia-noite
+    - cron: '0 0 * * *' # Roda todo dia à meia-noite
   workflow_dispatch: # Permite execução manual
 
 jobs:
@@ -36,13 +36,16 @@ jobs:
       - name: Gerar arquivo consolidado
         run: python scripts/01_data_cleaning.py
 
+      - name: Gerar arquivo de análise agregada
+        run: python scripts/02_analise_exploratoria.py
+
       - name: Commit e Push das alterações
         run: |
           git config --global user.name 'GitHub Actions'
           git config --global user.email 'github-actions@github.com'
-          git add dados_cartola/raw/ dados_cartola/02_intermediate/dados_consolidados.parquet
+          git add dados_cartola/raw/ dados_cartola/02_intermediate/
           if ! git diff --staged --quiet; then
-            git commit -m "[Bot] Atualiza dados brutos e consolidados"
+            git commit -m "[Bot] Atualiza dados brutos, consolidados e agregados"
             git push
           else
             echo "Nenhuma alteração nos dados."

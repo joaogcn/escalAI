@@ -16,6 +16,7 @@ st.set_page_config(
 # --- Constantes ---
 CARTOLA_BASE_URL = "https://api.cartolafc.globo.com"
 CONSOLIDATED_DATA_PATH = "dados_cartola/02_intermediate/dados_consolidados.parquet"
+AGGREGATED_DATA_PATH = "dados_cartola/02_intermediate/dados_agregados_por_atleta.parquet" # Novo
 
 # --- Funções de Carregamento de Dados ---
 
@@ -37,12 +38,18 @@ def load_data():
         return pd.read_parquet(CONSOLIDATED_DATA_PATH)
     return None
 
+@st.cache_data
+def load_aggregated_data():
+    """Carrega os dados agregados por atleta."""
+    if os.path.exists(AGGREGATED_DATA_PATH):
+        return pd.read_parquet(AGGREGATED_DATA_PATH)
+    return None
+
 def get_available_rounds(df):
     """Gera a lista de rodadas disponíveis a partir do DataFrame consolidado."""
     if df is None or 'ano' not in df or 'rodada_id' not in df:
         return []
     
-    # Agrupa por ano e rodada, ordena e formata a string
     rounds = df[['ano', 'rodada_id']].drop_duplicates().sort_values(
         by=['ano', 'rodada_id'], ascending=[False, False]
     )
@@ -55,22 +62,20 @@ def main():
     st.title("⚽ EscalAI - Análise de Dados do Cartola FC")
     st.markdown("---")
 
-    # Carrega o DataFrame principal uma vez
     df_consolidado = load_data()
 
-    # --- Sidebar ---
     with st.sidebar:
         st.header("🎛️ Navegação")
         page = st.selectbox(
             "Selecione a página:",
-            ["🏠 Dashboard (Ao Vivo)", "👥 Análise de Jogadores (Histórico)", "🏆 Análise de Clubes (Histórico)"]
+            ["🏠 Dashboard (Ao Vivo)", "📊 Análise Agregada", "👥 Análise de Jogadores (Histórico)", "🏆 Análise de Clubes (Histórico)"]
         )
 
         st.header("🔍 Filtro de Dados Históricos")
         
         year = None
         rodada = None
-        df_historical = pd.DataFrame() # DataFrame vazio por padrão
+        df_historical = pd.DataFrame()
 
         if df_consolidado is None:
             st.warning("Arquivo de dados consolidados não encontrado. Execute o script de limpeza primeiro.")
@@ -85,12 +90,12 @@ def main():
                     year = int(year_str)
                     rodada = int(rodada_str)
                     
-                    # Filtra o DataFrame principal para a rodada selecionada
                     df_historical = df_consolidado[(df_consolidado['ano'] == year) & (df_consolidado['rodada_id'] == rodada)].copy()
 
-    # --- Navegação das Páginas ---
     if page == "🏠 Dashboard (Ao Vivo)":
         show_dashboard()
+    elif page == "📊 Análise Agregada":
+        show_aggregated_analysis_page(df_consolidado) # Passa o df original para o boxplot
     elif page == "👥 Análise de Jogadores (Histórico)":
         if not df_historical.empty:
             show_jogadores_page(df_historical)
@@ -108,8 +113,7 @@ def main():
 def show_dashboard():
     """Página inicial com dados ao vivo do mercado."""
     st.header("🏠 Dashboard do Mercado (Dados ao Vivo)")
-
-    st.subheader("📊 Status do Mercado")
+    # ... (código existente sem alteração)
     mercado_status = get_mercado_status()
     if mercado_status:
         col1, col2, col3, col4 = st.columns(4)
@@ -128,11 +132,60 @@ def show_dashboard():
     else:
         st.warning("Não foi possível carregar o status do mercado.")
 
+
+def show_aggregated_analysis_page(df_original):
+    """Nova página para mostrar as análises agregadas por jogador."""
+    st.header("📊 Análise Agregada por Jogador")
     
+    df_agg = load_aggregated_data()
+
+    if df_agg is None:
+        st.error("Arquivo de dados agregados não encontrado! Por favor, execute o script 'scripts/02_analise_exploratoria.py' primeiro.")
+        return
+
+    st.markdown("""
+    Esta página analisa o desempenho consolidado dos jogadores ao longo de todas as temporadas e rodadas disponíveis nos dados. 
+    Use os filtros para encontrar os jogadores mais consistentes e com o melhor custo-benefício.
+    """)
+
+    min_jogos = st.slider("Filtrar por número mínimo de jogos disputados:", 1, int(df_agg['jogos_disputados'].max()), 10)
+    df_filtrado = df_agg[df_agg['jogos_disputados'] >= min_jogos]
+
+    st.markdown("---")
+
+    # Gráficos
+    st.subheader("🏆 Top 20 Jogadores por Média de Pontos")
+    top_20_media = df_filtrado.nlargest(20, 'media_pontos')
+    fig1 = px.bar(top_20_media, x='apelido', y='media_pontos', title="Top 20 Jogadores por Média de Pontos",
+                  hover_data=['posicao', 'ultimo_clube', 'jogos_disputados'], labels={'apelido': 'Jogador', 'media_pontos': 'Média de Pontos'})
+    st.plotly_chart(fig1, use_container_width=True)
+
+    st.subheader("💰 Top 20 Jogadores por Custo-Benefício Médio")
+    top_20_custo_beneficio = df_filtrado.nlargest(20, 'custo_beneficio_medio')
+    fig2 = px.bar(top_20_custo_beneficio, x='apelido', y='custo_beneficio_medio', title="Top 20 Jogadores por Custo-Benefício Médio",
+                  hover_data=['posicao', 'ultimo_clube', 'media_pontos', 'media_preco'], labels={'apelido': 'Jogador', 'custo_beneficio_medio': 'Custo-Benefício (Média Pontos / Média Preço)'})
+    st.plotly_chart(fig2, use_container_width=True)
+
+    st.subheader("🔍 Preço Médio vs. Média de Pontos")
+    fig3 = px.scatter(df_filtrado, x='media_preco', y='media_pontos', color='posicao',
+                      title="Preço Médio vs. Média de Pontos por Posição",
+                      hover_data=['apelido'], labels={'media_preco': 'Preço Médio (C$)', 'media_pontos': 'Média de Pontos'})
+    st.plotly_chart(fig3, use_container_width=True)
+    
+    st.subheader("📊 Distribuição de Pontos por Posição (Dados não agregados)")
+    if df_original is not None:
+        fig4 = px.box(df_original, x='posicao_id', y='pontos_num', color='posicao_id',
+                      title="Distribuição de Pontos por Posição",
+                      labels={'posicao_id': 'Posição', 'pontos_num': 'Pontos na Rodada'})
+        st.plotly_chart(fig4, use_container_width=True)
+    else:
+        st.warning("Não foi possível carregar os dados originais para o Box Plot.")
+
+
 def show_jogadores_page(df):
     """Página para análise de jogadores com base em dados históricos."""
     st.header("👥 Análise de Jogadores (Dados Históricos)")
-
+    # ... (código existente sem alteração)
     if df.empty:
         st.error("Dados para a temporada e rodada selecionadas não encontrados.")
         return
@@ -155,7 +208,6 @@ def show_jogadores_page(df):
 
     st.write(f"**Mostrando {len(df_filtrado)} de {len(df)} jogadores.**")
     
-    # --- Ocultar Colunas ---
     cols_to_hide = [
         'Unnamed: 0', 'foto', 'slug', 'atleta_id', 'clube_id', 
         'minimo_para_valorizar', 'apelido_abreviado', 'temporada_id', 'PI',
@@ -174,10 +226,11 @@ def show_jogadores_page(df):
     fig_pontos = px.histogram(df_filtrado, x="pontos_num", title="Distribuição de Pontos")
     col2.plotly_chart(fig_pontos, use_container_width=True)
 
+
 def show_clubes_page(df):
     """Página para análise de clubes com base em dados históricos."""
     st.header("🏆 Análise de Clubes (Dados Históricos)")
-
+    # ... (código existente sem alteração)
     if df.empty:
         st.error("Dados para a temporada e rodada selecionadas não encontrados.")
         return
