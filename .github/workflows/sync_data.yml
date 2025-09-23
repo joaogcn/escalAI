@@ -43,7 +43,7 @@ jobs:
         run: |
           git config --global user.name 'GitHub Actions'
           git config --global user.email 'github-actions@github.com'
-          git add dados_cartola/raw/ dados_cartola/02_intermediate/
+          git add dados_cartola/
           if ! git diff --staged --quiet; then
             git commit -m "[Bot] Atualiza dados brutos, consolidados e agregados"
             git push
