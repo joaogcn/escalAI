@@ -2,24 +2,8 @@
 
 ## 🎯 **Sobre o Projeto**
 
-O EscalAI é uma aplicação web desenvolvida em Streamlit para análise de dados do Cartola FC. O projeto combina dados históricos, para estudos de desempenho, com dados de mercado ao vivo, fornecendo uma ferramenta completa para auxiliar na escalação de times.
-
-## ⚙️ **Arquitetura de Dados**
-
-Este projeto abandonou o uso de um banco de dados tradicional em favor de uma arquitetura mais simples e automatizada:
-
-1.  **Dados Históricos**: Os dados históricos de rodadas passadas são obtidos do excelente projeto [caRtola](https://github.com/henriquepgomide/caRtola).
-2.  **Sincronização Automática**: Uma **GitHub Action** configurada neste repositório é executada semanalmente. Ela clona o repositório `caRtola`, copia os arquivos de dados brutos (`.csv`) e os armazena na pasta `dados_cartola/raw`.
-3.  **Consumo Local**: A aplicação Streamlit lê os dados diretamente desses arquivos CSV locais para todas as análises históricas.
-4.  **Dados ao Vivo**: Para informações em tempo real, como o status do mercado e os jogadores mais escalados, a aplicação consome as APIs oficiais do Cartola FC.
-
-## 🛠️ **Tecnologias Utilizadas**
-
--   **Linguagem**: Python
--   **Frontend**: Streamlit
--   **Análise de Dados**: Pandas
--   **Visualização**: Plotly
--   **Automação**: GitHub Actions
+O **EscalAI** é uma aplicação web desenvolvida em **Streamlit** que combina tecnologia e análise de dados para ajudar você a montar seu time do **Cartola FC** com mais estratégia e confiança.
+Com base em dados históricos e informações de mercado em tempo real, o EscalAI oferece uma visão completa do desempenho dos jogadores e das tendências da rodada.
 
 ## 🚀 **Instalação e Execução**
 
@@ -40,19 +24,25 @@ pip install -r requirements.txt
 
 ### **3. Execução
 
-Após a instalação, execute o comando abaixo. A primeira sincronização de dados pode levar algum tempo para ser concluída pela GitHub Action. Se a pasta `dados_cartola/raw` ainda não existir, você pode rodar a Action manualmente na aba "Actions" do repositório no GitHub.
+Após a instalação, execute o comando abaixo para o pipeline de dados e em seguida para rodar a aplicação.
 
 ```bash
-streamlit run app.py
+# Executa o pipeline de processamento de dados
+python scripts/run_pipeline.py
+
+# Inicia a aplicação Streamlit
+streamlit run EscalAI.py
 ```
 
 ## 📁 **Estrutura do Projeto**
 
 ```
 escalAI/
-├── app.py                 # Aplicativo principal Streamlit
+├── EscalAI.py             # Aplicativo principal Streamlit
 ├── requirements.txt       # Dependências Python
-├── dados_cartola/raw/     # (Criado pela Action) Dados históricos em CSV
+├── scripts/               # Scripts para o pipeline de dados
+├── pages/                 # Páginas da aplicação Streamlit
+├── dados_cartola/         # Dados brutos, intermediários e visualizações
 ├── .github/workflows/     # Contém o workflow de sincronização
 └── README.md              # Este arquivo
 ```
