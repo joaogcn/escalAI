@@ -1,76 +1,117 @@
 import pandas as pd
-import glob
+import numpy as np
 import os
+import requests
 import sys
 
-# Adiciona o diretório raiz ao path para a importação funcionar tanto em execução direta quanto via orquestrador
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-from src.config import ROOT_DIR, RAW_DATA_PATH, INTERMEDIATE_DATA_PATH, CONSOLIDATED_OUTPUT_FILE, NUMERIC_COLS, SCOUT_COLS
+from src.config import INTERMEDIATE_DATA_PATH, CONSOLIDATED_OUTPUT_FILE, NUMERIC_COLS, SCOUT_COLS
 
 def run():
-    """
-    Coleta, consolida e limpa os dados brutos do Cartola FC.
-    - Lê arquivos CSV de múltiplos anos.
-    - Renomeia colunas.
-    - Padroniza nomes de times.
-    - Preenche valores numéricos e de scouts ausentes com 0.
-    - Mapeia posições e ajusta tipos de dados.
-    - Salva o DataFrame limpo em formato parquet.
-    """
-    print("--- INICIANDO: [1/4] Limpeza de Dados ---")
+    print('--- INICIANDO: Carga e Limpeza de Dados ---')
 
-    all_year_dirs = [d for d in os.listdir(RAW_DATA_PATH) if os.path.isdir(os.path.join(RAW_DATA_PATH, d)) and d.isdigit()]
-    if not all_year_dirs:
-        print(f"ERRO: Nenhum diretório de ano encontrado em '{RAW_DATA_PATH}'. Abortando.")
+    API_URL = 'https://api.github.com/repos/henriquepgomide/caRtola/contents/data/01_raw'
+
+    try:
+        response = requests.get(API_URL)
+        response.raise_for_status()
+        all_content = response.json()
+        all_year_dirs = [item['name'] for item in all_content if item['type'] == 'dir' and item['name'].isdigit()]
+    except requests.exceptions.RequestException as e:
+        print(f"ERRO: Falha ao buscar lista de anos do GitHub: {e}")
         return False
 
-    # Ordena os anos e seleciona apenas os últimos 4
-    anos_encontrados = sorted([d for d in all_year_dirs])
-    anos_a_processar = anos_encontrados[-4:]
-    
-    print(f"  - Total de anos encontrados: {len(anos_encontrados)}. Processando os últimos 4: {anos_a_processar}")
-    
-    df_list = []
-    for year in anos_a_processar:
-        rodada_files = glob.glob(os.path.join(RAW_DATA_PATH, year, 'rodada-*.csv'))
-        rodada_files.extend(glob.glob(os.path.join(RAW_DATA_PATH, year, 'Mercado_*.txt')))
+    if not all_year_dirs:
+        print(f'ERRO: Nenhum diretório de ano encontrado em {API_URL}.')
+        return False
 
-        for file in rodada_files:
-            # Imprime o caminho relativo do arquivo para dar feedback ao usuário
-            relative_path = os.path.relpath(file, ROOT_DIR)
-            # Usa ljust para preencher com espaços e limpar a linha anterior
-            print(f"    - Lendo: {relative_path.ljust(80)}", end='\r')
+    anos_encontrados = sorted(all_year_dirs)
+    anos_a_processar = anos_encontrados[-4:]
+    print(f'  - Processando os anos: {anos_a_processar}')
+    df_list = []
+
+    for year in anos_a_processar:
+        year_url = f'{API_URL}/{year}'
+        try:
+            response = requests.get(year_url)
+            response.raise_for_status()
+            year_files = response.json()
+        except requests.exceptions.RequestException as e:
+            print(f"ERRO: Falha ao buscar arquivos para o ano {year}: {e}")
+            continue
+
+        rodada_files_urls = [f['download_url'] for f in year_files if 'name' in f and f['name'].startswith('rodada-') and f['name'].endswith('.csv')]
+
+        for file_url in rodada_files_urls:
             try:
-                df_rodada = pd.read_csv(file, encoding='utf-8', low_memory=False)
+                df_rodada = pd.read_csv(file_url, encoding='utf-8', low_memory=False)
+                df_rodada['ano'] = int(year)
+                df_list.append(df_rodada)
             except UnicodeDecodeError:
-                df_rodada = pd.read_csv(file, encoding='latin-1', low_memory=False)
-            df_rodada['ano'] = int(year)
-            df_list.append(df_rodada)
-    # Limpa a linha de progresso antes de continuar
-    print(" " * 100, end="\r")
+                df_rodada = pd.read_csv(file_url, encoding='latin-1', low_memory=False)
+                df_rodada['ano'] = int(year)
+                df_list.append(df_rodada)
+            except Exception as e:
+                print(f"  - AVISO: Falha ao ler o arquivo {file_url}. Erro: {e}")
 
 
     if not df_list:
-        print("ERRO: Nenhum arquivo de dado bruto foi encontrado. Abortando.")
+        print('ERRO: Nenhum arquivo de dado bruto foi lido do GitHub.')
         return False
 
     df = pd.concat(df_list, ignore_index=True)
-    print(f"  - Dados brutos consolidados. Shape: {df.shape}")
 
-    print("  - Simplificando nomes de colunas...")
     df.columns = [col.replace('atletas.', '').replace('id.full.name', 'nome') for col in df.columns]
-
-    print("  - Padronizando nomes de times...")
     if 'clube.nome' in df.columns:
-        df['clube.nome'] = df['clube.nome'].str.replace('AmÃ©rica-MG', 'América-MG', regex=False)
+        df.dropna(subset=['clube.nome'], inplace=True)
+        team_name_map = {
+            'AmÃ©rica-MG': 'América-MG',
+            'AthlÃ©tico-PR': 'Athlético-PR',
+            'AtlÃ©tico-MG': 'Atlético-MG',
+            'CuiabÃ¡': 'Cuiabá',
+            'GoiÃ¡s': 'Goiás',
+            'GrÃªmio': 'Grêmio',
+            'SÃ£o Paulo': 'São Paulo',
+            'JUV': 'Juventude',
+            'MIR': 'Mirassol',
+            'PAL': 'Palmeiras',
+            'FLA': 'Flamengo',
+            'FLU': 'Fluminense',
+            'RBB': 'Bragantino',
+            'SAN': 'Santos',
+            'SAO': 'São Paulo',
+            'SPT': 'Sport Recife',
+            'BAH': 'Bahia',
+            'BOT': 'Botafogo',
+            'CAM': 'Atlético-MG',
+            'CEA': 'Ceará',
+            'COR': 'Corinthians',
+            'CRU': 'Cruzeiro',
+            'GRE': 'Grêmio',
+            'INT': 'Internacional',
+            'VAS': 'Vasco',
+            'VIT': 'Vitória',
+            'FOR': 'Fortaleza',
+            'Athletico-PR': 'Athlético-PR'
+        }
+        df['clube.nome'] = df['clube.nome'].replace(team_name_map)
 
-    print("  - Tratando valores ausentes (NaN -> 0)...")
-    all_numeric_cols = NUMERIC_COLS + SCOUT_COLS
-    for col in all_numeric_cols:
+    for col in SCOUT_COLS:
         if col in df.columns:
             df[col] = pd.to_numeric(df[col], errors='coerce').fillna(0)
 
-    print("  - Mapeando posições...")
+    for col in NUMERIC_COLS:
+        if col in df.columns:
+            df[col] = pd.to_numeric(df[col], errors='coerce')
+
+    initial_rows = len(df)
+    df.dropna(subset=['preco_num'], inplace=True)
+    print(f'  - Registros com preço ausente removidos: {initial_rows - len(df)}')
+
+    for col in NUMERIC_COLS:
+        if col in df.columns:
+            df[col] = df[col].fillna(0)
+
     if 'posicao_id' in df.columns:
         pos_map = {
             '1': 'gol', 'gol': 'gol',
@@ -82,7 +123,6 @@ def run():
         }
         df['posicao_id'] = df['posicao_id'].astype(str).str.lower().map(pos_map).fillna('desconhecida').astype('category')
 
-    print("  - Ajustando tipos de dados...")
     if 'clube_id' in df.columns:
         df['clube_id'] = pd.to_numeric(df['clube_id'], errors='coerce').fillna(0).astype(int)
     if 'status_id' in df.columns:
@@ -90,8 +130,9 @@ def run():
 
     os.makedirs(INTERMEDIATE_DATA_PATH, exist_ok=True)
     df.to_parquet(CONSOLIDATED_OUTPUT_FILE, index=False)
-    print(f"  - Dados limpos salvos em: '{CONSOLIDATED_OUTPUT_FILE}'")
-    print("--- SUCESSO: [1/4] Limpeza de Dados Concluída ---")
+    print(f'\n  - Dados limpos e consolidados salvos em: {CONSOLIDATED_OUTPUT_FILE}')
+    print(f'  - Shape do DataFrame final: {df.shape}')
+    print('--- SUCESSO: Carga e Limpeza de Dados Concluída ---')
     return True
 
 if __name__ == "__main__":

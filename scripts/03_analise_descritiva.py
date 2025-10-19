@@ -3,9 +3,8 @@ import os
 import sys
 import json
 
-# Adiciona o diretório raiz ao path
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-from src.config import CONSOLIDATED_OUTPUT_FILE, VISUALIZATION_DATA_PATH, NUMERIC_COLS
+from src.config import CONSOLIDATED_OUTPUT_FILE, VISUALIZATION_DATA_PATH, NUMERIC_COLS, SCOUT_COLS
 
 def run():
     """
@@ -25,17 +24,22 @@ def run():
     os.makedirs(VISUALIZATION_DATA_PATH, exist_ok=True)
     print(f"  - Dados limpos carregados. Shape: {df.shape}")
 
-    # 1. Estatísticas Descritivas
     print("  - Gerando estatísticas descritivas...")
     desc_stats = df[NUMERIC_COLS].describe()
     desc_stats_path = os.path.join(VISUALIZATION_DATA_PATH, 'estatisticas_descritivas.json')
     desc_stats.to_json(desc_stats_path, orient='table', indent=4)
     print(f"    - Estatísticas salvas em: {desc_stats_path}")
 
-    # 2. Detecção de Outliers com IQR
+    print("  - Gerando análise de correlação...")
+    cols_for_corr = [col for col in NUMERIC_COLS + SCOUT_COLS if col in df.columns]
+    correlation_matrix = df[cols_for_corr].corr()
+    corr_with_points = correlation_matrix[['pontos_num']].sort_values(by='pontos_num', ascending=False)
+    corr_path = os.path.join(VISUALIZATION_DATA_PATH, 'correlacao_pontos.json')
+    corr_with_points.to_json(corr_path, orient='table', indent=4)
+    print(f"    - Correlação com pontos salva em: {corr_path}")
+
     print("  - Identificando outliers de pontuação por posição...")
     outliers_list = []
-    # Focar em posições de linha, onde a análise de pontos é mais comparável
     posicoes_analise = ['lat', 'zag', 'mei', 'ata']
     
     for pos in posicoes_analise:

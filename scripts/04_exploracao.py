@@ -4,7 +4,6 @@ import sys
 import plotly.express as px
 import plotly.io as pio
 
-# Adiciona o diretório raiz ao path
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from src.config import CONSOLIDATED_OUTPUT_FILE, VISUALIZATION_DATA_PATH
 
@@ -26,14 +25,16 @@ def run():
     os.makedirs(VISUALIZATION_DATA_PATH, exist_ok=True)
     print(f"  - Dados limpos carregados. Shape: {df.shape}")
 
-    # 1. Boxplot de Pontos por Posição
     print("  - Gerando Boxplot de Pontos por Posição...")
     fig_box_pos = px.box(df, x='posicao_id', y='pontos_num', color='posicao_id',
                          title='Distribuição de Pontos por Posição',
                          labels={'posicao_id': 'Posição', 'pontos_num': 'Pontos na Rodada'})
     pio.write_json(fig_box_pos, os.path.join(VISUALIZATION_DATA_PATH, 'boxplot_pontos_posicao.json'))
 
-    # 2. Scatter Plot de Preço vs. Pontos
+    print("  - Gerando Histograma da Distribuição de Pontos...")
+    fig_hist_pontos = px.histogram(df, x='pontos_num', nbins=100, title='Distribuição de Pontuações dos Jogadores')
+    pio.write_json(fig_hist_pontos, os.path.join(VISUALIZATION_DATA_PATH, 'histograma_pontos.json'))
+
     print("  - Gerando Scatter Plot de Preço vs. Pontos...")
     df_com_pontos = df[df['pontos_num'] > 0]
     if not df_com_pontos.empty:
@@ -51,6 +52,15 @@ def run():
         pio.write_json(fig_scatter_preco_pontos, os.path.join(VISUALIZATION_DATA_PATH, 'scatter_preco_pontos.json'))
     else:
         print("  - AVISO: Nenhum dado com pontos > 0 encontrado. Gráfico de dispersão não foi gerado.")
+
+    print("  - Gerando Gráfico de Média de Pontos por Time e Posição...")
+    current_year = df['ano'].max()
+    df_filtered_for_chart = df[df['ano'] == current_year]
+    team_pos_performance = df_filtered_for_chart.groupby(['clube.nome', 'posicao_id'], observed=True)['pontos_num'].mean().reset_index()
+    fig_bar_team_pos = px.bar(team_pos_performance, x='clube.nome', y='pontos_num', color='posicao_id',
+                              title=f'Média de Pontos por Time e Posição ({current_year})',
+                              labels={'clube.nome': 'Time', 'pontos_num': 'Média de Pontos', 'posicao_id': 'Posição'})
+    pio.write_json(fig_bar_team_pos, os.path.join(VISUALIZATION_DATA_PATH, 'bar_pontos_time_posicao.json'))
 
     print("--- SUCESSO: [4/5] Geração de Gráficos Concluída ---")
     return True

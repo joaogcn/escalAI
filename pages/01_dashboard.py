@@ -1,23 +1,95 @@
 import streamlit as st
+import pandas as pd
+import plotly.express as px
+import os
 
-st.set_page_config(page_title="Início - EscalAI", layout="wide")
+st.set_page_config(
+    page_title="Dashboard de Análise",
+    page_icon="⚽",
+    layout="wide"
+)
 
-st.title("⚽ Bem-vindo ao EscalAI!")
-st.markdown("--- ")
+CONSOLIDATED_OUTPUT_FILE = 'dados_cartola/02_intermediate/dados_consolidados.parquet'
+AGGREGATED_OUTPUT_FILE = 'dados_cartola/02_intermediate/dados_agregados_por_atleta.parquet'
 
-st.header("🎯 Sobre o Projeto")
-st.markdown("""
-O **EscalAI** é uma aplicação web desenvolvida para análise de dados do Cartola FC. O projeto combina dados históricos para estudos de desempenho com a possibilidade de análises detalhadas, fornecendo uma ferramenta completa para auxiliar na escalação de times.
+@st.cache_data
+def load_data():
+    if not os.path.exists(CONSOLIDATED_OUTPUT_FILE) or not os.path.exists(AGGREGATED_OUTPUT_FILE):
+        st.error("Arquivos de dados não encontrados. Execute o pipeline de dados primeiro.")
+        return None, None
+    
+    df_consolidado = pd.read_parquet(CONSOLIDATED_OUTPUT_FILE)
+    df_agregado = pd.read_parquet(AGGREGATED_OUTPUT_FILE)
+    return df_consolidado, df_agregado
 
-Este projeto foi desenvolvido como parte de uma avaliação acadêmica, com o objetivo de aplicar conceitos de engenharia de software, processamento de dados e visualização de informações em um caso de uso prático e de interesse geral.
-""")
+df_consolidado, df_agregado = load_data()
 
-st.header("🛠️ Como Navegar")
-st.markdown("""
-Use o menu na barra lateral para navegar entre as diferentes seções da aplicação:
+if df_consolidado is not None and df_agregado is not None:
+    st.title("Dashboard Interativo - EscalAI")
+    st.markdown("Explore os dados históricos do Cartola FC para tomar as melhores decisões.")
 
-- **Análise Exploratória (O Processo):** Entenda o passo a passo de como os dados são limpos, processados e analisados.
-- **Análise Agregada (Jogadores):** Explore o desempenho consolidado dos jogadores ao longo de todas as temporadas, com filtros interativos.
-""")
+    st.sidebar.header("Filtros")
+    
+    anos = sorted(df_consolidado['ano'].unique(), reverse=True)
+    ano_selecionado = st.sidebar.selectbox("Selecione o Ano", anos)
 
-st.info("Os dados utilizados neste projeto são obtidos do repositório público [caRtola](https://github.com/henriquepgomide/caRtola), que consolida informações históricas do Cartola FC.")
+    posicoes = ['Todas'] + sorted(df_agregado['posicao'].unique())
+    posicao_selecionada = st.sidebar.selectbox("Selecione a Posição", posicoes)
+
+    clubes = ['Todos'] + sorted(df_consolidado['clube.nome'].dropna().unique())
+    clube_selecionado = st.sidebar.selectbox("Selecione o Clube", clubes)
+
+    df_agregado_filtrado = df_agregado.copy()
+    if posicao_selecionada != 'Todas':
+        df_agregado_filtrado = df_agregado_filtrado[df_agregado_filtrado['posicao'] == posicao_selecionada]
+    if clube_selecionado != 'Todos':
+        df_agregado_filtrado = df_agregado_filtrado[df_agregado_filtrado['ultimo_clube'] == clube_selecionado]
+
+    df_consolidado_filtrado = df_consolidado[df_consolidado['ano'] == ano_selecionado]
+
+    atletas_do_ano = df_consolidado_filtrado['atleta_id'].unique()
+    df_agregado_filtrado = df_agregado_filtrado[df_agregado_filtrado['atleta_id'].isin(atletas_do_ano)]
+
+    if posicao_selecionada != 'Todas':
+        df_consolidado_filtrado = df_consolidado_filtrado[df_consolidado_filtrado['posicao_id'] == posicao_selecionada]
+    if clube_selecionado != 'Todos':
+        df_consolidado_filtrado = df_consolidado_filtrado[df_consolidado_filtrado['clube.nome'] == clube_selecionado]
+
+
+    fig_custo_beneficio = px.scatter(
+        df_agregado_filtrado,
+        x='media_preco',
+        y='media_pontos',
+        color='posicao',
+        hover_name='apelido',
+        size='jogos_disputados',
+        title='Preço Médio vs. Média de Pontos (Tamanho da bola indica jogos disputados)',
+        labels={'media_preco': 'Preço Médio (C$)', 'media_pontos': 'Média de Pontos'}
+    )
+    st.plotly_chart(fig_custo_beneficio, use_container_width=True)
+
+    col1, col2 = st.columns(2)
+
+    with col1:
+        fig_boxplot_posicao = px.box(
+            df_consolidado_filtrado[df_consolidado_filtrado['pontos_num'] != 0],
+            x='posicao_id',
+            y='pontos_num',
+            color='posicao_id',
+            title=f'Distribuição de Pontos por Posição em {ano_selecionado}',
+            labels={'posicao_id': 'Posição', 'pontos_num': 'Pontos na Rodada'}
+        )
+        st.plotly_chart(fig_boxplot_posicao, use_container_width=True)
+
+    with col2:
+        fig_hist_pontos = px.histogram(
+            df_consolidado_filtrado,
+            x='pontos_num',
+            nbins=50,
+            title=f'Distribuição de Pontuações em {ano_selecionado}',
+            labels={'pontos_num': 'Pontos na Rodada'}
+        )
+        st.plotly_chart(fig_hist_pontos, use_container_width=True)
+
+else:
+    st.info("Aguardando a geração dos arquivos de dados...")
