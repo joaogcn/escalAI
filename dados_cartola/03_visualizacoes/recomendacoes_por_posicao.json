@@ -1,15 +1,6 @@
 {
     "Goleiro": [
         {
-            "apelido": "Walter",
-            "clube.nome": "Cuiabá",
-            "posicao_id": "gol",
-            "preco_num": 11.43,
-            "media_ultimas_5": 8.0,
-            "media_geral": 5.151041666666667,
-            "indice_escalai": 7.145312499999999
-        },
-        {
             "apelido": "Léo Aragão",
             "clube.nome": "Cruzeiro",
             "posicao_id": "gol",
@@ -19,13 +10,22 @@
             "indice_escalai": 6.7333333333333325
         },
         {
-            "apelido": "Felipe Alves",
-            "clube.nome": "São Paulo",
+            "apelido": "Fernando Miguel",
+            "clube.nome": "Ceará",
             "posicao_id": "gol",
-            "preco_num": 7.46,
-            "media_ultimas_5": 7.2,
-            "media_geral": 5.642857142857143,
-            "indice_escalai": 6.732857142857143
+            "preco_num": 7.02,
+            "media_ultimas_5": 6.74,
+            "media_geral": 6.183333333333334,
+            "indice_escalai": 6.573
+        },
+        {
+            "apelido": "Rossi",
+            "clube.nome": "Flamengo",
+            "posicao_id": "gol",
+            "preco_num": 9.09,
+            "media_ultimas_5": 6.540000000000001,
+            "media_geral": 6.314285714285715,
+            "indice_escalai": 6.472285714285714
         },
         {
             "apelido": "Tiago Volpi",
@@ -37,33 +37,42 @@
             "indice_escalai": 6.171363636363636
         },
         {
-            "apelido": "Marcelo Lomba",
-            "clube.nome": "Palmeiras",
+            "apelido": "Rafael",
+            "clube.nome": "São Paulo",
             "posicao_id": "gol",
-            "preco_num": 7.77,
-            "media_ultimas_5": 6.625,
-            "media_geral": 4.800000000000001,
-            "indice_escalai": 6.0775
+            "preco_num": 10.32,
+            "media_ultimas_5": 6.640000000000001,
+            "media_geral": 4.93076923076923,
+            "indice_escalai": 6.127230769230769
         }
     ],
     "Lateral": [
         {
-            "apelido": "Mancuso",
-            "clube.nome": "Fortaleza",
+            "apelido": "Paulo Henrique",
+            "clube.nome": "Vasco",
             "posicao_id": "lat",
-            "preco_num": 10.17,
-            "media_ultimas_5": 9.959999999999999,
-            "media_geral": 6.017857142857143,
-            "indice_escalai": 8.777357142857142
+            "preco_num": 14.45,
+            "media_ultimas_5": 12.879999999999999,
+            "media_geral": 8.32,
+            "indice_escalai": 11.511999999999999
         },
         {
-            "apelido": "Juninho Capixaba",
-            "clube.nome": "Fortaleza",
+            "apelido": "Reinaldo",
+            "clube.nome": "Mirassol",
             "posicao_id": "lat",
-            "preco_num": 10.99,
-            "media_ultimas_5": 9.66,
-            "media_geral": 6.587999999999999,
-            "indice_escalai": 8.738399999999999
+            "preco_num": 10.25,
+            "media_ultimas_5": 9.5,
+            "media_geral": 8.68,
+            "indice_escalai": 9.254
+        },
+        {
+            "apelido": "Wesley",
+            "clube.nome": "Flamengo",
+            "posicao_id": "lat",
+            "preco_num": 13.21,
+            "media_ultimas_5": 8.819999999999999,
+            "media_geral": 8.629999999999999,
+            "indice_escalai": 8.762999999999998
         },
         {
             "apelido": "Maik",
@@ -80,37 +89,46 @@
             "posicao_id": "lat",
             "preco_num": 10.14,
             "media_ultimas_5": 8.120000000000001,
-            "media_geral": 6.658333333333334,
-            "indice_escalai": 7.6815
-        },
-        {
-            "apelido": "Julio Fidélis",
-            "clube.nome": "Fluminense",
-            "posicao_id": "lat",
-            "preco_num": 7.17,
-            "media_ultimas_5": 7.6000000000000005,
-            "media_geral": 7.6000000000000005,
-            "indice_escalai": 7.6000000000000005
+            "media_geral": 8.575,
+            "indice_escalai": 8.256499999999999
         }
     ],
     "Zagueiro": [
         {
-            "apelido": "Alexander Barboza",
-            "clube.nome": "Botafogo",
+            "apelido": "Ferraresi",
+            "clube.nome": "São Paulo",
             "posicao_id": "zag",
-            "preco_num": 6.31,
-            "media_ultimas_5": 6.92,
-            "media_geral": 4.7475000000000005,
-            "indice_escalai": 6.268249999999999
+            "preco_num": 8.85,
+            "media_ultimas_5": 8.659999999999998,
+            "media_geral": 6.527777777777778,
+            "indice_escalai": 8.020333333333332
         },
         {
-            "apelido": "Douglas Mendes",
-            "clube.nome": "Bragantino",
+            "apelido": "Thiago Silva",
+            "clube.nome": "Fluminense",
             "posicao_id": "zag",
-            "preco_num": 4.27,
-            "media_ultimas_5": 6.959999999999999,
-            "media_geral": 3.8272727272727276,
-            "indice_escalai": 6.020181818181817
+            "preco_num": 8.91,
+            "media_ultimas_5": 8.179999999999998,
+            "media_geral": 4.9071428571428575,
+            "indice_escalai": 7.198142857142855
+        },
+        {
+            "apelido": "Jair",
+            "clube.nome": "Botafogo",
+            "posicao_id": "zag",
+            "preco_num": 8.68,
+            "media_ultimas_5": 7.44,
+            "media_geral": 5.9375,
+            "indice_escalai": 6.98925
+        },
+        {
+            "apelido": "Balbuena",
+            "clube.nome": "Grêmio",
+            "posicao_id": "zag",
+            "preco_num": 8.94,
+            "media_ultimas_5": 6.333333333333333,
+            "media_geral": 6.333333333333333,
+            "indice_escalai": 6.333333333333332
         },
         {
             "apelido": "Carlos Cuesta",
@@ -120,100 +138,82 @@
             "media_ultimas_5": 5.7,
             "media_geral": 6.233333333333333,
             "indice_escalai": 5.859999999999999
-        },
-        {
-            "apelido": "Habraão",
-            "clube.nome": "Fortaleza",
-            "posicao_id": "zag",
-            "preco_num": 1.79,
-            "media_ultimas_5": 5.659999999999999,
-            "media_geral": 5.659999999999999,
-            "indice_escalai": 5.659999999999999
-        },
-        {
-            "apelido": "Thiago Silva",
-            "clube.nome": "Fluminense",
-            "posicao_id": "zag",
-            "preco_num": 11.18,
-            "media_ultimas_5": 5.74,
-            "media_geral": 5.346153846153846,
-            "indice_escalai": 5.621846153846153
         }
     ],
     "Meia": [
         {
-            "apelido": "Garro",
-            "clube.nome": "Corinthians",
-            "posicao_id": "mei",
-            "preco_num": 9.82,
-            "media_ultimas_5": 11.14,
-            "media_geral": 6.6000000000000005,
-            "indice_escalai": 9.778
-        },
-        {
-            "apelido": "Zé Rafael",
-            "clube.nome": "Palmeiras",
-            "posicao_id": "mei",
-            "preco_num": 11.21,
-            "media_ultimas_5": 8.220000000000002,
-            "media_geral": 4.47741935483871,
-            "indice_escalai": 7.097225806451615
-        },
-        {
-            "apelido": "Terans",
-            "clube.nome": "Athlético-PR",
-            "posicao_id": "mei",
-            "preco_num": 11.35,
-            "media_ultimas_5": 7.780000000000001,
-            "media_geral": 4.215909090909091,
-            "indice_escalai": 6.710772727272728
-        },
-        {
-            "apelido": "Maurício",
-            "clube.nome": "Internacional",
-            "posicao_id": "mei",
-            "preco_num": 7.7,
-            "media_ultimas_5": 7.68,
-            "media_geral": 4.3629213483146065,
-            "indice_escalai": 6.684876404494381
-        },
-        {
             "apelido": "Arrascaeta",
             "clube.nome": "Flamengo",
             "posicao_id": "mei",
-            "preco_num": 13.36,
-            "media_ultimas_5": 6.38,
-            "media_geral": 7.3149425287356316,
-            "indice_escalai": 6.660482758620688
+            "preco_num": 17.74,
+            "media_ultimas_5": 6.42,
+            "media_geral": 9.255555555555556,
+            "indice_escalai": 7.270666666666667
+        },
+        {
+            "apelido": "Matheus Pereira",
+            "clube.nome": "Cruzeiro",
+            "posicao_id": "mei",
+            "preco_num": 14.29,
+            "media_ultimas_5": 6.840000000000001,
+            "media_geral": 7.644444444444445,
+            "indice_escalai": 7.081333333333333
+        },
+        {
+            "apelido": "Zé Rafael",
+            "clube.nome": "Santos",
+            "posicao_id": "mei",
+            "preco_num": 7.85,
+            "media_ultimas_5": 7.840000000000001,
+            "media_geral": 5.18235294117647,
+            "indice_escalai": 7.042705882352942
+        },
+        {
+            "apelido": "Barreal",
+            "clube.nome": "Santos",
+            "posicao_id": "mei",
+            "preco_num": 11.19,
+            "media_ultimas_5": 7.06,
+            "media_geral": 6.439130434782609,
+            "indice_escalai": 6.873739130434782
+        },
+        {
+            "apelido": "Raniele",
+            "clube.nome": "Corinthians",
+            "posicao_id": "mei",
+            "preco_num": 6.77,
+            "media_ultimas_5": 7.779999999999999,
+            "media_geral": 4.479166666666667,
+            "indice_escalai": 6.789749999999999
         }
     ],
     "Atacante": [
         {
-            "apelido": "Cano",
-            "clube.nome": "Fluminense",
+            "apelido": "Vitor Roque",
+            "clube.nome": "Palmeiras",
             "posicao_id": "ata",
-            "preco_num": 16.73,
-            "media_ultimas_5": 16.6,
-            "media_geral": 5.393877551020409,
-            "indice_escalai": 13.238163265306124
+            "preco_num": 12.45,
+            "media_ultimas_5": 13.3,
+            "media_geral": 8.443999999999999,
+            "indice_escalai": 11.8432
         },
         {
-            "apelido": "Hulk",
-            "clube.nome": "Atlético-MG",
+            "apelido": "Rayan",
+            "clube.nome": "Vasco",
             "posicao_id": "ata",
-            "preco_num": 19.14,
-            "media_ultimas_5": 14.219999999999999,
-            "media_geral": 7.3979591836734695,
-            "indice_escalai": 12.17338775510204
+            "preco_num": 10.44,
+            "media_ultimas_5": 11.92,
+            "media_geral": 7.587999999999999,
+            "indice_escalai": 10.6204
         },
         {
-            "apelido": "Luis Suárez",
-            "clube.nome": "Grêmio",
+            "apelido": "Flaco López",
+            "clube.nome": "Palmeiras",
             "posicao_id": "ata",
-            "preco_num": 19.52,
-            "media_ultimas_5": 10.459999999999999,
-            "media_geral": 9.906451612903227,
-            "indice_escalai": 10.293935483870968
+            "preco_num": 10.0,
+            "media_ultimas_5": 11.059999999999999,
+            "media_geral": 6.9079999999999995,
+            "indice_escalai": 9.814399999999997
         },
         {
             "apelido": "Carlos Vinícius",
@@ -225,24 +225,33 @@
             "indice_escalai": 9.747428571428571
         },
         {
-            "apelido": "Vargas",
-            "clube.nome": "Atlético-MG",
+            "apelido": "Lucas Barbosa",
+            "clube.nome": "Bragantino",
             "posicao_id": "ata",
-            "preco_num": 8.52,
-            "media_ultimas_5": 10.0,
-            "media_geral": 4.356521739130435,
-            "indice_escalai": 8.30695652173913
+            "preco_num": 8.5,
+            "media_ultimas_5": 8.52,
+            "media_geral": 5.814285714285714,
+            "indice_escalai": 7.708285714285713
         }
     ],
     "Técnico": [
         {
-            "apelido": "Filipe Luís",
-            "clube.nome": "Flamengo",
+            "apelido": "Abel Ferreira",
+            "clube.nome": "Palmeiras",
             "posicao_id": "tec",
-            "preco_num": 11.61,
-            "media_ultimas_5": 6.853999999999999,
-            "media_geral": 6.954594594594594,
-            "indice_escalai": 6.884178378378377
+            "preco_num": 12.33,
+            "media_ultimas_5": 7.648000000000001,
+            "media_geral": 6.743333333333333,
+            "indice_escalai": 7.3766
+        },
+        {
+            "apelido": "Fernando Diniz",
+            "clube.nome": "Vasco",
+            "posicao_id": "tec",
+            "preco_num": 10.55,
+            "media_ultimas_5": 7.090000000000001,
+            "media_geral": 5.942,
+            "indice_escalai": 6.7456
         },
         {
             "apelido": "César Sampaio",
@@ -254,15 +263,6 @@
             "indice_escalai": 6.669999999999998
         },
         {
-            "apelido": "Abel Ferreira",
-            "clube.nome": "Palmeiras",
-            "posicao_id": "tec",
-            "preco_num": 13.47,
-            "media_ultimas_5": 6.314,
-            "media_geral": 6.34469696969697,
-            "indice_escalai": 6.32320909090909
-        },
-        {
             "apelido": "Hernán Crespo",
             "clube.nome": "São Paulo",
             "posicao_id": "tec",
@@ -272,13 +272,13 @@
             "indice_escalai": 6.275333333333334
         },
         {
-            "apelido": "Felipe Loureiro",
-            "clube.nome": "Vasco",
+            "apelido": "Ramón Díaz",
+            "clube.nome": "Internacional",
             "posicao_id": "tec",
-            "preco_num": 10.5,
-            "media_ultimas_5": 6.44,
-            "media_geral": 5.4575,
-            "indice_escalai": 6.14525
+            "preco_num": 9.13,
+            "media_ultimas_5": 6.448,
+            "media_geral": 5.84375,
+            "indice_escalai": 6.266725
         }
     ]
 }
