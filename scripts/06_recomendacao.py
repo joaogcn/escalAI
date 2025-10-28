@@ -22,12 +22,17 @@ def run():
     df = pd.read_parquet(CONSOLIDATED_OUTPUT_FILE)
     print(f"  - DataFrame carregado. Shape inicial: {df.shape}")
 
+    # --- Filtra para a Temporada Mais Recente ---
+    ano_atual = df['ano'].max()
+    df = df[df['ano'] == ano_atual].copy()
+    print(f"  - Filtrando para a temporada mais recente: {ano_atual}. Shape: {df.shape}")
+
     # Filtra apenas por jogadores que pontuaram (exclui rodadas que não jogaram)
     df_jogadores_validos = df[df['pontos_num'].notna() & (df['pontos_num'] != 0)].copy()
     print(f"  - DataFrame após remover jogos não pontuados. Shape: {df_jogadores_validos.shape}")
     
     # Garante que os dados estão ordenados por atleta e rodada
-    df_jogadores_validos = df_jogadores_validos.sort_values(by=['atleta_id', 'ano', 'rodada_id'])
+    df_jogadores_validos = df_jogadores_validos.sort_values(by=['atleta_id', 'rodada_id'])
 
     # --- Lógica de Recomendação ---
     
@@ -36,10 +41,10 @@ def run():
         lambda x: x.rolling(window=5, min_periods=1).mean()
     )
 
-    # 2. Média geral de pontos
+    # 2. Média geral de pontos (agora apenas da temporada atual)
     df_jogadores_validos['media_geral'] = df_jogadores_validos.groupby('atleta_id')['pontos_num'].transform('mean')
 
-    # 3. Número de jogos disputados
+    # 3. Número de jogos disputados (apenas da temporada atual)
     df_jogadores_validos['jogos_disputados'] = df_jogadores_validos.groupby('atleta_id')['atleta_id'].transform('count')
 
     # Pega os dados mais recentes de cada jogador
