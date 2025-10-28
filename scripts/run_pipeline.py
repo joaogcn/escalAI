@@ -10,7 +10,8 @@ PIPELINE_SCRIPTS = [
     '02_verificacao',
     '03_analise_descritiva',
     '04_exploracao',
-    '05_agregacao'
+    '05_agregacao',
+    '06_recomendacao'    
 ]
 
 def main():
