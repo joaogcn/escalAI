@@ -7,7 +7,8 @@
             "preco_num": 6.88,
             "media_ultimas_5": 6.733333333333333,
             "media_geral": 6.733333333333333,
-            "indice_escalai": 6.7333333333333325
+            "indice_escalai": 6.7333333333333325,
+            "proximo_confronto": "vs VIT (Casa)"
         },
         {
             "apelido": "Fernando Miguel",
@@ -16,7 +17,8 @@
             "preco_num": 7.02,
             "media_ultimas_5": 6.74,
             "media_geral": 6.183333333333334,
-            "indice_escalai": 6.573
+            "indice_escalai": 6.573,
+            "proximo_confronto": "vs FLU (Casa)"
         },
         {
             "apelido": "Rossi",
@@ -25,7 +27,8 @@
             "preco_num": 9.09,
             "media_ultimas_5": 6.540000000000001,
             "media_geral": 6.314285714285715,
-            "indice_escalai": 6.472285714285714
+            "indice_escalai": 6.472285714285714,
+            "proximo_confronto": "vs SPT (Casa)"
         },
         {
             "apelido": "Tiago Volpi",
@@ -34,7 +37,8 @@
             "preco_num": 7.16,
             "media_ultimas_5": 7.1,
             "media_geral": 4.004545454545454,
-            "indice_escalai": 6.171363636363636
+            "indice_escalai": 6.171363636363636,
+            "proximo_confronto": "vs COR (Fora)"
         },
         {
             "apelido": "Rafael",
@@ -43,7 +47,8 @@
             "preco_num": 10.32,
             "media_ultimas_5": 6.640000000000001,
             "media_geral": 4.93076923076923,
-            "indice_escalai": 6.127230769230769
+            "indice_escalai": 6.127230769230769,
+            "proximo_confronto": "vs VAS (Fora)"
         }
     ],
     "Lateral": [
@@ -54,7 +59,8 @@
             "preco_num": 14.45,
             "media_ultimas_5": 12.879999999999999,
             "media_geral": 8.32,
-            "indice_escalai": 11.511999999999999
+            "indice_escalai": 11.511999999999999,
+            "proximo_confronto": "vs SAO (Casa)"
         },
         {
             "apelido": "Reinaldo",
@@ -63,7 +69,8 @@
             "preco_num": 10.25,
             "media_ultimas_5": 9.5,
             "media_geral": 8.68,
-            "indice_escalai": 9.254
+            "indice_escalai": 9.254,
+            "proximo_confronto": "vs BOT (Casa)"
         },
         {
             "apelido": "Wesley",
@@ -72,7 +79,8 @@
             "preco_num": 13.21,
             "media_ultimas_5": 8.819999999999999,
             "media_geral": 8.629999999999999,
-            "indice_escalai": 8.762999999999998
+            "indice_escalai": 8.762999999999998,
+            "proximo_confronto": "vs SPT (Casa)"
         },
         {
             "apelido": "Maik",
@@ -81,7 +89,8 @@
             "preco_num": 8.45,
             "media_ultimas_5": 8.525,
             "media_geral": 8.525,
-            "indice_escalai": 8.525
+            "indice_escalai": 8.525,
+            "proximo_confronto": "vs VAS (Fora)"
         },
         {
             "apelido": "Igor Formiga",
@@ -90,7 +99,8 @@
             "preco_num": 10.14,
             "media_ultimas_5": 8.120000000000001,
             "media_geral": 8.575,
-            "indice_escalai": 8.256499999999999
+            "indice_escalai": 8.256499999999999,
+            "proximo_confronto": "vs PAL (Casa)"
         }
     ],
     "Zagueiro": [
@@ -101,7 +111,8 @@
             "preco_num": 8.85,
             "media_ultimas_5": 8.659999999999998,
             "media_geral": 6.527777777777778,
-            "indice_escalai": 8.020333333333332
+            "indice_escalai": 8.020333333333332,
+            "proximo_confronto": "vs VAS (Fora)"
         },
         {
             "apelido": "Thiago Silva",
@@ -110,7 +121,8 @@
             "preco_num": 8.91,
             "media_ultimas_5": 8.179999999999998,
             "media_geral": 4.9071428571428575,
-            "indice_escalai": 7.198142857142855
+            "indice_escalai": 7.198142857142855,
+            "proximo_confronto": "vs CEA (Fora)"
         },
         {
             "apelido": "Jair",
@@ -119,7 +131,8 @@
             "preco_num": 8.68,
             "media_ultimas_5": 7.44,
             "media_geral": 5.9375,
-            "indice_escalai": 6.98925
+            "indice_escalai": 6.98925,
+            "proximo_confronto": "vs MIR (Fora)"
         },
         {
             "apelido": "Balbuena",
@@ -128,7 +141,8 @@
             "preco_num": 8.94,
             "media_ultimas_5": 6.333333333333333,
             "media_geral": 6.333333333333333,
-            "indice_escalai": 6.333333333333332
+            "indice_escalai": 6.333333333333332,
+            "proximo_confronto": "vs COR (Fora)"
         },
         {
             "apelido": "Carlos Cuesta",
@@ -137,7 +151,8 @@
             "preco_num": 10.43,
             "media_ultimas_5": 5.7,
             "media_geral": 6.233333333333333,
-            "indice_escalai": 5.859999999999999
+            "indice_escalai": 5.859999999999999,
+            "proximo_confronto": "vs SAO (Casa)"
         }
     ],
     "Meia": [
@@ -148,7 +163,8 @@
             "preco_num": 17.74,
             "media_ultimas_5": 6.42,
             "media_geral": 9.255555555555556,
-            "indice_escalai": 7.270666666666667
+            "indice_escalai": 7.270666666666667,
+            "proximo_confronto": "vs SPT (Casa)"
         },
         {
             "apelido": "Matheus Pereira",
@@ -157,7 +173,8 @@
             "preco_num": 14.29,
             "media_ultimas_5": 6.840000000000001,
             "media_geral": 7.644444444444445,
-            "indice_escalai": 7.081333333333333
+            "indice_escalai": 7.081333333333333,
+            "proximo_confronto": "vs VIT (Casa)"
         },
         {
             "apelido": "Zé Rafael",
@@ -166,7 +183,8 @@
             "preco_num": 7.85,
             "media_ultimas_5": 7.840000000000001,
             "media_geral": 5.18235294117647,
-            "indice_escalai": 7.042705882352942
+            "indice_escalai": 7.042705882352942,
+            "proximo_confronto": "vs FOR (Casa)"
         },
         {
             "apelido": "Barreal",
@@ -175,7 +193,8 @@
             "preco_num": 11.19,
             "media_ultimas_5": 7.06,
             "media_geral": 6.439130434782609,
-            "indice_escalai": 6.873739130434782
+            "indice_escalai": 6.873739130434782,
+            "proximo_confronto": "vs FOR (Casa)"
         },
         {
             "apelido": "Raniele",
@@ -184,7 +203,8 @@
             "preco_num": 6.77,
             "media_ultimas_5": 7.779999999999999,
             "media_geral": 4.479166666666667,
-            "indice_escalai": 6.789749999999999
+            "indice_escalai": 6.789749999999999,
+            "proximo_confronto": "vs GRE (Casa)"
         }
     ],
     "Atacante": [
@@ -195,7 +215,8 @@
             "preco_num": 12.45,
             "media_ultimas_5": 13.3,
             "media_geral": 8.443999999999999,
-            "indice_escalai": 11.8432
+            "indice_escalai": 11.8432,
+            "proximo_confronto": "vs JUV (Fora)"
         },
         {
             "apelido": "Rayan",
@@ -204,7 +225,8 @@
             "preco_num": 10.44,
             "media_ultimas_5": 11.92,
             "media_geral": 7.587999999999999,
-            "indice_escalai": 10.6204
+            "indice_escalai": 10.6204,
+            "proximo_confronto": "vs SAO (Casa)"
         },
         {
             "apelido": "Flaco López",
@@ -213,7 +235,8 @@
             "preco_num": 10.0,
             "media_ultimas_5": 11.059999999999999,
             "media_geral": 6.9079999999999995,
-            "indice_escalai": 9.814399999999997
+            "indice_escalai": 9.814399999999997,
+            "proximo_confronto": "vs JUV (Fora)"
         },
         {
             "apelido": "Carlos Vinícius",
@@ -222,7 +245,8 @@
             "preco_num": 12.56,
             "media_ultimas_5": 10.680000000000001,
             "media_geral": 7.571428571428571,
-            "indice_escalai": 9.747428571428571
+            "indice_escalai": 9.747428571428571,
+            "proximo_confronto": "vs COR (Fora)"
         },
         {
             "apelido": "Lucas Barbosa",
@@ -231,7 +255,8 @@
             "preco_num": 8.5,
             "media_ultimas_5": 8.52,
             "media_geral": 5.814285714285714,
-            "indice_escalai": 7.708285714285713
+            "indice_escalai": 7.708285714285713,
+            "proximo_confronto": "vs BAH (Fora)"
         }
     ],
     "Técnico": [
@@ -242,7 +267,8 @@
             "preco_num": 12.33,
             "media_ultimas_5": 7.648000000000001,
             "media_geral": 6.743333333333333,
-            "indice_escalai": 7.3766
+            "indice_escalai": 7.3766,
+            "proximo_confronto": "vs JUV (Fora)"
         },
         {
             "apelido": "Fernando Diniz",
@@ -251,7 +277,8 @@
             "preco_num": 10.55,
             "media_ultimas_5": 7.090000000000001,
             "media_geral": 5.942,
-            "indice_escalai": 6.7456
+            "indice_escalai": 6.7456,
+            "proximo_confronto": "vs SAO (Casa)"
         },
         {
             "apelido": "César Sampaio",
@@ -260,7 +287,8 @@
             "preco_num": 10.78,
             "media_ultimas_5": 6.669999999999999,
             "media_geral": 6.669999999999999,
-            "indice_escalai": 6.669999999999998
+            "indice_escalai": 6.669999999999998,
+            "proximo_confronto": "vs FOR (Casa)"
         },
         {
             "apelido": "Hernán Crespo",
@@ -269,7 +297,8 @@
             "preco_num": 11.5,
             "media_ultimas_5": 6.180000000000001,
             "media_geral": 6.497777777777778,
-            "indice_escalai": 6.275333333333334
+            "indice_escalai": 6.275333333333334,
+            "proximo_confronto": "vs VAS (Fora)"
         },
         {
             "apelido": "Ramón Díaz",
@@ -278,7 +307,8 @@
             "preco_num": 9.13,
             "media_ultimas_5": 6.448,
             "media_geral": 5.84375,
-            "indice_escalai": 6.266725
+            "indice_escalai": 6.266725,
+            "proximo_confronto": "vs CAM (Casa)"
         }
     ]
 }
