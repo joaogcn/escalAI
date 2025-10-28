@@ -85,9 +85,12 @@ def run():
         # 4. Formatar a saída
         output_list = []
         for team_id, stats in team_performance.items():
+            if str(team_id) not in clubes:
+                continue
             output_list.append({
                 'nome': clubes[str(team_id)]['nome'],
                 'id': team_id,
+                'escudo_url': clubes[str(team_id)]['escudos']['60x60'],
                 'indice_desempenho': stats['pontos'],
                 'jogos': stats['jogos'],
                 'vitorias': stats['vitorias'],

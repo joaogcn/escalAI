@@ -86,7 +86,12 @@ if os.path.exists(times_path):
         for i, time in enumerate(times_para_ficar_de_olho[:5]):
             with cols[i]:
                 with st.container(border=True):
-                    st.subheader(time['nome'])
+                    col1, col2 = st.columns([1, 2])
+                    with col1:
+                        st.image(time['escudo_url'], width=60)
+                    with col2:
+                        st.subheader(time['nome'])
+                    
                     st.metric(
                         label="Índice de Desempenho",
                         value=time['indice_desempenho']
