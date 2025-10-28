@@ -45,30 +45,29 @@ for posicao, jogadores in recomendacoes.items():
     
     for i, jogador in enumerate(jogadores):
         with cols[i]:
-            st.subheader(jogador['apelido'])
-            st.caption(f"{jogador['clube.nome']}")
-            
-            st.metric(
-                label="Índice EscalAI",
-                value=f"{jogador['indice_escalai']:.2f}"
-            )
-            
-            st.metric(
-                label="Média (Últimas 5 Partidas)",
-                value=f"{jogador['media_ultimas_5']:.2f}"
-            )
+            with st.expander(f"**{jogador['apelido']}** - {jogador['clube.nome']}", expanded=True):
+                st.caption(f"Próximo Jogo: {jogador.get('proximo_confronto', 'N/A')}")
+                st.metric(
+                    label="Índice EscalAI",
+                    value=f"{jogador['indice_escalai']:.2f}"
+                )
+                
+                st.metric(
+                    label="Média (Últimas 5 Partidas)",
+                    value=f"{jogador['media_ultimas_5']:.2f}"
+                )
 
-            st.metric(
-                label="Preço (C$)",
-                value=f"{jogador['preco_num']:.2f}"
-            )
+                st.metric(
+                    label="Preço (C$)",
+                    value=f"{jogador['preco_num']:.2f}"
+                )
 
-            # Pequena narrativa
-            if jogador['media_ultimas_5'] > jogador['media_geral'] + 1:
-                st.info("🔥 Em grande fase!", icon="📈")
-            elif jogador['preco_num'] < 8:
-                st.success("💰 Ótimo custo-benefício!", icon="👍")
-            else:
-                st.write("Regularidade e confiança.")
+                # Pequena narrativa
+                if jogador['media_ultimas_5'] > jogador['media_geral'] + 1:
+                    st.info("🔥 Em grande fase!", icon="📈")
+                elif jogador['preco_num'] < 8:
+                    st.success("💰 Ótimo custo-benefício!", icon="👍")
+                else:
+                    st.info("Regularidade e confiança.", icon="✔️")
 
     st.markdown("---")

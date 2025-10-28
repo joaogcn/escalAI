@@ -14,6 +14,39 @@ def get_mercado_status():
     except requests.exceptions.RequestException:
         return None
 
+@st.cache_data(ttl=3600)
+def get_confrontos_rodada():
+    """Busca os confrontos da rodada atual na API do Cartola."""
+    try:
+        status_response = requests.get(f"{CARTOLA_BASE_URL}/mercado/status")
+        if status_response.status_code != 200:
+            return {}
+        rodada_atual = status_response.json().get('rodada_atual')
+        if not rodada_atual:
+            return {}
+
+        partidas_response = requests.get(f"{CARTOLA_BASE_URL}/partidas/{rodada_atual}")
+        if partidas_response.status_code != 200:
+            return {}
+        partidas = partidas_response.json().get('partidas', [])
+        clubes = partidas_response.json().get('clubes', {})
+
+        confrontos = {}
+        for partida in partidas:
+            clube_casa_id = partida['clube_casa_id']
+            clube_visitante_id = partida['clube_visitante_id']
+            
+            nome_casa = clubes[str(clube_casa_id)]['nome']
+            nome_visitante = clubes[str(clube_visitante_id)]['nome']
+
+            confrontos[clube_casa_id] = f"vs {nome_visitante} (Casa)"
+            confrontos[clube_visitante_id] = f"vs {nome_casa} (Fora)"
+        
+        return confrontos
+
+    except requests.exceptions.RequestException:
+        return {}
+
 @st.cache_data
 def load_parquet_data(file_name):
     """Carrega um arquivo Parquet do diretório intermediário."""
