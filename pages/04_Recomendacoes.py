@@ -62,7 +62,6 @@ for posicao, jogadores in recomendacoes.items():
                     value=f"{jogador['preco_num']:.2f}"
                 )
 
-                # Pequena narrativa
                 if jogador['media_ultimas_5'] > jogador['media_geral'] + 1:
                     st.info("🔥 Em grande fase!", icon="📈")
                 elif jogador['preco_num'] < 8:
@@ -71,3 +70,32 @@ for posicao, jogadores in recomendacoes.items():
                     st.info("Regularidade e confiança.", icon="✔️")
 
     st.markdown("---")
+
+# --- Times para Ficar de Olho ---
+st.header("🧐 Times para Ficar de Olho")
+st.markdown("Estes são os times com melhor desempenho nas últimas 5 rodadas, com base em vitórias, gols e saldo de gols.")
+
+times_path = os.path.join(VISUALIZATION_DATA_PATH, 'times_para_ficar_de_olho.json')
+if os.path.exists(times_path):
+    with open(times_path, 'r', encoding='utf-8') as f:
+        times_para_ficar_de_olho = json.load(f)
+    
+    if times_para_ficar_de_olho:
+        # Mostra até 5 times
+        cols = st.columns(len(times_para_ficar_de_olho[:5])) 
+        for i, time in enumerate(times_para_ficar_de_olho[:5]):
+            with cols[i]:
+                with st.container(border=True):
+                    st.subheader(time['nome'])
+                    st.metric(
+                        label="Índice de Desempenho",
+                        value=time['indice_desempenho']
+                    )
+                    retrospecto = f"{time['vitorias']:.0f}V - {time['empates']:.0f}E - {time['derrotas']:.0f}D"
+                    st.text(f"Retrospecto: {retrospecto}")
+                    
+                    saldo_gols = time['gols_pro'] - time['gols_contra']
+                    st.text(f"Saldo de Gols: {saldo_gols}")
+
+    else:
+        st.info("Dados de desempenho dos times ainda não disponíveis.")
