@@ -45,7 +45,6 @@ st.markdown("""
 -   **GitHub Actions** -- Automação e atualização contínua dos dados
 """)
 
-st.markdown("---
-")
+st.markdown("---")
 
 st.info("💡 **Navegue pelas páginas na barra lateral e descubra insights que vão transformar sua escalação!**")
