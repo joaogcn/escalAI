@@ -4,17 +4,16 @@ import os
 import pandas as pd
 import sys
 
-# Adiciona o diretório raiz ao sys.path para encontrar o módulo src
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from src.config import VISUALIZATION_DATA_PATH
 
 st.set_page_config(
-    page_title="Recomendações de Jogadores",
+    page_title="Dicas de Escalação",
     page_icon="🎯",
     layout="wide"
 )
 
-st.title("🎯 Melhores Jogadores para Escalar")
+st.title("🎯 Dicas de Escalação")
 
 st.markdown("""
 Esta página apresenta os jogadores com maior potencial de pontuação para a próxima rodada, com base no **Índice EscalAI**.
@@ -23,7 +22,6 @@ O índice combina o **desempenho recente (últimas 5 partidas)** com a **média 
 fornecendo uma visão equilibrada entre o momento atual e a consistência.
 """)
 
-# Carrega os dados de recomendações
 recomendacoes_path = os.path.join(VISUALIZATION_DATA_PATH, 'recomendacoes_por_posicao.json')
 
 if not os.path.exists(recomendacoes_path):
@@ -33,7 +31,6 @@ if not os.path.exists(recomendacoes_path):
 with open(recomendacoes_path, 'r', encoding='utf-8') as f:
     recomendacoes = json.load(f)
 
-# --- Storytelling dos Jogadores ---
 
 for posicao, jogadores in recomendacoes.items():
     if not jogadores:
@@ -71,7 +68,6 @@ for posicao, jogadores in recomendacoes.items():
 
     st.markdown("---")
 
-# --- Times para Ficar de Olho ---
 st.header("🧐 Times para Ficar de Olho")
 st.markdown("Estes são os times com melhor desempenho nas últimas 5 rodadas, com base em vitórias, gols e saldo de gols.")
 
@@ -81,7 +77,6 @@ if os.path.exists(times_path):
         times_para_ficar_de_olho = json.load(f)
     
     if times_para_ficar_de_olho:
-        # Mostra até 5 times
         cols = st.columns(len(times_para_ficar_de_olho[:5])) 
         for i, time in enumerate(times_para_ficar_de_olho[:5]):
             with cols[i]:

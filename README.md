@@ -3,7 +3,16 @@
 ## 🎯 **Sobre o Projeto**
 
 O **EscalAI** é uma aplicação web desenvolvida em **Streamlit** que combina tecnologia e análise de dados para ajudar você a montar seu time do **Cartola FC** com mais estratégia e confiança.
+
 Com base em dados históricos e informações de mercado em tempo real, o EscalAI oferece uma visão completa do desempenho dos jogadores e das tendências da rodada.
+
+### ✨ **Funcionalidades Principais**
+
+-   **Dashboard Interativo:** Análises visuais sobre o desempenho geral dos jogadores na temporada.
+-   **Dicas da Rodada:** Uma página dedicada a recomendações com base em índices de desempenho:
+    -   **Top 5 Jogadores por Posição:** Sugestões baseadas no **Índice EscalAI**, que pondera o momento atual (últimas 5 partidas) e a consistência do jogador na temporada.
+    -   **Times para Ficar de Olho:** Análise dos times com melhor desempenho nas últimas 5 rodadas, considerando vitórias, gols marcados e saldo de gols.
+-   **Bot EscalAI:** Um assistente com inteligência artificial (via Google Gemini) que responde suas perguntas sobre escalação, utilizando o contexto das dicas da rodada para fornecer insights personalizados.
 
 ## 🚀 **Instalação e Execução**
 
@@ -24,13 +33,14 @@ pip install -r requirements.txt
 
 ### **3. Execução
 
-Após a instalação, execute o comando abaixo para o pipeline de dados e em seguida para rodar a aplicação.
+Após a instalação e configuração da API Key, execute os comandos abaixo.
 
 ```bash
-# Executa o pipeline de processamento de dados
+# 1. Executa o pipeline de processamento de dados
+# (Isso gera os dados para as dicas de jogadores e times)
 python scripts/run_pipeline.py
 
-# Inicia a aplicação Streamlit
+# 2. Inicia a aplicação Streamlit
 streamlit run EscalAI.py
 ```
 
@@ -40,8 +50,9 @@ streamlit run EscalAI.py
 escalAI/
 ├── EscalAI.py             # Aplicativo principal Streamlit
 ├── requirements.txt       # Dependências Python
-├── scripts/               # Scripts para o pipeline de dados
-├── pages/                 # Páginas da aplicação Streamlit
+├── .streamlit/            # Pasta para configuração do Streamlit
+├── scripts/               # Scripts para o pipeline de dados (limpeza, análise, dicas)
+├── pages/                 # Páginas da aplicação (Dashboard, Dicas, Bot)
 ├── dados_cartola/         # Dados brutos, intermediários e visualizações
 ├── .github/workflows/     # Contém o workflow de sincronização
 └── README.md              # Este arquivo
