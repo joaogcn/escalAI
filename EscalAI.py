@@ -3,48 +3,49 @@ import streamlit as st
 st.set_page_config(
     page_title="EscalAI - Início",
     page_icon="⚽",
-    layout="wide"  
+    layout="wide"
 )
 
 st.title("⚽ EscalAI - Análise de Dados do Cartola FC")
 
-st.header("Inteligência para sua escalação no Cartola FC")
+st.header("Inteligência artificial para sua escalação no Cartola FC")
 st.markdown("""
-O **EscalAI** é uma aplicação web desenvolvida em **Streamlit** que combina tecnologia e análise de dados para ajudar você a montar seu time do **Cartola FC** com mais estratégia e confiança.
-Com base em dados históricos e informações de mercado em tempo real, o EscalAI oferece uma visão completa do desempenho dos jogadores e das tendências da rodada.
+O **EscalAI** é uma aplicação web que une análise de dados e inteligência artificial para te ajudar a escalar seu time no **Cartola FC** com mais estratégia e confiança.
+Explore nossas páginas na barra lateral para ter acesso a dashboards, dicas e um bot assistente!
 """)
 
 st.markdown("---")
 
-st.header("🔍 Como Funciona")
-st.markdown("""
-1.  **Dados Históricos**
-    O EscalAI utiliza informações de temporadas anteriores obtidas do projeto [caRtola](https://github.com/henriquepgomide/caRtola), permitindo análises detalhadas de desempenho e evolução dos atletas.
+st.header("✨ Funcionalidades")
 
-2.  **Atualização Automática**
-    Sem necessidade de intervenção manual, uma rotina automatizada mantém os dados sempre atualizados, garantindo que as análises estejam alinhadas com as informações mais recentes.
+col1, col2, col3 = st.columns(3)
 
-3.  **Análises em Tempo Real**
-    O sistema também consome **APIs oficiais do Cartola FC**, trazendo status de mercado, jogadores mais escalados e outras informações em tempo real para decisões mais assertivas.
-""")
+with col1:
+    st.subheader("📊 Dashboard Interativo")
+    st.write("Analise o desempenho dos jogadores na temporada através de gráficos e estatísticas descritivas.")
+
+with col2:
+    st.subheader("🎯 Dicas da Rodada")
+    st.write("Receba recomendações dos melhores jogadores por posição e dos times que estão em melhor fase no campeonato, tudo baseado em nossos índices de desempenho.")
+
+with col3:
+    st.subheader("🤖 Bot EscalAI")
+    st.write("Converse com nosso assistente com IA (Google Gemini) e peça dicas personalizadas. Ele tem acesso aos dados da rodada para te ajudar a montar o time ideal.")
+
 
 st.markdown("---")
 
-st.header("⚙️ Tecnologias")
+st.header("⚙️ Tecnologias Utilizadas")
 st.markdown("""
 -   **Python** -- Base de toda a aplicação
--   **Streamlit** -- Interface simples, interativa e intuitiva
+-   **Streamlit** -- Interface web interativa
 -   **Pandas** -- Processamento e análise de dados
--   **Plotly** -- Visualizações dinâmicas e interativas
+-   **Plotly** -- Visualizações dinâmicas
+-   **Google Gemini** -- Inteligência artificial para o Bot assistente
 -   **GitHub Actions** -- Automação e atualização contínua dos dados
 """)
 
-st.markdown("---")
+st.markdown("---
+")
 
-st.markdown("""
-🤖 **Em breve:** o EscalAI contará com um **bot inteligente** que vai te ajudar a montar a melhor escalação possível, sugerindo jogadores e estratégias personalizadas para cada rodada!
-""")
-
-st.markdown("---")
-
-st.info("💡 **Acesse o Dashboard na barra lateral e descubra insights que vão transformar sua escalação!**")
+st.info("💡 **Navegue pelas páginas na barra lateral e descubra insights que vão transformar sua escalação!**")
