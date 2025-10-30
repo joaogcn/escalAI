@@ -74,6 +74,9 @@ def run():
     provaveis_ids = set(df_mercado[df_mercado['status_id'] == 7]['atleta_id'])
     df_provaveis = df[df['atleta_id'].isin(provaveis_ids)].copy()
 
+    # DEBUG: Verificar colunas
+    print("Colunas em df_provaveis:", df_provaveis.columns)
+
     def create_prediction_features(data, scout_features, other_features):
         latest = data.loc[data.groupby('atleta_id')['rodada_id'].idxmax()].set_index('atleta_id')
         rolling = data.groupby('atleta_id')[scout_features].rolling(window=3, min_periods=1).mean().groupby('atleta_id').last()
