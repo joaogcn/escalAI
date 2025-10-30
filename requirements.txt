@@ -6,3 +6,5 @@ statsmodels
 pyarrow
 streamlit-option-menu
 google-generativeai
+scikit-learn
+numpy

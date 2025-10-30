@@ -16,8 +16,51 @@ st.set_page_config(
 st.title("🎯 Dicas de Escalação")
 
 st.markdown("""
-Esta página apresenta os jogadores com maior potencial de pontuação para a próxima rodada, com base no **Índice EscalAI**.
+Esta página apresenta os jogadores com maior potencial de pontuação para a próxima rodada, com base no **Índice EscalAI** e em **modelos de Inteligência Artificial**.
+""")
 
+st.header("🔮 Dica de Mitada")
+st.markdown("Previsões geradas por um modelo de *machine learning* treinado com dados históricos para encontrar os jogadores com maior potencial de pontuação na rodada.")
+
+mitada_path = os.path.join(VISUALIZATION_DATA_PATH, 'recomendacao_mitada.json')
+if os.path.exists(mitada_path):
+    with open(mitada_path, 'r', encoding='utf-8') as f:
+        dica_mitada = json.load(f)
+    
+    if dica_mitada:
+        pos_map = {
+            "Goleiro": "gol", "Lateral": "lat", "Zagueiro": "zag",
+            "Meia": "mei", "Atacante": "ata", "Técnico": "tec"
+        }
+        
+        ordered_pos = ["Goleiro", "Lateral", "Zagueiro", "Meia", "Atacante", "Técnico"]
+        
+        cols = st.columns(len(ordered_pos))
+        
+        for i, pos_nome in enumerate(ordered_pos):
+            if pos_nome in dica_mitada:
+                jogador = dica_mitada[pos_nome]
+                with cols[i]:
+                    with st.container(border=True):
+                        st.subheader(pos_nome)
+                        st.markdown(f"**{jogador['apelido']}**")
+                        st.caption(f"{jogador['clube.nome']}")
+                        st.metric(
+                            label="Pontuação Prevista",
+                            value=f"{jogador['pontuacao_prevista']:.2f}"
+                        )
+                        st.success("Potencial de mitada!", icon="🚀")
+
+    else:
+        st.info("As dicas de mitada ainda não foram geradas. Execute o pipeline.")
+else:
+    st.warning("Arquivo de dica de mitada não encontrado. Execute o pipeline de dados.")
+
+st.markdown("---")
+
+
+st.header("⭐ Melhores por Posição (Índice EscalAI)")
+st.markdown("""
 O índice combina o **desempenho recente (últimas 5 partidas)** com a **média geral** do jogador na temporada, 
 fornecendo uma visão equilibrada entre o momento atual e a consistência.
 """)
