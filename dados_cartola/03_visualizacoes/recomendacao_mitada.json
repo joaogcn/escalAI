@@ -1,0 +1,32 @@
+{
+    "Goleiro": {
+        "apelido": "Bruno Ferreira",
+        "clube.nome": "Ceará",
+        "pontuacao_prevista": 3.24536911976912
+    },
+    "Lateral": {
+        "apelido": "Matheus Bidu",
+        "clube.nome": "Corinthians",
+        "pontuacao_prevista": 6.757999999999999
+    },
+    "Zagueiro": {
+        "apelido": "Jemmes",
+        "clube.nome": "Mirassol",
+        "pontuacao_prevista": 3.501999999999999
+    },
+    "Meia": {
+        "apelido": "Matheus Pereira",
+        "clube.nome": "Cruzeiro",
+        "pontuacao_prevista": 12.14599999999999
+    },
+    "Atacante": {
+        "apelido": "Luciano Juba",
+        "clube.nome": "Bahia",
+        "pontuacao_prevista": 6.682000000000008
+    },
+    "Técnico": {
+        "apelido": "Martín Palermo",
+        "clube.nome": "Fortaleza",
+        "pontuacao_prevista": 6.636700000000003
+    }
+}
