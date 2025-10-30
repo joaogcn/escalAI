@@ -1,4 +1,3 @@
-
 import pandas as pd
 import os
 import sys
@@ -25,11 +24,16 @@ def run():
     df = df.sort_values(by=['atleta_id', 'ano', 'rodada_id'])
     print(f"  - DataFrame histórico carregado. Shape inicial: {df.shape}")
 
-    df_gk = df[df['posicao_id'] == 'gol'].copy()
-    df_field = df[df['posicao_id'].isin(['lat', 'zag', 'mei', 'ata'])].copy()
+    gk_scout_features = ['SG', 'DE', 'GS', 'DP'] 
+    field_scout_features = ['G', 'A', 'DS', 'FC', 'FD', 'FF', 'FS', 'FT'] 
+    all_scouts_needed = list(set(gk_scout_features + field_scout_features))
+    for col in all_scouts_needed:
+        if col not in df.columns:
+            df[col] = 0
+            print(f"  - AVISO: Coluna de scout ''{col}'' não encontrada. Adicionada com valor 0.")
 
     def create_features_sem_contexto(data, scout_features, other_features):
-        data[scout_features + other_features] = data[scout_features + other_features].fillna(0)
+        data.loc[:, scout_features + other_features] = data[scout_features + other_features].fillna(0)
         
         rolling_scouts = data.groupby('atleta_id')[scout_features].rolling(window=3, min_periods=1).mean().reset_index(level=0, drop=True)
         lagged_rolling_scouts = rolling_scouts.groupby('atleta_id').shift(1)
@@ -43,13 +47,9 @@ def run():
         df_model_features = pd.concat([data[['atleta_id', 'rodada_id', 'ano', 'posicao_id', 'pontos_num']], lagged_features], axis=1)
         return df_model_features.dropna(subset=['pontos_num'] + list(lagged_features.columns))
 
-    gk_scout_features = ['SG', 'DD', 'GS']
-    gk_other_features = ['preco_num', 'media_num']
-    df_model_gk = create_features_sem_contexto(df_gk, gk_scout_features, gk_other_features)
-
-    field_scout_features = ['G', 'A', 'DS', 'FC', 'FD', 'FF']
-    field_other_features = ['preco_num', 'media_num']
-    df_model_field = create_features_sem_contexto(df_field, field_scout_features, field_other_features)
+    other_features = ['preco_num', 'media_num']
+    df_model_gk = create_features_sem_contexto(df[df['posicao_id'] == 'gol'].copy(), gk_scout_features, other_features)
+    df_model_field = create_features_sem_contexto(df[df['posicao_id'].isin(['lat', 'zag', 'mei', 'ata'])].copy(), field_scout_features, other_features)
     print(f"  - Features (sem contexto) criadas. Shape Goleiros: {df_model_gk.shape}, Shape Linha: {df_model_field.shape}")
 
     print("  - Treinando modelos (sem contexto de confronto)...")
@@ -84,10 +84,10 @@ def run():
         return pd.concat([stats_lag1, scouts_rolling3_lag1], axis=1), latest.reset_index()
 
     df_provaveis_field = df_provaveis[df_provaveis['posicao_id'].isin(['lat', 'zag', 'mei', 'ata'])]
-    X_pred_field, df_predict_field = create_prediction_features(df_provaveis_field, field_scout_features, field_other_features)
+    X_pred_field, df_predict_field = create_prediction_features(df_provaveis_field, field_scout_features, other_features)
 
     df_provaveis_gk = df_provaveis[df_provaveis['posicao_id'] == 'gol']
-    X_pred_gk, df_predict_gk = create_prediction_features(df_provaveis_gk, gk_scout_features, gk_other_features)
+    X_pred_gk, df_predict_gk = create_prediction_features(df_provaveis_gk, gk_scout_features, other_features)
 
     df_predict_field['pontuacao_prevista'] = model_field.predict(X_pred_field[X_field.columns])
     df_predict_gk['pontuacao_prevista'] = model_gk.predict(X_pred_gk[X_gk.columns])
