@@ -76,3 +76,21 @@ def get_current_season_players():
         return []
     except (requests.exceptions.RequestException, KeyError):
         return []
+
+@st.cache_data(ttl=3600)
+def get_partidas_rodada():
+    """Busca a lista de partidas da rodada atual na API do Cartola."""
+    try:
+        status_response = requests.get(f"{CARTOLA_BASE_URL}/mercado/status")
+        if status_response.status_code != 200:
+            return []
+        rodada_atual = status_response.json().get('rodada_atual')
+        if not rodada_atual:
+            return []
+
+        partidas_response = requests.get(f"{CARTOLA_BASE_URL}/partidas/{rodada_atual}")
+        if partidas_response.status_code == 200:
+            return partidas_response.json().get('partidas', [])
+        return []
+    except requests.exceptions.RequestException:
+        return []
