@@ -5,7 +5,7 @@ import json
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from src.config import CONSOLIDATED_OUTPUT_FILE, VISUALIZATION_DATA_PATH
-from src.dados import get_confrontos_rodada
+from src.dados import get_confrontos_rodada, get_current_season_players
 
 def run():
     """
@@ -54,6 +54,18 @@ def run():
 
     df_latest = df_latest[df_latest['jogos_disputados'] >= 3]
     print(f"  - DataFrame após filtrar jogadores com >= 3 jogos. Shape: {df_latest.shape}")
+
+    atletas_mercado = get_current_season_players()
+    if atletas_mercado:
+        df_mercado = pd.DataFrame(atletas_mercado)
+        provaveis_ids = set(df_mercado[df_mercado['status_id'] == 7]['atleta_id'])
+        print(f"  - Encontrados {len(provaveis_ids)} jogadores prováveis no mercado.")
+        
+        initial_count = len(df_latest)
+        df_latest = df_latest[df_latest['atleta_id'].isin(provaveis_ids)]
+        print(f"  - DataFrame após filtrar por jogadores prováveis. Removidos {initial_count - len(df_latest)} jogadores. Shape: {df_latest.shape}")
+    else:
+        print("  - AVISO: Não foi possível obter dados do mercado de atletas. O filtro de jogadores prováveis não será aplicado.")
 
 
     df_latest['indice_escalai'] = (df_latest['media_ultimas_5'] * 0.7) + (df_latest['media_geral'] * 0.3)
