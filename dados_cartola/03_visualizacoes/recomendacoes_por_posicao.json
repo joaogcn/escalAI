@@ -157,16 +157,6 @@
     ],
     "Meia": [
         {
-            "apelido": "Arrascaeta",
-            "clube.nome": "Flamengo",
-            "posicao_id": "mei",
-            "preco_num": 17.74,
-            "media_ultimas_5": 6.42,
-            "media_geral": 9.255555555555556,
-            "indice_escalai": 7.270666666666667,
-            "proximo_confronto": "vs SPT (Casa)"
-        },
-        {
             "apelido": "Matheus Pereira",
             "clube.nome": "Cruzeiro",
             "posicao_id": "mei",
@@ -205,6 +195,16 @@
             "media_geral": 4.770588235294118,
             "indice_escalai": 6.037176470588236,
             "proximo_confronto": "vs MIR (Fora)"
+        },
+        {
+            "apelido": "Lucas Sasha",
+            "clube.nome": "Fortaleza",
+            "posicao_id": "mei",
+            "preco_num": 8.71,
+            "media_ultimas_5": 5.4,
+            "media_geral": 5.96,
+            "indice_escalai": 5.568,
+            "proximo_confronto": "vs SAN (Fora)"
         }
     ],
     "Atacante": [
