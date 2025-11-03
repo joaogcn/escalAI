@@ -35,10 +35,18 @@ def load_context():
     """Carrega os dados de dicas para fornecer contexto ao bot."""
     recomendacoes_path = os.path.join(VISUALIZATION_DATA_PATH, 'recomendacoes_por_posicao.json')
     times_path = os.path.join(VISUALIZATION_DATA_PATH, 'times_para_ficar_de_olho.json')
+    mitada_path = os.path.join(VISUALIZATION_DATA_PATH, 'recomendacao_mitada.json')
     context_parts = []
+
+    try:
+        with open(mitada_path, 'r', encoding='utf-8') as f:
+            context_parts.append("## Dicas de Mitada para a Rodada (Previsão de Alto Potencial):\n" + f.read())
+    except FileNotFoundError:
+        context_parts.append("Arquivo de dicas de mitada não encontrado.")
+
     try:
         with open(recomendacoes_path, 'r', encoding='utf-8') as f:
-            context_parts.append("## Dicas de Jogadores para a Rodada:\n" + f.read())
+            context_parts.append("## Dicas de Jogadores para a Rodada (Índice EscalAI):\n" + f.read())
     except FileNotFoundError:
         context_parts.append("Arquivo de recomendação de jogadores não encontrado.")
     try:
@@ -55,6 +63,7 @@ if "chat" not in st.session_state:
     system_prompt = (
         f"Você é o EscalAI, um assistente especialista em Cartola FC. "
         f"Sua personalidade é amigável e direta. Use os dados de contexto abaixo para basear suas respostas. "
+        f"Diferencie os tipos de dicas: as 'Dicas de Mitada' são previsões de um modelo de machine learning, sendo apostas mais arriscadas e com alto potencial. As 'Dicas de Jogadores (Índice EscalAI)' são baseadas em consistência e desempenho recente, sendo escolhas mais seguras. "
         f"Não mencione os arquivos JSON, apenas use os dados deles.\n\n" 
         f"--- CONTEXTO DA RODADA ---\n{contexto_dicas}"
     )
