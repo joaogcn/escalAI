@@ -45,8 +45,6 @@ if os.path.exists(mitada_path):
                         st.subheader(pos_nome)
                         st.markdown(f"**{jogador['apelido']}**")
                         st.caption(f"{jogador['clube.nome']}")
-                        st.success("Alto Potencial!", icon="🚀")
-
     else:
         st.info("As dicas de mitada ainda não foram geradas. Execute o pipeline.")
 else:
