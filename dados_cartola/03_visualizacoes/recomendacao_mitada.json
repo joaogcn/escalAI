@@ -1,19 +1,19 @@
 {
     "Goleiro": {
-        "apelido": "Gabriel",
-        "clube.nome": "Coritiba"
+        "apelido": "Everson",
+        "clube.nome": "Atlético-MG"
     },
     "Lateral": {
-        "apelido": "Juninho Capixaba",
-        "clube.nome": "Fortaleza"
-    },
-    "Zagueiro": {
-        "apelido": "Thiago Silva",
+        "apelido": "Samuel Xavier",
         "clube.nome": "Fluminense"
     },
+    "Zagueiro": {
+        "apelido": "Arboleda",
+        "clube.nome": "São Paulo"
+    },
     "Meia": {
-        "apelido": "Thaciano",
-        "clube.nome": "Bahia"
+        "apelido": "Bobadilla",
+        "clube.nome": "São Paulo"
     },
     "Atacante": {
         "apelido": "Carlos Vinícius",
