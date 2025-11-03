@@ -1,1 +1,26 @@
-{}
+{
+    "Goleiro": {
+        "apelido": "Gabriel",
+        "clube.nome": "Coritiba"
+    },
+    "Lateral": {
+        "apelido": "Juninho Capixaba",
+        "clube.nome": "Fortaleza"
+    },
+    "Zagueiro": {
+        "apelido": "Thiago Silva",
+        "clube.nome": "Fluminense"
+    },
+    "Meia": {
+        "apelido": "Thaciano",
+        "clube.nome": "Bahia"
+    },
+    "Atacante": {
+        "apelido": "Carlos Vinícius",
+        "clube.nome": "Grêmio"
+    },
+    "Técnico": {
+        "apelido": "Hernán Crespo",
+        "clube.nome": "São Paulo"
+    }
+}
