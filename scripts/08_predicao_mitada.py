@@ -12,56 +12,71 @@ from src.dados import get_current_season_players, get_confrontos_rodada
 
 def run():
     """
-    Treina um modelo de ML e recomenda os melhores jogadores da temporada atual.
+    Gera dicas de mitada usando uma abordagem híbrida: treina o modelo com dados
+    históricos, mas filtra e apresenta os jogadores com base no mercado atual.
     """
-    print('--- INICIANDO: Geração de Dicas de Mitada (v6 - Foco na Temporada) ---')
+    print('--- INICIANDO: Geração de Dicas de Mitada (v7 - Híbrido) ---')
 
-    # --- 1. Carga e Preparação dos Dados ---
+    # --- 1. Carga de Dados ---
     if not os.path.exists(CONSOLIDATED_OUTPUT_FILE):
         print(f"ERRO: Arquivo de dados consolidados não encontrado em {CONSOLIDATED_OUTPUT_FILE}")
         return False
+    df_historico = pd.read_parquet(CONSOLIDATED_OUTPUT_FILE)
+    print(f"  - DataFrame histórico carregado. Shape: {df_historico.shape}")
 
-    df = pd.read_parquet(CONSOLIDATED_OUTPUT_FILE)
-    print(f"  - DataFrame histórico carregado. Shape: {df.shape}")
-
-    # --- 2. Filtrar para a Temporada Atual ---
-    ano_atual = df['ano'].max()
-    df_temporada = df[df['ano'] == ano_atual].copy()
-    print(f"  - Filtrado para a temporada atual ({ano_atual}). Shape: {df_temporada.shape}")
-
-    if df_temporada.empty:
-        print("  - AVISO: Nenhum dado encontrado para a temporada atual. Abortando.")
+    # --- 2. Buscar Dados do Mercado Atual ---
+    try:
+        atletas_mercado = get_current_season_players()
+        if not atletas_mercado:
+            print("  - AVISO: Não foi possível obter dados do mercado. Abortando.")
+            return False
+        df_mercado = pd.DataFrame(atletas_mercado)
+        # Garantir que apenas jogadores prováveis sejam considerados
+        df_mercado = df_mercado[df_mercado['status_id'] == 7].copy()
+        print(f"  - Dados do mercado carregados. Jogadores prováveis: {df_mercado.shape[0]}")
+    except Exception as e:
+        print(f"  - ERRO ao buscar dados do mercado: {e}. Abortando.")
         return False
 
-    # --- 3. Feature Engineering ---
+    # --- 3. Preparar Dados para o Modelo ---
+    # Pegar a última partida registrada de CADA jogador no histórico
+    df_latest_historico = df_historico.loc[df_historico.groupby('atleta_id')['rodada_id'].idxmax()]
+
+    # Filtrar o histórico para conter apenas jogadores que estão no mercado atual
+    jogadores_mercado_ids = df_mercado['atleta_id'].unique()
+    df_model_data = df_latest_historico[df_latest_historico['atleta_id'].isin(jogadores_mercado_ids)].copy()
+    print(f"  - Jogadores do mercado encontrados no histórico: {df_model_data.shape[0]}")
+
+    if df_model_data.empty:
+        print("  - AVISO: Nenhum jogador do mercado atual possui dados históricos para previsão.")
+        return False
+
+    # --- 4. Feature Engineering e Treinamento ---
     features = [
         'preco_num', 'variacao_num', 'media_num', 'jogos_num', 'A', 'DS', 'FC', 
         'FD', 'FF', 'FS', 'FT', 'G', 'I', 'PI', 'PP', 'CA', 'DE', 'GS', 
         'PC', 'SG', 'GC', 'CV', 'PS', 'DP', 'V'
     ]
     for col in features:
-        if col not in df_temporada.columns:
-            df_temporada[col] = 0
+        if col not in df_model_data.columns:
+            df_model_data[col] = 0
+    df_model_data[features] = df_model_data[features].fillna(0)
 
-    df_temporada[features] = df_temporada[features].fillna(0)
-
-    # Usar a última rodada de cada jogador na temporada como feature
-    df_latest = df_temporada.loc[df_temporada.groupby('atleta_id')['rodada_id'].idxmax()]
-    df_model = df_latest.copy()
-    print(f"  - Features criadas. Shape do DataFrame de modelo: {df_model.shape}")
-
-    # --- 4. Treinamento do Modelo ---
-    X = df_model[features].fillna(0)
-    y = df_model['pontos_num']
+    X = df_model_data[features]
+    y = df_model_data['pontos_num']
 
     model = RandomForestRegressor(n_estimators=100, random_state=42, n_jobs=-1)
     model.fit(X, y)
-    print("  - Modelo RandomForestRegressor treinado.")
+    print("  - Modelo treinado com dados históricos de jogadores do mercado atual.")
 
-    # --- 5. Predição para jogadores da temporada ---
-    df_predict = df_model[['atleta_id', 'apelido', 'clube.nome', 'posicao_id']].copy()
-    df_predict['pontuacao_prevista'] = model.predict(X)
-    print("  - Predições de pontuação geradas.")
+    # --- 5. Predição e Junção com Dados de Mercado ---
+    df_model_data['pontuacao_prevista'] = model.predict(X)
+    
+    # Usar os dados de mercado como base para as informações atuais
+    df_predict = df_mercado[['atleta_id', 'apelido', 'clube.nome', 'posicao_id']].copy()
+    df_predict = df_predict.merge(df_model_data[['atleta_id', 'pontuacao_prevista']], on='atleta_id', how='left')
+    df_predict['pontuacao_prevista'] = df_predict['pontuacao_prevista'].fillna(0) # Preenche com 0 se não houver previsão
+    print("  - Predições geradas e unidas com os dados de mercado atuais.")
 
     # --- 6. Recomendação Final ---
     recomendacoes = {}
