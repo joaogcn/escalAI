@@ -115,6 +115,16 @@
             "proximo_confronto": "vs MIR (Casa)"
         },
         {
+            "apelido": "Ferraresi",
+            "clube.nome": "São Paulo",
+            "posicao_id": "zag",
+            "preco_num": 9.16,
+            "media_ultimas_5": 6.179999999999999,
+            "media_geral": 6.447368421052632,
+            "indice_escalai": 6.260210526315788,
+            "proximo_confronto": "vs FLA (Casa)"
+        },
+        {
             "apelido": "Gustavo Henrique",
             "clube.nome": "Corinthians",
             "posicao_id": "zag",
@@ -143,16 +153,6 @@
             "media_geral": 5.05,
             "indice_escalai": 6.0089999999999995,
             "proximo_confronto": "vs RBB (Fora)"
-        },
-        {
-            "apelido": "Carlos Cuesta",
-            "clube.nome": "Vasco",
-            "posicao_id": "zag",
-            "preco_num": 10.16,
-            "media_ultimas_5": 5.96,
-            "media_geral": 5.8999999999999995,
-            "indice_escalai": 5.941999999999999,
-            "proximo_confronto": "vs BOT (Fora)"
         }
     ],
     "Meia": [
