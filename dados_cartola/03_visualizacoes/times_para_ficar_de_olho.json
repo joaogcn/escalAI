@@ -12,6 +12,18 @@
         "gols_contra": 2
     },
     {
+        "nome": "PAL",
+        "id": 275,
+        "escudo_url": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2025/escudos/PAL/60x60.png",
+        "indice_desempenho": 16,
+        "jogos": 5,
+        "vitorias": 3,
+        "empates": 1,
+        "derrotas": 1,
+        "gols_pro": 11,
+        "gols_contra": 4
+    },
+    {
         "nome": "COR",
         "id": 264,
         "escudo_url": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2025/escudos/COR/60x60.png",
@@ -45,18 +57,6 @@
         "empates": 0,
         "derrotas": 2,
         "gols_pro": 3,
-        "gols_contra": 4
-    },
-    {
-        "nome": "PAL",
-        "id": 275,
-        "escudo_url": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2025/escudos/PAL/60x60.png",
-        "indice_desempenho": 14,
-        "jogos": 5,
-        "vitorias": 2,
-        "empates": 2,
-        "derrotas": 1,
-        "gols_pro": 9,
         "gols_contra": 4
     },
     {
@@ -156,18 +156,6 @@
         "gols_contra": 5
     },
     {
-        "nome": "SAN",
-        "id": 277,
-        "escudo_url": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2025/escudos/SAN/60x60.png",
-        "indice_desempenho": 8,
-        "jogos": 5,
-        "vitorias": 1,
-        "empates": 1,
-        "derrotas": 1,
-        "gols_pro": 6,
-        "gols_contra": 5
-    },
-    {
         "nome": "GRE",
         "id": 284,
         "escudo_url": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2025/escudos/GRE/60x60.png",
@@ -214,6 +202,18 @@
         "derrotas": 2,
         "gols_pro": 3,
         "gols_contra": 5
+    },
+    {
+        "nome": "SAN",
+        "id": 277,
+        "escudo_url": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2025/escudos/SAN/60x60.png",
+        "indice_desempenho": 5,
+        "jogos": 5,
+        "vitorias": 1,
+        "empates": 1,
+        "derrotas": 2,
+        "gols_pro": 6,
+        "gols_contra": 7
     },
     {
         "nome": "RBB",
