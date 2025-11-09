@@ -73,6 +73,16 @@
             "proximo_confronto": "vs CRU (Fora)"
         },
         {
+            "apelido": "Maik",
+            "clube.nome": "São Paulo",
+            "posicao_id": "lat",
+            "preco_num": 8.11,
+            "media_ultimas_5": 7.82,
+            "media_geral": 7.82,
+            "indice_escalai": 7.82,
+            "proximo_confronto": "vs RBB (Casa)"
+        },
+        {
             "apelido": "Enzo Díaz",
             "clube.nome": "São Paulo",
             "posicao_id": "lat",
@@ -91,16 +101,6 @@
             "media_geral": 8.430769230769231,
             "indice_escalai": 7.793230769230769,
             "proximo_confronto": "vs PAL (Casa)"
-        },
-        {
-            "apelido": "Khellven",
-            "clube.nome": "Palmeiras",
-            "posicao_id": "lat",
-            "preco_num": 9.34,
-            "media_ultimas_5": 7.9,
-            "media_geral": 6.875,
-            "indice_escalai": 7.5925,
-            "proximo_confronto": "vs MIR (Fora)"
         }
     ],
     "Zagueiro": [
