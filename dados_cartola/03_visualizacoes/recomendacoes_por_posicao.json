@@ -105,14 +105,14 @@
     ],
     "Zagueiro": [
         {
-            "apelido": "Bruno Fuchs",
-            "clube.nome": "Palmeiras",
+            "apelido": "Lucas Halter",
+            "clube.nome": "Vitória",
             "posicao_id": "zag",
-            "preco_num": 8.87,
-            "media_ultimas_5": 7.62,
-            "media_geral": 5.157894736842105,
-            "indice_escalai": 6.881368421052631,
-            "proximo_confronto": "vs MIR (Fora)"
+            "preco_num": 6.48,
+            "media_ultimas_5": 8.84,
+            "media_geral": 3.9269230769230767,
+            "indice_escalai": 7.366076923076923,
+            "proximo_confronto": "vs BOT (Casa)"
         },
         {
             "apelido": "Thiago Silva",
@@ -145,13 +145,13 @@
             "proximo_confronto": "vs MIR (Fora)"
         },
         {
-            "apelido": "João Pedro",
+            "apelido": "Gustavo Henrique",
             "clube.nome": "Corinthians",
             "posicao_id": "zag",
-            "preco_num": 6.16,
-            "media_ultimas_5": 5.9,
-            "media_geral": 4.909090909090909,
-            "indice_escalai": 5.602727272727273,
+            "preco_num": 6.64,
+            "media_ultimas_5": 6.08,
+            "media_geral": 4.388235294117647,
+            "indice_escalai": 5.572470588235293,
             "proximo_confronto": "vs CEA (Casa)"
         }
     ],
@@ -239,6 +239,16 @@
             "proximo_confronto": "vs RBB (Casa)"
         },
         {
+            "apelido": "Carlos Vinícius",
+            "clube.nome": "Grêmio",
+            "posicao_id": "ata",
+            "preco_num": 9.12,
+            "media_ultimas_5": 8.940000000000001,
+            "media_geral": 6.144444444444445,
+            "indice_escalai": 8.101333333333335,
+            "proximo_confronto": "vs FOR (Fora)"
+        },
+        {
             "apelido": "Flaco López",
             "clube.nome": "Palmeiras",
             "posicao_id": "ata",
@@ -247,16 +257,6 @@
             "media_geral": 7.046153846153846,
             "indice_escalai": 7.797846153846153,
             "proximo_confronto": "vs MIR (Fora)"
-        },
-        {
-            "apelido": "Kaio Jorge",
-            "clube.nome": "Cruzeiro",
-            "posicao_id": "ata",
-            "preco_num": 15.39,
-            "media_ultimas_5": 6.9,
-            "media_geral": 9.078571428571427,
-            "indice_escalai": 7.553571428571429,
-            "proximo_confronto": "vs FLU (Casa)"
         }
     ],
     "Técnico": [
