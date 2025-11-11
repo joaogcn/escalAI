@@ -67,12 +67,12 @@ def load_plot(file_name):
 
 
 @st.cache_data(ttl=3600)
-def get_current_season_players():
-    """Busca os atletas do mercado da temporada atual na API do Cartola."""
+def get_mercado_data():
+    """Busca todos os dados do mercado (atletas, clubes, etc.) da temporada atual."""
     try:
         response = requests.get(f"{CARTOLA_BASE_URL}/atletas/mercado")
         if response.status_code == 200:
-            return response.json().get('atletas', [])
-        return []
+            return response.json()
+        return {}
     except (requests.exceptions.RequestException, KeyError):
-        return []
+        return {}

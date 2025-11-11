@@ -24,7 +24,7 @@ def run():
         anos_disputados=('ano', 'nunique'),
         media_preco=('preco_num', 'mean'),
         apelido=('apelido', 'last'),
-        ultimo_clube=('clube.nome', 'last'),
+        ultimo_clube=('clube_nome', 'last'),
         posicao=('posicao_id', 'last')
     ).reset_index()
 

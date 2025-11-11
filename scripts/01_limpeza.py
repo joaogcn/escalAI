@@ -62,8 +62,13 @@ def run():
     df = pd.concat(df_list, ignore_index=True)
 
     df.columns = [col.replace('atletas.', '').replace('id.full.name', 'nome') for col in df.columns]
-    if 'clube.nome' in df.columns:
-        df.dropna(subset=['clube.nome'], inplace=True)
+
+    club_col_candidates = ['clube.nome', 'clube_nome']
+    club_col = next((col for col in club_col_candidates if col in df.columns), None)
+    
+    if club_col:
+        df.rename(columns={club_col: 'clube_nome'}, inplace=True)
+        df.dropna(subset=['clube_nome'], inplace=True)
         team_name_map = {
             'AmÃ©rica-MG': 'América-MG',
             'AthlÃ©tico-PR': 'Athlético-PR',
@@ -94,7 +99,9 @@ def run():
             'FOR': 'Fortaleza',
             'Athletico-PR': 'Athlético-PR'
         }
-        df['clube.nome'] = df['clube.nome'].replace(team_name_map)
+        df['clube_nome'] = df['clube_nome'].replace(team_name_map)
+    else:
+        print("  - AVISO: Coluna com nome do clube não encontrada. Alguns dados podem ficar incompletos.")
 
     for col in SCOUT_COLS:
         if col in df.columns:
