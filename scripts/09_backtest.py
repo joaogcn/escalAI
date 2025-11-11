@@ -55,11 +55,11 @@ def train_and_predict_for_round(rodada_alvo, df_historico_completo):
 
     df_model_data['pontuacao_prevista'] = model.predict(X)
     
-    df_predict = df_mercado_simulado[['atleta_id', 'apelido', 'clube_nome', 'posicao_id', 'pontuacao']].copy()
+    df_predict = df_mercado_simulado[['atleta_id', 'apelido', 'clube_nome', 'posicao_id', 'pontos_num']].copy()
     df_predict = df_predict.merge(df_model_data[['atleta_id', 'pontuacao_prevista']], on='atleta_id', how='left')
     df_predict['pontuacao_prevista'] = df_predict['pontuacao_prevista'].fillna(0)
     
-    df_predict = df_predict.rename(columns={'pontuacao': 'pontuacao_real'})
+    df_predict = df_predict.rename(columns={'pontos_num': 'pontuacao_real'})
     
     print("  - Predições geradas e unidas com os resultados reais da rodada.")
     return df_predict
