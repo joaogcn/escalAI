@@ -1,0 +1,53 @@
+{
+    "rodada_id": 37,
+    "recomendacoes": [
+        {
+            "atleta_id": 37281,
+            "apelido": "Mano Menezes",
+            "clube_nome": "Internacional",
+            "posicao_id": "tec",
+            "pontuacao_real": 0.0,
+            "pontuacao_prevista": 7.463699999999994
+        },
+        {
+            "atleta_id": 51413,
+            "apelido": "Walter",
+            "clube_nome": "Cuiabá",
+            "posicao_id": "gol",
+            "pontuacao_real": 1.0,
+            "pontuacao_prevista": 9.231100000000001
+        },
+        {
+            "atleta_id": 79631,
+            "apelido": "Cano",
+            "clube_nome": "Fluminense",
+            "posicao_id": "ata",
+            "pontuacao_real": 9.6,
+            "pontuacao_prevista": 26.620000000000005
+        },
+        {
+            "atleta_id": 102253,
+            "apelido": "Lucas Halter",
+            "clube_nome": "Botafogo",
+            "posicao_id": "zag",
+            "pontuacao_real": 0.0,
+            "pontuacao_prevista": 10.251999999999986
+        },
+        {
+            "atleta_id": 70916,
+            "apelido": "Diogo Barbosa",
+            "clube_nome": "Fluminense",
+            "posicao_id": "lat",
+            "pontuacao_real": 0.0,
+            "pontuacao_prevista": 12.623
+        },
+        {
+            "atleta_id": 82381,
+            "apelido": "Juninho",
+            "clube_nome": "América-MG",
+            "posicao_id": "mei",
+            "pontuacao_real": 4.2,
+            "pontuacao_prevista": 17.866999999999983
+        }
+    ]
+}
