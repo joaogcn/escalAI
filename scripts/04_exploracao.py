@@ -56,10 +56,10 @@ def run():
     print("  - Gerando Gráfico de Média de Pontos por Time e Posição...")
     current_year = df['ano'].max()
     df_filtered_for_chart = df[df['ano'] == current_year]
-    team_pos_performance = df_filtered_for_chart.groupby(['clube.nome', 'posicao_id'], observed=True)['pontos_num'].mean().reset_index()
-    fig_bar_team_pos = px.bar(team_pos_performance, x='clube.nome', y='pontos_num', color='posicao_id',
+    team_pos_performance = df_filtered_for_chart.groupby(['clube_nome', 'posicao_id'], observed=True)['pontos_num'].mean().reset_index()
+    fig_bar_team_pos = px.bar(team_pos_performance, x='clube_nome', y='pontos_num', color='posicao_id',
                               title=f'Média de Pontos por Time e Posição ({current_year})',
-                              labels={'clube.nome': 'Time', 'pontos_num': 'Média de Pontos', 'posicao_id': 'Posição'})
+                              labels={'clube_nome': 'Time', 'pontos_num': 'Média de Pontos', 'posicao_id': 'Posição'})
     pio.write_json(fig_bar_team_pos, os.path.join(VISUALIZATION_DATA_PATH, 'bar_pontos_time_posicao.json'))
 
     print("--- SUCESSO: [4/5] Geração de Gráficos Concluída ---")
