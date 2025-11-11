@@ -7,7 +7,7 @@
             "clube_nome": "Internacional",
             "posicao_id": "tec",
             "pontuacao_real": 0.0,
-            "pontuacao_prevista": 7.463699999999994
+            "pontuacao_prevista": 7.463699999999993
         },
         {
             "atleta_id": 51413,
@@ -15,7 +15,7 @@
             "clube_nome": "Cuiabá",
             "posicao_id": "gol",
             "pontuacao_real": 1.0,
-            "pontuacao_prevista": 9.231100000000001
+            "pontuacao_prevista": 9.2311
         },
         {
             "atleta_id": 79631,
@@ -31,7 +31,7 @@
             "clube_nome": "Botafogo",
             "posicao_id": "zag",
             "pontuacao_real": 0.0,
-            "pontuacao_prevista": 10.251999999999986
+            "pontuacao_prevista": 10.251999999999988
         },
         {
             "atleta_id": 70916,
@@ -39,7 +39,7 @@
             "clube_nome": "Fluminense",
             "posicao_id": "lat",
             "pontuacao_real": 0.0,
-            "pontuacao_prevista": 12.623
+            "pontuacao_prevista": 12.623000000000001
         },
         {
             "atleta_id": 82381,
@@ -47,7 +47,7 @@
             "clube_nome": "América-MG",
             "posicao_id": "mei",
             "pontuacao_real": 4.2,
-            "pontuacao_prevista": 17.866999999999983
+            "pontuacao_prevista": 17.86699999999998
         }
     ]
 }
