@@ -5,7 +5,7 @@ import json
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from src.config import CONSOLIDATED_OUTPUT_FILE, VISUALIZATION_DATA_PATH
-from src.dados import get_confrontos_rodada, get_current_season_players
+from src.dados import get_confrontos_rodada, get_mercado_data
 
 def run():
     """
@@ -55,8 +55,9 @@ def run():
     df_latest = df_latest[df_latest['jogos_disputados'] >= 3]
     print(f"  - DataFrame após filtrar jogadores com >= 3 jogos. Shape: {df_latest.shape}")
 
-    atletas_mercado = get_current_season_players()
-    if atletas_mercado:
+    mercado_data = get_mercado_data()
+    if mercado_data and 'atletas' in mercado_data:
+        atletas_mercado = mercado_data['atletas']
         df_mercado = pd.DataFrame(atletas_mercado)
         provaveis_ids = set(df_mercado[df_mercado['status_id'] == 7]['atleta_id'])
         print(f"  - Encontrados {len(provaveis_ids)} jogadores prováveis no mercado.")
@@ -87,7 +88,7 @@ def run():
             print(f"    - AVISO: Nenhum jogador encontrado para a posição: {pos_nome}")
 
         recomendacoes[pos_nome] = top_5[[
-            'apelido', 'clube.nome', 'posicao_id', 'preco_num', 
+            'apelido', 'clube_nome', 'posicao_id', 'preco_num', 
             'media_ultimas_5', 'media_geral', 'indice_escalai', 'proximo_confronto'
         ]].to_dict(orient='records')
 
