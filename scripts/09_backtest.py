@@ -14,6 +14,23 @@ FEATURES = [
     'PC', 'SG', 'GC', 'CV', 'PS', 'DP', 'V'
 ]
 BACKTEST_ROUNDS = 3
+TARGET_SCORES = {
+    'ata': 10, 'mei': 8, 'lat': 6, 'zag': 6, 'gol': 8, 'tec': 8
+}
+POSICOES = {
+    'Goleiro': 'gol', 'Lateral': 'lat', 'Zagueiro': 'zag', 
+    'Meia': 'mei', 'Atacante': 'ata', 'Técnico': 'tec'
+}
+
+def get_signal(actual_score, target_score):
+    """Retorna um sinal de trânsito com base na pontuação real vs. alvo."""
+    if actual_score >= target_score:
+        return "Verde"
+    # Pontuação entre 70% e 100% do alvo
+    elif actual_score >= target_score * 0.7:
+        return "Amarelo"
+    else:
+        return "Vermelho"
 
 def train_and_predict_for_round(rodada_alvo, df_historico_completo):
     """
@@ -41,13 +58,8 @@ def train_and_predict_for_round(rodada_alvo, df_historico_completo):
         print("  - AVISO: Nenhum jogador do mercado possui dados históricos para esta rodada.")
         return None
 
-    for col in FEATURES:
-        if col not in df_model_data.columns:
-            df_model_data[col] = 0
-    df_model_data[FEATURES] = df_model_data[FEATURES].fillna(0)
-
-    X = df_model_data[FEATURES]
-    y = df_model_data['pontos_num']
+    X = df_model_data.reindex(columns=FEATURES, fill_value=0)
+    y = df_model_data['pontos_num'].fillna(0)
 
     model = RandomForestRegressor(n_estimators=100, random_state=42, n_jobs=-1)
     model.fit(X, y)
@@ -89,26 +101,29 @@ def run():
     print(f"  - Rodadas a serem testadas: {rodadas_para_backtest}")
 
     for rodada in rodadas_para_backtest:
-        resultado_rodada = train_and_predict_for_round(rodada, df_historico)
+        resultado_rodada_df = train_and_predict_for_round(rodada, df_historico)
         
-        if resultado_rodada is not None:
-            recomendacoes = []
-            posicoes = resultado_rodada['posicao_id'].unique()
-            for pos in posicoes:
-                df_pos = resultado_rodada[resultado_rodada['posicao_id'] == pos]
+        if resultado_rodada_df is not None:
+            backtest_results = {}
+            for pos_nome, pos_id in POSICOES.items():
+                df_pos = resultado_rodada_df[resultado_rodada_df['posicao_id'] == pos_id]
                 if not df_pos.empty:
                     melhor_jogador = df_pos.sort_values(by='pontuacao_prevista', ascending=False).iloc[0]
-                    recomendacoes.append(melhor_jogador.to_dict())
-            
-            output_data = {
-                'rodada_id': int(rodada),
-                'recomendacoes': recomendacoes
-            }
+                    
+                    pontuacao_real = melhor_jogador['pontuacao_real']
+                    target_score = TARGET_SCORES.get(pos_id, 0)
+                    sinal = get_signal(pontuacao_real, target_score)
+                    
+                    backtest_results[pos_nome] = {
+                        'apelido': melhor_jogador['apelido'],
+                        'pontuacao_real': pontuacao_real,
+                        'sinal': sinal
+                    }
             
             output_filename = os.path.join(VISUALIZATION_DATA_PATH, f'backtest_rodada_{rodada}.json')
             os.makedirs(VISUALIZATION_DATA_PATH, exist_ok=True)
             with open(output_filename, 'w', encoding='utf-8') as f:
-                json.dump(output_data, f, ensure_ascii=False, indent=4)
+                json.dump(backtest_results, f, ensure_ascii=False, indent=4)
             
             print(f"  - Resultado do backtest para a rodada {rodada} salvo em {output_filename}")
 

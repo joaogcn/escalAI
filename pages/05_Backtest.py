@@ -3,6 +3,7 @@ import pandas as pd
 import json
 import os
 import glob
+import re
 
 VISUALIZATION_DATA_PATH = "dados_cartola/03_visualizacoes"
 
@@ -20,7 +21,7 @@ O processo de backtest treina o modelo com os dados disponíveis *antes* de cada
 
 @st.cache_data
 def carregar_resultados_backtest():
-    """Carrega os resultados dos arquivos de backtest gerados pelo script."""
+    """Carrega e processa os resultados dos arquivos de backtest gerados pelo pipeline."""
     resultados = []
     padrao_arquivo = os.path.join(VISUALIZATION_DATA_PATH, "backtest_rodada_*.json")
     arquivos_backtest = sorted(glob.glob(padrao_arquivo), reverse=True)
@@ -31,15 +32,34 @@ def carregar_resultados_backtest():
 
     for arquivo in arquivos_backtest:
         try:
+            # Extrai o número da rodada do nome do arquivo
+            match = re.search(r'backtest_rodada_(\d+)\.json', arquivo)
+            if not match:
+                continue
+            rodada_id = int(match.group(1))
+
             with open(arquivo, 'r', encoding='utf-8') as f:
                 dados = json.load(f)
-                resultados.append(dados)
+                if dados: # Garante que o arquivo não está vazio
+                    resultados.append({'rodada_id': rodada_id, 'data': dados})
         except (json.JSONDecodeError, FileNotFoundError):
             st.error(f"Erro ao ler o arquivo de backtest: {arquivo}")
             continue
             
+    # Ordena os resultados pela rodada_id em ordem decrescente
+    resultados.sort(key=lambda x: x['rodada_id'], reverse=True)
     return resultados
 
+def display_signal(sinal):
+    """Exibe o sinal de trânsito com cor e ícone."""
+    if sinal == "Verde":
+        st.success("✅ Verde")
+    elif sinal == "Amarelo":
+        st.warning("⚠️ Amarelo")
+    else:
+        st.error("❌ Vermelho")
+
+# --- Início da Exibição ---
 resultados_backtest = carregar_resultados_backtest()
 
 if not resultados_backtest:
@@ -47,11 +67,9 @@ if not resultados_backtest:
 else:
     st.header("Análise de Desempenho por Rodada")
 
-    resultados_backtest.sort(key=lambda x: x['rodada_id'], reverse=True)
-
     for resultado in resultados_backtest:
         rodada_id = resultado['rodada_id']
-        recomendacoes = resultado.get('recomendacoes', [])
+        recomendacoes = resultado.get('data', {})
         
         st.subheader(f"🔍 Rodada {rodada_id}")
 
@@ -59,35 +77,27 @@ else:
             st.write("Nenhuma recomendação foi gerada para esta rodada.")
             continue
 
-        df_recomendacoes = pd.DataFrame(recomendacoes)
-        
-        pos_map = {'ata': 'Atacante', 'mei': 'Meia', 'lat': 'Lateral', 'zag': 'Zagueiro', 'gol': 'Goleiro', 'tec': 'Técnico'}
-        df_recomendacoes['posicao_id'] = df_recomendacoes['posicao_id'].map(pos_map)
+        ordered_pos = ["Goleiro", "Lateral", "Zagueiro", "Meia", "Atacante", "Técnico"]
+        cols = st.columns(len(ordered_pos))
 
-        colunas_exibicao = {
-            'apelido': 'Apelido',
-            'clube.nome': 'Clube',
-            'posicao_id': 'Posição',
-            'pontuacao_prevista': 'Pontuação Prevista',
-            'pontuacao_real': 'Pontuação Real'
-        }
+        for i, pos_nome in enumerate(ordered_pos):
+            if pos_nome in recomendacoes:
+                jogador = recomendacoes[pos_nome]
+                with cols[i]:
+                    with st.container(border=True):
+                        st.subheader(pos_nome)
+                        st.markdown(f"**{jogador['apelido']}**")
+                        
+                        st.metric(
+                            label="Pontuação Real",
+                            value=f"{jogador['pontuacao_real']:.2f}"
+                        )
+                        
+                        display_signal(jogador['sinal'])
         
-        df_display = df_recomendacoes[colunas_exibicao.keys()].rename(columns=colunas_exibicao)
-        
-        st.dataframe(
-            df_display.sort_values(by='Pontuação Real', ascending=False).reset_index(drop=True),
-            use_container_width=True
-        )
-
-        pontuacao_total_real = df_display['Pontuação Real'].sum()
-        pontuacao_total_prevista = df_display['Pontuação Prevista'].sum()
-        
-        col1, col2 = st.columns(2)
-        col1.metric(label="Pontuação Total Real dos Recomendados", value=f"{pontuacao_total_real:.2f}")
-        col2.metric(label="Pontuação Total Prevista", value=f"{pontuacao_total_prevista:.2f}")
         st.markdown("---")
 
 st.info("""
-**Como ler esta página:** Cada tabela mostra as recomendações que o modelo *teria feito* para aquela rodada, com base nos dados disponíveis na época. 
-A "Pontuação Prevista" é o que o modelo esperava, e a "Pontuação Real" é o resultado que o jogador de fato alcançou.
+**Como ler esta página:** Para cada rodada passada, mostramos o jogador que o modelo teria recomendado para cada posição. 
+A "Pontuação Real" é o resultado que o jogador de fato alcançou. O sinal indica se a pontuação atingiu a meta definida para a posição.
 """)
