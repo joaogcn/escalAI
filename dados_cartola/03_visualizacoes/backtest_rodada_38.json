@@ -1,0 +1,32 @@
+{
+    "Goleiro": {
+        "apelido": "Vladimir",
+        "pontuacao_real": 0.0,
+        "sinal": "Vermelho"
+    },
+    "Lateral": {
+        "apelido": "Natanael",
+        "pontuacao_real": 0.0,
+        "sinal": "Vermelho"
+    },
+    "Zagueiro": {
+        "apelido": "Murilo",
+        "pontuacao_real": 4.8,
+        "sinal": "Amarelo"
+    },
+    "Meia": {
+        "apelido": "Philippe Coutinho",
+        "pontuacao_real": 3.0,
+        "sinal": "Vermelho"
+    },
+    "Atacante": {
+        "apelido": "Pedro Rocha",
+        "pontuacao_real": 3.3,
+        "sinal": "Vermelho"
+    },
+    "Técnico": {
+        "apelido": "Juan Vojvoda",
+        "pontuacao_real": 7.31,
+        "sinal": "Amarelo"
+    }
+}
