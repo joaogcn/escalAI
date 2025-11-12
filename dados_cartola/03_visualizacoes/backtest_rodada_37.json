@@ -1,53 +1,32 @@
 {
-    "rodada_id": 37,
-    "recomendacoes": [
-        {
-            "atleta_id": 37281,
-            "apelido": "Mano Menezes",
-            "clube_nome": "Internacional",
-            "posicao_id": "tec",
-            "pontuacao_real": 0.0,
-            "pontuacao_prevista": 7.463699999999994
-        },
-        {
-            "atleta_id": 51413,
-            "apelido": "Walter",
-            "clube_nome": "Cuiabá",
-            "posicao_id": "gol",
-            "pontuacao_real": 1.0,
-            "pontuacao_prevista": 9.2311
-        },
-        {
-            "atleta_id": 79631,
-            "apelido": "Cano",
-            "clube_nome": "Fluminense",
-            "posicao_id": "ata",
-            "pontuacao_real": 9.6,
-            "pontuacao_prevista": 26.620000000000005
-        },
-        {
-            "atleta_id": 102253,
-            "apelido": "Lucas Halter",
-            "clube_nome": "Botafogo",
-            "posicao_id": "zag",
-            "pontuacao_real": 0.0,
-            "pontuacao_prevista": 10.251999999999986
-        },
-        {
-            "atleta_id": 70916,
-            "apelido": "Diogo Barbosa",
-            "clube_nome": "Fluminense",
-            "posicao_id": "lat",
-            "pontuacao_real": 0.0,
-            "pontuacao_prevista": 12.623000000000001
-        },
-        {
-            "atleta_id": 82381,
-            "apelido": "Juninho",
-            "clube_nome": "América-MG",
-            "posicao_id": "mei",
-            "pontuacao_real": 4.2,
-            "pontuacao_prevista": 17.86699999999998
-        }
-    ]
+    "Goleiro": {
+        "apelido": "Walter",
+        "pontuacao_real": 1.0,
+        "sinal": "Vermelho"
+    },
+    "Lateral": {
+        "apelido": "Diogo Barbosa",
+        "pontuacao_real": 0.0,
+        "sinal": "Vermelho"
+    },
+    "Zagueiro": {
+        "apelido": "Lucas Halter",
+        "pontuacao_real": 0.0,
+        "sinal": "Vermelho"
+    },
+    "Meia": {
+        "apelido": "Juninho",
+        "pontuacao_real": -0.9,
+        "sinal": "Vermelho"
+    },
+    "Atacante": {
+        "apelido": "Cano",
+        "pontuacao_real": 9.6,
+        "sinal": "Amarelo"
+    },
+    "Técnico": {
+        "apelido": "Mano Menezes",
+        "pontuacao_real": 0.0,
+        "sinal": "Vermelho"
+    }
 }

@@ -1,53 +1,32 @@
 {
-    "rodada_id": 36,
-    "recomendacoes": [
-        {
-            "atleta_id": 45125,
-            "apelido": "Tite",
-            "clube_nome": "Flamengo",
-            "posicao_id": "tec",
-            "pontuacao_real": 2.43,
-            "pontuacao_prevista": 9.580499999999986
-        },
-        {
-            "atleta_id": 72580,
-            "apelido": "Matheus Cavichioli",
-            "clube_nome": "América-MG",
-            "posicao_id": "gol",
-            "pontuacao_real": 2.0,
-            "pontuacao_prevista": 13.835999999999997
-        },
-        {
-            "atleta_id": 68920,
-            "apelido": "Dudu",
-            "clube_nome": "Palmeiras",
-            "posicao_id": "ata",
-            "pontuacao_real": 4.3,
-            "pontuacao_prevista": 17.30300000000002
-        },
-        {
-            "atleta_id": 78248,
-            "apelido": "Gustavo Henrique",
-            "clube_nome": "Corinthians",
-            "posicao_id": "zag",
-            "pontuacao_real": -0.8,
-            "pontuacao_prevista": 9.21500000000001
-        },
-        {
-            "atleta_id": 61987,
-            "apelido": "Alex Sandro",
-            "clube_nome": "Flamengo",
-            "posicao_id": "lat",
-            "pontuacao_real": 12.2,
-            "pontuacao_prevista": 11.045199999999987
-        },
-        {
-            "atleta_id": 117632,
-            "apelido": "Garro",
-            "clube_nome": "Corinthians",
-            "posicao_id": "mei",
-            "pontuacao_real": 16.2,
-            "pontuacao_prevista": 21.031000000000027
-        }
-    ]
+    "Goleiro": {
+        "apelido": "Matheus Cavichioli",
+        "pontuacao_real": 2.0,
+        "sinal": "Vermelho"
+    },
+    "Lateral": {
+        "apelido": "Alex Sandro",
+        "pontuacao_real": 12.2,
+        "sinal": "Verde"
+    },
+    "Zagueiro": {
+        "apelido": "Gustavo Henrique",
+        "pontuacao_real": -0.8,
+        "sinal": "Vermelho"
+    },
+    "Meia": {
+        "apelido": "Garro",
+        "pontuacao_real": 16.2,
+        "sinal": "Verde"
+    },
+    "Atacante": {
+        "apelido": "Dudu",
+        "pontuacao_real": 4.3,
+        "sinal": "Vermelho"
+    },
+    "Técnico": {
+        "apelido": "Tite",
+        "pontuacao_real": 2.43,
+        "sinal": "Vermelho"
+    }
 }
