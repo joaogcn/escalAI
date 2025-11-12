@@ -5,7 +5,10 @@ import os
 import glob
 import re
 
-VISUALIZATION_DATA_PATH = "dados_cartola/03_visualizacoes"
+# Constrói um caminho absoluto para o diretório de visualizações, tornando o script mais robusto.
+# O script está em /pages, então a raiz do projeto é um nível acima.
+PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+VISUALIZATION_DATA_PATH = os.path.join(PROJECT_ROOT, "dados_cartola", "03_visualizacoes")
 
 st.set_page_config(
     page_title="Backtest do Modelo",
@@ -27,26 +30,24 @@ def carregar_resultados_backtest():
     arquivos_backtest = sorted(glob.glob(padrao_arquivo), reverse=True)
     
     if not arquivos_backtest:
-        st.warning("Nenhum arquivo de resultado de backtest foi encontrado. Execute o pipeline de dados, incluindo o script de backtest.")
+        st.warning(f"Nenhum arquivo de resultado de backtest foi encontrado no padrão: {padrao_arquivo}. Execute o pipeline de dados, incluindo o script de backtest.")
         return []
 
     for arquivo in arquivos_backtest:
         try:
-            # Extrai o número da rodada do nome do arquivo
-            match = re.search(r'backtest_rodada_(\d+)\.json', arquivo)
+            match = re.search(r'backtest_rodada_(\d+)\.json', os.path.basename(arquivo))
             if not match:
                 continue
             rodada_id = int(match.group(1))
 
             with open(arquivo, 'r', encoding='utf-8') as f:
                 dados = json.load(f)
-                if dados: # Garante que o arquivo não está vazio
+                if dados:
                     resultados.append({'rodada_id': rodada_id, 'data': dados})
         except (json.JSONDecodeError, FileNotFoundError):
             st.error(f"Erro ao ler o arquivo de backtest: {arquivo}")
             continue
             
-    # Ordena os resultados pela rodada_id em ordem decrescente
     resultados.sort(key=lambda x: x['rodada_id'], reverse=True)
     return resultados
 
