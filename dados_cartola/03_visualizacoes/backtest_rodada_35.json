@@ -15,7 +15,7 @@
             "clube_nome": "Cuiabá",
             "posicao_id": "gol",
             "pontuacao_real": 9.0,
-            "pontuacao_prevista": 12.255
+            "pontuacao_prevista": 12.255000000000003
         },
         {
             "atleta_id": 79631,
@@ -23,7 +23,7 @@
             "clube_nome": "Fluminense",
             "posicao_id": "ata",
             "pontuacao_real": 0.0,
-            "pontuacao_prevista": 19.24200000000001
+            "pontuacao_prevista": 19.242000000000015
         },
         {
             "atleta_id": 93368,
