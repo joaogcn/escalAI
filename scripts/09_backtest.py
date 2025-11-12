@@ -100,20 +100,21 @@ def run():
     df_historico = pd.read_parquet(CONSOLIDATED_OUTPUT_FILE)
     print(f"  - Dados históricos carregados. Shape: {df_historico.shape}")
 
-    rodadas_disponiveis = sorted(df_historico['rodada_id'].unique(), reverse=True)
-    if not rodadas_disponiveis:
-        print("ERRO: Nenhum dado de rodada encontrado no arquivo consolidado.")
-        return False
+    # Identifica as rodadas que foram de fato jogadas (têm pontuação)
+    df_com_pontos = df_historico[df_historico['pontos_num'].notna()]
+    rodadas_completas = sorted(df_com_pontos['rodada_id'].unique(), reverse=True)
 
-    rodada_mais_recente = rodadas_disponiveis[0]
-    rodadas_para_backtest = [r for r in rodadas_disponiveis if r < rodada_mais_recente][:BACKTEST_ROUNDS]
-
-    if not rodadas_para_backtest:
-        print("AVISO: Não há rodadas anteriores suficientes para o backtest. É necessária pelo menos 1 rodada completa no histórico além da mais recente.")
+    if len(rodadas_completas) < 2:
+        print("AVISO: Não há rodadas completas suficientes para o backtest. É necessária pelo menos 1 rodada completa no histórico para treinar e 1 para testar.")
         return True
 
-    print(f"  - Rodada mais recente nos dados: {rodada_mais_recente}")
-    print(f"  - Rodadas a serem testadas (as {BACKTEST_ROUNDS} anteriores): {rodadas_para_backtest}")
+    # As rodadas para testar são as N mais recentes que têm dados de pontuação
+    rodadas_para_backtest = rodadas_completas[:BACKTEST_ROUNDS]
+    
+    ultima_rodada_completa = rodadas_completas[0]
+
+    print(f"  - Última rodada com pontuação encontrada nos dados: {ultima_rodada_completa}")
+    print(f"  - Rodadas a serem testadas (as {BACKTEST_ROUNDS} mais recentes com dados): {rodadas_para_backtest}")
 
     for rodada in rodadas_para_backtest:
         resultado_rodada_df = train_and_predict_for_round(rodada, df_historico)
