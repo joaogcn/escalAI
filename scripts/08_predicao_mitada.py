@@ -2,7 +2,6 @@ import pandas as pd
 import os
 import sys
 import json
-import re
 from sklearn.ensemble import RandomForestRegressor
 import numpy as np
 
@@ -15,51 +14,57 @@ def run():
     Gera dicas de mitada usando uma abordagem híbrida: treina o modelo com dados
     históricos, mas filtra e apresenta os jogadores com base no mercado atual.
     """
-    print('--- INICIANDO: Geração de Dicas de Mitada (v7 - Híbrido) ---')
+    print('--- INICIANDO: Geração de Dicas de Mitada (v8 - Corrigido) ---')
 
-    # --- 1. Carga de Dados ---
+    # --- 1. Carga de Dados Históricos ---
     if not os.path.exists(CONSOLIDATED_OUTPUT_FILE):
         print(f"ERRO: Arquivo de dados consolidados não encontrado em {CONSOLIDATED_OUTPUT_FILE}")
         return False
     df_historico = pd.read_parquet(CONSOLIDATED_OUTPUT_FILE)
     print(f"  - DataFrame histórico carregado. Shape: {df_historico.shape}")
 
-    # --- 2. Buscar Dados do Mercado Atual ---
+    # --- 2. Buscar e Preparar Dados do Mercado Atual ---
     try:
         mercado_data = get_mercado_data()
         if not mercado_data or 'atletas' not in mercado_data:
             print("  - AVISO: Não foi possível obter dados do mercado. Abortando.")
             return False
         
-        # Extrair atletas e clubes
         atletas_mercado = mercado_data['atletas']
         clubes_mercado = mercado_data['clubes']
+        posicoes_mercado = mercado_data['posicoes']
         
-        # Criar DataFrame e mapa de clubes
         df_mercado = pd.DataFrame(atletas_mercado)
-        clubes_map = {str(clube['id']): clube['nome'] for clube in clubes_mercado.values()}
         
-        # Adicionar nome do clube ao DataFrame do mercado
-        df_mercado['clube_nome'] = df_mercado['clube_id'].astype(str).map(clubes_map)
+        # Mapear IDs de clubes para nomes
+        clubes_map = {clube['id']: clube['nome'] for clube in clubes_mercado.values()}
+        df_mercado['clube_nome'] = df_mercado['clube_id'].map(clubes_map)
 
-        # Garantir que apenas jogadores prováveis sejam considerados
+        # Mapear IDs de posição para abreviações (e.g., 1 -> 'gol')
+        posicoes_map = {pos['id']: pos['abreviacao'] for pos in posicoes_mercado.values()}
+        df_mercado['posicao_id'] = df_mercado['posicao_id'].map(posicoes_map)
+
+        # Filtrar apenas jogadores com status "Provável"
         df_mercado = df_mercado[df_mercado['status_id'] == 7].copy()
-        print(f"  - Dados do mercado carregados. Jogadores prováveis: {df_mercado.shape[0]}")
+        print(f"  - Dados do mercado carregados e processados. Jogadores prováveis: {df_mercado.shape[0]}")
+
     except Exception as e:
-        print(f"  - ERRO ao buscar dados do mercado: {e}. Abortando.")
+        print(f"  - ERRO ao buscar ou processar dados do mercado: {e}. Abortando.")
+        return False
+
+    if df_mercado.empty:
+        print("  - AVISO: Nenhum jogador provável encontrado no mercado. Abortando.")
         return False
 
     # --- 3. Preparar Dados para o Modelo ---
-    # Pegar a última partida registrada de CADA jogador no histórico
     df_latest_historico = df_historico.loc[df_historico.groupby('atleta_id')['rodada_id'].idxmax()]
-
-    # Filtrar o histórico para conter apenas jogadores que estão no mercado atual
+    
     jogadores_mercado_ids = df_mercado['atleta_id'].unique()
     df_model_data = df_latest_historico[df_latest_historico['atleta_id'].isin(jogadores_mercado_ids)].copy()
     print(f"  - Jogadores do mercado encontrados no histórico: {df_model_data.shape[0]}")
 
     if df_model_data.empty:
-        print("  - AVISO: Nenhum jogador do mercado atual possui dados históricos para previsão.")
+        print("  - AVISO: Nenhum jogador do mercado atual possui dados históricos para previsão. O arquivo de recomendação não será gerado.")
         return False
 
     # --- 4. Feature Engineering e Treinamento ---
@@ -68,13 +73,10 @@ def run():
         'FD', 'FF', 'FS', 'FT', 'G', 'I', 'PI', 'PP', 'CA', 'DE', 'GS', 
         'PC', 'SG', 'GC', 'CV', 'PS', 'DP', 'V'
     ]
-    for col in features:
-        if col not in df_model_data.columns:
-            df_model_data[col] = 0
-    df_model_data[features] = df_model_data[features].fillna(0)
+    df_model_data = df_model_data.reindex(columns=features, fill_value=0)
 
     X = df_model_data[features]
-    y = df_model_data['pontos_num']
+    y = df_historico.loc[X.index, 'pontos_num'] # Garante que y corresponda a X
 
     model = RandomForestRegressor(n_estimators=100, random_state=42, n_jobs=-1)
     model.fit(X, y)
@@ -83,31 +85,38 @@ def run():
     # --- 5. Predição e Junção com Dados de Mercado ---
     df_model_data['pontuacao_prevista'] = model.predict(X)
     
-    # Usar os dados de mercado como base para as informações atuais
     df_predict = df_mercado[['atleta_id', 'apelido', 'clube_nome', 'posicao_id']].copy()
     df_predict = df_predict.merge(df_model_data[['atleta_id', 'pontuacao_prevista']], on='atleta_id', how='left')
-    df_predict['pontuacao_prevista'] = df_predict['pontuacao_prevista'].fillna(0) # Preenche com 0 se não houver previsão
+    df_predict['pontuacao_prevista'] = df_predict['pontuacao_prevista'].fillna(0)
     print("  - Predições geradas e unidas com os dados de mercado atuais.")
 
     # --- 6. Recomendação Final ---
     recomendacoes = {}
-    posicoes = {
-        "Goleiro": "gol", "Lateral": "lat", "Zagueiro": "zag",
-        "Meia": "mei", "Atacante": "ata", "Técnico": "tec"
+    posicoes_map_inv = {v: k for k, v in posicoes_map.items()}
+    posicoes_nomes = {
+        "gol": "Goleiro", "lat": "Lateral", "zag": "Zagueiro",
+        "mei": "Meia", "ata": "Atacante", "tec": "Técnico"
     }
 
-    for pos_nome, pos_id in posicoes.items():
-        df_pos = df_predict[df_predict['posicao_id'] == pos_id]
+    for pos_abbr, pos_nome in posicoes_nomes.items():
+        df_pos = df_predict[df_predict['posicao_id'] == pos_abbr]
         if not df_pos.empty:
             best_player = df_pos.sort_values(by='pontuacao_prevista', ascending=False).iloc[0]
             recomendacoes[pos_nome] = best_player[['apelido', 'clube_nome']].to_dict()
+            print(f"    - Melhor jogador para '{pos_nome}': {best_player['apelido']}")
+        else:
+            print(f"    - AVISO: Nenhum jogador encontrado para a posição: {pos_nome}")
 
     output_path = os.path.join(VISUALIZATION_DATA_PATH, 'recomendacao_mitada.json')
     os.makedirs(VISUALIZATION_DATA_PATH, exist_ok=True)
     with open(output_path, 'w', encoding='utf-8') as f:
         json.dump(recomendacoes, f, ensure_ascii=False, indent=4)
 
-    print(f"  - Recomendações salvas em: {output_path}")
+    if not recomendacoes:
+        print("  - AVISO FINAL: Nenhuma recomendação foi gerada. O arquivo JSON está vazio.")
+    else:
+        print(f"  - Recomendações salvas em: {output_path}")
+
     print('--- SUCESSO: Geração de Dicas de Mitada Concluída ---')
     return True
 
