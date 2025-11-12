@@ -8,7 +8,7 @@ import numpy as np
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from src.config import CONSOLIDATED_OUTPUT_FILE, VISUALIZATION_DATA_PATH
-from src.dados import get_current_season_players, get_confrontos_rodada
+from src.dados import get_mercado_data
 
 def run():
     """
@@ -26,11 +26,22 @@ def run():
 
     # --- 2. Buscar Dados do Mercado Atual ---
     try:
-        atletas_mercado = get_current_season_players()
-        if not atletas_mercado:
+        mercado_data = get_mercado_data()
+        if not mercado_data or 'atletas' not in mercado_data:
             print("  - AVISO: Não foi possível obter dados do mercado. Abortando.")
             return False
+        
+        # Extrair atletas e clubes
+        atletas_mercado = mercado_data['atletas']
+        clubes_mercado = mercado_data['clubes']
+        
+        # Criar DataFrame e mapa de clubes
         df_mercado = pd.DataFrame(atletas_mercado)
+        clubes_map = {str(clube['id']): clube['nome'] for clube in clubes_mercado.values()}
+        
+        # Adicionar nome do clube ao DataFrame do mercado
+        df_mercado['clube_nome'] = df_mercado['clube_id'].astype(str).map(clubes_map)
+
         # Garantir que apenas jogadores prováveis sejam considerados
         df_mercado = df_mercado[df_mercado['status_id'] == 7].copy()
         print(f"  - Dados do mercado carregados. Jogadores prováveis: {df_mercado.shape[0]}")
@@ -73,7 +84,7 @@ def run():
     df_model_data['pontuacao_prevista'] = model.predict(X)
     
     # Usar os dados de mercado como base para as informações atuais
-    df_predict = df_mercado[['atleta_id', 'apelido', 'clube.nome', 'posicao_id']].copy()
+    df_predict = df_mercado[['atleta_id', 'apelido', 'clube_nome', 'posicao_id']].copy()
     df_predict = df_predict.merge(df_model_data[['atleta_id', 'pontuacao_prevista']], on='atleta_id', how='left')
     df_predict['pontuacao_prevista'] = df_predict['pontuacao_prevista'].fillna(0) # Preenche com 0 se não houver previsão
     print("  - Predições geradas e unidas com os dados de mercado atuais.")
@@ -89,7 +100,7 @@ def run():
         df_pos = df_predict[df_predict['posicao_id'] == pos_id]
         if not df_pos.empty:
             best_player = df_pos.sort_values(by='pontuacao_prevista', ascending=False).iloc[0]
-            recomendacoes[pos_nome] = best_player[['apelido', 'clube.nome']].to_dict()
+            recomendacoes[pos_nome] = best_player[['apelido', 'clube_nome']].to_dict()
 
     output_path = os.path.join(VISUALIZATION_DATA_PATH, 'recomendacao_mitada.json')
     os.makedirs(VISUALIZATION_DATA_PATH, exist_ok=True)
