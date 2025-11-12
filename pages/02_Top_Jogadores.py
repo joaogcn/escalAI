@@ -37,7 +37,7 @@ posicoes = ['Todas'] + sorted(df_agregado['posicao'].unique())
 posicao_selecionada = st.sidebar.selectbox("Selecione a Posição", posicoes)
 
 # Filtro de Clube
-clubes = ['Todos'] + sorted(df_consolidado['clube.nome'].dropna().unique())
+clubes = ['Todos'] + sorted(df_consolidado['clube_nome'].dropna().unique())
 clube_selecionado = st.sidebar.selectbox("Selecione o Clube", clubes)
 
 # Filtrar dados com base nas seleções

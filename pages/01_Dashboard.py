@@ -36,7 +36,7 @@ if df_consolidado is not None and df_agregado is not None:
     posicoes = ['Todas'] + sorted(df_agregado['posicao'].unique())
     posicao_selecionada = st.sidebar.selectbox("Selecione a Posição", posicoes)
 
-    clubes = ['Todos'] + sorted(df_consolidado['clube.nome'].dropna().unique())
+    clubes = ['Todos'] + sorted(df_consolidado['clube_nome'].dropna().unique())
     clube_selecionado = st.sidebar.selectbox("Selecione o Clube", clubes)
 
     df_agregado_filtrado = df_agregado.copy()
@@ -53,7 +53,7 @@ if df_consolidado is not None and df_agregado is not None:
     if posicao_selecionada != 'Todas':
         df_consolidado_filtrado = df_consolidado_filtrado[df_consolidado_filtrado['posicao_id'] == posicao_selecionada]
     if clube_selecionado != 'Todos':
-        df_consolidado_filtrado = df_consolidado_filtrado[df_consolidado_filtrado['clube.nome'] == clube_selecionado]
+        df_consolidado_filtrado = df_consolidado_filtrado[df_consolidado_filtrado['clube_nome'] == clube_selecionado]
 
 
     fig_custo_beneficio = px.scatter(
