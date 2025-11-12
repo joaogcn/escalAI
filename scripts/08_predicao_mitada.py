@@ -14,7 +14,7 @@ def run():
     Gera dicas de mitada usando uma abordagem híbrida: treina o modelo com dados
     históricos, mas filtra e apresenta os jogadores com base no mercado atual.
     """
-    print('--- INICIANDO: Geração de Dicas de Mitada (v8 - Corrigido) ---')
+    print('--- INICIANDO: Geração de Dicas de Mitada (v9 - Corrigido) ---')
 
     # --- 1. Carga de Dados Históricos ---
     if not os.path.exists(CONSOLIDATED_OUTPUT_FILE):
@@ -36,15 +36,12 @@ def run():
         
         df_mercado = pd.DataFrame(atletas_mercado)
         
-        # Mapear IDs de clubes para nomes
         clubes_map = {clube['id']: clube['nome'] for clube in clubes_mercado.values()}
         df_mercado['clube_nome'] = df_mercado['clube_id'].map(clubes_map)
 
-        # Mapear IDs de posição para abreviações (e.g., 1 -> 'gol')
         posicoes_map = {pos['id']: pos['abreviacao'] for pos in posicoes_mercado.values()}
         df_mercado['posicao_id'] = df_mercado['posicao_id'].map(posicoes_map)
 
-        # Filtrar apenas jogadores com status "Provável"
         df_mercado = df_mercado[df_mercado['status_id'] == 7].copy()
         print(f"  - Dados do mercado carregados e processados. Jogadores prováveis: {df_mercado.shape[0]}")
 
@@ -73,10 +70,9 @@ def run():
         'FD', 'FF', 'FS', 'FT', 'G', 'I', 'PI', 'PP', 'CA', 'DE', 'GS', 
         'PC', 'SG', 'GC', 'CV', 'PS', 'DP', 'V'
     ]
-    df_model_data = df_model_data.reindex(columns=features, fill_value=0)
-
-    X = df_model_data[features]
-    y = df_historico.loc[X.index, 'pontos_num'] # Garante que y corresponda a X
+    
+    X = df_model_data.reindex(columns=features, fill_value=0)
+    y = df_model_data['pontos_num'].fillna(0)
 
     model = RandomForestRegressor(n_estimators=100, random_state=42, n_jobs=-1)
     model.fit(X, y)
@@ -92,7 +88,6 @@ def run():
 
     # --- 6. Recomendação Final ---
     recomendacoes = {}
-    posicoes_map_inv = {v: k for k, v in posicoes_map.items()}
     posicoes_nomes = {
         "gol": "Goleiro", "lat": "Lateral", "zag": "Zagueiro",
         "mei": "Meia", "ata": "Atacante", "tec": "Técnico"
