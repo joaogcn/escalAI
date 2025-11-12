@@ -44,7 +44,7 @@ if os.path.exists(mitada_path):
                     with st.container(border=True):
                         st.subheader(pos_nome)
                         st.markdown(f"**{jogador['apelido']}**")
-                        st.caption(f"{jogador['clube.nome']}")
+                        st.caption(f"{jogador['clube_nome']}")
     else:
         st.info("As dicas de mitada ainda não foram geradas. Execute o pipeline.")
 else:
@@ -79,7 +79,7 @@ for posicao, jogadores in recomendacoes.items():
     
     for i, jogador in enumerate(jogadores):
         with cols[i]:
-            with st.expander(f"**{jogador['apelido']}** - {jogador['clube.nome']}", expanded=True):
+            with st.expander(f"**{jogador['apelido']}** - {jogador['clube_nome']}", expanded=True):
                 st.caption(f"Próximo Jogo: {jogador.get('proximo_confronto', 'N/A')}")
                 st.metric(
                     label="Índice EscalAI",
