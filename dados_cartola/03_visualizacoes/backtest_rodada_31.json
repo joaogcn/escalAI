@@ -1,0 +1,32 @@
+{
+    "Goleiro": {
+        "apelido": "Everson",
+        "pontuacao_real": 13.1,
+        "sinal": "Verde"
+    },
+    "Lateral": {
+        "apelido": "Samuel Xavier",
+        "pontuacao_real": 0.0,
+        "sinal": "Vermelho"
+    },
+    "Zagueiro": {
+        "apelido": "Arboleda",
+        "pontuacao_real": 6.2,
+        "sinal": "Verde"
+    },
+    "Meia": {
+        "apelido": "Bobadilla",
+        "pontuacao_real": 1.5,
+        "sinal": "Vermelho"
+    },
+    "Atacante": {
+        "apelido": "Carlos Vinícius",
+        "pontuacao_real": 1.7,
+        "sinal": "Vermelho"
+    },
+    "Técnico": {
+        "apelido": "Hernán Crespo",
+        "pontuacao_real": 8.94,
+        "sinal": "Verde"
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "Goleiro": {
+        "apelido": "Cássio",
+        "pontuacao_real": 9.9,
+        "sinal": "Verde"
+    },
+    "Lateral": {
+        "apelido": "William",
+        "pontuacao_real": 8.2,
+        "sinal": "Verde"
+    },
+    "Zagueiro": {
+        "apelido": "Lucas Halter",
+        "pontuacao_real": 8.3,
+        "sinal": "Verde"
+    },
+    "Meia": {
+        "apelido": "Lucho Acosta",
+        "pontuacao_real": 3.2,
+        "sinal": "Vermelho"
+    },
+    "Atacante": {
+        "apelido": "Vitor Roque",
+        "pontuacao_real": 13.7,
+        "sinal": "Verde"
+    },
+    "Técnico": {
+        "apelido": "Jorge Sampaoli",
+        "pontuacao_real": 8.58,
+        "sinal": "Verde"
+    }
+}
