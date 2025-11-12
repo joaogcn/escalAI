@@ -1,1 +1,26 @@
-{}
+{
+    "Goleiro": {
+        "apelido": "Bruno Ferreira",
+        "clube_nome": "CEA"
+    },
+    "Lateral": {
+        "apelido": "Mancuso",
+        "clube_nome": "FOR"
+    },
+    "Zagueiro": {
+        "apelido": "Thiago Silva",
+        "clube_nome": "FLU"
+    },
+    "Meia": {
+        "apelido": "Fernando Sobral",
+        "clube_nome": "CEA"
+    },
+    "Atacante": {
+        "apelido": "Willian José",
+        "clube_nome": "BAH"
+    },
+    "Técnico": {
+        "apelido": "Rogério Ceni",
+        "clube_nome": "BAH"
+    }
+}
