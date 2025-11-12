@@ -31,21 +31,21 @@ def get_signal(actual_score, target_score):
     else:
         return "Vermelho"
 
-def train_and_predict_for_round(rodada_alvo, df_historico_completo):
+def train_and_predict_for_round(rodada_alvo, df_historico_temporada):
     """
     Treina um modelo com dados até a rodada anterior à 'rodada_alvo'
-    e gera previsões para ela.
+    e gera previsões para ela, dentro de uma mesma temporada.
     """
     print(f"\n--- Processando Backtest para Rodada {rodada_alvo} ---")
 
-    df_mercado_simulado = df_historico_completo[df_historico_completo['rodada_id'] == rodada_alvo].copy()
+    df_mercado_simulado = df_historico_temporada[df_historico_temporada['rodada_id'] == rodada_alvo].copy()
     if df_mercado_simulado.empty:
         print(f"  - AVISO: Sem dados para a rodada {rodada_alvo}. Pulando.")
         return None
     
     jogadores_mercado_ids = df_mercado_simulado['atleta_id'].unique()
     
-    df_treinamento = df_historico_completo[df_historico_completo['rodada_id'] < rodada_alvo].copy()
+    df_treinamento = df_historico_temporada[df_historico_temporada['rodada_id'] < rodada_alvo].copy()
     print(f"  - Shape do df_treinamento (rodadas < {rodada_alvo}): {df_treinamento.shape}")
     
     if df_treinamento.empty:
@@ -88,7 +88,7 @@ def train_and_predict_for_round(rodada_alvo, df_historico_completo):
 
 def run():
     """
-    Orquestra o processo de backtest para as últimas N rodadas.
+    Orquestra o processo de backtest para as últimas N rodadas da temporada mais recente.
     """
     print("==================================================")
     print("INICIANDO SCRIPT DE BACKTEST DO MODELO...")
@@ -97,15 +97,20 @@ def run():
     if not os.path.exists(CONSOLIDATED_OUTPUT_FILE):
         print(f"ERRO: Arquivo de dados consolidados não encontrado em {CONSOLIDATED_OUTPUT_FILE}")
         return False
-    df_historico = pd.read_parquet(CONSOLIDATED_OUTPUT_FILE)
-    print(f"  - Dados históricos carregados. Shape: {df_historico.shape}")
+    df_historico_total = pd.read_parquet(CONSOLIDATED_OUTPUT_FILE)
+    print(f"  - Dados históricos carregados. Shape total: {df_historico_total.shape}")
 
-    # Identifica as rodadas que foram de fato jogadas (têm pontuação)
-    df_com_pontos = df_historico[df_historico['pontos_num'].notna()]
+    # Filtra para a temporada mais recente
+    ano_atual = df_historico_total['ano'].max()
+    df_historico_temporada = df_historico_total[df_historico_total['ano'] == ano_atual].copy()
+    print(f"  - Filtrando dados para a temporada mais recente: {int(ano_atual)}. Shape: {df_historico_temporada.shape}")
+
+    # Identifica as rodadas que foram de fato jogadas (têm pontuação) na temporada atual
+    df_com_pontos = df_historico_temporada[df_historico_temporada['pontos_num'].notna()]
     rodadas_completas = sorted(df_com_pontos['rodada_id'].unique(), reverse=True)
 
     if len(rodadas_completas) < 2:
-        print("AVISO: Não há rodadas completas suficientes para o backtest. É necessária pelo menos 1 rodada completa no histórico para treinar e 1 para testar.")
+        print("AVISO: Não há rodadas completas suficientes na temporada atual para o backtest. É necessária pelo menos 1 rodada para treinar e 1 para testar.")
         return True
 
     # As rodadas para testar são as N mais recentes que têm dados de pontuação
@@ -113,11 +118,11 @@ def run():
     
     ultima_rodada_completa = rodadas_completas[0]
 
-    print(f"  - Última rodada com pontuação encontrada nos dados: {ultima_rodada_completa}")
+    print(f"  - Última rodada com pontuação encontrada na temporada {int(ano_atual)}: {ultima_rodada_completa}")
     print(f"  - Rodadas a serem testadas (as {BACKTEST_ROUNDS} mais recentes com dados): {rodadas_para_backtest}")
 
     for rodada in rodadas_para_backtest:
-        resultado_rodada_df = train_and_predict_for_round(rodada, df_historico)
+        resultado_rodada_df = train_and_predict_for_round(rodada, df_historico_temporada)
         
         if resultado_rodada_df is not None:
             backtest_results = {}
