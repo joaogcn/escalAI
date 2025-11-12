@@ -26,7 +26,6 @@ def get_signal(actual_score, target_score):
     """Retorna um sinal de trânsito com base na pontuação real vs. alvo."""
     if actual_score >= target_score:
         return "Verde"
-    # Pontuação entre 70% e 100% do alvo
     elif actual_score >= target_score * 0.7:
         return "Amarelo"
     else:
@@ -45,17 +44,28 @@ def train_and_predict_for_round(rodada_alvo, df_historico_completo):
         return None
     
     jogadores_mercado_ids = df_mercado_simulado['atleta_id'].unique()
-    print(f"  - Jogadores no 'mercado' da rodada {rodada_alvo}: {len(jogadores_mercado_ids)}")
-
+    
     df_treinamento = df_historico_completo[df_historico_completo['rodada_id'] < rodada_alvo].copy()
+    print(f"  - Shape do df_treinamento (rodadas < {rodada_alvo}): {df_treinamento.shape}")
     
+    if df_treinamento.empty:
+        print(f"  - AVISO: Sem dados de treinamento para rodadas anteriores a {rodada_alvo}. Pulando.")
+        return None
+
     df_latest_historico = df_treinamento.loc[df_treinamento.groupby('atleta_id')['rodada_id'].idxmax()]
+    print(f"  - Shape do df_latest_historico (último jogo de cada atleta no treino): {df_latest_historico.shape}")
     
+    latest_historico_ids = set(df_latest_historico['atleta_id'].unique())
+    mercado_simulado_ids = set(jogadores_mercado_ids)
+    common_ids = latest_historico_ids.intersection(mercado_simulado_ids)
+    print(f"  - Atletas únicos no histórico de treino: {len(latest_historico_ids)}")
+    print(f"  - Atletas únicos no 'mercado' da rodada alvo: {len(mercado_simulado_ids)}")
+    print(f"  - Atletas em comum para modelagem: {len(common_ids)}")
+
     df_model_data = df_latest_historico[df_latest_historico['atleta_id'].isin(jogadores_mercado_ids)].copy()
-    print(f"  - Jogadores do 'mercado' encontrados no histórico de treinamento: {df_model_data.shape[0]}")
 
     if df_model_data.empty:
-        print("  - AVISO: Nenhum jogador do mercado possui dados históricos para esta rodada.")
+        print("  - AVISO: Nenhum jogador do 'mercado' da rodada alvo foi encontrado no histórico de treinamento. Não é possível treinar o modelo para esta rodada.")
         return None
 
     X = df_model_data.reindex(columns=FEATURES, fill_value=0)
@@ -91,14 +101,19 @@ def run():
     print(f"  - Dados históricos carregados. Shape: {df_historico.shape}")
 
     rodadas_disponiveis = sorted(df_historico['rodada_id'].unique(), reverse=True)
-    rodada_atual = rodadas_disponiveis[0] if rodadas_disponiveis else 0
-    rodadas_para_backtest = [r for r in rodadas_disponiveis if r < rodada_atual][:BACKTEST_ROUNDS]
+    if not rodadas_disponiveis:
+        print("ERRO: Nenhum dado de rodada encontrado no arquivo consolidado.")
+        return False
+
+    rodada_mais_recente = rodadas_disponiveis[0]
+    rodadas_para_backtest = [r for r in rodadas_disponiveis if r < rodada_mais_recente][:BACKTEST_ROUNDS]
 
     if not rodadas_para_backtest:
-        print("AVISO: Não há rodadas anteriores suficientes para o backtest.")
+        print("AVISO: Não há rodadas anteriores suficientes para o backtest. É necessária pelo menos 1 rodada completa no histórico além da mais recente.")
         return True
 
-    print(f"  - Rodadas a serem testadas: {rodadas_para_backtest}")
+    print(f"  - Rodada mais recente nos dados: {rodada_mais_recente}")
+    print(f"  - Rodadas a serem testadas (as {BACKTEST_ROUNDS} anteriores): {rodadas_para_backtest}")
 
     for rodada in rodadas_para_backtest:
         resultado_rodada_df = train_and_predict_for_round(rodada, df_historico)
@@ -120,6 +135,10 @@ def run():
                         'sinal': sinal
                     }
             
+            if not backtest_results:
+                print(f"  - AVISO: Nenhuma recomendação pôde ser gerada para a rodada {rodada} após a predição.")
+                continue
+
             output_filename = os.path.join(VISUALIZATION_DATA_PATH, f'backtest_rodada_{rodada}.json')
             os.makedirs(VISUALIZATION_DATA_PATH, exist_ok=True)
             with open(output_filename, 'w', encoding='utf-8') as f:
