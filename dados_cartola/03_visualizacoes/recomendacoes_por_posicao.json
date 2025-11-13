@@ -167,16 +167,6 @@
             "proximo_confronto": "vs MIR (Casa)"
         },
         {
-            "apelido": "Lucas Sasha",
-            "clube_nome": "Fortaleza",
-            "posicao_id": "mei",
-            "preco_num": 8.51,
-            "media_ultimas_5": 5.4799999999999995,
-            "media_geral": 5.777272727272727,
-            "indice_escalai": 5.569181818181818,
-            "proximo_confronto": "vs BAH (Fora)"
-        },
-        {
             "apelido": "Barreal",
             "clube_nome": "Santos",
             "posicao_id": "mei",
@@ -205,6 +195,16 @@
             "media_geral": 4.0115384615384615,
             "indice_escalai": 4.843461538461538,
             "proximo_confronto": "vs SAN (Fora)"
+        },
+        {
+            "apelido": "Peixoto",
+            "clube_nome": "Juventude",
+            "posicao_id": "mei",
+            "preco_num": 4.53,
+            "media_ultimas_5": 5.08,
+            "media_geral": 4.0,
+            "indice_escalai": 4.755999999999999,
+            "proximo_confronto": "vs CRU (Casa)"
         }
     ],
     "Atacante": [
