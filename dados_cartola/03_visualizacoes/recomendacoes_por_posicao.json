@@ -105,16 +105,6 @@
     ],
     "Zagueiro": [
         {
-            "apelido": "Ferraresi",
-            "clube_nome": "São Paulo",
-            "posicao_id": "zag",
-            "preco_num": 9.36,
-            "media_ultimas_5": 7.039999999999999,
-            "media_geral": 6.425,
-            "indice_escalai": 6.855499999999999,
-            "proximo_confronto": "vs COR (Fora)"
-        },
-        {
             "apelido": "Thiago Silva",
             "clube_nome": "Fluminense",
             "posicao_id": "zag",
@@ -153,6 +143,16 @@
             "media_geral": 4.374074074074074,
             "indice_escalai": 5.148222222222222,
             "proximo_confronto": "vs INT (Casa)"
+        },
+        {
+            "apelido": "Juninho",
+            "clube_nome": "Internacional",
+            "posicao_id": "zag",
+            "preco_num": 4.9,
+            "media_ultimas_5": 5.72,
+            "media_geral": 3.7714285714285714,
+            "indice_escalai": 5.135428571428571,
+            "proximo_confronto": "vs CEA (Fora)"
         }
     ],
     "Meia": [
@@ -164,16 +164,6 @@
             "media_ultimas_5": 7.040000000000001,
             "media_geral": 5.305,
             "indice_escalai": 6.5195,
-            "proximo_confronto": "vs MIR (Casa)"
-        },
-        {
-            "apelido": "Barreal",
-            "clube_nome": "Santos",
-            "posicao_id": "mei",
-            "preco_num": 9.78,
-            "media_ultimas_5": 4.58,
-            "media_geral": 5.976923076923077,
-            "indice_escalai": 4.999076923076923,
             "proximo_confronto": "vs MIR (Casa)"
         },
         {
@@ -205,6 +195,16 @@
             "media_geral": 4.0,
             "indice_escalai": 4.755999999999999,
             "proximo_confronto": "vs CRU (Casa)"
+        },
+        {
+            "apelido": "Rodrigo Nestor",
+            "clube_nome": "Bahia",
+            "posicao_id": "mei",
+            "preco_num": 6.25,
+            "media_ultimas_5": 4.880000000000001,
+            "media_geral": 4.0375,
+            "indice_escalai": 4.62725,
+            "proximo_confronto": "vs FOR (Casa)"
         }
     ],
     "Atacante": [
