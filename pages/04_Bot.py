@@ -9,11 +9,11 @@ from src.config import VISUALIZATION_DATA_PATH
 
 st.set_page_config(
     page_title="Bot EscalAI",
-    page_icon="🤖",
-    layout="centered"
+    page_icon="💬",
+    layout="wide"
 )
 
-st.title("🤖 Bot EscalAI")
+st.title("💬 Bot EscalAI")
 st.caption("Seu assistente pessoal para escalar o time perfeito no Cartola FC.")
 
 

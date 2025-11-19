@@ -1,50 +1,101 @@
 import streamlit as st
+import pandas as pd
+import plotly.express as px
+import os
 
 st.set_page_config(
-    page_title="EscalAI - Início",
+    page_title="EscalAI - Dashboard",
     page_icon="⚽",
     layout="wide"
 )
 
-st.title("⚽ EscalAI - Análise de Dados do Cartola FC")
+CONSOLIDATED_OUTPUT_FILE = 'dados_cartola/02_intermediate/dados_consolidados.parquet'
+AGGREGATED_OUTPUT_FILE = 'dados_cartola/02_intermediate/dados_agregados_por_atleta.parquet'
 
-st.header("Inteligência artificial para sua escalação no Cartola FC")
-st.markdown("""
-O **EscalAI** é uma aplicação web que une análise de dados e inteligência artificial para te ajudar a escalar seu time no **Cartola FC** com mais estratégia e confiança.
-Explore nossas páginas na barra lateral para ter acesso a dashboards, dicas e um bot assistente!
-""")
+@st.cache_data
+def load_data():
+    if not os.path.exists(CONSOLIDATED_OUTPUT_FILE) or not os.path.exists(AGGREGATED_OUTPUT_FILE):
+        st.error("Arquivos de dados não encontrados. Execute o pipeline de dados primeiro (`python scripts/run_pipeline.py`).")
+        return None, None
+    
+    df_consolidado = pd.read_parquet(CONSOLIDATED_OUTPUT_FILE)
+    df_agregado = pd.read_parquet(AGGREGATED_OUTPUT_FILE)
+    return df_consolidado, df_agregado
 
-st.markdown("---")
+df_consolidado, df_agregado = load_data()
 
-st.header("✨ Funcionalidades")
+if df_consolidado is not None and df_agregado is not None:
+    st.title("⚽ EscalAI Dashboard")
+    st.markdown("""
+    **Bem-vindo ao EscalAI, sua plataforma de análise de dados para o Cartola FC!**
 
-col1, col2, col3 = st.columns(3)
+    Explore o desempenho histórico dos jogadores usando os filtros na barra lateral e os gráficos interativos abaixo.
 
-with col1:
-    st.subheader("📊 Dashboard Interativo")
-    st.write("Analise o desempenho dos jogadores na temporada através de gráficos e estatísticas descritivas.")
+    Para recomendações e análises para a próxima rodada, navegue pelas seções **Dicas** e **Top Jogadores** no menu.
+    """)
 
-with col2:
-    st.subheader("🎯 Dicas da Rodada")
-    st.write("Receba recomendações dos melhores jogadores por posição e dos times que estão em melhor fase no campeonato, tudo baseado em nossos índices de desempenho.")
+    st.sidebar.header("Filtros")
+    
+    anos = sorted(df_consolidado['ano'].unique(), reverse=True)
+    ano_selecionado = st.sidebar.selectbox("Selecione o Ano", anos)
 
-with col3:
-    st.subheader("🤖 Bot EscalAI")
-    st.write("Converse com nosso assistente com IA (Google Gemini) e peça dicas personalizadas. Ele tem acesso aos dados da rodada para te ajudar a montar o time ideal.")
+    posicoes = ['Todas'] + sorted(df_agregado['posicao'].unique())
+    posicao_selecionada = st.sidebar.selectbox("Selecione a Posição", posicoes)
+
+    clubes = ['Todos'] + sorted(df_consolidado['clube_nome'].dropna().unique())
+    clube_selecionado = st.sidebar.selectbox("Selecione o Clube", clubes)
+
+    df_agregado_filtrado = df_agregado.copy()
+    if posicao_selecionada != 'Todas':
+        df_agregado_filtrado = df_agregado_filtrado[df_agregado_filtrado['posicao'] == posicao_selecionada]
+    if clube_selecionado != 'Todos':
+        df_agregado_filtrado = df_agregado_filtrado[df_agregado_filtrado['ultimo_clube'] == clube_selecionado]
+
+    df_consolidado_filtrado = df_consolidado[df_consolidado['ano'] == ano_selecionado]
+
+    atletas_do_ano = df_consolidado_filtrado['atleta_id'].unique()
+    df_agregado_filtrado = df_agregado_filtrado[df_agregado_filtrado['atleta_id'].isin(atletas_do_ano)]
+
+    if posicao_selecionada != 'Todas':
+        df_consolidado_filtrado = df_consolidado_filtrado[df_consolidado_filtrado['posicao_id'] == posicao_selecionada]
+    if clube_selecionado != 'Todos':
+        df_consolidado_filtrado = df_consolidado_filtrado[df_consolidado_filtrado['clube_nome'] == clube_selecionado]
 
 
-st.markdown("---")
+    fig_custo_beneficio = px.scatter(
+        df_agregado_filtrado,
+        x='media_preco',
+        y='media_pontos',
+        color='posicao',
+        hover_name='apelido',
+        size='jogos_disputados',
+        title='Preço Médio vs. Média de Pontos (Tamanho da bola indica jogos disputados)',
+        labels={'media_preco': 'Preço Médio (C$)', 'media_pontos': 'Média de Pontos'}
+    )
+    st.plotly_chart(fig_custo_beneficio, use_container_width=True)
 
-st.header("⚙️ Tecnologias Utilizadas")
-st.markdown("""
--   **Python** -- Base de toda a aplicação
--   **Streamlit** -- Interface web interativa
--   **Pandas** -- Processamento e análise de dados
--   **Plotly** -- Visualizações dinâmicas
--   **Google Gemini** -- Inteligência artificial para o Bot assistente
--   **GitHub Actions** -- Automação e atualização contínua dos dados
-""")
+    col1, col2 = st.columns(2)
 
-st.markdown("---")
+    with col1:
+        fig_boxplot_posicao = px.box(
+            df_consolidado_filtrado[df_consolidado_filtrado['pontos_num'] != 0],
+            x='posicao_id',
+            y='pontos_num',
+            color='posicao_id',
+            title=f'Distribuição de Pontos por Posição em {ano_selecionado}',
+            labels={'posicao_id': 'Posição', 'pontos_num': 'Pontos na Rodada'}
+        )
+        st.plotly_chart(fig_boxplot_posicao, use_container_width=True)
 
-st.info("💡 **Navegue pelas páginas na barra lateral e descubra insights que vão transformar sua escalação!**")
+    with col2:
+        fig_hist_pontos = px.histogram(
+            df_consolidado_filtrado,
+            x='pontos_num',
+            nbins=50,
+            title=f'Distribuição de Pontuações em {ano_selecionado}',
+            labels={'pontos_num': 'Pontos na Rodada'}
+        )
+        st.plotly_chart(fig_hist_pontos, use_container_width=True)
+
+else:
+    st.info("Aguardando a geração dos arquivos de dados...")
