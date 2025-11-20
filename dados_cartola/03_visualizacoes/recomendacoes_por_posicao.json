@@ -187,16 +187,6 @@
             "proximo_confronto": "vs FLA (Casa)"
         },
         {
-            "apelido": "Neto Moura",
-            "clube_nome": "Mirassol",
-            "posicao_id": "mei",
-            "preco_num": 5.4,
-            "media_ultimas_5": 5.199999999999999,
-            "media_geral": 4.0115384615384615,
-            "indice_escalai": 4.843461538461538,
-            "proximo_confronto": "vs SAN (Fora)"
-        },
-        {
             "apelido": "Peixoto",
             "clube_nome": "Juventude",
             "posicao_id": "mei",
@@ -205,6 +195,16 @@
             "media_geral": 4.0,
             "indice_escalai": 4.755999999999999,
             "proximo_confronto": "vs CRU (Casa)"
+        },
+        {
+            "apelido": "Carrascal",
+            "clube_nome": "Flamengo",
+            "posicao_id": "mei",
+            "preco_num": 9.77,
+            "media_ultimas_5": 4.499999999999999,
+            "media_geral": 5.133333333333333,
+            "indice_escalai": 4.689999999999999,
+            "proximo_confronto": "vs FLU (Fora)"
         }
     ],
     "Atacante": [
