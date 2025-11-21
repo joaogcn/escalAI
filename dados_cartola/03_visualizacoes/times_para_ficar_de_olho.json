@@ -1,17 +1,5 @@
 [
     {
-        "nome": "FLU",
-        "id": 266,
-        "escudo_url": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2025/escudos/FLU/60x60.png",
-        "indice_desempenho": 18,
-        "jogos": 5,
-        "vitorias": 3,
-        "empates": 0,
-        "derrotas": 1,
-        "gols_pro": 4,
-        "gols_contra": 2
-    },
-    {
         "nome": "CAM",
         "id": 282,
         "escudo_url": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2025/escudos/CAM/60x60.png",
@@ -22,6 +10,18 @@
         "derrotas": 0,
         "gols_pro": 8,
         "gols_contra": 2
+    },
+    {
+        "nome": "FLU",
+        "id": 266,
+        "escudo_url": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2025/escudos/FLU/60x60.png",
+        "indice_desempenho": 16,
+        "jogos": 5,
+        "vitorias": 3,
+        "empates": 0,
+        "derrotas": 1,
+        "gols_pro": 4,
+        "gols_contra": 3
     },
     {
         "nome": "BOT",
@@ -39,13 +39,37 @@
         "nome": "CRU",
         "id": 283,
         "escudo_url": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2025/escudos/CRU/60x60.png",
-        "indice_desempenho": 14,
-        "jogos": 4,
+        "indice_desempenho": 15,
+        "jogos": 5,
         "vitorias": 2,
         "empates": 1,
         "derrotas": 0,
+        "gols_pro": 7,
+        "gols_contra": 4
+    },
+    {
+        "nome": "CEA",
+        "id": 354,
+        "escudo_url": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2025/escudos/CEA/60x60.png",
+        "indice_desempenho": 14,
+        "jogos": 5,
+        "vitorias": 2,
+        "empates": 2,
+        "derrotas": 1,
         "gols_pro": 4,
-        "gols_contra": 1
+        "gols_contra": 2
+    },
+    {
+        "nome": "COR",
+        "id": 264,
+        "escudo_url": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2025/escudos/COR/60x60.png",
+        "indice_desempenho": 13,
+        "jogos": 5,
+        "vitorias": 3,
+        "empates": 0,
+        "derrotas": 2,
+        "gols_pro": 7,
+        "gols_contra": 4
     },
     {
         "nome": "PAL",
@@ -60,51 +84,39 @@
         "gols_contra": 2
     },
     {
-        "nome": "CEA",
-        "id": 354,
-        "escudo_url": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2025/escudos/CEA/60x60.png",
+        "nome": "FOR",
+        "id": 356,
+        "escudo_url": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2025/escudos/FOR/60x60.png",
         "indice_desempenho": 11,
-        "jogos": 4,
+        "jogos": 5,
         "vitorias": 2,
         "empates": 1,
-        "derrotas": 1,
-        "gols_pro": 4,
-        "gols_contra": 2
+        "derrotas": 0,
+        "gols_pro": 8,
+        "gols_contra": 6
     },
     {
         "nome": "SAO",
         "id": 276,
         "escudo_url": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2025/escudos/SAO/60x60.png",
         "indice_desempenho": 11,
-        "jogos": 4,
+        "jogos": 5,
         "vitorias": 2,
         "empates": 1,
-        "derrotas": 1,
-        "gols_pro": 6,
-        "gols_contra": 3
-    },
-    {
-        "nome": "COR",
-        "id": 264,
-        "escudo_url": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2025/escudos/COR/60x60.png",
-        "indice_desempenho": 10,
-        "jogos": 4,
-        "vitorias": 2,
-        "empates": 0,
         "derrotas": 2,
-        "gols_pro": 4,
-        "gols_contra": 3
+        "gols_pro": 7,
+        "gols_contra": 6
     },
     {
         "nome": "MIR",
         "id": 2305,
         "escudo_url": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2025/escudos/MIR/60x60.png",
-        "indice_desempenho": 9,
+        "indice_desempenho": 10,
         "jogos": 5,
         "vitorias": 2,
         "empates": 1,
-        "derrotas": 2,
-        "gols_pro": 4,
+        "derrotas": 1,
+        "gols_pro": 5,
         "gols_contra": 4
     },
     {
@@ -116,8 +128,32 @@
         "vitorias": 2,
         "empates": 0,
         "derrotas": 2,
-        "gols_pro": 8,
+        "gols_pro": 9,
         "gols_contra": 7
+    },
+    {
+        "nome": "GRE",
+        "id": 284,
+        "escudo_url": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2025/escudos/GRE/60x60.png",
+        "indice_desempenho": 9,
+        "jogos": 5,
+        "vitorias": 2,
+        "empates": 0,
+        "derrotas": 2,
+        "gols_pro": 7,
+        "gols_contra": 6
+    },
+    {
+        "nome": "JUV",
+        "id": 286,
+        "escudo_url": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2025/escudos/JUV/60x60.png",
+        "indice_desempenho": 9,
+        "jogos": 5,
+        "vitorias": 2,
+        "empates": 1,
+        "derrotas": 2,
+        "gols_pro": 9,
+        "gols_contra": 9
     },
     {
         "nome": "VIT",
@@ -132,30 +168,6 @@
         "gols_contra": 4
     },
     {
-        "nome": "FOR",
-        "id": 356,
-        "escudo_url": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2025/escudos/FOR/60x60.png",
-        "indice_desempenho": 8,
-        "jogos": 4,
-        "vitorias": 1,
-        "empates": 1,
-        "derrotas": 0,
-        "gols_pro": 5,
-        "gols_contra": 4
-    },
-    {
-        "nome": "JUV",
-        "id": 286,
-        "escudo_url": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2025/escudos/JUV/60x60.png",
-        "indice_desempenho": 8,
-        "jogos": 4,
-        "vitorias": 2,
-        "empates": 0,
-        "derrotas": 2,
-        "gols_pro": 6,
-        "gols_contra": 6
-    },
-    {
         "nome": "RBB",
         "id": 280,
         "escudo_url": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2025/escudos/RBB/60x60.png",
@@ -168,47 +180,11 @@
         "gols_contra": 6
     },
     {
-        "nome": "VAS",
-        "id": 267,
-        "escudo_url": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2025/escudos/VAS/60x60.png",
-        "indice_desempenho": 8,
-        "jogos": 5,
-        "vitorias": 1,
-        "empates": 0,
-        "derrotas": 3,
-        "gols_pro": 4,
-        "gols_contra": 8
-    },
-    {
-        "nome": "SAN",
-        "id": 277,
-        "escudo_url": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2025/escudos/SAN/60x60.png",
-        "indice_desempenho": 7,
-        "jogos": 5,
-        "vitorias": 1,
-        "empates": 1,
-        "derrotas": 2,
-        "gols_pro": 6,
-        "gols_contra": 8
-    },
-    {
-        "nome": "GRE",
-        "id": 284,
-        "escudo_url": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2025/escudos/GRE/60x60.png",
-        "indice_desempenho": 7,
-        "jogos": 5,
-        "vitorias": 1,
-        "empates": 1,
-        "derrotas": 2,
-        "gols_pro": 5,
-        "gols_contra": 6
-    },
-    {
         "nome": "INT",
         "id": 285,
         "escudo_url": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2025/escudos/INT/60x60.png",
-        "indice_desempenho": 4,
-        "jogos": 4,
+        "indice_desempenho": 7,
+        "jogos": 5,
         "vitorias": 0,
         "empates": 2,
         "derrotas": 2,
@@ -216,16 +192,40 @@
         "gols_contra": 4
     },
     {
+        "nome": "VAS",
+        "id": 267,
+        "escudo_url": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2025/escudos/VAS/60x60.png",
+        "indice_desempenho": 5,
+        "jogos": 5,
+        "vitorias": 1,
+        "empates": 0,
+        "derrotas": 4,
+        "gols_pro": 4,
+        "gols_contra": 10
+    },
+    {
         "nome": "BAH",
         "id": 265,
         "escudo_url": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2025/escudos/BAH/60x60.png",
         "indice_desempenho": 4,
-        "jogos": 4,
+        "jogos": 5,
         "vitorias": 1,
         "empates": 0,
+        "derrotas": 3,
+        "gols_pro": 6,
+        "gols_contra": 11
+    },
+    {
+        "nome": "SAN",
+        "id": 277,
+        "escudo_url": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2025/escudos/SAN/60x60.png",
+        "indice_desempenho": 3,
+        "jogos": 5,
+        "vitorias": 0,
+        "empates": 2,
         "derrotas": 2,
-        "gols_pro": 4,
-        "gols_contra": 8
+        "gols_pro": 6,
+        "gols_contra": 9
     },
     {
         "nome": "SPT",

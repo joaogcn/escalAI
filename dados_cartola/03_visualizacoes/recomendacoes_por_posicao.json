@@ -187,16 +187,6 @@
             "proximo_confronto": "vs FLA (Casa)"
         },
         {
-            "apelido": "Peixoto",
-            "clube_nome": "Juventude",
-            "posicao_id": "mei",
-            "preco_num": 4.53,
-            "media_ultimas_5": 5.08,
-            "media_geral": 4.0,
-            "indice_escalai": 4.755999999999999,
-            "proximo_confronto": "vs CRU (Casa)"
-        },
-        {
             "apelido": "Carrascal",
             "clube_nome": "Flamengo",
             "posicao_id": "mei",
@@ -205,6 +195,16 @@
             "media_geral": 5.133333333333333,
             "indice_escalai": 4.689999999999999,
             "proximo_confronto": "vs FLU (Fora)"
+        },
+        {
+            "apelido": "Jean Lucas",
+            "clube_nome": "Bahia",
+            "posicao_id": "mei",
+            "preco_num": 6.67,
+            "media_ultimas_5": 4.720000000000001,
+            "media_geral": 4.222222222222222,
+            "indice_escalai": 4.570666666666667,
+            "proximo_confronto": "vs FOR (Casa)"
         }
     ],
     "Atacante": [
@@ -217,6 +217,16 @@
             "media_geral": 5.890909090909091,
             "indice_escalai": 8.641272727272726,
             "proximo_confronto": "vs FOR (Casa)"
+        },
+        {
+            "apelido": "Vitinho",
+            "clube_nome": "Internacional",
+            "posicao_id": "ata",
+            "preco_num": 8.91,
+            "media_ultimas_5": 9.379999999999999,
+            "media_geral": 4.778947368421052,
+            "indice_escalai": 7.999684210526315,
+            "proximo_confronto": "vs CEA (Fora)"
         },
         {
             "apelido": "Luciano",
@@ -247,16 +257,6 @@
             "media_geral": 6.7700000000000005,
             "indice_escalai": 7.617000000000001,
             "proximo_confronto": "vs VAS (Casa)"
-        },
-        {
-            "apelido": "Rayan",
-            "clube_nome": "Vasco",
-            "posicao_id": "ata",
-            "preco_num": 10.18,
-            "media_ultimas_5": 7.0,
-            "media_geral": 7.289285714285714,
-            "indice_escalai": 7.086785714285714,
-            "proximo_confronto": "vs GRE (Fora)"
         }
     ],
     "Técnico": [
