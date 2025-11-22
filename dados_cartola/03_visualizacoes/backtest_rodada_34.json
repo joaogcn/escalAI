@@ -1,0 +1,32 @@
+{
+    "Goleiro": {
+        "apelido": "Bruno Ferreira",
+        "pontuacao_real": 3.2,
+        "sinal": "Vermelho"
+    },
+    "Lateral": {
+        "apelido": "Marlon",
+        "pontuacao_real": 7.5,
+        "sinal": "Verde"
+    },
+    "Zagueiro": {
+        "apelido": "Villalba",
+        "pontuacao_real": 0.9,
+        "sinal": "Vermelho"
+    },
+    "Meia": {
+        "apelido": "Jhon Jhon",
+        "pontuacao_real": 0.0,
+        "sinal": "Vermelho"
+    },
+    "Atacante": {
+        "apelido": "Vitinho",
+        "pontuacao_real": 9.7,
+        "sinal": "Amarelo"
+    },
+    "Técnico": {
+        "apelido": "Vagner Mancini",
+        "pontuacao_real": 0.0,
+        "sinal": "Vermelho"
+    }
+}

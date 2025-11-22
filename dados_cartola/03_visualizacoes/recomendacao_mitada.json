@@ -1,26 +1,26 @@
 {
     "Goleiro": {
-        "apelido": "Bruno Ferreira",
-        "clube_nome": "CEA"
+        "apelido": "Fábio",
+        "clube_nome": "FLU"
     },
     "Lateral": {
         "apelido": "Luciano Juba",
         "clube_nome": "BAH"
     },
     "Zagueiro": {
-        "apelido": "Thiago Silva",
-        "clube_nome": "FLU"
+        "apelido": "Vitão",
+        "clube_nome": "INT"
     },
     "Meia": {
-        "apelido": "Gabriel",
-        "clube_nome": "MIR"
+        "apelido": "Neymar",
+        "clube_nome": "SAN"
     },
     "Atacante": {
-        "apelido": "Willian José",
-        "clube_nome": "BAH"
+        "apelido": "Erick",
+        "clube_nome": "VIT"
     },
     "Técnico": {
-        "apelido": "Léo Condé",
-        "clube_nome": "CEA"
+        "apelido": "Rogério Ceni",
+        "clube_nome": "BAH"
     }
 }

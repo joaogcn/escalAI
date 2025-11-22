@@ -48,18 +48,6 @@
         "gols_contra": 4
     },
     {
-        "nome": "CEA",
-        "id": 354,
-        "escudo_url": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2025/escudos/CEA/60x60.png",
-        "indice_desempenho": 14,
-        "jogos": 5,
-        "vitorias": 2,
-        "empates": 2,
-        "derrotas": 1,
-        "gols_pro": 4,
-        "gols_contra": 2
-    },
-    {
         "nome": "COR",
         "id": 264,
         "escudo_url": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2025/escudos/COR/60x60.png",
@@ -82,6 +70,18 @@
         "derrotas": 1,
         "gols_pro": 5,
         "gols_contra": 2
+    },
+    {
+        "nome": "CEA",
+        "id": 354,
+        "escudo_url": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2025/escudos/CEA/60x60.png",
+        "indice_desempenho": 11,
+        "jogos": 5,
+        "vitorias": 2,
+        "empates": 1,
+        "derrotas": 2,
+        "gols_pro": 5,
+        "gols_contra": 4
     },
     {
         "nome": "FOR",
@@ -185,11 +185,11 @@
         "escudo_url": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2025/escudos/INT/60x60.png",
         "indice_desempenho": 7,
         "jogos": 5,
-        "vitorias": 0,
+        "vitorias": 1,
         "empates": 2,
         "derrotas": 2,
-        "gols_pro": 2,
-        "gols_contra": 4
+        "gols_pro": 4,
+        "gols_contra": 5
     },
     {
         "nome": "VAS",
