@@ -83,24 +83,24 @@
             "proximo_confronto": "vs COR (Casa)"
         },
         {
-            "apelido": "Khellven",
-            "clube_nome": "Palmeiras",
+            "apelido": "William",
+            "clube_nome": "Cruzeiro",
             "posicao_id": "lat",
-            "preco_num": 8.01,
-            "media_ultimas_5": 7.9,
-            "media_geral": 6.277777777777778,
-            "indice_escalai": 7.413333333333334,
-            "proximo_confronto": "vs FLU (Casa)"
+            "preco_num": 15.8,
+            "media_ultimas_5": 7.719999999999999,
+            "media_geral": 7.372000000000001,
+            "indice_escalai": 7.615599999999999,
+            "proximo_confronto": "vs COR (Casa)"
         },
         {
-            "apelido": "Marcelo Hermes",
-            "clube_nome": "Juventude",
+            "apelido": "Maik",
+            "clube_nome": "São Paulo",
             "posicao_id": "lat",
-            "preco_num": 8.81,
-            "media_ultimas_5": 7.359999999999999,
-            "media_geral": 5.6625,
-            "indice_escalai": 6.850749999999999,
-            "proximo_confronto": "vs SAO (Fora)"
+            "preco_num": 8.47,
+            "media_ultimas_5": 7.58,
+            "media_geral": 7.6000000000000005,
+            "indice_escalai": 7.586,
+            "proximo_confronto": "vs JUV (Casa)"
         }
     ],
     "Zagueiro": [
@@ -177,6 +177,16 @@
             "proximo_confronto": "vs FLA (Fora)"
         },
         {
+            "apelido": "Raniele",
+            "clube_nome": "Corinthians",
+            "posicao_id": "mei",
+            "preco_num": 6.09,
+            "media_ultimas_5": 6.780000000000001,
+            "media_geral": 4.308,
+            "indice_escalai": 6.0384,
+            "proximo_confronto": "vs CRU (Fora)"
+        },
+        {
             "apelido": "Allan",
             "clube_nome": "Palmeiras",
             "posicao_id": "mei",
@@ -194,16 +204,6 @@
             "media_ultimas_5": 5.26,
             "media_geral": 5.266666666666667,
             "indice_escalai": 5.262,
-            "proximo_confronto": "vs INT (Fora)"
-        },
-        {
-            "apelido": "Barreal",
-            "clube_nome": "Santos",
-            "posicao_id": "mei",
-            "preco_num": 10.36,
-            "media_ultimas_5": 4.68,
-            "media_geral": 5.944444444444445,
-            "indice_escalai": 5.059333333333333,
             "proximo_confronto": "vs INT (Fora)"
         }
     ],
