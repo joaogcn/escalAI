@@ -29,6 +29,9 @@ def carregar_resultados_backtest():
     padrao_arquivo = os.path.join(VISUALIZATION_DATA_PATH, "backtest_rodada_*.json")
     arquivos_backtest = sorted(glob.glob(padrao_arquivo), reverse=True)
     
+    # Garante que apenas as 3 rodadas mais recentes sejam consideradas
+    arquivos_backtest = arquivos_backtest[:3]
+    
     if not arquivos_backtest:
         st.warning(f"Nenhum arquivo de resultado de backtest foi encontrado no padrão: {padrao_arquivo}. Execute o pipeline de dados, incluindo o script de backtest.")
         return []
