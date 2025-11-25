@@ -1,0 +1,32 @@
+{
+    "Goleiro": {
+        "apelido": "Léo Jardim",
+        "pontuacao_real": 3.4,
+        "sinal": "Vermelho"
+    },
+    "Lateral": {
+        "apelido": "Igor Formiga",
+        "pontuacao_real": 2.6,
+        "sinal": "Vermelho"
+    },
+    "Zagueiro": {
+        "apelido": "Gustavo Martins",
+        "pontuacao_real": 1.0,
+        "sinal": "Vermelho"
+    },
+    "Meia": {
+        "apelido": "Neymar",
+        "pontuacao_real": 0.0,
+        "sinal": "Vermelho"
+    },
+    "Atacante": {
+        "apelido": "Gabriel Taliari",
+        "pontuacao_real": 0.9,
+        "sinal": "Vermelho"
+    },
+    "Técnico": {
+        "apelido": "Mano Menezes",
+        "pontuacao_real": 4.83,
+        "sinal": "Vermelho"
+    }
+}
