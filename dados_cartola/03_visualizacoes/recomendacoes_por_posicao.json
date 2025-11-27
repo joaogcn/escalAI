@@ -105,6 +105,16 @@
     ],
     "Zagueiro": [
         {
+            "apelido": "Rafael Tolói",
+            "clube_nome": "São Paulo",
+            "posicao_id": "zag",
+            "preco_num": 10.2,
+            "media_ultimas_5": 7.8,
+            "media_geral": 7.8,
+            "indice_escalai": 7.8,
+            "proximo_confronto": "vs FLU (Fora)"
+        },
+        {
             "apelido": "David Ricardo",
             "clube_nome": "Botafogo",
             "posicao_id": "zag",
@@ -143,16 +153,6 @@
             "media_geral": 5.710714285714286,
             "indice_escalai": 6.263214285714286,
             "proximo_confronto": "vs CEA (Fora)"
-        },
-        {
-            "apelido": "Lucas Halter",
-            "clube_nome": "Vitória",
-            "posicao_id": "zag",
-            "preco_num": 4.73,
-            "media_ultimas_5": 6.859999999999999,
-            "media_geral": 3.9964285714285714,
-            "indice_escalai": 6.000928571428571,
-            "proximo_confronto": "vs MIR (Casa)"
         }
     ],
     "Meia": [
