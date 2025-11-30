@@ -157,6 +157,16 @@
     ],
     "Meia": [
         {
+            "apelido": "Neymar",
+            "clube_nome": "Santos",
+            "posicao_id": "mei",
+            "preco_num": 15.82,
+            "media_ultimas_5": 6.739999999999999,
+            "media_geral": 5.5625,
+            "indice_escalai": 6.386749999999999,
+            "proximo_confronto": "vs SPT (Casa)"
+        },
+        {
             "apelido": "Alan Patrick",
             "clube_nome": "Internacional",
             "posicao_id": "mei",
@@ -195,29 +205,9 @@
             "media_geral": 6.196428571428571,
             "indice_escalai": 5.414928571428571,
             "proximo_confronto": "vs SPT (Casa)"
-        },
-        {
-            "apelido": "Matheus Pereira",
-            "clube_nome": "Cruzeiro",
-            "posicao_id": "mei",
-            "preco_num": 14.19,
-            "media_ultimas_5": 3.960000000000001,
-            "media_geral": 7.16774193548387,
-            "indice_escalai": 4.922322580645162,
-            "proximo_confronto": "vs CEA (Fora)"
         }
     ],
     "Atacante": [
-        {
-            "apelido": "Kaio Jorge",
-            "clube_nome": "Cruzeiro",
-            "posicao_id": "ata",
-            "preco_num": 17.78,
-            "media_ultimas_5": 14.48,
-            "media_geral": 9.638709677419355,
-            "indice_escalai": 13.027612903225805,
-            "proximo_confronto": "vs CEA (Fora)"
-        },
         {
             "apelido": "Willian José",
             "clube_nome": "Bahia",
@@ -257,6 +247,16 @@
             "media_geral": 6.256521739130435,
             "indice_escalai": 7.294956521739131,
             "proximo_confronto": "vs BOT (Casa)"
+        },
+        {
+            "apelido": "Arroyo",
+            "clube_nome": "Cruzeiro",
+            "posicao_id": "ata",
+            "preco_num": 8.43,
+            "media_ultimas_5": 6.839999999999999,
+            "media_geral": 6.45,
+            "indice_escalai": 6.722999999999999,
+            "proximo_confronto": "vs CEA (Fora)"
         }
     ],
     "Técnico": [
