@@ -59,7 +59,7 @@ st.markdown("""
 - [Felipe Domingos Vital](https://www.linkedin.com/in/felipe-vital-392820181/)
 - [Felipe Moraes](https://www.linkedin.com/in/felipe-moraes-6b58441b9/)
 - [Laudemir Duarte da Silva Júnior](https://www.linkedin.com/in/laudemirjr/)
-- Luiz Lobato
+- [Luiz Lobato](https://www.linkedin.com/in/luiz-lobato-5ba1a4398)
 - [Victorino Bezerra](https://www.linkedin.com/in/victorino-bezerra-6527b3353/)
 - [Filipe Novaes Maia Correia](https://www.linkedin.com/in/fnmc/)
 """)
