@@ -1,26 +1,26 @@
 {
     "Goleiro": {
-        "apelido": "Gabriel",
-        "clube_nome": "SPT"
+        "apelido": "Fábio",
+        "clube_nome": "FLU"
     },
     "Lateral": {
         "apelido": "Luciano Juba",
         "clube_nome": "BAH"
     },
     "Zagueiro": {
-        "apelido": "Thiago Silva",
-        "clube_nome": "FLU"
+        "apelido": "Adonis Frías",
+        "clube_nome": "SAN"
     },
     "Meia": {
-        "apelido": "Savarino",
-        "clube_nome": "BOT"
+        "apelido": "Neymar",
+        "clube_nome": "SAN"
     },
     "Atacante": {
-        "apelido": "Arroyo",
-        "clube_nome": "CRU"
+        "apelido": "Andrés Gómez",
+        "clube_nome": "VAS"
     },
     "Técnico": {
-        "apelido": "Rafael Guanaes",
-        "clube_nome": "MIR"
+        "apelido": "Rogério Ceni",
+        "clube_nome": "BAH"
     }
 }

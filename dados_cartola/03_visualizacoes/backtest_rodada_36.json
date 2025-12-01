@@ -1,0 +1,32 @@
+{
+    "Goleiro": {
+        "apelido": "Carlos Miguel",
+        "pontuacao_real": 0.0,
+        "sinal": "Vermelho"
+    },
+    "Lateral": {
+        "apelido": "Cuiabano",
+        "pontuacao_real": 12.2,
+        "sinal": "Verde"
+    },
+    "Zagueiro": {
+        "apelido": "Thiago Santos",
+        "pontuacao_real": 0.0,
+        "sinal": "Vermelho"
+    },
+    "Meia": {
+        "apelido": "Arrascaeta",
+        "pontuacao_real": 0.0,
+        "sinal": "Vermelho"
+    },
+    "Atacante": {
+        "apelido": "Kaio Jorge",
+        "pontuacao_real": 0.0,
+        "sinal": "Vermelho"
+    },
+    "Técnico": {
+        "apelido": "Filipe Luís",
+        "pontuacao_real": 0.0,
+        "sinal": "Vermelho"
+    }
+}
