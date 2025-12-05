@@ -135,16 +135,6 @@
             "proximo_confronto": "vs BOT (Casa)"
         },
         {
-            "apelido": "Alexander Barboza",
-            "clube_nome": "Botafogo",
-            "posicao_id": "zag",
-            "preco_num": 9.64,
-            "media_ultimas_5": 5.9,
-            "media_geral": 5.125,
-            "indice_escalai": 5.6674999999999995,
-            "proximo_confronto": "vs CRU (Fora)"
-        },
-        {
             "apelido": "Villalba",
             "clube_nome": "Cruzeiro",
             "posicao_id": "zag",
@@ -153,6 +143,16 @@
             "media_geral": 5.603448275862069,
             "indice_escalai": 5.307034482758621,
             "proximo_confronto": "vs BOT (Casa)"
+        },
+        {
+            "apelido": "Juninho",
+            "clube_nome": "Internacional",
+            "posicao_id": "zag",
+            "preco_num": 4.9,
+            "media_ultimas_5": 5.72,
+            "media_geral": 3.7714285714285714,
+            "indice_escalai": 5.135428571428571,
+            "proximo_confronto": "vs SAO (Fora)"
         }
     ],
     "Meia": [

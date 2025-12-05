@@ -96,6 +96,30 @@
         "gols_contra": 5
     },
     {
+        "nome": "CRU",
+        "id": 283,
+        "escudo_url": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2025/escudos/CRU/60x60.png",
+        "indice_desempenho": 11,
+        "jogos": 5,
+        "vitorias": 1,
+        "empates": 2,
+        "derrotas": 0,
+        "gols_pro": 9,
+        "gols_contra": 6
+    },
+    {
+        "nome": "BOT",
+        "id": 263,
+        "escudo_url": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2025/escudos/BOT/60x60.png",
+        "indice_desempenho": 11,
+        "jogos": 5,
+        "vitorias": 2,
+        "empates": 0,
+        "derrotas": 0,
+        "gols_pro": 10,
+        "gols_contra": 8
+    },
+    {
         "nome": "PAL",
         "id": 275,
         "escudo_url": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2025/escudos/PAL/60x60.png",
@@ -104,32 +128,8 @@
         "vitorias": 1,
         "empates": 2,
         "derrotas": 2,
-        "gols_pro": 5,
+        "gols_pro": 6,
         "gols_contra": 5
-    },
-    {
-        "nome": "CRU",
-        "id": 283,
-        "escudo_url": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2025/escudos/CRU/60x60.png",
-        "indice_desempenho": 10,
-        "jogos": 4,
-        "vitorias": 1,
-        "empates": 1,
-        "derrotas": 0,
-        "gols_pro": 7,
-        "gols_contra": 4
-    },
-    {
-        "nome": "BOT",
-        "id": 263,
-        "escudo_url": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2025/escudos/BOT/60x60.png",
-        "indice_desempenho": 10,
-        "jogos": 4,
-        "vitorias": 2,
-        "empates": 0,
-        "derrotas": 0,
-        "gols_pro": 8,
-        "gols_contra": 6
     },
     {
         "nome": "GRE",
@@ -201,7 +201,7 @@
         "empates": 1,
         "derrotas": 3,
         "gols_pro": 5,
-        "gols_contra": 8
+        "gols_contra": 9
     },
     {
         "nome": "COR",
