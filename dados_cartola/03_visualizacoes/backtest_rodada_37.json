@@ -1,0 +1,32 @@
+{
+    "Goleiro": {
+        "apelido": "Thiago Couto",
+        "pontuacao_real": 0.0,
+        "sinal": "Vermelho"
+    },
+    "Lateral": {
+        "apelido": "Paulo Henrique",
+        "pontuacao_real": 9.4,
+        "sinal": "Verde"
+    },
+    "Zagueiro": {
+        "apelido": "Lucas Halter",
+        "pontuacao_real": 0.0,
+        "sinal": "Vermelho"
+    },
+    "Meia": {
+        "apelido": "Neymar",
+        "pontuacao_real": 26.3,
+        "sinal": "Verde"
+    },
+    "Atacante": {
+        "apelido": "Serna",
+        "pontuacao_real": 6.4,
+        "sinal": "Vermelho"
+    },
+    "Técnico": {
+        "apelido": "Luis Zubeldía",
+        "pontuacao_real": 6.03,
+        "sinal": "Amarelo"
+    }
+}
