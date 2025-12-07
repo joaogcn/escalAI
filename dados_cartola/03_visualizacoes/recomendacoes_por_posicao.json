@@ -21,16 +21,6 @@
             "proximo_confronto": "vs SAO (Casa)"
         },
         {
-            "apelido": "Léo Aragão",
-            "clube_nome": "Cruzeiro",
-            "posicao_id": "gol",
-            "preco_num": 6.88,
-            "media_ultimas_5": 6.733333333333333,
-            "media_geral": 6.733333333333333,
-            "indice_escalai": 6.7333333333333325,
-            "proximo_confronto": "vs SAN (Fora)"
-        },
-        {
             "apelido": "Everson",
             "clube_nome": "Atlético-MG",
             "posicao_id": "gol",
@@ -49,9 +39,29 @@
             "media_geral": 4.247058823529412,
             "indice_escalai": 5.824117647058824,
             "proximo_confronto": "vs BAH (Casa)"
+        },
+        {
+            "apelido": "Caíque França",
+            "clube_nome": "Sport Recife",
+            "posicao_id": "gol",
+            "preco_num": 8.52,
+            "media_ultimas_5": 6.1,
+            "media_geral": 4.115384615384615,
+            "indice_escalai": 5.504615384615384,
+            "proximo_confronto": "vs GRE (Casa)"
         }
     ],
     "Lateral": [
+        {
+            "apelido": "Igor Formiga",
+            "clube_nome": "Juventude",
+            "posicao_id": "lat",
+            "preco_num": 10.93,
+            "media_ultimas_5": 7.88,
+            "media_geral": 8.1,
+            "indice_escalai": 7.946,
+            "proximo_confronto": "vs COR (Fora)"
+        },
         {
             "apelido": "Maik",
             "clube_nome": "São Paulo",
@@ -91,16 +101,6 @@
             "media_geral": 6.220000000000001,
             "indice_escalai": 6.779999999999999,
             "proximo_confronto": "vs CEA (Fora)"
-        },
-        {
-            "apelido": "Raúl Cáceres",
-            "clube_nome": "Vitória",
-            "posicao_id": "lat",
-            "preco_num": 4.7,
-            "media_ultimas_5": 7.699999999999998,
-            "media_geral": 3.95625,
-            "indice_escalai": 6.5768749999999985,
-            "proximo_confronto": "vs SAO (Casa)"
         }
     ],
     "Zagueiro": [
@@ -115,16 +115,6 @@
             "proximo_confronto": "vs VIT (Fora)"
         },
         {
-            "apelido": "Lucas Halter",
-            "clube_nome": "Vitória",
-            "posicao_id": "zag",
-            "preco_num": 6.83,
-            "media_ultimas_5": 8.48,
-            "media_geral": 4.4206896551724135,
-            "indice_escalai": 7.262206896551724,
-            "proximo_confronto": "vs SAO (Casa)"
-        },
-        {
             "apelido": "Thiago Silva",
             "clube_nome": "Fluminense",
             "posicao_id": "zag",
@@ -133,6 +123,16 @@
             "media_geral": 4.905882352941177,
             "indice_escalai": 6.343764705882352,
             "proximo_confronto": "vs BAH (Casa)"
+        },
+        {
+            "apelido": "Bruno Fuchs",
+            "clube_nome": "Palmeiras",
+            "posicao_id": "zag",
+            "preco_num": 8.05,
+            "media_ultimas_5": 6.459999999999999,
+            "media_geral": 4.885714285714285,
+            "indice_escalai": 5.987714285714285,
+            "proximo_confronto": "vs CEA (Fora)"
         },
         {
             "apelido": "Sabino",
@@ -209,16 +209,6 @@
     ],
     "Atacante": [
         {
-            "apelido": "Vitor Roque",
-            "clube_nome": "Palmeiras",
-            "posicao_id": "ata",
-            "preco_num": 13.24,
-            "media_ultimas_5": 11.26,
-            "media_geral": 8.97857142857143,
-            "indice_escalai": 10.575571428571429,
-            "proximo_confronto": "vs CEA (Fora)"
-        },
-        {
             "apelido": "Canobbio",
             "clube_nome": "Fluminense",
             "posicao_id": "ata",
@@ -257,6 +247,16 @@
             "media_geral": 4.9739130434782615,
             "indice_escalai": 8.016173913043477,
             "proximo_confronto": "vs RBB (Casa)"
+        },
+        {
+            "apelido": "Gabriel Taliari",
+            "clube_nome": "Juventude",
+            "posicao_id": "ata",
+            "preco_num": 8.06,
+            "media_ultimas_5": 8.3,
+            "media_geral": 4.348275862068966,
+            "indice_escalai": 7.1144827586206905,
+            "proximo_confronto": "vs COR (Fora)"
         }
     ],
     "Técnico": [
