@@ -1,16 +1,6 @@
 {
     "Goleiro": [
         {
-            "apelido": "Carlos Miguel",
-            "clube_nome": "Palmeiras",
-            "posicao_id": "gol",
-            "preco_num": 11.06,
-            "media_ultimas_5": 10.559999999999999,
-            "media_geral": 8.516666666666666,
-            "indice_escalai": 9.947,
-            "proximo_confronto": "vs CEA (Fora)"
-        },
-        {
             "apelido": "Thiago Couto",
             "clube_nome": "Vitória",
             "posicao_id": "gol",
@@ -19,6 +9,16 @@
             "media_geral": 7.133333333333333,
             "indice_escalai": 7.543999999999999,
             "proximo_confronto": "vs SAO (Casa)"
+        },
+        {
+            "apelido": "Léo Aragão",
+            "clube_nome": "Cruzeiro",
+            "posicao_id": "gol",
+            "preco_num": 6.88,
+            "media_ultimas_5": 6.733333333333333,
+            "media_geral": 6.733333333333333,
+            "indice_escalai": 6.7333333333333325,
+            "proximo_confronto": "vs SAN (Fora)"
         },
         {
             "apelido": "Everson",
@@ -63,16 +63,6 @@
             "proximo_confronto": "vs COR (Fora)"
         },
         {
-            "apelido": "Maik",
-            "clube_nome": "São Paulo",
-            "posicao_id": "lat",
-            "preco_num": 10.35,
-            "media_ultimas_5": 7.040000000000001,
-            "media_geral": 7.699999999999999,
-            "indice_escalai": 7.2379999999999995,
-            "proximo_confronto": "vs VIT (Fora)"
-        },
-        {
             "apelido": "Alex Telles",
             "clube_nome": "Botafogo",
             "posicao_id": "lat",
@@ -93,14 +83,24 @@
             "proximo_confronto": "vs BAH (Casa)"
         },
         {
-            "apelido": "Khellven",
-            "clube_nome": "Palmeiras",
+            "apelido": "Raúl Cáceres",
+            "clube_nome": "Vitória",
             "posicao_id": "lat",
-            "preco_num": 8.64,
-            "media_ultimas_5": 7.0200000000000005,
-            "media_geral": 6.220000000000001,
-            "indice_escalai": 6.779999999999999,
-            "proximo_confronto": "vs CEA (Fora)"
+            "preco_num": 4.7,
+            "media_ultimas_5": 7.699999999999998,
+            "media_geral": 3.95625,
+            "indice_escalai": 6.5768749999999985,
+            "proximo_confronto": "vs SAO (Casa)"
+        },
+        {
+            "apelido": "Fagner",
+            "clube_nome": "Cruzeiro",
+            "posicao_id": "lat",
+            "preco_num": 8.51,
+            "media_ultimas_5": 6.36,
+            "media_geral": 6.1,
+            "indice_escalai": 6.282,
+            "proximo_confronto": "vs SAN (Fora)"
         }
     ],
     "Zagueiro": [
@@ -187,6 +187,16 @@
             "proximo_confronto": "vs RBB (Casa)"
         },
         {
+            "apelido": "Pochettino",
+            "clube_nome": "Fortaleza",
+            "posicao_id": "mei",
+            "preco_num": 11.14,
+            "media_ultimas_5": 6.14,
+            "media_geral": 5.3578947368421055,
+            "indice_escalai": 5.90536842105263,
+            "proximo_confronto": "vs BOT (Fora)"
+        },
+        {
             "apelido": "Acevedo",
             "clube_nome": "Bahia",
             "posicao_id": "mei",
@@ -195,16 +205,6 @@
             "media_geral": 4.436,
             "indice_escalai": 5.6708,
             "proximo_confronto": "vs FLU (Fora)"
-        },
-        {
-            "apelido": "Willian",
-            "clube_nome": "Grêmio",
-            "posicao_id": "mei",
-            "preco_num": 10.83,
-            "media_ultimas_5": 5.566666666666667,
-            "media_geral": 5.566666666666667,
-            "indice_escalai": 5.566666666666667,
-            "proximo_confronto": "vs SPT (Fora)"
         }
     ],
     "Atacante": [
