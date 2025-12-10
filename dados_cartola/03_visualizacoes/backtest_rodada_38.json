@@ -1,0 +1,32 @@
+{
+    "Goleiro": {
+        "apelido": "Caíque França",
+        "pontuacao_real": 1.2,
+        "sinal": "Vermelho"
+    },
+    "Lateral": {
+        "apelido": "Maik",
+        "pontuacao_real": 0.0,
+        "sinal": "Vermelho"
+    },
+    "Zagueiro": {
+        "apelido": "Sabino",
+        "pontuacao_real": 4.2,
+        "sinal": "Amarelo"
+    },
+    "Meia": {
+        "apelido": "Neymar",
+        "pontuacao_real": 3.3,
+        "sinal": "Vermelho"
+    },
+    "Atacante": {
+        "apelido": "Soteldo",
+        "pontuacao_real": 6.8,
+        "sinal": "Vermelho"
+    },
+    "Técnico": {
+        "apelido": "Hernán Crespo",
+        "pontuacao_real": 3.29,
+        "sinal": "Vermelho"
+    }
+}

@@ -1,26 +1,26 @@
 {
     "Goleiro": {
-        "apelido": "Caíque França",
-        "clube_nome": "SPT"
+        "apelido": "Fábio",
+        "clube_nome": "FLU"
     },
     "Lateral": {
-        "apelido": "Luciano Juba",
-        "clube_nome": "BAH"
+        "apelido": "Juninho Capixaba",
+        "clube_nome": "RBB"
     },
     "Zagueiro": {
         "apelido": "Thiago Silva",
         "clube_nome": "FLU"
     },
     "Meia": {
-        "apelido": "Neymar",
+        "apelido": "Thaciano",
         "clube_nome": "SAN"
     },
     "Atacante": {
-        "apelido": "Erick",
-        "clube_nome": "VIT"
+        "apelido": "Bareiro",
+        "clube_nome": "FOR"
     },
     "Técnico": {
-        "apelido": "Hernán Crespo",
-        "clube_nome": "SAO"
+        "apelido": "Jorge Sampaoli",
+        "clube_nome": "CAM"
     }
 }

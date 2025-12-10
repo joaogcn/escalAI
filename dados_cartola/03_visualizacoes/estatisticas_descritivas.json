@@ -34,27 +34,27 @@
     "data":[
         {
             "index":"count",
-            "pontos_num":114051.0,
-            "preco_num":114051.0,
-            "variacao_num":114051.0,
-            "media_num":114051.0,
-            "jogos_num":114051.0
+            "pontos_num":114870.0,
+            "preco_num":114870.0,
+            "variacao_num":114870.0,
+            "media_num":114870.0,
+            "jogos_num":114870.0
         },
         {
             "index":"mean",
-            "pontos_num":1.3255628622,
-            "preco_num":4.8963388309,
-            "variacao_num":0.0001547553,
-            "media_num":2.1975242655,
-            "jogos_num":7.5941903184
+            "pontos_num":1.3261978759,
+            "preco_num":4.8975558457,
+            "variacao_num":0.0001540872,
+            "media_num":2.1999450683,
+            "jogos_num":7.6360233307
         },
         {
             "index":"std",
-            "pontos_num":2.8732590971,
-            "preco_num":3.2214147323,
-            "variacao_num":0.55451585,
-            "media_num":2.1640266054,
-            "jogos_num":8.0588045422
+            "pontos_num":2.8751163231,
+            "preco_num":3.2207882476,
+            "variacao_num":0.5539622652,
+            "media_num":2.1634068316,
+            "jogos_num":8.1003176103
         },
         {
             "index":"min",
@@ -67,7 +67,7 @@
         {
             "index":"25%",
             "pontos_num":0.0,
-            "preco_num":2.39,
+            "preco_num":2.4,
             "variacao_num":0.0,
             "media_num":0.0,
             "jogos_num":0.0
@@ -75,9 +75,9 @@
         {
             "index":"50%",
             "pontos_num":0.0,
-            "preco_num":4.31,
+            "preco_num":4.32,
             "variacao_num":0.0,
-            "media_num":1.94,
+            "media_num":1.95,
             "jogos_num":5.0
         },
         {
@@ -86,7 +86,7 @@
             "preco_num":6.68,
             "variacao_num":0.0,
             "media_num":3.62,
-            "jogos_num":12.0
+            "jogos_num":13.0
         },
         {
             "index":"max",
