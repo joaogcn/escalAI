@@ -34,64 +34,64 @@
     "data":[
         {
             "index":"count",
-            "pontos_num":114870.0,
-            "preco_num":114870.0,
-            "variacao_num":114870.0,
-            "media_num":114870.0,
-            "jogos_num":114870.0
+            "pontos_num":84724.0,
+            "preco_num":84724.0,
+            "variacao_num":84724.0,
+            "media_num":84724.0,
+            "jogos_num":84724.0
         },
         {
             "index":"mean",
-            "pontos_num":1.3261978759,
-            "preco_num":4.8975558457,
-            "variacao_num":0.0001540872,
-            "media_num":2.1999450683,
-            "jogos_num":7.6360233307
+            "pontos_num":1.3790775931,
+            "preco_num":4.9867594778,
+            "variacao_num":0.0000950144,
+            "media_num":2.290903404,
+            "jogos_num":7.7268542562
         },
         {
             "index":"std",
-            "pontos_num":2.8751163231,
-            "preco_num":3.2207882476,
-            "variacao_num":0.5539622652,
-            "media_num":2.1634068316,
-            "jogos_num":8.1003176103
+            "pontos_num":2.9283774796,
+            "preco_num":3.1928528847,
+            "variacao_num":0.5550444234,
+            "media_num":2.1935443767,
+            "jogos_num":8.0925786947
         },
         {
             "index":"min",
-            "pontos_num":-6.4,
+            "pontos_num":-6.0,
             "preco_num":0.63,
             "variacao_num":-7.19,
-            "media_num":-5.4,
+            "media_num":-3.6,
             "jogos_num":0.0
         },
         {
             "index":"25%",
             "pontos_num":0.0,
-            "preco_num":2.4,
+            "preco_num":2.59,
             "variacao_num":0.0,
             "media_num":0.0,
-            "jogos_num":0.0
+            "jogos_num":1.0
         },
         {
             "index":"50%",
             "pontos_num":0.0,
-            "preco_num":4.32,
+            "preco_num":4.5,
             "variacao_num":0.0,
-            "media_num":1.95,
+            "media_num":2.09,
             "jogos_num":5.0
         },
         {
             "index":"75%",
-            "pontos_num":1.3,
-            "preco_num":6.68,
+            "pontos_num":1.5,
+            "preco_num":6.81,
             "variacao_num":0.0,
-            "media_num":3.62,
+            "media_num":3.74,
             "jogos_num":13.0
         },
         {
             "index":"max",
-            "pontos_num":33.5,
-            "preco_num":29.11,
+            "pontos_num":33.1,
+            "preco_num":25.0,
             "variacao_num":8.77,
             "media_num":20.8,
             "jogos_num":38.0
