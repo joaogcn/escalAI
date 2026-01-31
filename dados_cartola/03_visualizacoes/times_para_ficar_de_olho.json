@@ -44,7 +44,7 @@
         "vitorias": 1,
         "empates": 0,
         "derrotas": 0,
-        "gols_pro": 1,
+        "gols_pro": 4,
         "gols_contra": 0
     },
     {
@@ -237,6 +237,6 @@
         "empates": 0,
         "derrotas": 1,
         "gols_pro": 0,
-        "gols_contra": 1
+        "gols_contra": 4
     }
 ]
