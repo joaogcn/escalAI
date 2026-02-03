@@ -12,15 +12,15 @@
         "clube_nome": "SAO"
     },
     "Meia": {
-        "apelido": "Montoro",
-        "clube_nome": "BOT"
+        "apelido": "Paulinho",
+        "clube_nome": "INT"
     },
     "Atacante": {
         "apelido": "Carlos Vinícius",
         "clube_nome": "GRE"
     },
     "Técnico": {
-        "apelido": "Jorge Sampaoli",
-        "clube_nome": "CAM"
+        "apelido": "Martín Anselmi",
+        "clube_nome": "BOT"
     }
 }

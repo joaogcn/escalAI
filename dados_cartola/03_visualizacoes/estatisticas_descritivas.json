@@ -34,34 +34,34 @@
     "data":[
         {
             "index":"count",
-            "pontos_num":84724.0,
-            "preco_num":84724.0,
-            "variacao_num":84724.0,
-            "media_num":84724.0,
-            "jogos_num":84724.0
+            "pontos_num":84788.0,
+            "preco_num":84788.0,
+            "variacao_num":84788.0,
+            "media_num":84788.0,
+            "jogos_num":84788.0
         },
         {
             "index":"mean",
-            "pontos_num":1.3790775931,
-            "preco_num":4.9867594778,
-            "variacao_num":0.0000950144,
-            "media_num":2.290903404,
-            "jogos_num":7.7268542562
+            "pontos_num":1.3923306364,
+            "preco_num":4.9859181724,
+            "variacao_num":0.0001046139,
+            "media_num":2.3034681795,
+            "jogos_num":7.7249728735
         },
         {
             "index":"std",
-            "pontos_num":2.9283774796,
-            "preco_num":3.1928528847,
-            "variacao_num":0.5550444234,
-            "media_num":2.1935443767,
-            "jogos_num":8.0925786947
+            "pontos_num":2.9395816345,
+            "preco_num":3.1922273441,
+            "variacao_num":0.5620128072,
+            "media_num":2.2037920959,
+            "jogos_num":8.0887793606
         },
         {
             "index":"min",
             "pontos_num":-6.0,
             "preco_num":0.63,
             "variacao_num":-7.19,
-            "media_num":-3.6,
+            "media_num":-6.0,
             "jogos_num":0.0
         },
         {
@@ -77,15 +77,15 @@
             "pontos_num":0.0,
             "preco_num":4.5,
             "variacao_num":0.0,
-            "media_num":2.09,
+            "media_num":2.1,
             "jogos_num":5.0
         },
         {
             "index":"75%",
             "pontos_num":1.5,
-            "preco_num":6.81,
+            "preco_num":6.8,
             "variacao_num":0.0,
-            "media_num":3.74,
+            "media_num":3.75,
             "jogos_num":13.0
         },
         {
