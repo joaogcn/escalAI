@@ -1,7 +1,7 @@
 {
     "Goleiro": {
-        "apelido": "Carlos Miguel",
-        "clube_nome": "PAL"
+        "apelido": "Léo Vieira",
+        "clube_nome": "CHA"
     },
     "Lateral": {
         "apelido": "Luciano Juba",
@@ -20,7 +20,7 @@
         "clube_nome": "GRE"
     },
     "Técnico": {
-        "apelido": "Martín Anselmi",
-        "clube_nome": "BOT"
+        "apelido": "Jorge Sampaoli",
+        "clube_nome": "CAM"
     }
 }

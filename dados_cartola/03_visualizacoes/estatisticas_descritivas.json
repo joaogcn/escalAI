@@ -34,27 +34,27 @@
     "data":[
         {
             "index":"count",
-            "pontos_num":84788.0,
-            "preco_num":84788.0,
-            "variacao_num":84788.0,
-            "media_num":84788.0,
-            "jogos_num":84788.0
+            "pontos_num":85492.0,
+            "preco_num":85492.0,
+            "variacao_num":85492.0,
+            "media_num":85492.0,
+            "jogos_num":85492.0
         },
         {
             "index":"mean",
-            "pontos_num":1.3923306364,
-            "preco_num":4.9859181724,
-            "variacao_num":0.0001046139,
-            "media_num":2.3034681795,
-            "jogos_num":7.7249728735
+            "pontos_num":1.3932717681,
+            "preco_num":4.9898702803,
+            "variacao_num":0.0001034015,
+            "media_num":2.2998002152,
+            "jogos_num":7.6688462078
         },
         {
             "index":"std",
-            "pontos_num":2.9395816345,
-            "preco_num":3.1922273441,
-            "variacao_num":0.5620128072,
-            "media_num":2.2037920959,
-            "jogos_num":8.0887793606
+            "pontos_num":2.9404360377,
+            "preco_num":3.1936971048,
+            "variacao_num":0.5629302233,
+            "media_num":2.2109779467,
+            "jogos_num":8.079328315
         },
         {
             "index":"min",
@@ -77,13 +77,13 @@
             "pontos_num":0.0,
             "preco_num":4.5,
             "variacao_num":0.0,
-            "media_num":2.1,
+            "media_num":2.09,
             "jogos_num":5.0
         },
         {
             "index":"75%",
             "pontos_num":1.5,
-            "preco_num":6.8,
+            "preco_num":6.81,
             "variacao_num":0.0,
             "media_num":3.75,
             "jogos_num":13.0

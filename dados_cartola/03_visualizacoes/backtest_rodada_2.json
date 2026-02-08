@@ -1,0 +1,32 @@
+{
+    "Goleiro": {
+        "apelido": "Pedro Morisco",
+        "pontuacao_real": 2.9,
+        "sinal": "Vermelho"
+    },
+    "Lateral": {
+        "apelido": "Juninho Capixaba",
+        "pontuacao_real": 8.9,
+        "sinal": "Verde"
+    },
+    "Zagueiro": {
+        "apelido": "Gustavo Martins",
+        "pontuacao_real": 0.0,
+        "sinal": "Vermelho"
+    },
+    "Meia": {
+        "apelido": "Danilo",
+        "pontuacao_real": 16.5,
+        "sinal": "Verde"
+    },
+    "Atacante": {
+        "apelido": "Flaco López",
+        "pontuacao_real": 4.9,
+        "sinal": "Vermelho"
+    },
+    "Técnico": {
+        "apelido": "Martín Anselmi",
+        "pontuacao_real": 5.02,
+        "sinal": "Vermelho"
+    }
+}
