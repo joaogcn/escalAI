@@ -1,15 +1,15 @@
 {
     "Goleiro": {
-        "apelido": "Léo Vieira",
-        "clube_nome": "CHA"
+        "apelido": "Carlos Miguel",
+        "clube_nome": "PAL"
     },
     "Lateral": {
-        "apelido": "Luciano Juba",
-        "clube_nome": "BAH"
+        "apelido": "Matheus Bidu",
+        "clube_nome": "COR"
     },
     "Zagueiro": {
-        "apelido": "Marllon",
-        "clube_nome": "REM"
+        "apelido": "Arboleda",
+        "clube_nome": "SAO"
     },
     "Meia": {
         "apelido": "Thaciano",
@@ -20,7 +20,7 @@
         "clube_nome": "GRE"
     },
     "Técnico": {
-        "apelido": "Jorge Sampaoli",
-        "clube_nome": "CAM"
+        "apelido": "Dorival Júnior",
+        "clube_nome": "COR"
     }
 }

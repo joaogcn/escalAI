@@ -68,7 +68,7 @@
         "vitorias": 2,
         "empates": 0,
         "derrotas": 0,
-        "gols_pro": 9,
+        "gols_pro": 10,
         "gols_contra": 4
     },
     {
@@ -201,7 +201,7 @@
         "empates": 0,
         "derrotas": 2,
         "gols_pro": 2,
-        "gols_contra": 4
+        "gols_contra": 5
     },
     {
         "nome": "SAN",
