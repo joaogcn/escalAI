@@ -1,0 +1,32 @@
+{
+    "Goleiro": {
+        "apelido": "Léo Vieira",
+        "pontuacao_real": -0.4,
+        "sinal": "Vermelho"
+    },
+    "Lateral": {
+        "apelido": "Piquerez",
+        "pontuacao_real": 6.2,
+        "sinal": "Verde"
+    },
+    "Zagueiro": {
+        "apelido": "Murilo",
+        "pontuacao_real": -0.3,
+        "sinal": "Vermelho"
+    },
+    "Meia": {
+        "apelido": "Danilo",
+        "pontuacao_real": 3.5,
+        "sinal": "Vermelho"
+    },
+    "Atacante": {
+        "apelido": "Carlos Vinícius",
+        "pontuacao_real": 0.7,
+        "sinal": "Vermelho"
+    },
+    "Técnico": {
+        "apelido": "Abel Ferreira",
+        "pontuacao_real": 7.45,
+        "sinal": "Amarelo"
+    }
+}
