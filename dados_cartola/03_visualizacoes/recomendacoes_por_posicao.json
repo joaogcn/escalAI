@@ -187,16 +187,6 @@
             "proximo_confronto": "vs VAS (Casa)"
         },
         {
-            "apelido": "Philippe Coutinho",
-            "clube_nome": "Vasco",
-            "posicao_id": "mei",
-            "preco_num": 13.21,
-            "media_ultimas_5": 8.233333333333334,
-            "media_geral": 8.233333333333334,
-            "indice_escalai": 8.233333333333334,
-            "proximo_confronto": "vs SAN (Fora)"
-        },
-        {
             "apelido": "Barros",
             "clube_nome": "Vasco",
             "posicao_id": "mei",
@@ -205,6 +195,16 @@
             "media_geral": 7.833333333333333,
             "indice_escalai": 7.833333333333332,
             "proximo_confronto": "vs SAN (Fora)"
+        },
+        {
+            "apelido": "Patrick de Paula",
+            "clube_nome": "REM",
+            "posicao_id": "mei",
+            "preco_num": 7.89,
+            "media_ultimas_5": 6.8,
+            "media_geral": 6.8,
+            "indice_escalai": 6.8,
+            "proximo_confronto": "vs INT (Casa)"
         }
     ],
     "Atacante": [
