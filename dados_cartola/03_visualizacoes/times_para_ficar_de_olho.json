@@ -12,6 +12,18 @@
         "gols_contra": 2
     },
     {
+        "nome": "COR",
+        "id": 264,
+        "escudo_url": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/COR/60x60.png",
+        "indice_desempenho": 10,
+        "jogos": 3,
+        "vitorias": 2,
+        "empates": 0,
+        "derrotas": 1,
+        "gols_pro": 4,
+        "gols_contra": 2
+    },
+    {
         "nome": "FLU",
         "id": 266,
         "escudo_url": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/FLU/60x60.png",
@@ -52,12 +64,12 @@
         "id": 293,
         "escudo_url": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/CAP/60x60.png",
         "indice_desempenho": 8,
-        "jogos": 2,
+        "jogos": 3,
         "vitorias": 2,
         "empates": 0,
-        "derrotas": 0,
+        "derrotas": 1,
         "gols_pro": 3,
-        "gols_contra": 1
+        "gols_contra": 2
     },
     {
         "nome": "PAL",
@@ -82,18 +94,6 @@
         "derrotas": 2,
         "gols_pro": 4,
         "gols_contra": 7
-    },
-    {
-        "nome": "COR",
-        "id": 264,
-        "escudo_url": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/COR/60x60.png",
-        "indice_desempenho": 5,
-        "jogos": 2,
-        "vitorias": 1,
-        "empates": 0,
-        "derrotas": 1,
-        "gols_pro": 3,
-        "gols_contra": 2
     },
     {
         "nome": "CHA",

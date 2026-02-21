@@ -63,6 +63,16 @@
             "proximo_confronto": "vs CAP (Casa)"
         },
         {
+            "apelido": "Enzo Díaz",
+            "clube_nome": "São Paulo",
+            "posicao_id": "lat",
+            "preco_num": 11.33,
+            "media_ultimas_5": 8.533333333333333,
+            "media_geral": 8.533333333333333,
+            "indice_escalai": 8.533333333333333,
+            "proximo_confronto": "vs CFC (Fora)"
+        },
+        {
             "apelido": "Renê",
             "clube_nome": "Fluminense",
             "posicao_id": "lat",
@@ -91,16 +101,6 @@
             "media_geral": 5.433333333333334,
             "indice_escalai": 5.433333333333334,
             "proximo_confronto": "vs GRE (Fora)"
-        },
-        {
-            "apelido": "Samuel Xavier",
-            "clube_nome": "Fluminense",
-            "posicao_id": "lat",
-            "preco_num": 8.59,
-            "media_ultimas_5": 4.2,
-            "media_geral": 4.2,
-            "indice_escalai": 4.2,
-            "proximo_confronto": "vs PAL (Fora)"
         }
     ],
     "Zagueiro": [
