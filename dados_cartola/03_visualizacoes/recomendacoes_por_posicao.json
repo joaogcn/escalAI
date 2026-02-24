@@ -115,16 +115,6 @@
             "proximo_confronto": "vs FLU (Casa)"
         },
         {
-            "apelido": "Gustavo Marques",
-            "clube_nome": "Bragantino",
-            "posicao_id": "zag",
-            "preco_num": 6.75,
-            "media_ultimas_5": 6.8999999999999995,
-            "media_geral": 6.8999999999999995,
-            "indice_escalai": 6.899999999999999,
-            "proximo_confronto": "vs CAP (Casa)"
-        },
-        {
             "apelido": "Sabino",
             "clube_nome": "São Paulo",
             "posicao_id": "zag",
@@ -153,6 +143,16 @@
             "media_geral": 4.933333333333333,
             "indice_escalai": 4.933333333333333,
             "proximo_confronto": "vs FLU (Casa)"
+        },
+        {
+            "apelido": "Marllon",
+            "clube_nome": "REM",
+            "posicao_id": "zag",
+            "preco_num": 5.99,
+            "media_ultimas_5": 3.966666666666667,
+            "media_geral": 3.966666666666667,
+            "indice_escalai": 3.9666666666666663,
+            "proximo_confronto": "vs INT (Casa)"
         }
     ],
     "Meia": [
