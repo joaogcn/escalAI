@@ -34,27 +34,27 @@
     "data":[
         {
             "index":"count",
-            "pontos_num":86200.0,
-            "preco_num":86200.0,
-            "variacao_num":86200.0,
-            "media_num":86200.0,
-            "jogos_num":86200.0
+            "pontos_num":88277.0,
+            "preco_num":88277.0,
+            "variacao_num":88277.0,
+            "media_num":88277.0,
+            "jogos_num":88277.0
         },
         {
             "index":"mean",
-            "pontos_num":1.3953727378,
-            "preco_num":4.9936769142,
-            "variacao_num":0.0001016241,
-            "media_num":2.2973393271,
-            "jogos_num":7.6167053364
+            "pontos_num":1.3948695583,
+            "preco_num":4.9886764389,
+            "variacao_num":0.0000830341,
+            "media_num":2.2807893336,
+            "jogos_num":7.4584546371
         },
         {
             "index":"std",
-            "pontos_num":2.9435821598,
-            "preco_num":3.1950347833,
-            "variacao_num":0.5644095314,
-            "media_num":2.2163738926,
-            "jogos_num":8.0672758703
+            "pontos_num":2.9407551426,
+            "preco_num":3.1916737532,
+            "variacao_num":0.568958091,
+            "media_num":2.2296013567,
+            "jogos_num":8.0381307865
         },
         {
             "index":"min",
@@ -70,22 +70,22 @@
             "preco_num":2.6,
             "variacao_num":0.0,
             "media_num":0.0,
-            "jogos_num":1.0
+            "jogos_num":0.0
         },
         {
             "index":"50%",
             "pontos_num":0.0,
-            "preco_num":4.5,
+            "preco_num":4.49,
             "variacao_num":0.0,
-            "media_num":2.08,
+            "media_num":2.05,
             "jogos_num":5.0
         },
         {
             "index":"75%",
             "pontos_num":1.5,
-            "preco_num":6.82,
+            "preco_num":6.8,
             "variacao_num":0.0,
-            "media_num":3.75,
+            "media_num":3.73,
             "jogos_num":12.0
         },
         {
