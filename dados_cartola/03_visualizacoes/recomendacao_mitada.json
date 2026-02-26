@@ -8,8 +8,8 @@
         "clube_nome": "VAS"
     },
     "Zagueiro": {
-        "apelido": "Marllon",
-        "clube_nome": "REM"
+        "apelido": "Arboleda",
+        "clube_nome": "SAO"
     },
     "Meia": {
         "apelido": "Paulinho",
@@ -20,7 +20,7 @@
         "clube_nome": "GRE"
     },
     "Técnico": {
-        "apelido": "Dorival Júnior",
-        "clube_nome": "COR"
+        "apelido": "Lucas Gonçalves",
+        "clube_nome": "CAM"
     }
 }
