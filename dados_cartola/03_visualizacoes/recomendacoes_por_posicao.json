@@ -177,16 +177,6 @@
             "proximo_confronto": "vs PAL (Fora)"
         },
         {
-            "apelido": "Gabriel Menino",
-            "clube_nome": "Santos",
-            "posicao_id": "mei",
-            "preco_num": 10.27,
-            "media_ultimas_5": 8.333333333333334,
-            "media_geral": 8.333333333333334,
-            "indice_escalai": 8.333333333333332,
-            "proximo_confronto": "vs VAS (Casa)"
-        },
-        {
             "apelido": "Barros",
             "clube_nome": "Vasco",
             "posicao_id": "mei",
@@ -205,6 +195,16 @@
             "media_geral": 6.8,
             "indice_escalai": 6.8,
             "proximo_confronto": "vs INT (Casa)"
+        },
+        {
+            "apelido": "Gustavinho",
+            "clube_nome": "Bragantino",
+            "posicao_id": "mei",
+            "preco_num": 6.85,
+            "media_ultimas_5": 6.533333333333332,
+            "media_geral": 6.533333333333332,
+            "indice_escalai": 6.533333333333331,
+            "proximo_confronto": "vs CAP (Casa)"
         }
     ],
     "Atacante": [

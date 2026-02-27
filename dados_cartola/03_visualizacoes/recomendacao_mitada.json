@@ -1,7 +1,7 @@
 {
     "Goleiro": {
-        "apelido": "Gabriel Brazão",
-        "clube_nome": "SAN"
+        "apelido": "Hugo Souza",
+        "clube_nome": "COR"
     },
     "Lateral": {
         "apelido": "Paulo Henrique",
@@ -12,15 +12,15 @@
         "clube_nome": "SAO"
     },
     "Meia": {
-        "apelido": "Paulinho",
-        "clube_nome": "INT"
+        "apelido": "Thaciano",
+        "clube_nome": "SAN"
     },
     "Atacante": {
-        "apelido": "Carlos Vinícius",
-        "clube_nome": "GRE"
+        "apelido": "Moisés",
+        "clube_nome": "SAN"
     },
     "Técnico": {
-        "apelido": "Lucas Gonçalves",
-        "clube_nome": "CAM"
+        "apelido": "Dorival Júnior",
+        "clube_nome": "COR"
     }
 }
