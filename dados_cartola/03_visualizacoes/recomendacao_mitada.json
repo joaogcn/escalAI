@@ -1,23 +1,23 @@
 {
     "Goleiro": {
-        "apelido": "Hugo Souza",
-        "clube_nome": "COR"
+        "apelido": "Carlos Miguel",
+        "clube_nome": "PAL"
     },
     "Lateral": {
-        "apelido": "Paulo Henrique",
-        "clube_nome": "VAS"
+        "apelido": "Walter Clar",
+        "clube_nome": "CHA"
     },
     "Zagueiro": {
-        "apelido": "Arboleda",
-        "clube_nome": "SAO"
+        "apelido": "Eduardo Doma",
+        "clube_nome": "CHA"
     },
     "Meia": {
-        "apelido": "Thaciano",
-        "clube_nome": "SAN"
+        "apelido": "Paulinho",
+        "clube_nome": "INT"
     },
     "Atacante": {
-        "apelido": "Moisés",
-        "clube_nome": "SAN"
+        "apelido": "Carlos Vinícius",
+        "clube_nome": "GRE"
     },
     "Técnico": {
         "apelido": "Dorival Júnior",
