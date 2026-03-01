@@ -1,0 +1,32 @@
+{
+    "Goleiro": {
+        "apelido": "Hugo Souza",
+        "pontuacao_real": 1.6,
+        "sinal": "Vermelho"
+    },
+    "Lateral": {
+        "apelido": "Matheus Bidu",
+        "pontuacao_real": 0.0,
+        "sinal": "Vermelho"
+    },
+    "Zagueiro": {
+        "apelido": "Gabriel Paulista",
+        "pontuacao_real": 0.0,
+        "sinal": "Vermelho"
+    },
+    "Meia": {
+        "apelido": "Everton Ribeiro",
+        "pontuacao_real": 0.0,
+        "sinal": "Vermelho"
+    },
+    "Atacante": {
+        "apelido": "Breno Lopes",
+        "pontuacao_real": 2.5,
+        "sinal": "Vermelho"
+    },
+    "Técnico": {
+        "apelido": "Dorival Júnior",
+        "pontuacao_real": 3.31,
+        "sinal": "Vermelho"
+    }
+}

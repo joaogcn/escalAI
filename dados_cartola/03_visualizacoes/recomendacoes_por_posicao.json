@@ -1,14 +1,14 @@
 {
     "Goleiro": [
         {
-            "apelido": "Fábio",
-            "clube_nome": "Fluminense",
+            "apelido": "Hugo Souza",
+            "clube_nome": "Corinthians",
             "posicao_id": "gol",
-            "preco_num": 11.36,
-            "media_ultimas_5": 5.666666666666667,
-            "media_geral": 5.666666666666667,
-            "indice_escalai": 5.666666666666667,
-            "proximo_confronto": "vs REM (Fora)"
+            "preco_num": 11.29,
+            "media_ultimas_5": 6.566666666666666,
+            "media_geral": 6.566666666666666,
+            "indice_escalai": 6.5666666666666655,
+            "proximo_confronto": "vs CFC (Casa)"
         },
         {
             "apelido": "Ronaldo",
@@ -21,14 +21,24 @@
             "proximo_confronto": "vs VIT (Casa)"
         },
         {
-            "apelido": "Cleiton",
-            "clube_nome": "Bragantino",
+            "apelido": "Rafael",
+            "clube_nome": "São Paulo",
             "posicao_id": "gol",
-            "preco_num": 7.86,
-            "media_ultimas_5": 4.933333333333333,
-            "media_geral": 4.933333333333333,
-            "indice_escalai": 4.933333333333333,
-            "proximo_confronto": "vs GRE (Fora)"
+            "preco_num": 9.45,
+            "media_ultimas_5": 5.25,
+            "media_geral": 5.25,
+            "indice_escalai": 5.25,
+            "proximo_confronto": "vs CHA (Casa)"
+        },
+        {
+            "apelido": "Fábio",
+            "clube_nome": "Fluminense",
+            "posicao_id": "gol",
+            "preco_num": 10.6,
+            "media_ultimas_5": 5.2,
+            "media_geral": 5.2,
+            "indice_escalai": 5.199999999999999,
+            "proximo_confronto": "vs REM (Fora)"
         },
         {
             "apelido": "Léo Vieira",
@@ -39,16 +49,6 @@
             "media_geral": 4.933333333333333,
             "indice_escalai": 4.933333333333333,
             "proximo_confronto": "vs SAO (Fora)"
-        },
-        {
-            "apelido": "Rafael",
-            "clube_nome": "São Paulo",
-            "posicao_id": "gol",
-            "preco_num": 8.84,
-            "media_ultimas_5": 4.466666666666667,
-            "media_geral": 4.466666666666667,
-            "indice_escalai": 4.466666666666667,
-            "proximo_confronto": "vs CHA (Casa)"
         }
     ],
     "Lateral": [
@@ -56,10 +56,10 @@
             "apelido": "Juninho Capixaba",
             "clube_nome": "Bragantino",
             "posicao_id": "lat",
-            "preco_num": 12.85,
-            "media_ultimas_5": 9.833333333333334,
-            "media_geral": 9.833333333333334,
-            "indice_escalai": 9.833333333333334,
+            "preco_num": 15.26,
+            "media_ultimas_5": 11.05,
+            "media_geral": 11.05,
+            "indice_escalai": 11.05,
             "proximo_confronto": "vs GRE (Fora)"
         },
         {
@@ -93,25 +93,35 @@
             "proximo_confronto": "vs REM (Fora)"
         },
         {
-            "apelido": "Piquerez",
-            "clube_nome": "Palmeiras",
+            "apelido": "Marlon",
+            "clube_nome": "Grêmio",
             "posicao_id": "lat",
-            "preco_num": 11.61,
-            "media_ultimas_5": 8.1,
-            "media_geral": 8.1,
-            "indice_escalai": 8.099999999999998,
-            "proximo_confronto": "vs VAS (Fora)"
+            "preco_num": 10.91,
+            "media_ultimas_5": 6.949999999999999,
+            "media_geral": 6.949999999999999,
+            "indice_escalai": 6.949999999999999,
+            "proximo_confronto": "vs RBB (Casa)"
         }
     ],
     "Zagueiro": [
         {
+            "apelido": "Noriega",
+            "clube_nome": "Grêmio",
+            "posicao_id": "zag",
+            "preco_num": 9.58,
+            "media_ultimas_5": 8.466666666666667,
+            "media_geral": 8.466666666666667,
+            "indice_escalai": 8.466666666666667,
+            "proximo_confronto": "vs RBB (Casa)"
+        },
+        {
             "apelido": "Gustavo Gómez",
             "clube_nome": "Palmeiras",
             "posicao_id": "zag",
-            "preco_num": 13.37,
-            "media_ultimas_5": 7.8,
-            "media_geral": 7.8,
-            "indice_escalai": 7.8,
+            "preco_num": 11.84,
+            "media_ultimas_5": 6.4,
+            "media_geral": 6.4,
+            "indice_escalai": 6.3999999999999995,
             "proximo_confronto": "vs VAS (Fora)"
         },
         {
@@ -135,16 +145,6 @@
             "proximo_confronto": "vs REM (Fora)"
         },
         {
-            "apelido": "Murilo",
-            "clube_nome": "Palmeiras",
-            "posicao_id": "zag",
-            "preco_num": 7.03,
-            "media_ultimas_5": 4.933333333333333,
-            "media_geral": 4.933333333333333,
-            "indice_escalai": 4.933333333333333,
-            "proximo_confronto": "vs VAS (Fora)"
-        },
-        {
             "apelido": "Eduardo Doma",
             "clube_nome": "CHA",
             "posicao_id": "zag",
@@ -156,16 +156,6 @@
         }
     ],
     "Meia": [
-        {
-            "apelido": "Andreas Pereira",
-            "clube_nome": "Palmeiras",
-            "posicao_id": "mei",
-            "preco_num": 17.92,
-            "media_ultimas_5": 12.700000000000001,
-            "media_geral": 12.700000000000001,
-            "indice_escalai": 12.700000000000001,
-            "proximo_confronto": "vs VAS (Fora)"
-        },
         {
             "apelido": "Jean Carlos",
             "clube_nome": "CHA",
@@ -180,83 +170,93 @@
             "apelido": "Lucho Acosta",
             "clube_nome": "Fluminense",
             "posicao_id": "mei",
-            "preco_num": 12.22,
-            "media_ultimas_5": 9.6,
-            "media_geral": 9.6,
-            "indice_escalai": 9.6,
+            "preco_num": 13.43,
+            "media_ultimas_5": 10.125,
+            "media_geral": 10.125,
+            "indice_escalai": 10.125,
             "proximo_confronto": "vs REM (Fora)"
         },
         {
             "apelido": "Barros",
             "clube_nome": "Vasco",
             "posicao_id": "mei",
-            "preco_num": 8.85,
-            "media_ultimas_5": 7.833333333333333,
-            "media_geral": 7.833333333333333,
-            "indice_escalai": 7.833333333333332,
+            "preco_num": 11.7,
+            "media_ultimas_5": 10.125,
+            "media_geral": 10.125,
+            "indice_escalai": 10.125,
             "proximo_confronto": "vs PAL (Casa)"
         },
         {
-            "apelido": "Patrick de Paula",
-            "clube_nome": "REM",
+            "apelido": "Andreas Pereira",
+            "clube_nome": "Palmeiras",
             "posicao_id": "mei",
-            "preco_num": 7.89,
-            "media_ultimas_5": 6.8,
-            "media_geral": 6.8,
-            "indice_escalai": 6.8,
-            "proximo_confronto": "vs FLU (Casa)"
+            "preco_num": 15.82,
+            "media_ultimas_5": 9.8,
+            "media_geral": 9.8,
+            "indice_escalai": 9.8,
+            "proximo_confronto": "vs VAS (Fora)"
+        },
+        {
+            "apelido": "Allan",
+            "clube_nome": "Palmeiras",
+            "posicao_id": "mei",
+            "preco_num": 16.47,
+            "media_ultimas_5": 8.95,
+            "media_geral": 8.95,
+            "indice_escalai": 8.95,
+            "proximo_confronto": "vs VAS (Fora)"
         }
     ],
     "Atacante": [
         {
-            "apelido": "Carlos Vinícius",
-            "clube_nome": "Grêmio",
+            "apelido": "Vitor Roque",
+            "clube_nome": "Palmeiras",
             "posicao_id": "ata",
-            "preco_num": 18.6,
-            "media_ultimas_5": 12.266666666666667,
-            "media_geral": 12.266666666666667,
-            "indice_escalai": 12.266666666666666,
-            "proximo_confronto": "vs RBB (Casa)"
-        },
-        {
-            "apelido": "Breno Lopes",
-            "clube_nome": "CFC",
-            "posicao_id": "ata",
-            "preco_num": 11.39,
-            "media_ultimas_5": 9.566666666666665,
-            "media_geral": 9.566666666666665,
-            "indice_escalai": 9.566666666666663,
-            "proximo_confronto": "vs COR (Fora)"
+            "preco_num": 21.71,
+            "media_ultimas_5": 11.8,
+            "media_geral": 11.8,
+            "indice_escalai": 11.8,
+            "proximo_confronto": "vs VAS (Fora)"
         },
         {
             "apelido": "Lucas Ronier",
             "clube_nome": "CFC",
             "posicao_id": "ata",
-            "preco_num": 9.04,
-            "media_ultimas_5": 9.299999999999999,
-            "media_geral": 9.299999999999999,
-            "indice_escalai": 9.299999999999999,
+            "preco_num": 10.11,
+            "media_ultimas_5": 9.825,
+            "media_geral": 9.825,
+            "indice_escalai": 9.825,
             "proximo_confronto": "vs COR (Fora)"
         },
         {
             "apelido": "Alef Manga",
             "clube_nome": "REM",
             "posicao_id": "ata",
-            "preco_num": 9.01,
-            "media_ultimas_5": 9.233333333333333,
-            "media_geral": 9.233333333333333,
-            "indice_escalai": 9.23333333333333,
+            "preco_num": 10.15,
+            "media_ultimas_5": 9.45,
+            "media_geral": 9.45,
+            "indice_escalai": 9.45,
             "proximo_confronto": "vs FLU (Casa)"
         },
         {
-            "apelido": "Vitor Roque",
-            "clube_nome": "Palmeiras",
+            "apelido": "Carlos Vinícius",
+            "clube_nome": "Grêmio",
             "posicao_id": "ata",
-            "preco_num": 19.39,
-            "media_ultimas_5": 8.666666666666666,
-            "media_geral": 8.666666666666666,
-            "indice_escalai": 8.666666666666664,
-            "proximo_confronto": "vs VAS (Fora)"
+            "preco_num": 17.42,
+            "media_ultimas_5": 9.25,
+            "media_geral": 9.25,
+            "indice_escalai": 9.25,
+            "proximo_confronto": "vs RBB (Casa)"
+        },
+        {
+            "apelido": "Breno Lopes",
+            "clube_nome": "CFC",
+            "posicao_id": "ata",
+            "preco_num": 9.98,
+            "media_ultimas_5": 7.799999999999999,
+            "media_geral": 7.799999999999999,
+            "indice_escalai": 7.799999999999999,
+            "proximo_confronto": "vs COR (Fora)"
         }
     ],
     "Técnico": [
@@ -264,20 +264,20 @@
             "apelido": "Abel Ferreira",
             "clube_nome": "Palmeiras",
             "posicao_id": "tec",
-            "preco_num": 12.25,
-            "media_ultimas_5": 7.1866666666666665,
-            "media_geral": 7.1866666666666665,
-            "indice_escalai": 7.186666666666666,
+            "preco_num": 12.42,
+            "media_ultimas_5": 7.13,
+            "media_geral": 7.13,
+            "indice_escalai": 7.129999999999999,
             "proximo_confronto": "vs VAS (Fora)"
         },
         {
             "apelido": "Hernán Crespo",
             "clube_nome": "São Paulo",
             "posicao_id": "tec",
-            "preco_num": 9.46,
-            "media_ultimas_5": 7.010000000000001,
-            "media_geral": 7.010000000000001,
-            "indice_escalai": 7.01,
+            "preco_num": 9.83,
+            "media_ultimas_5": 6.9825,
+            "media_geral": 6.9825,
+            "indice_escalai": 6.9825,
             "proximo_confronto": "vs CHA (Casa)"
         },
         {
@@ -291,6 +291,16 @@
             "proximo_confronto": "vs VIT (Casa)"
         },
         {
+            "apelido": "Dorival Júnior",
+            "clube_nome": "Corinthians",
+            "posicao_id": "tec",
+            "preco_num": 11.6,
+            "media_ultimas_5": 6.226666666666667,
+            "media_geral": 6.226666666666667,
+            "indice_escalai": 6.226666666666667,
+            "proximo_confronto": "vs CFC (Casa)"
+        },
+        {
             "apelido": "Gilmar Dal Pozzo",
             "clube_nome": "CHA",
             "posicao_id": "tec",
@@ -299,16 +309,6 @@
             "media_geral": 6.033333333333334,
             "indice_escalai": 6.033333333333333,
             "proximo_confronto": "vs SAO (Fora)"
-        },
-        {
-            "apelido": "Luis Zubeldía",
-            "clube_nome": "Fluminense",
-            "posicao_id": "tec",
-            "preco_num": 9.93,
-            "media_ultimas_5": 6.0,
-            "media_geral": 6.0,
-            "indice_escalai": 5.999999999999999,
-            "proximo_confronto": "vs REM (Fora)"
         }
     ]
 }

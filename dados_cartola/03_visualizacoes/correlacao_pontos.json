@@ -22,95 +22,95 @@
         },
         {
             "index":"variacao_num",
-            "pontos_num":0.6001958047
+            "pontos_num":0.6009579355
         },
         {
             "index":"media_num",
-            "pontos_num":0.5017316725
+            "pontos_num":0.5020047042
         },
         {
             "index":"preco_num",
-            "pontos_num":0.4668762049
+            "pontos_num":0.4666261281
         },
         {
             "index":"jogos_num",
-            "pontos_num":0.2881038153
+            "pontos_num":0.2877909764
         },
         {
             "index":"G",
-            "pontos_num":0.2703441552
+            "pontos_num":0.2704686126
         },
         {
             "index":"FS",
-            "pontos_num":0.2496870074
+            "pontos_num":0.249771744
         },
         {
             "index":"A",
-            "pontos_num":0.245654098
+            "pontos_num":0.245459958
         },
         {
             "index":"FF",
-            "pontos_num":0.2442589077
+            "pontos_num":0.2442778286
         },
         {
             "index":"FD",
-            "pontos_num":0.2412081791
+            "pontos_num":0.2411606104
         },
         {
             "index":"DS",
-            "pontos_num":0.2334914387
+            "pontos_num":0.2336908801
         },
         {
             "index":"FC",
-            "pontos_num":0.2062393379
+            "pontos_num":0.2064379715
         },
         {
             "index":"CA",
-            "pontos_num":0.1747961538
+            "pontos_num":0.1748480699
         },
         {
             "index":"SG",
-            "pontos_num":0.1714221325
+            "pontos_num":0.1711842147
         },
         {
             "index":"FT",
-            "pontos_num":0.1644004467
+            "pontos_num":0.1646020162
         },
         {
             "index":"I",
-            "pontos_num":0.1624852815
+            "pontos_num":0.162592863
         },
         {
             "index":"V",
-            "pontos_num":0.1538331758
+            "pontos_num":0.1535963831
         },
         {
             "index":"PS",
-            "pontos_num":0.1165080402
+            "pontos_num":0.1166297674
         },
         {
             "index":"PP",
-            "pontos_num":0.077774083
+            "pontos_num":0.0774731162
         },
         {
             "index":"GS",
-            "pontos_num":0.0616095287
+            "pontos_num":0.0616342812
         },
         {
             "index":"PC",
-            "pontos_num":0.0475298939
+            "pontos_num":0.0475192626
         },
         {
             "index":"DP",
-            "pontos_num":0.0469897986
+            "pontos_num":0.046845048
         },
         {
             "index":"CV",
-            "pontos_num":0.0264415486
+            "pontos_num":0.0262963611
         },
         {
             "index":"GC",
-            "pontos_num":0.0228888667
+            "pontos_num":0.0228591402
         }
     ]
 }
