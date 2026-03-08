@@ -167,16 +167,6 @@
             "proximo_confronto": "vs SAO (Fora)"
         },
         {
-            "apelido": "Lucho Acosta",
-            "clube_nome": "Fluminense",
-            "posicao_id": "mei",
-            "preco_num": 13.43,
-            "media_ultimas_5": 10.125,
-            "media_geral": 10.125,
-            "indice_escalai": 10.125,
-            "proximo_confronto": "vs REM (Fora)"
-        },
-        {
             "apelido": "Barros",
             "clube_nome": "Vasco",
             "posicao_id": "mei",
@@ -185,6 +175,16 @@
             "media_geral": 10.125,
             "indice_escalai": 10.125,
             "proximo_confronto": "vs PAL (Casa)"
+        },
+        {
+            "apelido": "Lucho Acosta",
+            "clube_nome": "Fluminense",
+            "posicao_id": "mei",
+            "preco_num": 13.43,
+            "media_ultimas_5": 10.125,
+            "media_geral": 10.125,
+            "indice_escalai": 10.125,
+            "proximo_confronto": "vs REM (Fora)"
         },
         {
             "apelido": "Andreas Pereira",
