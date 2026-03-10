@@ -271,16 +271,6 @@
             "proximo_confronto": "vs VAS (Fora)"
         },
         {
-            "apelido": "Hernán Crespo",
-            "clube_nome": "São Paulo",
-            "posicao_id": "tec",
-            "preco_num": 9.83,
-            "media_ultimas_5": 6.9825,
-            "media_geral": 6.9825,
-            "indice_escalai": 6.9825,
-            "proximo_confronto": "vs CHA (Casa)"
-        },
-        {
             "apelido": "Rogério Ceni",
             "clube_nome": "Bahia",
             "posicao_id": "tec",
@@ -309,6 +299,16 @@
             "media_geral": 6.033333333333334,
             "indice_escalai": 6.033333333333333,
             "proximo_confronto": "vs SAO (Fora)"
+        },
+        {
+            "apelido": "Luís Castro",
+            "clube_nome": "Grêmio",
+            "posicao_id": "tec",
+            "preco_num": 10.31,
+            "media_ultimas_5": 5.5675,
+            "media_geral": 5.5675,
+            "indice_escalai": 5.5675,
+            "proximo_confronto": "vs RBB (Casa)"
         }
     ]
 }
