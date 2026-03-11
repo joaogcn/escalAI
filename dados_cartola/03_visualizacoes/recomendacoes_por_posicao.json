@@ -83,16 +83,6 @@
             "proximo_confronto": "vs CHA (Casa)"
         },
         {
-            "apelido": "Renê",
-            "clube_nome": "Fluminense",
-            "posicao_id": "lat",
-            "preco_num": 9.58,
-            "media_ultimas_5": 8.266666666666666,
-            "media_geral": 8.266666666666666,
-            "indice_escalai": 8.266666666666666,
-            "proximo_confronto": "vs REM (Fora)"
-        },
-        {
             "apelido": "Marlon",
             "clube_nome": "Grêmio",
             "posicao_id": "lat",
@@ -101,6 +91,16 @@
             "media_geral": 6.949999999999999,
             "indice_escalai": 6.949999999999999,
             "proximo_confronto": "vs RBB (Casa)"
+        },
+        {
+            "apelido": "Piquerez",
+            "clube_nome": "Palmeiras",
+            "posicao_id": "lat",
+            "preco_num": 10.94,
+            "media_ultimas_5": 6.675000000000001,
+            "media_geral": 6.675000000000001,
+            "indice_escalai": 6.675000000000001,
+            "proximo_confronto": "vs VAS (Fora)"
         }
     ],
     "Zagueiro": [
@@ -167,16 +167,6 @@
             "proximo_confronto": "vs SAO (Fora)"
         },
         {
-            "apelido": "Barros",
-            "clube_nome": "Vasco",
-            "posicao_id": "mei",
-            "preco_num": 11.7,
-            "media_ultimas_5": 10.125,
-            "media_geral": 10.125,
-            "indice_escalai": 10.125,
-            "proximo_confronto": "vs PAL (Casa)"
-        },
-        {
             "apelido": "Lucho Acosta",
             "clube_nome": "Fluminense",
             "posicao_id": "mei",
@@ -197,14 +187,24 @@
             "proximo_confronto": "vs VAS (Fora)"
         },
         {
-            "apelido": "Allan",
-            "clube_nome": "Palmeiras",
+            "apelido": "Garro",
+            "clube_nome": "Corinthians",
             "posicao_id": "mei",
-            "preco_num": 16.47,
-            "media_ultimas_5": 8.95,
-            "media_geral": 8.95,
-            "indice_escalai": 8.95,
-            "proximo_confronto": "vs VAS (Fora)"
+            "preco_num": 13.49,
+            "media_ultimas_5": 7.566666666666666,
+            "media_geral": 7.566666666666666,
+            "indice_escalai": 7.566666666666666,
+            "proximo_confronto": "vs CFC (Casa)"
+        },
+        {
+            "apelido": "Matheus Pereira",
+            "clube_nome": "Cruzeiro",
+            "posicao_id": "mei",
+            "preco_num": 17.49,
+            "media_ultimas_5": 7.475,
+            "media_geral": 7.475,
+            "indice_escalai": 7.474999999999999,
+            "proximo_confronto": "vs FLA (Fora)"
         }
     ],
     "Atacante": [
