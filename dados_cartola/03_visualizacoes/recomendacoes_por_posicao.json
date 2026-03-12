@@ -157,16 +157,6 @@
     ],
     "Meia": [
         {
-            "apelido": "Jean Carlos",
-            "clube_nome": "CHA",
-            "posicao_id": "mei",
-            "preco_num": 9.91,
-            "media_ultimas_5": 10.166666666666666,
-            "media_geral": 10.166666666666666,
-            "indice_escalai": 10.166666666666664,
-            "proximo_confronto": "vs SAO (Fora)"
-        },
-        {
             "apelido": "Lucho Acosta",
             "clube_nome": "Fluminense",
             "posicao_id": "mei",
@@ -205,19 +195,19 @@
             "media_geral": 7.475,
             "indice_escalai": 7.474999999999999,
             "proximo_confronto": "vs FLA (Fora)"
+        },
+        {
+            "apelido": "Picco",
+            "clube_nome": "REM",
+            "posicao_id": "mei",
+            "preco_num": 8.38,
+            "media_ultimas_5": 6.933333333333333,
+            "media_geral": 6.933333333333333,
+            "indice_escalai": 6.933333333333332,
+            "proximo_confronto": "vs FLU (Casa)"
         }
     ],
     "Atacante": [
-        {
-            "apelido": "Vitor Roque",
-            "clube_nome": "Palmeiras",
-            "posicao_id": "ata",
-            "preco_num": 21.71,
-            "media_ultimas_5": 11.8,
-            "media_geral": 11.8,
-            "indice_escalai": 11.8,
-            "proximo_confronto": "vs VAS (Fora)"
-        },
         {
             "apelido": "Lucas Ronier",
             "clube_nome": "CFC",
@@ -257,6 +247,16 @@
             "media_geral": 7.799999999999999,
             "indice_escalai": 7.799999999999999,
             "proximo_confronto": "vs COR (Fora)"
+        },
+        {
+            "apelido": "Andrés Gómez",
+            "clube_nome": "Vasco",
+            "posicao_id": "ata",
+            "preco_num": 11.41,
+            "media_ultimas_5": 7.75,
+            "media_geral": 7.75,
+            "indice_escalai": 7.75,
+            "proximo_confronto": "vs PAL (Casa)"
         }
     ],
     "Técnico": [
