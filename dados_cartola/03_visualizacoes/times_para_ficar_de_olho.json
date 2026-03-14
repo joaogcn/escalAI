@@ -27,25 +27,13 @@
         "nome": "RBB",
         "id": 280,
         "escudo_url": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/RBB/60x60.png",
-        "indice_desempenho": 11,
+        "indice_desempenho": 12,
         "jogos": 5,
         "vitorias": 2,
         "empates": 1,
-        "derrotas": 2,
-        "gols_pro": 3,
+        "derrotas": 1,
+        "gols_pro": 4,
         "gols_contra": 4
-    },
-    {
-        "nome": "GRE",
-        "id": 284,
-        "escudo_url": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/GRE/60x60.png",
-        "indice_desempenho": 11,
-        "jogos": 5,
-        "vitorias": 3,
-        "empates": 0,
-        "derrotas": 2,
-        "gols_pro": 9,
-        "gols_contra": 8
     },
     {
         "nome": "COR",
@@ -130,6 +118,18 @@
         "derrotas": 2,
         "gols_pro": 7,
         "gols_contra": 8
+    },
+    {
+        "nome": "GRE",
+        "id": 284,
+        "escudo_url": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/GRE/60x60.png",
+        "indice_desempenho": 7,
+        "jogos": 5,
+        "vitorias": 2,
+        "empates": 1,
+        "derrotas": 2,
+        "gols_pro": 9,
+        "gols_contra": 9
     },
     {
         "nome": "VIT",

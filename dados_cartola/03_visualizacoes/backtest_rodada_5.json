@@ -1,0 +1,32 @@
+{
+    "Goleiro": {
+        "apelido": "Everson",
+        "pontuacao_real": 15.9,
+        "sinal": "Verde"
+    },
+    "Lateral": {
+        "apelido": "Marlon",
+        "pontuacao_real": 2.4,
+        "sinal": "Vermelho"
+    },
+    "Zagueiro": {
+        "apelido": "Noriega",
+        "pontuacao_real": 3.2,
+        "sinal": "Vermelho"
+    },
+    "Meia": {
+        "apelido": "Neymar",
+        "pontuacao_real": 0.0,
+        "sinal": "Vermelho"
+    },
+    "Atacante": {
+        "apelido": "Vitor Roque",
+        "pontuacao_real": 0.0,
+        "sinal": "Vermelho"
+    },
+    "Técnico": {
+        "apelido": "Juan Vojvoda",
+        "pontuacao_real": 0.0,
+        "sinal": "Vermelho"
+    }
+}
