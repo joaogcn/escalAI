@@ -145,14 +145,14 @@
             "proximo_confronto": "vs SAO (Casa)"
         },
         {
-            "apelido": "Jemmes",
-            "clube_nome": "Fluminense",
+            "apelido": "Gustavo Henrique",
+            "clube_nome": "Corinthians",
             "posicao_id": "zag",
-            "preco_num": 8.64,
-            "media_ultimas_5": 6.225,
-            "media_geral": 6.225,
-            "indice_escalai": 6.224999999999999,
-            "proximo_confronto": "vs CAP (Casa)"
+            "preco_num": 10.87,
+            "media_ultimas_5": 5.666666666666667,
+            "media_geral": 5.666666666666667,
+            "indice_escalai": 5.666666666666667,
+            "proximo_confronto": "vs SAN (Fora)"
         }
     ],
     "Meia": [
@@ -239,24 +239,24 @@
             "proximo_confronto": "vs FLU (Fora)"
         },
         {
-            "apelido": "Andrés Gómez",
-            "clube_nome": "Vasco",
+            "apelido": "John Kennedy",
+            "clube_nome": "Fluminense",
             "posicao_id": "ata",
-            "preco_num": 12.5,
-            "media_ultimas_5": 8.5,
-            "media_geral": 8.5,
-            "indice_escalai": 8.5,
-            "proximo_confronto": "vs CRU (Fora)"
+            "preco_num": 9.76,
+            "media_ultimas_5": 8.75,
+            "media_geral": 8.75,
+            "indice_escalai": 8.75,
+            "proximo_confronto": "vs CAP (Casa)"
         },
         {
-            "apelido": "Luciano",
-            "clube_nome": "São Paulo",
+            "apelido": "Pedro",
+            "clube_nome": "Flamengo",
             "posicao_id": "ata",
-            "preco_num": 17.78,
-            "media_ultimas_5": 8.225000000000001,
-            "media_geral": 8.225000000000001,
-            "indice_escalai": 8.225000000000001,
-            "proximo_confronto": "vs RBB (Fora)"
+            "preco_num": 19.69,
+            "media_ultimas_5": 8.666666666666666,
+            "media_geral": 8.666666666666666,
+            "indice_escalai": 8.666666666666664,
+            "proximo_confronto": "vs BOT (Fora)"
         }
     ],
     "Técnico": [
