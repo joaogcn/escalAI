@@ -73,6 +73,16 @@
             "proximo_confronto": "vs SAN (Fora)"
         },
         {
+            "apelido": "Enzo Díaz",
+            "clube_nome": "São Paulo",
+            "posicao_id": "lat",
+            "preco_num": 11.33,
+            "media_ultimas_5": 8.533333333333333,
+            "media_geral": 8.533333333333333,
+            "indice_escalai": 8.533333333333333,
+            "proximo_confronto": "vs RBB (Fora)"
+        },
+        {
             "apelido": "Walter Clar",
             "clube_nome": "CHA",
             "posicao_id": "lat",
@@ -91,16 +101,6 @@
             "media_geral": 7.725,
             "indice_escalai": 7.725,
             "proximo_confronto": "vs INT (Fora)"
-        },
-        {
-            "apelido": "Ramon",
-            "clube_nome": "Vitória",
-            "posicao_id": "lat",
-            "preco_num": 8.19,
-            "media_ultimas_5": 6.833333333333333,
-            "media_geral": 6.833333333333333,
-            "indice_escalai": 6.833333333333333,
-            "proximo_confronto": "vs CAM (Casa)"
         }
     ],
     "Zagueiro": [
