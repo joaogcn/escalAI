@@ -197,14 +197,14 @@
             "proximo_confronto": "vs CRU (Fora)"
         },
         {
-            "apelido": "Jean Carlos",
-            "clube_nome": "CHA",
+            "apelido": "Bobadilla",
+            "clube_nome": "São Paulo",
             "posicao_id": "mei",
-            "preco_num": 9.34,
-            "media_ultimas_5": 8.25,
-            "media_geral": 8.25,
-            "indice_escalai": 8.25,
-            "proximo_confronto": "vs GRE (Casa)"
+            "preco_num": 10.19,
+            "media_ultimas_5": 8.1,
+            "media_geral": 8.1,
+            "indice_escalai": 8.099999999999998,
+            "proximo_confronto": "vs RBB (Fora)"
         }
     ],
     "Atacante": [

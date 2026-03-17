@@ -84,6 +84,18 @@
         "gols_contra": 4
     },
     {
+        "nome": "GRE",
+        "id": 284,
+        "escudo_url": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/GRE/60x60.png",
+        "indice_desempenho": 8,
+        "jogos": 5,
+        "vitorias": 2,
+        "empates": 1,
+        "derrotas": 1,
+        "gols_pro": 9,
+        "gols_contra": 8
+    },
+    {
         "nome": "RBB",
         "id": 280,
         "escudo_url": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/RBB/60x60.png",
@@ -94,18 +106,6 @@
         "derrotas": 2,
         "gols_pro": 4,
         "gols_contra": 6
-    },
-    {
-        "nome": "GRE",
-        "id": 284,
-        "escudo_url": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/GRE/60x60.png",
-        "indice_desempenho": 7,
-        "jogos": 4,
-        "vitorias": 2,
-        "empates": 1,
-        "derrotas": 1,
-        "gols_pro": 8,
-        "gols_contra": 7
     },
     {
         "nome": "CAM",
@@ -192,6 +192,18 @@
         "gols_contra": 7
     },
     {
+        "nome": "CHA",
+        "id": 315,
+        "escudo_url": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/CHA/60x60.png",
+        "indice_desempenho": 3,
+        "jogos": 4,
+        "vitorias": 0,
+        "empates": 2,
+        "derrotas": 1,
+        "gols_pro": 5,
+        "gols_contra": 7
+    },
+    {
         "nome": "CRU",
         "id": 283,
         "escudo_url": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/CRU/60x60.png",
@@ -214,18 +226,6 @@
         "derrotas": 3,
         "gols_pro": 3,
         "gols_contra": 7
-    },
-    {
-        "nome": "CHA",
-        "id": 315,
-        "escudo_url": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/CHA/60x60.png",
-        "indice_desempenho": 2,
-        "jogos": 3,
-        "vitorias": 0,
-        "empates": 1,
-        "derrotas": 1,
-        "gols_pro": 4,
-        "gols_contra": 6
     },
     {
         "nome": "BOT",
