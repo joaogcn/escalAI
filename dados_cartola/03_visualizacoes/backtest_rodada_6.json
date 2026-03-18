@@ -1,0 +1,32 @@
+{
+    "Goleiro": {
+        "apelido": "Everson",
+        "pontuacao_real": 0.6,
+        "sinal": "Vermelho"
+    },
+    "Lateral": {
+        "apelido": "Cuiabano",
+        "pontuacao_real": 11.6,
+        "sinal": "Verde"
+    },
+    "Zagueiro": {
+        "apelido": "Jacy",
+        "pontuacao_real": 0.0,
+        "sinal": "Vermelho"
+    },
+    "Meia": {
+        "apelido": "Bobadilla",
+        "pontuacao_real": 2.2,
+        "sinal": "Vermelho"
+    },
+    "Atacante": {
+        "apelido": "Pedro",
+        "pontuacao_real": 11.8,
+        "sinal": "Verde"
+    },
+    "Técnico": {
+        "apelido": "Roger Machado",
+        "pontuacao_real": 4.96,
+        "sinal": "Vermelho"
+    }
+}
