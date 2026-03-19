@@ -197,14 +197,14 @@
             "proximo_confronto": "vs GRE (Fora)"
         },
         {
-            "apelido": "Jean Carlos",
-            "clube_nome": "CHA",
+            "apelido": "Allan",
+            "clube_nome": "Palmeiras",
             "posicao_id": "mei",
-            "preco_num": 9.04,
-            "media_ultimas_5": 7.0,
-            "media_geral": 7.0,
-            "indice_escalai": 7.0,
-            "proximo_confronto": "vs COR (Casa)"
+            "preco_num": 13.29,
+            "media_ultimas_5": 7.4,
+            "media_geral": 6.483333333333333,
+            "indice_escalai": 7.125,
+            "proximo_confronto": "vs BOT (Casa)"
         }
     ],
     "Atacante": [
@@ -229,6 +229,16 @@
             "proximo_confronto": "vs REM (Casa)"
         },
         {
+            "apelido": "Calleri",
+            "clube_nome": "São Paulo",
+            "posicao_id": "ata",
+            "preco_num": 13.68,
+            "media_ultimas_5": 9.38,
+            "media_geral": 7.883333333333333,
+            "indice_escalai": 8.931,
+            "proximo_confronto": "vs CAM (Fora)"
+        },
+        {
             "apelido": "Erick",
             "clube_nome": "Vitória",
             "posicao_id": "ata",
@@ -247,16 +257,6 @@
             "media_geral": 7.866666666666667,
             "indice_escalai": 8.128,
             "proximo_confronto": "vs FLU (Casa)"
-        },
-        {
-            "apelido": "Carlos Vinícius",
-            "clube_nome": "Grêmio",
-            "posicao_id": "ata",
-            "preco_num": 16.48,
-            "media_ultimas_5": 7.7,
-            "media_geral": 8.416666666666666,
-            "indice_escalai": 7.914999999999999,
-            "proximo_confronto": "vs VIT (Casa)"
         }
     ],
     "Técnico": [
