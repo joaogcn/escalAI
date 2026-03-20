@@ -83,16 +83,6 @@
             "proximo_confronto": "vs COR (Casa)"
         },
         {
-            "apelido": "Matheus Bidu",
-            "clube_nome": "Corinthians",
-            "posicao_id": "lat",
-            "preco_num": 11.32,
-            "media_ultimas_5": 7.6000000000000005,
-            "media_geral": 7.6000000000000005,
-            "indice_escalai": 7.6000000000000005,
-            "proximo_confronto": "vs CHA (Fora)"
-        },
-        {
             "apelido": "Ramon",
             "clube_nome": "Vitória",
             "posicao_id": "lat",
@@ -101,6 +91,16 @@
             "media_geral": 7.1,
             "indice_escalai": 7.1,
             "proximo_confronto": "vs GRE (Fora)"
+        },
+        {
+            "apelido": "Luciano Juba",
+            "clube_nome": "Bahia",
+            "posicao_id": "lat",
+            "preco_num": 9.87,
+            "media_ultimas_5": 7.0200000000000005,
+            "media_geral": 7.0200000000000005,
+            "indice_escalai": 7.02,
+            "proximo_confronto": "vs RBB (Casa)"
         }
     ],
     "Zagueiro": [
@@ -135,16 +135,6 @@
             "proximo_confronto": "vs BOT (Casa)"
         },
         {
-            "apelido": "Gabriel Paulista",
-            "clube_nome": "Corinthians",
-            "posicao_id": "zag",
-            "preco_num": 10.24,
-            "media_ultimas_5": 6.0,
-            "media_geral": 6.0,
-            "indice_escalai": 5.999999999999999,
-            "proximo_confronto": "vs CHA (Fora)"
-        },
-        {
             "apelido": "Léo Pereira",
             "clube_nome": "Flamengo",
             "posicao_id": "zag",
@@ -153,6 +143,16 @@
             "media_geral": 5.5249999999999995,
             "indice_escalai": 5.524999999999999,
             "proximo_confronto": "vs REM (Casa)"
+        },
+        {
+            "apelido": "Gabriel Xavier",
+            "clube_nome": "Bahia",
+            "posicao_id": "zag",
+            "preco_num": 7.53,
+            "media_ultimas_5": 5.166666666666667,
+            "media_geral": 5.166666666666667,
+            "indice_escalai": 5.166666666666667,
+            "proximo_confronto": "vs RBB (Casa)"
         }
     ],
     "Meia": [
