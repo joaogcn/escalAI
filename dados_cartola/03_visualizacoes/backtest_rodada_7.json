@@ -1,0 +1,32 @@
+{
+    "Goleiro": {
+        "apelido": "Lucas Arcanjo",
+        "pontuacao_real": 3.2,
+        "sinal": "Vermelho"
+    },
+    "Lateral": {
+        "apelido": "Kaiki Bruno",
+        "pontuacao_real": 6.3,
+        "sinal": "Verde"
+    },
+    "Zagueiro": {
+        "apelido": "Léo Pereira",
+        "pontuacao_real": 3.6,
+        "sinal": "Vermelho"
+    },
+    "Meia": {
+        "apelido": "Barros",
+        "pontuacao_real": 0.0,
+        "sinal": "Vermelho"
+    },
+    "Atacante": {
+        "apelido": "Samuel Lino",
+        "pontuacao_real": 10.4,
+        "sinal": "Verde"
+    },
+    "Técnico": {
+        "apelido": "Leonardo Jardim",
+        "pontuacao_real": 9.36,
+        "sinal": "Verde"
+    }
+}
