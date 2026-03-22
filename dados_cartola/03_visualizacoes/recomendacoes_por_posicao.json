@@ -197,27 +197,17 @@
             "proximo_confronto": "vs SAO (Fora)"
         },
         {
-            "apelido": "Matheus Pereira",
-            "clube_nome": "Cruzeiro",
+            "apelido": "Allan",
+            "clube_nome": "Palmeiras",
             "posicao_id": "mei",
-            "preco_num": 14.86,
-            "media_ultimas_5": 6.62,
-            "media_geral": 6.133333333333333,
-            "indice_escalai": 6.473999999999999,
-            "proximo_confronto": "vs SAN (Casa)"
+            "preco_num": 14.83,
+            "media_ultimas_5": 7.279999999999999,
+            "media_geral": 7.214285714285714,
+            "indice_escalai": 7.260285714285713,
+            "proximo_confronto": "vs SAO (Fora)"
         }
     ],
     "Atacante": [
-        {
-            "apelido": "Vitor Roque",
-            "clube_nome": "Palmeiras",
-            "posicao_id": "ata",
-            "preco_num": 18.59,
-            "media_ultimas_5": 9.86,
-            "media_geral": 9.86,
-            "indice_escalai": 9.86,
-            "proximo_confronto": "vs SAO (Fora)"
-        },
         {
             "apelido": "Lucas Ronier",
             "clube_nome": "CFC",
@@ -257,6 +247,16 @@
             "media_geral": 8.171428571428573,
             "indice_escalai": 7.78542857142857,
             "proximo_confronto": "vs GRE (Casa)"
+        },
+        {
+            "apelido": "Viveros",
+            "clube_nome": "CAP",
+            "posicao_id": "ata",
+            "preco_num": 11.97,
+            "media_ultimas_5": 7.76,
+            "media_geral": 7.76,
+            "indice_escalai": 7.76,
+            "proximo_confronto": "vs CFC (Casa)"
         }
     ],
     "Técnico": [
