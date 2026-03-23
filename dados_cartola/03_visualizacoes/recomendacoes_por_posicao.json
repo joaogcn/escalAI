@@ -115,16 +115,6 @@
             "proximo_confronto": "vs FLU (Fora)"
         },
         {
-            "apelido": "Léo Ortiz",
-            "clube_nome": "Flamengo",
-            "posicao_id": "zag",
-            "preco_num": 11.72,
-            "media_ultimas_5": 6.26,
-            "media_geral": 6.26,
-            "indice_escalai": 6.26,
-            "proximo_confronto": "vs COR (Fora)"
-        },
-        {
             "apelido": "Gabriel Paulista",
             "clube_nome": "Corinthians",
             "posicao_id": "zag",
@@ -135,16 +125,6 @@
             "proximo_confronto": "vs FLA (Casa)"
         },
         {
-            "apelido": "Noriega",
-            "clube_nome": "Grêmio",
-            "posicao_id": "zag",
-            "preco_num": 8.42,
-            "media_ultimas_5": 5.959999999999999,
-            "media_geral": 5.633333333333333,
-            "indice_escalai": 5.861999999999998,
-            "proximo_confronto": "vs VAS (Fora)"
-        },
-        {
             "apelido": "Sabino",
             "clube_nome": "São Paulo",
             "posicao_id": "zag",
@@ -153,6 +133,26 @@
             "media_geral": 5.583333333333333,
             "indice_escalai": 5.637,
             "proximo_confronto": "vs PAL (Casa)"
+        },
+        {
+            "apelido": "Jacy",
+            "clube_nome": "CFC",
+            "posicao_id": "zag",
+            "preco_num": 6.29,
+            "media_ultimas_5": 5.58,
+            "media_geral": 4.983333333333333,
+            "indice_escalai": 5.401,
+            "proximo_confronto": "vs CAP (Fora)"
+        },
+        {
+            "apelido": "Gustavo Marques",
+            "clube_nome": "Bragantino",
+            "posicao_id": "zag",
+            "preco_num": 6.87,
+            "media_ultimas_5": 5.38,
+            "media_geral": 5.38,
+            "indice_escalai": 5.379999999999999,
+            "proximo_confronto": "vs BOT (Casa)"
         }
     ],
     "Meia": [
