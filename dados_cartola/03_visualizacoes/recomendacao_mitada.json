@@ -1,15 +1,15 @@
 {
     "Goleiro": {
-        "apelido": "Léo Vieira",
-        "clube_nome": "CHA"
+        "apelido": "Carlos Miguel",
+        "clube_nome": "PAL"
     },
     "Lateral": {
         "apelido": "Luciano Juba",
         "clube_nome": "BAH"
     },
     "Zagueiro": {
-        "apelido": "Jacy",
-        "clube_nome": "CFC"
+        "apelido": "Aguirre",
+        "clube_nome": "CAP"
     },
     "Meia": {
         "apelido": "Montoro",
@@ -20,7 +20,7 @@
         "clube_nome": "GRE"
     },
     "Técnico": {
-        "apelido": "Eduardo Domínguez",
-        "clube_nome": "CAM"
+        "apelido": "Paulo Pezzolano",
+        "clube_nome": "INT"
     }
 }

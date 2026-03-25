@@ -1,0 +1,32 @@
+{
+    "Goleiro": {
+        "apelido": "Léo Vieira",
+        "pontuacao_real": 4.5,
+        "sinal": "Vermelho"
+    },
+    "Lateral": {
+        "apelido": "Luciano Juba",
+        "pontuacao_real": -2.1,
+        "sinal": "Vermelho"
+    },
+    "Zagueiro": {
+        "apelido": "Iván Román",
+        "pontuacao_real": 1.0,
+        "sinal": "Vermelho"
+    },
+    "Meia": {
+        "apelido": "Arias",
+        "pontuacao_real": 9.0,
+        "sinal": "Verde"
+    },
+    "Atacante": {
+        "apelido": "Luiz Araújo",
+        "pontuacao_real": 0.0,
+        "sinal": "Vermelho"
+    },
+    "Técnico": {
+        "apelido": "Leonardo Jardim",
+        "pontuacao_real": 3.97,
+        "sinal": "Vermelho"
+    }
+}
