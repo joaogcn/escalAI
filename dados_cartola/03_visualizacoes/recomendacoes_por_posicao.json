@@ -167,6 +167,16 @@
             "proximo_confronto": "vs REM (Casa)"
         },
         {
+            "apelido": "Arias",
+            "clube_nome": "Palmeiras",
+            "posicao_id": "mei",
+            "preco_num": 16.7,
+            "media_ultimas_5": 9.22,
+            "media_geral": 9.22,
+            "indice_escalai": 9.219999999999999,
+            "proximo_confronto": "vs GRE (Casa)"
+        },
+        {
             "apelido": "Lucho Acosta",
             "clube_nome": "Fluminense",
             "posicao_id": "mei",
@@ -195,16 +205,6 @@
             "media_geral": 5.942857142857143,
             "indice_escalai": 6.416857142857142,
             "proximo_confronto": "vs CAP (Casa)"
-        },
-        {
-            "apelido": "Oliva",
-            "clube_nome": "Santos",
-            "posicao_id": "mei",
-            "preco_num": 8.58,
-            "media_ultimas_5": 6.133333333333333,
-            "media_geral": 6.133333333333333,
-            "indice_escalai": 6.133333333333333,
-            "proximo_confronto": "vs REM (Casa)"
         }
     ],
     "Atacante": [
