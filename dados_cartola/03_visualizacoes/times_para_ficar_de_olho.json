@@ -60,6 +60,18 @@
         "gols_contra": 7
     },
     {
+        "nome": "CAP",
+        "id": 293,
+        "escudo_url": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/CAP/60x60.png",
+        "indice_desempenho": 12,
+        "jogos": 5,
+        "vitorias": 3,
+        "empates": 0,
+        "derrotas": 1,
+        "gols_pro": 11,
+        "gols_contra": 6
+    },
+    {
         "nome": "BAH",
         "id": 265,
         "escudo_url": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/BAH/60x60.png",
@@ -118,18 +130,6 @@
         "derrotas": 1,
         "gols_pro": 11,
         "gols_contra": 9
-    },
-    {
-        "nome": "CAP",
-        "id": 293,
-        "escudo_url": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/CAP/60x60.png",
-        "indice_desempenho": 9,
-        "jogos": 4,
-        "vitorias": 2,
-        "empates": 0,
-        "derrotas": 1,
-        "gols_pro": 7,
-        "gols_contra": 5
     },
     {
         "nome": "INT",
@@ -208,12 +208,12 @@
         "id": 263,
         "escudo_url": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/BOT/60x60.png",
         "indice_desempenho": 3,
-        "jogos": 3,
+        "jogos": 4,
         "vitorias": 1,
         "empates": 0,
-        "derrotas": 2,
-        "gols_pro": 3,
-        "gols_contra": 6
+        "derrotas": 3,
+        "gols_pro": 4,
+        "gols_contra": 10
     },
     {
         "nome": "RBB",
