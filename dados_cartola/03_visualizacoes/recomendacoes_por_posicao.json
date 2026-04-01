@@ -63,16 +63,6 @@
             "proximo_confronto": "vs INT (Fora)"
         },
         {
-            "apelido": "Cuiabano",
-            "clube_nome": "Vasco",
-            "posicao_id": "lat",
-            "preco_num": 14.32,
-            "media_ultimas_5": 10.34,
-            "media_geral": 10.34,
-            "indice_escalai": 10.34,
-            "proximo_confronto": "vs CFC (Fora)"
-        },
-        {
             "apelido": "Matheus Bidu",
             "clube_nome": "Corinthians",
             "posicao_id": "lat",
@@ -101,6 +91,16 @@
             "media_geral": 8.357142857142858,
             "indice_escalai": 7.183142857142856,
             "proximo_confronto": "vs FLA (Casa)"
+        },
+        {
+            "apelido": "Luciano Juba",
+            "clube_nome": "Bahia",
+            "posicao_id": "lat",
+            "preco_num": 9.41,
+            "media_ultimas_5": 6.899999999999999,
+            "media_geral": 6.642857142857143,
+            "indice_escalai": 6.822857142857141,
+            "proximo_confronto": "vs CAP (Casa)"
         }
     ],
     "Zagueiro": [
@@ -197,27 +197,17 @@
             "proximo_confronto": "vs GRE (Casa)"
         },
         {
-            "apelido": "Jean Lucas",
-            "clube_nome": "Bahia",
+            "apelido": "Lucas Paquetá",
+            "clube_nome": "Flamengo",
             "posicao_id": "mei",
-            "preco_num": 10.04,
-            "media_ultimas_5": 6.62,
-            "media_geral": 5.942857142857143,
-            "indice_escalai": 6.416857142857142,
-            "proximo_confronto": "vs CAP (Casa)"
+            "preco_num": 17.01,
+            "media_ultimas_5": 7.3199999999999985,
+            "media_geral": 7.3199999999999985,
+            "indice_escalai": 7.3199999999999985,
+            "proximo_confronto": "vs RBB (Fora)"
         }
     ],
     "Atacante": [
-        {
-            "apelido": "Vitor Roque",
-            "clube_nome": "Palmeiras",
-            "posicao_id": "ata",
-            "preco_num": 17.99,
-            "media_ultimas_5": 8.94,
-            "media_geral": 8.716666666666667,
-            "indice_escalai": 8.873,
-            "proximo_confronto": "vs GRE (Casa)"
-        },
         {
             "apelido": "Pedro",
             "clube_nome": "Flamengo",
@@ -249,14 +239,24 @@
             "proximo_confronto": "vs VAS (Casa)"
         },
         {
-            "apelido": "John Kennedy",
-            "clube_nome": "Fluminense",
+            "apelido": "Flaco López",
+            "clube_nome": "Palmeiras",
             "posicao_id": "ata",
-            "preco_num": 8.39,
-            "media_ultimas_5": 7.92,
-            "media_geral": 6.866666666666667,
-            "indice_escalai": 7.603999999999999,
-            "proximo_confronto": "vs COR (Casa)"
+            "preco_num": 14.86,
+            "media_ultimas_5": 6.88,
+            "media_geral": 6.85,
+            "indice_escalai": 6.8709999999999996,
+            "proximo_confronto": "vs GRE (Casa)"
+        },
+        {
+            "apelido": "Samuel Lino",
+            "clube_nome": "Flamengo",
+            "posicao_id": "ata",
+            "preco_num": 10.44,
+            "media_ultimas_5": 6.8,
+            "media_geral": 6.75,
+            "indice_escalai": 6.785,
+            "proximo_confronto": "vs RBB (Fora)"
         }
     ],
     "Técnico": [
