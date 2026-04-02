@@ -41,14 +41,14 @@
             "proximo_confronto": "vs RBB (Fora)"
         },
         {
-            "apelido": "Carlos Miguel",
-            "clube_nome": "Palmeiras",
+            "apelido": "Léo Vieira",
+            "clube_nome": "CHA",
             "posicao_id": "gol",
-            "preco_num": 7.7,
-            "media_ultimas_5": 4.9,
-            "media_geral": 3.8875,
-            "indice_escalai": 4.59625,
-            "proximo_confronto": "vs GRE (Casa)"
+            "preco_num": 6.49,
+            "media_ultimas_5": 4.7,
+            "media_geral": 5.528571428571429,
+            "indice_escalai": 4.948571428571428,
+            "proximo_confronto": "vs CAM (Casa)"
         }
     ],
     "Lateral": [
@@ -239,6 +239,16 @@
             "proximo_confronto": "vs VAS (Casa)"
         },
         {
+            "apelido": "John Kennedy",
+            "clube_nome": "Fluminense",
+            "posicao_id": "ata",
+            "preco_num": 8.39,
+            "media_ultimas_5": 7.92,
+            "media_geral": 6.866666666666667,
+            "indice_escalai": 7.603999999999999,
+            "proximo_confronto": "vs COR (Casa)"
+        },
+        {
             "apelido": "Flaco López",
             "clube_nome": "Palmeiras",
             "posicao_id": "ata",
@@ -247,16 +257,6 @@
             "media_geral": 6.85,
             "indice_escalai": 6.8709999999999996,
             "proximo_confronto": "vs GRE (Casa)"
-        },
-        {
-            "apelido": "Samuel Lino",
-            "clube_nome": "Flamengo",
-            "posicao_id": "ata",
-            "preco_num": 10.44,
-            "media_ultimas_5": 6.8,
-            "media_geral": 6.75,
-            "indice_escalai": 6.785,
-            "proximo_confronto": "vs RBB (Fora)"
         }
     ],
     "Técnico": [
