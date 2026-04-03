@@ -125,6 +125,16 @@
             "proximo_confronto": "vs INT (Fora)"
         },
         {
+            "apelido": "Noriega",
+            "clube_nome": "Grêmio",
+            "posicao_id": "zag",
+            "preco_num": 8.42,
+            "media_ultimas_5": 5.959999999999999,
+            "media_geral": 5.633333333333333,
+            "indice_escalai": 5.861999999999998,
+            "proximo_confronto": "vs PAL (Fora)"
+        },
+        {
             "apelido": "Murilo",
             "clube_nome": "Palmeiras",
             "posicao_id": "zag",
@@ -143,16 +153,6 @@
             "media_geral": 4.385714285714285,
             "indice_escalai": 5.515714285714285,
             "proximo_confronto": "vs VAS (Casa)"
-        },
-        {
-            "apelido": "Gabriel Paulista",
-            "clube_nome": "Corinthians",
-            "posicao_id": "zag",
-            "preco_num": 9.37,
-            "media_ultimas_5": 4.92,
-            "media_geral": 4.92,
-            "indice_escalai": 4.92,
-            "proximo_confronto": "vs FLU (Fora)"
         }
     ],
     "Meia": [
