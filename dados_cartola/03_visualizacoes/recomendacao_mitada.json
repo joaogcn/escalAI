@@ -8,19 +8,19 @@
         "clube_nome": "BAH"
     },
     "Zagueiro": {
-        "apelido": "Aguirre",
-        "clube_nome": "CAP"
+        "apelido": "Eduardo Doma",
+        "clube_nome": "CHA"
     },
     "Meia": {
         "apelido": "Thaciano",
         "clube_nome": "SAN"
     },
     "Atacante": {
-        "apelido": "Carlos Vinícius",
-        "clube_nome": "GRE"
+        "apelido": "Moisés",
+        "clube_nome": "SAN"
     },
     "Técnico": {
-        "apelido": "Dorival Júnior",
-        "clube_nome": "COR"
+        "apelido": "Eduardo Domínguez",
+        "clube_nome": "CAM"
     }
 }
