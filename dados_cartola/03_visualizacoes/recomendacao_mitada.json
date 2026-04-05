@@ -1,7 +1,7 @@
 {
     "Goleiro": {
-        "apelido": "Carlos Miguel",
-        "clube_nome": "PAL"
+        "apelido": "Léo Vieira",
+        "clube_nome": "BAH"
     },
     "Lateral": {
         "apelido": "Luciano Juba",
@@ -12,12 +12,12 @@
         "clube_nome": "CHA"
     },
     "Meia": {
-        "apelido": "Thaciano",
-        "clube_nome": "SAN"
+        "apelido": "Picco",
+        "clube_nome": "REM"
     },
     "Atacante": {
-        "apelido": "Moisés",
-        "clube_nome": "SAN"
+        "apelido": "Carlos Vinícius",
+        "clube_nome": "GRE"
     },
     "Técnico": {
         "apelido": "Eduardo Domínguez",

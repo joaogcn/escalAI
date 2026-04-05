@@ -11,6 +11,16 @@
             "proximo_confronto": "vs CAP (Casa)"
         },
         {
+            "apelido": "Léo Vieira",
+            "clube_nome": "Bahia",
+            "posicao_id": "gol",
+            "preco_num": 7.6,
+            "media_ultimas_5": 6.8199999999999985,
+            "media_geral": 6.1125,
+            "indice_escalai": 6.607749999999998,
+            "proximo_confronto": "vs PAL (Casa)"
+        },
+        {
             "apelido": "Lucas Arcanjo",
             "clube_nome": "Vitória",
             "posicao_id": "gol",
@@ -39,19 +49,19 @@
             "media_geral": 3.2874999999999996,
             "indice_escalai": 4.78025,
             "proximo_confronto": "vs FLA (Fora)"
-        },
-        {
-            "apelido": "Rossi",
-            "clube_nome": "Flamengo",
-            "posicao_id": "gol",
-            "preco_num": 7.75,
-            "media_ultimas_5": 5.0,
-            "media_geral": 4.071428571428571,
-            "indice_escalai": 4.7214285714285715,
-            "proximo_confronto": "vs SAN (Casa)"
         }
     ],
     "Lateral": [
+        {
+            "apelido": "Cuiabano",
+            "clube_nome": "Vasco",
+            "posicao_id": "lat",
+            "preco_num": 14.32,
+            "media_ultimas_5": 10.34,
+            "media_geral": 10.34,
+            "indice_escalai": 10.34,
+            "proximo_confronto": "vs BOT (Casa)"
+        },
         {
             "apelido": "Lucas Ramon",
             "clube_nome": "São Paulo",
@@ -91,16 +101,6 @@
             "media_geral": 8.0625,
             "indice_escalai": 7.45875,
             "proximo_confronto": "vs PAL (Casa)"
-        },
-        {
-            "apelido": "Renê",
-            "clube_nome": "Fluminense",
-            "posicao_id": "lat",
-            "preco_num": 9.78,
-            "media_ultimas_5": 7.159999999999999,
-            "media_geral": 7.2,
-            "indice_escalai": 7.172,
-            "proximo_confronto": "vs CFC (Fora)"
         }
     ],
     "Zagueiro": [
@@ -177,6 +177,16 @@
             "proximo_confronto": "vs VAS (Fora)"
         },
         {
+            "apelido": "Barros",
+            "clube_nome": "Vasco",
+            "posicao_id": "mei",
+            "preco_num": 10.0,
+            "media_ultimas_5": 8.379999999999999,
+            "media_geral": 8.057142857142857,
+            "indice_escalai": 8.283142857142856,
+            "proximo_confronto": "vs BOT (Casa)"
+        },
+        {
             "apelido": "Jean Lucas",
             "clube_nome": "Bahia",
             "posicao_id": "mei",
@@ -195,29 +205,9 @@
             "media_geral": 8.5125,
             "indice_escalai": 6.753749999999998,
             "proximo_confronto": "vs BAH (Fora)"
-        },
-        {
-            "apelido": "Hércules",
-            "clube_nome": "Fluminense",
-            "posicao_id": "mei",
-            "preco_num": 8.46,
-            "media_ultimas_5": 6.8,
-            "media_geral": 6.25,
-            "indice_escalai": 6.635,
-            "proximo_confronto": "vs CFC (Fora)"
         }
     ],
     "Atacante": [
-        {
-            "apelido": "Canobbio",
-            "clube_nome": "Fluminense",
-            "posicao_id": "ata",
-            "preco_num": 10.99,
-            "media_ultimas_5": 9.540000000000001,
-            "media_geral": 7.985714285714286,
-            "indice_escalai": 9.073714285714285,
-            "proximo_confronto": "vs CFC (Fora)"
-        },
         {
             "apelido": "Lucas Ronier",
             "clube_nome": "CFC",
@@ -257,6 +247,16 @@
             "media_geral": 7.3999999999999995,
             "indice_escalai": 7.539999999999999,
             "proximo_confronto": "vs SAN (Casa)"
+        },
+        {
+            "apelido": "Calleri",
+            "clube_nome": "São Paulo",
+            "posicao_id": "ata",
+            "preco_num": 13.68,
+            "media_ultimas_5": 7.58,
+            "media_geral": 7.144444444444444,
+            "indice_escalai": 7.449333333333334,
+            "proximo_confronto": "vs CRU (Casa)"
         }
     ],
     "Técnico": [
