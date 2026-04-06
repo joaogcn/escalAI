@@ -145,14 +145,14 @@
             "proximo_confronto": "vs CRU (Casa)"
         },
         {
-            "apelido": "Gabriel Paulista",
-            "clube_nome": "Corinthians",
+            "apelido": "Léo Pereira",
+            "clube_nome": "Flamengo",
             "posicao_id": "zag",
-            "preco_num": 9.43,
-            "media_ultimas_5": 5.7,
-            "media_geral": 4.7,
-            "indice_escalai": 5.3999999999999995,
-            "proximo_confronto": "vs INT (Casa)"
+            "preco_num": 10.34,
+            "media_ultimas_5": 5.14,
+            "media_geral": 5.14,
+            "indice_escalai": 5.139999999999999,
+            "proximo_confronto": "vs SAN (Casa)"
         }
     ],
     "Meia": [
