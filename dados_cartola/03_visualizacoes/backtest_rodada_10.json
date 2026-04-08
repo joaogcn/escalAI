@@ -1,0 +1,32 @@
+{
+    "Goleiro": {
+        "apelido": "Léo Vieira",
+        "pontuacao_real": 3.2,
+        "sinal": "Vermelho"
+    },
+    "Lateral": {
+        "apelido": "Luciano Juba",
+        "pontuacao_real": -0.4,
+        "sinal": "Vermelho"
+    },
+    "Zagueiro": {
+        "apelido": "Lucas Veríssimo",
+        "pontuacao_real": 2.0,
+        "sinal": "Vermelho"
+    },
+    "Meia": {
+        "apelido": "Marlon Freitas",
+        "pontuacao_real": 4.5,
+        "sinal": "Vermelho"
+    },
+    "Atacante": {
+        "apelido": "Cuello",
+        "pontuacao_real": 4.7,
+        "sinal": "Vermelho"
+    },
+    "Técnico": {
+        "apelido": "Artur Jorge",
+        "pontuacao_real": 3.68,
+        "sinal": "Vermelho"
+    }
+}
