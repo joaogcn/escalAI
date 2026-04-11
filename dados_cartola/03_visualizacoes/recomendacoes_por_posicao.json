@@ -21,16 +21,6 @@
             "proximo_confronto": "vs MIR (Fora)"
         },
         {
-            "apelido": "Lucas Arcanjo",
-            "clube_nome": "Vitória",
-            "posicao_id": "gol",
-            "preco_num": 9.19,
-            "media_ultimas_5": 5.220000000000001,
-            "media_geral": 6.1000000000000005,
-            "indice_escalai": 5.484,
-            "proximo_confronto": "vs SAO (Casa)"
-        },
-        {
             "apelido": "Everson",
             "clube_nome": "Atlético-MG",
             "posicao_id": "gol",
@@ -49,6 +39,16 @@
             "media_geral": 4.0,
             "indice_escalai": 4.994,
             "proximo_confronto": "vs INT (Fora)"
+        },
+        {
+            "apelido": "Carlos Miguel",
+            "clube_nome": "Palmeiras",
+            "posicao_id": "gol",
+            "preco_num": 7.71,
+            "media_ultimas_5": 4.88,
+            "media_geral": 4.1,
+            "indice_escalai": 4.646,
+            "proximo_confronto": "vs COR (Fora)"
         }
     ],
     "Lateral": [
@@ -177,6 +177,16 @@
             "proximo_confronto": "vs RBB (Casa)"
         },
         {
+            "apelido": "Barros",
+            "clube_nome": "Vasco",
+            "posicao_id": "mei",
+            "preco_num": 10.37,
+            "media_ultimas_5": 7.32,
+            "media_geral": 7.5125,
+            "indice_escalai": 7.37775,
+            "proximo_confronto": "vs REM (Fora)"
+        },
+        {
             "apelido": "Hércules",
             "clube_nome": "Fluminense",
             "posicao_id": "mei",
@@ -195,19 +205,19 @@
             "media_geral": 7.855555555555556,
             "indice_escalai": 6.7666666666666675,
             "proximo_confronto": "vs COR (Fora)"
-        },
-        {
-            "apelido": "Lucas Paquetá",
-            "clube_nome": "Flamengo",
-            "posicao_id": "mei",
-            "preco_num": 15.31,
-            "media_ultimas_5": 6.540000000000001,
-            "media_geral": 6.371428571428571,
-            "indice_escalai": 6.489428571428571,
-            "proximo_confronto": "vs FLU (Fora)"
         }
     ],
     "Atacante": [
+        {
+            "apelido": "Canobbio",
+            "clube_nome": "Fluminense",
+            "posicao_id": "ata",
+            "preco_num": 10.99,
+            "media_ultimas_5": 9.540000000000001,
+            "media_geral": 7.985714285714286,
+            "indice_escalai": 9.073714285714285,
+            "proximo_confronto": "vs FLA (Casa)"
+        },
         {
             "apelido": "Pedro",
             "clube_nome": "Flamengo",
@@ -247,16 +257,6 @@
             "media_geral": 7.775,
             "indice_escalai": 7.775,
             "proximo_confronto": "vs VAS (Casa)"
-        },
-        {
-            "apelido": "Andrés Gómez",
-            "clube_nome": "Vasco",
-            "posicao_id": "ata",
-            "preco_num": 11.64,
-            "media_ultimas_5": 7.220000000000001,
-            "media_geral": 7.455555555555555,
-            "indice_escalai": 7.290666666666667,
-            "proximo_confronto": "vs REM (Fora)"
         }
     ],
     "Técnico": [
