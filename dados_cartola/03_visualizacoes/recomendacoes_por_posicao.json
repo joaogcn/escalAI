@@ -21,6 +21,16 @@
             "proximo_confronto": "vs MIR (Fora)"
         },
         {
+            "apelido": "Lucas Arcanjo",
+            "clube_nome": "Vitória",
+            "posicao_id": "gol",
+            "preco_num": 9.19,
+            "media_ultimas_5": 5.220000000000001,
+            "media_geral": 6.1000000000000005,
+            "indice_escalai": 5.484,
+            "proximo_confronto": "vs SAO (Casa)"
+        },
+        {
             "apelido": "Everson",
             "clube_nome": "Atlético-MG",
             "posicao_id": "gol",
@@ -39,16 +49,6 @@
             "media_geral": 4.0,
             "indice_escalai": 4.994,
             "proximo_confronto": "vs INT (Fora)"
-        },
-        {
-            "apelido": "Carlos Miguel",
-            "clube_nome": "Palmeiras",
-            "posicao_id": "gol",
-            "preco_num": 7.71,
-            "media_ultimas_5": 4.88,
-            "media_geral": 4.1,
-            "indice_escalai": 4.646,
-            "proximo_confronto": "vs COR (Fora)"
         }
     ],
     "Lateral": [
