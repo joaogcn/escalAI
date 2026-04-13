@@ -73,16 +73,6 @@
             "proximo_confronto": "vs SAN (Fora)"
         },
         {
-            "apelido": "Sant Anna",
-            "clube_nome": "Bragantino",
-            "posicao_id": "lat",
-            "preco_num": 9.23,
-            "media_ultimas_5": 9.0,
-            "media_geral": 9.0,
-            "indice_escalai": 9.0,
-            "proximo_confronto": "vs CRU (Fora)"
-        },
-        {
             "apelido": "Escobar",
             "clube_nome": "Santos",
             "posicao_id": "lat",
@@ -101,6 +91,16 @@
             "media_geral": 8.88888888888889,
             "indice_escalai": 7.6786666666666665,
             "proximo_confronto": "vs CRU (Fora)"
+        },
+        {
+            "apelido": "Lucas Ramon",
+            "clube_nome": "São Paulo",
+            "posicao_id": "lat",
+            "preco_num": 11.27,
+            "media_ultimas_5": 7.56,
+            "media_geral": 7.766666666666667,
+            "indice_escalai": 7.622,
+            "proximo_confronto": "vs VIT (Fora)"
         }
     ],
     "Zagueiro": [

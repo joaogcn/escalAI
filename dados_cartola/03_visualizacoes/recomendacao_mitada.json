@@ -1,7 +1,7 @@
 {
     "Goleiro": {
-        "apelido": "Carlos Miguel",
-        "clube_nome": "PAL"
+        "apelido": "Rafael Santos",
+        "clube_nome": "CHA"
     },
     "Lateral": {
         "apelido": "Luciano Juba",
@@ -12,15 +12,15 @@
         "clube_nome": "REM"
     },
     "Meia": {
-        "apelido": "Savarino",
-        "clube_nome": "FLU"
+        "apelido": "Montoro",
+        "clube_nome": "BOT"
     },
     "Atacante": {
         "apelido": "Carlos Vinícius",
         "clube_nome": "GRE"
     },
     "Técnico": {
-        "apelido": "Rogério Ceni",
-        "clube_nome": "BAH"
+        "apelido": "Jair Ventura",
+        "clube_nome": "VIT"
     }
 }
