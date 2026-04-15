@@ -34,27 +34,27 @@
     "data":[
         {
             "index":"count",
-            "pontos_num":93365.0,
-            "preco_num":93365.0,
-            "variacao_num":93365.0,
-            "media_num":93365.0,
-            "jogos_num":93365.0
+            "pontos_num":94108.0,
+            "preco_num":94108.0,
+            "variacao_num":94108.0,
+            "media_num":94108.0,
+            "jogos_num":94108.0
         },
         {
             "index":"mean",
-            "pontos_num":1.3984924758,
-            "preco_num":5.0094176619,
-            "variacao_num":0.0000312751,
-            "media_num":2.2770013388,
-            "jogos_num":7.2086327853
+            "pontos_num":1.3995170442,
+            "preco_num":5.0116444936,
+            "variacao_num":0.0000315595,
+            "media_num":2.2771476389,
+            "jogos_num":7.187794874
         },
         {
             "index":"std",
-            "pontos_num":2.9427217615,
-            "preco_num":3.1983593243,
-            "variacao_num":0.572326912,
-            "media_num":2.2446915146,
-            "jogos_num":7.9100521004
+            "pontos_num":2.9426824347,
+            "preco_num":3.1985116909,
+            "variacao_num":0.5721216043,
+            "media_num":2.2446633598,
+            "jogos_num":7.8893789195
         },
         {
             "index":"min",
@@ -67,7 +67,7 @@
         {
             "index":"25%",
             "pontos_num":0.0,
-            "preco_num":2.64,
+            "preco_num":2.65,
             "variacao_num":0.0,
             "media_num":0.0,
             "jogos_num":0.0
@@ -75,7 +75,7 @@
         {
             "index":"50%",
             "pontos_num":0.0,
-            "preco_num":4.51,
+            "preco_num":4.52,
             "variacao_num":0.0,
             "media_num":2.03,
             "jogos_num":4.0
@@ -85,7 +85,7 @@
             "pontos_num":1.5,
             "preco_num":6.83,
             "variacao_num":0.0,
-            "media_num":3.73,
+            "media_num":3.74,
             "jogos_num":12.0
         },
         {

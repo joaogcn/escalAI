@@ -1,0 +1,32 @@
+{
+    "Goleiro": {
+        "apelido": "Weverton",
+        "pontuacao_real": 9.4,
+        "sinal": "Verde"
+    },
+    "Lateral": {
+        "apelido": "Bernabei",
+        "pontuacao_real": 9.6,
+        "sinal": "Verde"
+    },
+    "Zagueiro": {
+        "apelido": "David Duarte",
+        "pontuacao_real": -1.5,
+        "sinal": "Vermelho"
+    },
+    "Meia": {
+        "apelido": "Victor Hugo",
+        "pontuacao_real": 0.9,
+        "sinal": "Vermelho"
+    },
+    "Atacante": {
+        "apelido": "Ferreira",
+        "pontuacao_real": 2.1,
+        "sinal": "Vermelho"
+    },
+    "Técnico": {
+        "apelido": "Vagner Mancini",
+        "pontuacao_real": 4.29,
+        "sinal": "Vermelho"
+    }
+}

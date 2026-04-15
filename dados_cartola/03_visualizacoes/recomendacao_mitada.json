@@ -1,26 +1,26 @@
 {
     "Goleiro": {
-        "apelido": "Rafael Santos",
-        "clube_nome": "CHA"
+        "apelido": "Hugo Souza",
+        "clube_nome": "COR"
     },
     "Lateral": {
         "apelido": "Luciano Juba",
         "clube_nome": "BAH"
     },
     "Zagueiro": {
-        "apelido": "Tchamba",
-        "clube_nome": "REM"
+        "apelido": "Gabriel Paulista",
+        "clube_nome": "COR"
     },
     "Meia": {
-        "apelido": "Arias",
-        "clube_nome": "PAL"
+        "apelido": "Montoro",
+        "clube_nome": "BOT"
     },
     "Atacante": {
-        "apelido": "Moisés",
-        "clube_nome": "SAN"
+        "apelido": "Carlos Vinícius",
+        "clube_nome": "GRE"
     },
     "Técnico": {
-        "apelido": "Jair Ventura",
-        "clube_nome": "VIT"
+        "apelido": "Odair Hellmann",
+        "clube_nome": "CAP"
     }
 }
