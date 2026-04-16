@@ -1,7 +1,7 @@
 {
     "Goleiro": {
-        "apelido": "Hugo Souza",
-        "clube_nome": "COR"
+        "apelido": "Carlos Miguel",
+        "clube_nome": "PAL"
     },
     "Lateral": {
         "apelido": "Luciano Juba",
@@ -12,8 +12,8 @@
         "clube_nome": "COR"
     },
     "Meia": {
-        "apelido": "Montoro",
-        "clube_nome": "BOT"
+        "apelido": "Arias",
+        "clube_nome": "PAL"
     },
     "Atacante": {
         "apelido": "Carlos Vinícius",
