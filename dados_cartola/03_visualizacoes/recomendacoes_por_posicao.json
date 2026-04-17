@@ -219,16 +219,6 @@
             "proximo_confronto": "vs BAH (Casa)"
         },
         {
-            "apelido": "Vitor Roque",
-            "clube_nome": "Palmeiras",
-            "posicao_id": "ata",
-            "preco_num": 17.99,
-            "media_ultimas_5": 8.94,
-            "media_geral": 8.716666666666667,
-            "indice_escalai": 8.873,
-            "proximo_confronto": "vs CAP (Casa)"
-        },
-        {
             "apelido": "Lucas Barbosa",
             "clube_nome": "Bragantino",
             "posicao_id": "ata",
@@ -257,6 +247,16 @@
             "media_geral": 5.4625,
             "indice_escalai": 7.22475,
             "proximo_confronto": "vs FLA (Fora)"
+        },
+        {
+            "apelido": "Calleri",
+            "clube_nome": "São Paulo",
+            "posicao_id": "ata",
+            "preco_num": 13.84,
+            "media_ultimas_5": 7.12,
+            "media_geral": 7.409999999999999,
+            "indice_escalai": 7.207,
+            "proximo_confronto": "vs VAS (Fora)"
         }
     ],
     "Técnico": [
