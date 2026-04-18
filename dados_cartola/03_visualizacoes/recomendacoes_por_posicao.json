@@ -53,16 +53,6 @@
     ],
     "Lateral": [
         {
-            "apelido": "Sant Anna",
-            "clube_nome": "Bragantino",
-            "posicao_id": "lat",
-            "preco_num": 9.23,
-            "media_ultimas_5": 9.0,
-            "media_geral": 9.0,
-            "indice_escalai": 9.0,
-            "proximo_confronto": "vs REM (Casa)"
-        },
-        {
             "apelido": "Cuiabano",
             "clube_nome": "Vasco",
             "posicao_id": "lat",
@@ -101,9 +91,29 @@
             "media_geral": 8.620000000000001,
             "indice_escalai": 7.458,
             "proximo_confronto": "vs REM (Casa)"
+        },
+        {
+            "apelido": "Natanael",
+            "clube_nome": "Atlético-MG",
+            "posicao_id": "lat",
+            "preco_num": 8.98,
+            "media_ultimas_5": 6.675,
+            "media_geral": 6.675,
+            "indice_escalai": 6.674999999999999,
+            "proximo_confronto": "vs CFC (Fora)"
         }
     ],
     "Zagueiro": [
+        {
+            "apelido": "Lucas Veríssimo",
+            "clube_nome": "Santos",
+            "posicao_id": "zag",
+            "preco_num": 11.14,
+            "media_ultimas_5": 6.575,
+            "media_geral": 6.575,
+            "indice_escalai": 6.575,
+            "proximo_confronto": "vs FLU (Casa)"
+        },
         {
             "apelido": "Léo Pereira",
             "clube_nome": "Flamengo",
@@ -143,16 +153,6 @@
             "media_geral": 5.428571428571429,
             "indice_escalai": 4.5685714285714285,
             "proximo_confronto": "vs CHA (Fora)"
-        },
-        {
-            "apelido": "Gustavo Marques",
-            "clube_nome": "Bragantino",
-            "posicao_id": "zag",
-            "preco_num": 7.49,
-            "media_ultimas_5": 4.26,
-            "media_geral": 5.222222222222222,
-            "indice_escalai": 4.548666666666667,
-            "proximo_confronto": "vs REM (Casa)"
         }
     ],
     "Meia": [
@@ -239,16 +239,6 @@
             "proximo_confronto": "vs SAO (Casa)"
         },
         {
-            "apelido": "Everaldo",
-            "clube_nome": "Bahia",
-            "posicao_id": "ata",
-            "preco_num": 6.9,
-            "media_ultimas_5": 7.980000000000001,
-            "media_geral": 5.4625,
-            "indice_escalai": 7.22475,
-            "proximo_confronto": "vs FLA (Fora)"
-        },
-        {
             "apelido": "Calleri",
             "clube_nome": "São Paulo",
             "posicao_id": "ata",
@@ -257,6 +247,16 @@
             "media_geral": 7.409999999999999,
             "indice_escalai": 7.207,
             "proximo_confronto": "vs VAS (Fora)"
+        },
+        {
+            "apelido": "Viveros",
+            "clube_nome": "CAP",
+            "posicao_id": "ata",
+            "preco_num": 12.19,
+            "media_ultimas_5": 7.239999999999999,
+            "media_geral": 7.088888888888889,
+            "indice_escalai": 7.1946666666666665,
+            "proximo_confronto": "vs PAL (Fora)"
         }
     ],
     "Técnico": [
