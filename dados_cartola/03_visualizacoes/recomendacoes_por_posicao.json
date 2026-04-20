@@ -135,6 +135,16 @@
             "proximo_confronto": "vs BAH (Casa)"
         },
         {
+            "apelido": "Lyanco",
+            "clube_nome": "Atlético-MG",
+            "posicao_id": "zag",
+            "preco_num": 10.0,
+            "media_ultimas_5": 4.833333333333333,
+            "media_geral": 4.833333333333333,
+            "indice_escalai": 4.833333333333333,
+            "proximo_confronto": "vs CFC (Fora)"
+        },
+        {
             "apelido": "Gustavo Gómez",
             "clube_nome": "Palmeiras",
             "posicao_id": "zag",
@@ -143,16 +153,6 @@
             "media_geral": 5.233333333333333,
             "indice_escalai": 4.58,
             "proximo_confronto": "vs CAP (Casa)"
-        },
-        {
-            "apelido": "Alexander Barboza",
-            "clube_nome": "Botafogo",
-            "posicao_id": "zag",
-            "preco_num": 10.62,
-            "media_ultimas_5": 4.2,
-            "media_geral": 5.428571428571429,
-            "indice_escalai": 4.5685714285714285,
-            "proximo_confronto": "vs CHA (Fora)"
         }
     ],
     "Meia": [
@@ -229,6 +229,16 @@
             "proximo_confronto": "vs REM (Casa)"
         },
         {
+            "apelido": "Plata",
+            "clube_nome": "Flamengo",
+            "posicao_id": "ata",
+            "preco_num": 11.92,
+            "media_ultimas_5": 8.15,
+            "media_geral": 8.15,
+            "indice_escalai": 8.15,
+            "proximo_confronto": "vs BAH (Casa)"
+        },
+        {
             "apelido": "Andrés Gómez",
             "clube_nome": "Vasco",
             "posicao_id": "ata",
@@ -247,16 +257,6 @@
             "media_geral": 7.409999999999999,
             "indice_escalai": 7.207,
             "proximo_confronto": "vs VAS (Fora)"
-        },
-        {
-            "apelido": "Viveros",
-            "clube_nome": "CAP",
-            "posicao_id": "ata",
-            "preco_num": 12.19,
-            "media_ultimas_5": 7.239999999999999,
-            "media_geral": 7.088888888888889,
-            "indice_escalai": 7.1946666666666665,
-            "proximo_confronto": "vs PAL (Fora)"
         }
     ],
     "Técnico": [
