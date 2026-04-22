@@ -1,0 +1,32 @@
+{
+    "Goleiro": {
+        "apelido": "Lucas Arcanjo",
+        "pontuacao_real": 5.0,
+        "sinal": "Vermelho"
+    },
+    "Lateral": {
+        "apelido": "Ramon",
+        "pontuacao_real": 4.9,
+        "sinal": "Amarelo"
+    },
+    "Zagueiro": {
+        "apelido": "Cacá",
+        "pontuacao_real": 5.5,
+        "sinal": "Amarelo"
+    },
+    "Meia": {
+        "apelido": "Danilo",
+        "pontuacao_real": 10.0,
+        "sinal": "Verde"
+    },
+    "Atacante": {
+        "apelido": "Pedro",
+        "pontuacao_real": 7.9,
+        "sinal": "Amarelo"
+    },
+    "Técnico": {
+        "apelido": "Jair Ventura",
+        "pontuacao_real": 4.63,
+        "sinal": "Vermelho"
+    }
+}
