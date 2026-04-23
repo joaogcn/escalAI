@@ -187,16 +187,6 @@
             "proximo_confronto": "vs RBB (Fora)"
         },
         {
-            "apelido": "Neymar",
-            "clube_nome": "Santos",
-            "posicao_id": "mei",
-            "preco_num": 19.84,
-            "media_ultimas_5": 6.74,
-            "media_geral": 8.816666666666666,
-            "indice_escalai": 7.3629999999999995,
-            "proximo_confronto": "vs BAH (Fora)"
-        },
-        {
             "apelido": "Hércules",
             "clube_nome": "Fluminense",
             "posicao_id": "mei",
@@ -205,6 +195,16 @@
             "media_geral": 6.244444444444444,
             "indice_escalai": 6.339333333333332,
             "proximo_confronto": "vs CHA (Casa)"
+        },
+        {
+            "apelido": "Jean Lucas",
+            "clube_nome": "Bahia",
+            "posicao_id": "mei",
+            "preco_num": 11.1,
+            "media_ultimas_5": 6.16,
+            "media_geral": 6.0636363636363635,
+            "indice_escalai": 6.131090909090908,
+            "proximo_confronto": "vs SAN (Casa)"
         }
     ],
     "Atacante": [
