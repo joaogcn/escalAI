@@ -41,14 +41,14 @@
             "proximo_confronto": "vs CFC (Casa)"
         },
         {
-            "apelido": "Hugo Souza",
-            "clube_nome": "Corinthians",
+            "apelido": "Tiago Volpi",
+            "clube_nome": "Bragantino",
             "posicao_id": "gol",
-            "preco_num": 10.51,
-            "media_ultimas_5": 5.819999999999999,
-            "media_geral": 5.13,
-            "indice_escalai": 5.612999999999999,
-            "proximo_confronto": "vs VAS (Casa)"
+            "preco_num": 9.38,
+            "media_ultimas_5": 5.220000000000001,
+            "media_geral": 5.220000000000001,
+            "indice_escalai": 5.220000000000001,
+            "proximo_confronto": "vs PAL (Casa)"
         }
     ],
     "Lateral": [
@@ -135,6 +135,16 @@
             "proximo_confronto": "vs BAH (Fora)"
         },
         {
+            "apelido": "Thiago Santos",
+            "clube_nome": "CFC",
+            "posicao_id": "zag",
+            "preco_num": 3.9,
+            "media_ultimas_5": 5.166666666666667,
+            "media_geral": 5.166666666666667,
+            "indice_escalai": 5.166666666666667,
+            "proximo_confronto": "vs GRE (Fora)"
+        },
+        {
             "apelido": "Léo Ortiz",
             "clube_nome": "Flamengo",
             "posicao_id": "zag",
@@ -143,16 +153,6 @@
             "media_geral": 4.811111111111111,
             "indice_escalai": 4.943333333333333,
             "proximo_confronto": "vs CAM (Fora)"
-        },
-        {
-            "apelido": "Gabriel Paulista",
-            "clube_nome": "Corinthians",
-            "posicao_id": "zag",
-            "preco_num": 10.43,
-            "media_ultimas_5": 4.42,
-            "media_geral": 5.4875,
-            "indice_escalai": 4.74025,
-            "proximo_confronto": "vs VAS (Casa)"
         }
     ],
     "Meia": [
@@ -239,16 +239,6 @@
             "proximo_confronto": "vs CAM (Fora)"
         },
         {
-            "apelido": "Gabriel Taliari",
-            "clube_nome": "REM",
-            "posicao_id": "ata",
-            "preco_num": 10.88,
-            "media_ultimas_5": 8.580000000000002,
-            "media_geral": 7.3,
-            "indice_escalai": 8.196000000000002,
-            "proximo_confronto": "vs CRU (Casa)"
-        },
-        {
             "apelido": "Lucas Barbosa",
             "clube_nome": "Bragantino",
             "posicao_id": "ata",
@@ -256,6 +246,16 @@
             "media_ultimas_5": 8.78,
             "media_geral": 6.036363636363637,
             "indice_escalai": 7.95690909090909,
+            "proximo_confronto": "vs PAL (Casa)"
+        },
+        {
+            "apelido": "Isidro Pitta",
+            "clube_nome": "Bragantino",
+            "posicao_id": "ata",
+            "preco_num": 7.5,
+            "media_ultimas_5": 8.88,
+            "media_geral": 4.036363636363636,
+            "indice_escalai": 7.426909090909091,
             "proximo_confronto": "vs PAL (Casa)"
         }
     ],
