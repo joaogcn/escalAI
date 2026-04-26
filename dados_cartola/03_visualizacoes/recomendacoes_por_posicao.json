@@ -73,6 +73,16 @@
             "proximo_confronto": "vs COR (Fora)"
         },
         {
+            "apelido": "Bernabei",
+            "clube_nome": "Internacional",
+            "posicao_id": "lat",
+            "preco_num": 10.01,
+            "media_ultimas_5": 8.58,
+            "media_geral": 5.61,
+            "indice_escalai": 7.688999999999999,
+            "proximo_confronto": "vs BOT (Fora)"
+        },
+        {
             "apelido": "Matheus Bidu",
             "clube_nome": "Corinthians",
             "posicao_id": "lat",
@@ -91,16 +101,6 @@
             "media_geral": 5.487500000000001,
             "indice_escalai": 7.302250000000001,
             "proximo_confronto": "vs CRU (Casa)"
-        },
-        {
-            "apelido": "Juninho Capixaba",
-            "clube_nome": "Bragantino",
-            "posicao_id": "lat",
-            "preco_num": 13.05,
-            "media_ultimas_5": 6.26,
-            "media_geral": 7.845454545454545,
-            "indice_escalai": 6.735636363636363,
-            "proximo_confronto": "vs PAL (Casa)"
         }
     ],
     "Zagueiro": [
