@@ -1,0 +1,32 @@
+{
+    "Goleiro": {
+        "apelido": "Pedro Rangel",
+        "pontuacao_real": 6.0,
+        "sinal": "Amarelo"
+    },
+    "Lateral": {
+        "apelido": "Guga",
+        "pontuacao_real": 3.0,
+        "sinal": "Vermelho"
+    },
+    "Zagueiro": {
+        "apelido": "Gustavo Gómez",
+        "pontuacao_real": 4.4,
+        "sinal": "Amarelo"
+    },
+    "Meia": {
+        "apelido": "Edenílson",
+        "pontuacao_real": 0.6,
+        "sinal": "Vermelho"
+    },
+    "Atacante": {
+        "apelido": "Matheus Martins",
+        "pontuacao_real": 7.0,
+        "sinal": "Amarelo"
+    },
+    "Técnico": {
+        "apelido": "Artur Jorge",
+        "pontuacao_real": 7.21,
+        "sinal": "Amarelo"
+    }
+}
