@@ -177,16 +177,6 @@
             "proximo_confronto": "vs CAM (Casa)"
         },
         {
-            "apelido": "Neymar",
-            "clube_nome": "Santos",
-            "posicao_id": "mei",
-            "preco_num": 19.84,
-            "media_ultimas_5": 6.74,
-            "media_geral": 8.816666666666666,
-            "indice_escalai": 7.3629999999999995,
-            "proximo_confronto": "vs PAL (Fora)"
-        },
-        {
             "apelido": "Savarino",
             "clube_nome": "Fluminense",
             "posicao_id": "mei",
@@ -205,6 +195,16 @@
             "media_geral": 6.1899999999999995,
             "indice_escalai": 6.6309999999999985,
             "proximo_confronto": "vs INT (Fora)"
+        },
+        {
+            "apelido": "Arias",
+            "clube_nome": "Palmeiras",
+            "posicao_id": "mei",
+            "preco_num": 15.03,
+            "media_ultimas_5": 5.5200000000000005,
+            "media_geral": 7.188888888888889,
+            "indice_escalai": 6.020666666666667,
+            "proximo_confronto": "vs SAN (Casa)"
         }
     ],
     "Atacante": [
