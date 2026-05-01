@@ -239,6 +239,16 @@
             "proximo_confronto": "vs FLA (Fora)"
         },
         {
+            "apelido": "Plata",
+            "clube_nome": "Flamengo",
+            "posicao_id": "ata",
+            "preco_num": 12.79,
+            "media_ultimas_5": 8.18,
+            "media_geral": 8.583333333333334,
+            "indice_escalai": 8.300999999999998,
+            "proximo_confronto": "vs VAS (Casa)"
+        },
+        {
             "apelido": "Cuello",
             "clube_nome": "Atlético-MG",
             "posicao_id": "ata",
@@ -247,16 +257,6 @@
             "media_geral": 6.4,
             "indice_escalai": 7.869999999999999,
             "proximo_confronto": "vs CRU (Fora)"
-        },
-        {
-            "apelido": "Viveros",
-            "clube_nome": "CAP",
-            "posicao_id": "ata",
-            "preco_num": 13.97,
-            "media_ultimas_5": 7.460000000000001,
-            "media_geral": 7.918181818181818,
-            "indice_escalai": 7.597454545454546,
-            "proximo_confronto": "vs GRE (Casa)"
         }
     ],
     "Técnico": [

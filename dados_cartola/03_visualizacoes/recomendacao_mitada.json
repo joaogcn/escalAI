@@ -12,15 +12,15 @@
         "clube_nome": "COR"
     },
     "Meia": {
-        "apelido": "Arias",
-        "clube_nome": "PAL"
+        "apelido": "Montoro",
+        "clube_nome": "BOT"
     },
     "Atacante": {
         "apelido": "Viveros",
         "clube_nome": "CAP"
     },
     "Técnico": {
-        "apelido": "Jair Ventura",
-        "clube_nome": "VIT"
+        "apelido": "Rogério Ceni",
+        "clube_nome": "BAH"
     }
 }
