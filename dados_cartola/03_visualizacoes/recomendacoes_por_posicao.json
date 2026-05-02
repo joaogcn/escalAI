@@ -93,14 +93,14 @@
             "proximo_confronto": "vs CAM (Casa)"
         },
         {
-            "apelido": "Igor Vinícius",
-            "clube_nome": "Santos",
+            "apelido": "Marcelinho",
+            "clube_nome": "REM",
             "posicao_id": "lat",
-            "preco_num": 9.82,
-            "media_ultimas_5": 6.840000000000001,
-            "media_geral": 6.65,
-            "indice_escalai": 6.783,
-            "proximo_confronto": "vs PAL (Fora)"
+            "preco_num": 4.94,
+            "media_ultimas_5": 7.5,
+            "media_geral": 5.044444444444445,
+            "indice_escalai": 6.763333333333334,
+            "proximo_confronto": "vs BOT (Fora)"
         }
     ],
     "Zagueiro": [
@@ -135,16 +135,6 @@
             "proximo_confronto": "vs PAL (Fora)"
         },
         {
-            "apelido": "Gustavo Marques",
-            "clube_nome": "Bragantino",
-            "posicao_id": "zag",
-            "preco_num": 7.47,
-            "media_ultimas_5": 4.840000000000001,
-            "media_geral": 5.11,
-            "indice_escalai": 4.921,
-            "proximo_confronto": "vs CHA (Fora)"
-        },
-        {
             "apelido": "Arthur Dias",
             "clube_nome": "CAP",
             "posicao_id": "zag",
@@ -153,6 +143,16 @@
             "media_geral": 4.322222222222222,
             "indice_escalai": 4.852666666666666,
             "proximo_confronto": "vs GRE (Casa)"
+        },
+        {
+            "apelido": "Rafael Tolói",
+            "clube_nome": "São Paulo",
+            "posicao_id": "zag",
+            "preco_num": 8.24,
+            "media_ultimas_5": 4.82,
+            "media_geral": 4.82,
+            "indice_escalai": 4.82,
+            "proximo_confronto": "vs BAH (Casa)"
         }
     ],
     "Meia": [
@@ -177,26 +177,6 @@
             "proximo_confronto": "vs CAM (Casa)"
         },
         {
-            "apelido": "Savarino",
-            "clube_nome": "Fluminense",
-            "posicao_id": "mei",
-            "preco_num": 11.21,
-            "media_ultimas_5": 7.339999999999999,
-            "media_geral": 6.081818181818182,
-            "indice_escalai": 6.962545454545453,
-            "proximo_confronto": "vs INT (Fora)"
-        },
-        {
-            "apelido": "Hércules",
-            "clube_nome": "Fluminense",
-            "posicao_id": "mei",
-            "preco_num": 8.54,
-            "media_ultimas_5": 6.8199999999999985,
-            "media_geral": 6.1899999999999995,
-            "indice_escalai": 6.6309999999999985,
-            "proximo_confronto": "vs INT (Fora)"
-        },
-        {
             "apelido": "Arias",
             "clube_nome": "Palmeiras",
             "posicao_id": "mei",
@@ -205,6 +185,26 @@
             "media_geral": 7.188888888888889,
             "indice_escalai": 6.020666666666667,
             "proximo_confronto": "vs SAN (Casa)"
+        },
+        {
+            "apelido": "Matheus Pereira",
+            "clube_nome": "Cruzeiro",
+            "posicao_id": "mei",
+            "preco_num": 15.06,
+            "media_ultimas_5": 5.619999999999999,
+            "media_geral": 5.9,
+            "indice_escalai": 5.703999999999999,
+            "proximo_confronto": "vs CAM (Casa)"
+        },
+        {
+            "apelido": "Gerson",
+            "clube_nome": "Cruzeiro",
+            "posicao_id": "mei",
+            "preco_num": 9.39,
+            "media_ultimas_5": 6.359999999999999,
+            "media_geral": 4.108333333333333,
+            "indice_escalai": 5.684499999999999,
+            "proximo_confronto": "vs CAM (Casa)"
         }
     ],
     "Atacante": [
