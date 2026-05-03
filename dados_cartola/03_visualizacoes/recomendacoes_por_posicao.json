@@ -93,14 +93,14 @@
             "proximo_confronto": "vs CAM (Casa)"
         },
         {
-            "apelido": "Marcelinho",
-            "clube_nome": "REM",
+            "apelido": "Igor Vinícius",
+            "clube_nome": "Santos",
             "posicao_id": "lat",
-            "preco_num": 4.94,
-            "media_ultimas_5": 7.5,
-            "media_geral": 5.044444444444445,
-            "indice_escalai": 6.763333333333334,
-            "proximo_confronto": "vs BOT (Fora)"
+            "preco_num": 9.82,
+            "media_ultimas_5": 6.840000000000001,
+            "media_geral": 6.65,
+            "indice_escalai": 6.783,
+            "proximo_confronto": "vs PAL (Fora)"
         }
     ],
     "Zagueiro": [
@@ -145,14 +145,14 @@
             "proximo_confronto": "vs GRE (Casa)"
         },
         {
-            "apelido": "Rafael Tolói",
-            "clube_nome": "São Paulo",
+            "apelido": "Thiago Santos",
+            "clube_nome": "CFC",
             "posicao_id": "zag",
-            "preco_num": 8.24,
-            "media_ultimas_5": 4.82,
-            "media_geral": 4.82,
-            "indice_escalai": 4.82,
-            "proximo_confronto": "vs BAH (Casa)"
+            "preco_num": 3.88,
+            "media_ultimas_5": 4.65,
+            "media_geral": 4.65,
+            "indice_escalai": 4.65,
+            "proximo_confronto": "vs VIT (Fora)"
         }
     ],
     "Meia": [
@@ -249,14 +249,14 @@
             "proximo_confronto": "vs VAS (Casa)"
         },
         {
-            "apelido": "Cuello",
-            "clube_nome": "Atlético-MG",
+            "apelido": "John Kennedy",
+            "clube_nome": "Fluminense",
             "posicao_id": "ata",
-            "preco_num": 9.99,
-            "media_ultimas_5": 8.5,
-            "media_geral": 6.4,
-            "indice_escalai": 7.869999999999999,
-            "proximo_confronto": "vs CRU (Fora)"
+            "preco_num": 10.12,
+            "media_ultimas_5": 8.059999999999999,
+            "media_geral": 7.409090909090909,
+            "indice_escalai": 7.864727272727271,
+            "proximo_confronto": "vs INT (Fora)"
         }
     ],
     "Técnico": [
