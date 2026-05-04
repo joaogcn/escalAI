@@ -63,6 +63,16 @@
             "proximo_confronto": "vs MIR (Fora)"
         },
         {
+            "apelido": "Bernabei",
+            "clube_nome": "Internacional",
+            "posicao_id": "lat",
+            "preco_num": 10.24,
+            "media_ultimas_5": 9.2,
+            "media_geral": 5.972727272727273,
+            "indice_escalai": 8.23181818181818,
+            "proximo_confronto": "vs FLU (Casa)"
+        },
+        {
             "apelido": "Luciano Juba",
             "clube_nome": "Bahia",
             "posicao_id": "lat",
@@ -91,16 +101,6 @@
             "media_geral": 5.916666666666667,
             "indice_escalai": 6.913,
             "proximo_confronto": "vs CAM (Casa)"
-        },
-        {
-            "apelido": "Igor Vinícius",
-            "clube_nome": "Santos",
-            "posicao_id": "lat",
-            "preco_num": 9.82,
-            "media_ultimas_5": 6.840000000000001,
-            "media_geral": 6.65,
-            "indice_escalai": 6.783,
-            "proximo_confronto": "vs PAL (Fora)"
         }
     ],
     "Zagueiro": [
@@ -135,6 +135,16 @@
             "proximo_confronto": "vs PAL (Fora)"
         },
         {
+            "apelido": "Gustavo Marques",
+            "clube_nome": "Bragantino",
+            "posicao_id": "zag",
+            "preco_num": 7.47,
+            "media_ultimas_5": 4.840000000000001,
+            "media_geral": 5.11,
+            "indice_escalai": 4.921,
+            "proximo_confronto": "vs CHA (Fora)"
+        },
+        {
             "apelido": "Arthur Dias",
             "clube_nome": "CAP",
             "posicao_id": "zag",
@@ -143,16 +153,6 @@
             "media_geral": 4.322222222222222,
             "indice_escalai": 4.852666666666666,
             "proximo_confronto": "vs GRE (Casa)"
-        },
-        {
-            "apelido": "Thiago Santos",
-            "clube_nome": "CFC",
-            "posicao_id": "zag",
-            "preco_num": 3.88,
-            "media_ultimas_5": 4.65,
-            "media_geral": 4.65,
-            "indice_escalai": 4.65,
-            "proximo_confronto": "vs VIT (Fora)"
         }
     ],
     "Meia": [
@@ -229,16 +229,6 @@
             "proximo_confronto": "vs INT (Fora)"
         },
         {
-            "apelido": "Andrés Gómez",
-            "clube_nome": "Vasco",
-            "posicao_id": "ata",
-            "preco_num": 12.66,
-            "media_ultimas_5": 8.379999999999999,
-            "media_geral": 8.258333333333333,
-            "indice_escalai": 8.343499999999999,
-            "proximo_confronto": "vs FLA (Fora)"
-        },
-        {
             "apelido": "Plata",
             "clube_nome": "Flamengo",
             "posicao_id": "ata",
@@ -257,6 +247,16 @@
             "media_geral": 7.409090909090909,
             "indice_escalai": 7.864727272727271,
             "proximo_confronto": "vs INT (Fora)"
+        },
+        {
+            "apelido": "Viveros",
+            "clube_nome": "CAP",
+            "posicao_id": "ata",
+            "preco_num": 13.97,
+            "media_ultimas_5": 7.460000000000001,
+            "media_geral": 7.918181818181818,
+            "indice_escalai": 7.597454545454546,
+            "proximo_confronto": "vs GRE (Casa)"
         }
     ],
     "Técnico": [
