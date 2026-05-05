@@ -8,19 +8,19 @@
         "clube_nome": "BAH"
     },
     "Zagueiro": {
-        "apelido": "Gabriel Paulista",
-        "clube_nome": "COR"
-    },
-    "Meia": {
-        "apelido": "Medina",
-        "clube_nome": "BOT"
-    },
-    "Atacante": {
-        "apelido": "Viveros",
+        "apelido": "Terán",
         "clube_nome": "CAP"
     },
+    "Meia": {
+        "apelido": "Arias",
+        "clube_nome": "PAL"
+    },
+    "Atacante": {
+        "apelido": "Carlos Vinícius",
+        "clube_nome": "GRE"
+    },
     "Técnico": {
-        "apelido": "Jair Ventura",
-        "clube_nome": "VIT"
+        "apelido": "Paulo Pezzolano",
+        "clube_nome": "INT"
     }
 }

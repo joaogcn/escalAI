@@ -1,0 +1,32 @@
+{
+    "Goleiro": {
+        "apelido": "Kauê",
+        "pontuacao_real": 0.0,
+        "sinal": "Vermelho"
+    },
+    "Lateral": {
+        "apelido": "Matheus Bidu",
+        "pontuacao_real": 1.0,
+        "sinal": "Vermelho"
+    },
+    "Zagueiro": {
+        "apelido": "Viery",
+        "pontuacao_real": 0.0,
+        "sinal": "Vermelho"
+    },
+    "Meia": {
+        "apelido": "Danilo",
+        "pontuacao_real": 5.3,
+        "sinal": "Vermelho"
+    },
+    "Atacante": {
+        "apelido": "Viveros",
+        "pontuacao_real": 1.6,
+        "sinal": "Vermelho"
+    },
+    "Técnico": {
+        "apelido": "Leonardo Jardim",
+        "pontuacao_real": 3.78,
+        "sinal": "Vermelho"
+    }
+}
