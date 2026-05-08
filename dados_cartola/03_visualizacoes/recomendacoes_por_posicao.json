@@ -83,6 +83,16 @@
             "proximo_confronto": "vs SAO (Casa)"
         },
         {
+            "apelido": "Escobar",
+            "clube_nome": "Santos",
+            "posicao_id": "lat",
+            "preco_num": 10.21,
+            "media_ultimas_5": 7.640000000000001,
+            "media_geral": 7.0,
+            "indice_escalai": 7.448,
+            "proximo_confronto": "vs RBB (Casa)"
+        },
+        {
             "apelido": "Luciano Juba",
             "clube_nome": "Bahia",
             "posicao_id": "lat",
@@ -91,16 +101,6 @@
             "media_geral": 7.676923076923076,
             "indice_escalai": 7.2450769230769225,
             "proximo_confronto": "vs CRU (Casa)"
-        },
-        {
-            "apelido": "Juninho Capixaba",
-            "clube_nome": "Bragantino",
-            "posicao_id": "lat",
-            "preco_num": 12.94,
-            "media_ultimas_5": 5.92,
-            "media_geral": 7.341666666666666,
-            "indice_escalai": 6.3465,
-            "proximo_confronto": "vs SAN (Fora)"
         }
     ],
     "Zagueiro": [
