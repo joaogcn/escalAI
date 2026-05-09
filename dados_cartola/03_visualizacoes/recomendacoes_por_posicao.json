@@ -145,13 +145,13 @@
             "proximo_confronto": "vs SAO (Casa)"
         },
         {
-            "apelido": "Noriega",
+            "apelido": "Balbuena",
             "clube_nome": "Grêmio",
             "posicao_id": "zag",
-            "preco_num": 8.58,
-            "media_ultimas_5": 4.6,
-            "media_geral": 5.01,
-            "indice_escalai": 4.723,
+            "preco_num": 7.79,
+            "media_ultimas_5": 4.68,
+            "media_geral": 4.1499999999999995,
+            "indice_escalai": 4.521,
             "proximo_confronto": "vs FLA (Casa)"
         }
     ],
@@ -239,16 +239,6 @@
             "proximo_confronto": "vs CAM (Fora)"
         },
         {
-            "apelido": "Cuello",
-            "clube_nome": "Atlético-MG",
-            "posicao_id": "ata",
-            "preco_num": 9.99,
-            "media_ultimas_5": 8.5,
-            "media_geral": 6.4,
-            "indice_escalai": 7.869999999999999,
-            "proximo_confronto": "vs BOT (Casa)"
-        },
-        {
             "apelido": "Artur",
             "clube_nome": "São Paulo",
             "posicao_id": "ata",
@@ -257,6 +247,16 @@
             "media_geral": 6.15,
             "indice_escalai": 7.766999999999999,
             "proximo_confronto": "vs COR (Fora)"
+        },
+        {
+            "apelido": "Canobbio",
+            "clube_nome": "Fluminense",
+            "posicao_id": "ata",
+            "preco_num": 10.38,
+            "media_ultimas_5": 7.5200000000000005,
+            "media_geral": 7.140000000000001,
+            "indice_escalai": 7.406000000000001,
+            "proximo_confronto": "vs VIT (Casa)"
         }
     ],
     "Técnico": [
