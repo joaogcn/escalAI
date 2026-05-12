@@ -1,19 +1,19 @@
 {
     "Goleiro": {
-        "apelido": "Carlos Miguel",
-        "clube_nome": "PAL"
+        "apelido": "Hugo Souza",
+        "clube_nome": "COR"
     },
     "Lateral": {
         "apelido": "Luciano Juba",
         "clube_nome": "BAH"
     },
     "Zagueiro": {
-        "apelido": "Terán",
-        "clube_nome": "CAP"
+        "apelido": "Lyanco",
+        "clube_nome": "CAM"
     },
     "Meia": {
-        "apelido": "Arias",
-        "clube_nome": "PAL"
+        "apelido": "Savarino",
+        "clube_nome": "FLU"
     },
     "Atacante": {
         "apelido": "Renê",
