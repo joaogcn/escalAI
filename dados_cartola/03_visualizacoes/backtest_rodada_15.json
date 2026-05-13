@@ -1,0 +1,32 @@
+{
+    "Goleiro": {
+        "apelido": "Anthoni",
+        "pontuacao_real": 0.0,
+        "sinal": "Vermelho"
+    },
+    "Lateral": {
+        "apelido": "Bernabei",
+        "pontuacao_real": 1.1,
+        "sinal": "Vermelho"
+    },
+    "Zagueiro": {
+        "apelido": "Terán",
+        "pontuacao_real": 0.0,
+        "sinal": "Vermelho"
+    },
+    "Meia": {
+        "apelido": "Erick",
+        "pontuacao_real": 3.2,
+        "sinal": "Vermelho"
+    },
+    "Atacante": {
+        "apelido": "Artur",
+        "pontuacao_real": 2.0,
+        "sinal": "Vermelho"
+    },
+    "Técnico": {
+        "apelido": "Paulo Pezzolano",
+        "pontuacao_real": 3.88,
+        "sinal": "Vermelho"
+    }
+}
