@@ -93,14 +93,14 @@
             "proximo_confronto": "vs CFC (Casa)"
         },
         {
-            "apelido": "Cuiabano",
-            "clube_nome": "Vasco",
+            "apelido": "Giay",
+            "clube_nome": "Palmeiras",
             "posicao_id": "lat",
-            "preco_num": 11.94,
-            "media_ultimas_5": 5.4799999999999995,
-            "media_geral": 7.455555555555555,
-            "indice_escalai": 6.072666666666666,
-            "proximo_confronto": "vs INT (Fora)"
+            "preco_num": 6.96,
+            "media_ultimas_5": 6.16,
+            "media_geral": 4.730769230769231,
+            "indice_escalai": 5.731230769230769,
+            "proximo_confronto": "vs CRU (Casa)"
         }
     ],
     "Zagueiro": [
@@ -219,16 +219,6 @@
             "proximo_confronto": "vs CAP (Fora)"
         },
         {
-            "apelido": "Plata",
-            "clube_nome": "Flamengo",
-            "posicao_id": "ata",
-            "preco_num": 12.32,
-            "media_ultimas_5": 9.1,
-            "media_geral": 8.1625,
-            "indice_escalai": 8.81875,
-            "proximo_confronto": "vs CAP (Fora)"
-        },
-        {
             "apelido": "Renê",
             "clube_nome": "Vitória",
             "posicao_id": "ata",
@@ -257,6 +247,16 @@
             "media_geral": 7.769230769230769,
             "indice_escalai": 7.538769230769231,
             "proximo_confronto": "vs SAO (Casa)"
+        },
+        {
+            "apelido": "Viveros",
+            "clube_nome": "CAP",
+            "posicao_id": "ata",
+            "preco_num": 11.38,
+            "media_ultimas_5": 7.340000000000001,
+            "media_geral": 7.391666666666667,
+            "indice_escalai": 7.355499999999999,
+            "proximo_confronto": "vs FLA (Casa)"
         }
     ],
     "Técnico": [
