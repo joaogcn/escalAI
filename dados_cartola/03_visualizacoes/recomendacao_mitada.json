@@ -12,15 +12,15 @@
         "clube_nome": "CAM"
     },
     "Meia": {
-        "apelido": "Arias",
-        "clube_nome": "PAL"
+        "apelido": "Savarino",
+        "clube_nome": "FLU"
     },
     "Atacante": {
         "apelido": "Carlos Vinícius",
         "clube_nome": "GRE"
     },
     "Técnico": {
-        "apelido": "Jair Ventura",
-        "clube_nome": "VIT"
+        "apelido": "Rogério Ceni",
+        "clube_nome": "BAH"
     }
 }
