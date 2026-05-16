@@ -115,6 +115,16 @@
             "proximo_confronto": "vs VAS (Casa)"
         },
         {
+            "apelido": "Adonis Frías",
+            "clube_nome": "Santos",
+            "posicao_id": "zag",
+            "preco_num": 7.64,
+            "media_ultimas_5": 5.325,
+            "media_geral": 5.325,
+            "indice_escalai": 5.325,
+            "proximo_confronto": "vs CFC (Casa)"
+        },
+        {
             "apelido": "Gustavo Gómez",
             "clube_nome": "Palmeiras",
             "posicao_id": "zag",
@@ -143,16 +153,6 @@
             "media_geral": 5.136363636363637,
             "indice_escalai": 4.78890909090909,
             "proximo_confronto": "vs CAP (Fora)"
-        },
-        {
-            "apelido": "Alexander Barboza",
-            "clube_nome": "Botafogo",
-            "posicao_id": "zag",
-            "preco_num": 11.1,
-            "media_ultimas_5": 4.5600000000000005,
-            "media_geral": 5.16,
-            "indice_escalai": 4.74,
-            "proximo_confronto": "vs COR (Casa)"
         }
     ],
     "Meia": [
@@ -197,14 +197,14 @@
             "proximo_confronto": "vs SAO (Casa)"
         },
         {
-            "apelido": "Acevedo",
-            "clube_nome": "Bahia",
+            "apelido": "Baralhas",
+            "clube_nome": "Vitória",
             "posicao_id": "mei",
-            "preco_num": 7.76,
-            "media_ultimas_5": 6.68,
-            "media_geral": 5.084615384615384,
-            "indice_escalai": 6.201384615384614,
-            "proximo_confronto": "vs GRE (Casa)"
+            "preco_num": 10.4,
+            "media_ultimas_5": 6.319999999999999,
+            "media_geral": 6.34,
+            "indice_escalai": 6.326,
+            "proximo_confronto": "vs RBB (Fora)"
         }
     ],
     "Atacante": [
@@ -249,14 +249,14 @@
             "proximo_confronto": "vs SAO (Casa)"
         },
         {
-            "apelido": "Viveros",
-            "clube_nome": "CAP",
+            "apelido": "Canobbio",
+            "clube_nome": "Fluminense",
             "posicao_id": "ata",
-            "preco_num": 11.38,
-            "media_ultimas_5": 7.340000000000001,
-            "media_geral": 7.391666666666667,
-            "indice_escalai": 7.355499999999999,
-            "proximo_confronto": "vs FLA (Casa)"
+            "preco_num": 10.38,
+            "media_ultimas_5": 7.5200000000000005,
+            "media_geral": 7.140000000000001,
+            "indice_escalai": 7.406000000000001,
+            "proximo_confronto": "vs SAO (Casa)"
         }
     ],
     "Técnico": [
