@@ -93,14 +93,14 @@
             "proximo_confronto": "vs CFC (Casa)"
         },
         {
-            "apelido": "Giay",
-            "clube_nome": "Palmeiras",
+            "apelido": "Puma Rodríguez",
+            "clube_nome": "Vasco",
             "posicao_id": "lat",
-            "preco_num": 6.96,
-            "media_ultimas_5": 6.16,
-            "media_geral": 4.730769230769231,
-            "indice_escalai": 5.731230769230769,
-            "proximo_confronto": "vs CRU (Casa)"
+            "preco_num": 9.67,
+            "media_ultimas_5": 6.9799999999999995,
+            "media_geral": 5.88,
+            "indice_escalai": 6.6499999999999995,
+            "proximo_confronto": "vs INT (Fora)"
         }
     ],
     "Zagueiro": [
@@ -229,16 +229,6 @@
             "proximo_confronto": "vs RBB (Fora)"
         },
         {
-            "apelido": "Ferreira",
-            "clube_nome": "São Paulo",
-            "posicao_id": "ata",
-            "preco_num": 7.58,
-            "media_ultimas_5": 8.4,
-            "media_geral": 5.8125,
-            "indice_escalai": 7.623749999999999,
-            "proximo_confronto": "vs FLU (Fora)"
-        },
-        {
             "apelido": "John Kennedy",
             "clube_nome": "Fluminense",
             "posicao_id": "ata",
@@ -257,6 +247,16 @@
             "media_geral": 7.140000000000001,
             "indice_escalai": 7.406000000000001,
             "proximo_confronto": "vs SAO (Casa)"
+        },
+        {
+            "apelido": "Viveros",
+            "clube_nome": "CAP",
+            "posicao_id": "ata",
+            "preco_num": 11.38,
+            "media_ultimas_5": 7.340000000000001,
+            "media_geral": 7.391666666666667,
+            "indice_escalai": 7.355499999999999,
+            "proximo_confronto": "vs FLA (Casa)"
         }
     ],
     "Técnico": [
