@@ -83,14 +83,14 @@
             "proximo_confronto": "vs BOT (Fora)"
         },
         {
-            "apelido": "Igor Vinícius",
-            "clube_nome": "Santos",
+            "apelido": "Sant Anna",
+            "clube_nome": "Bragantino",
             "posicao_id": "lat",
-            "preco_num": 10.82,
-            "media_ultimas_5": 8.4,
-            "media_geral": 7.359999999999999,
-            "indice_escalai": 8.088,
-            "proximo_confronto": "vs CFC (Casa)"
+            "preco_num": 8.41,
+            "media_ultimas_5": 6.875,
+            "media_geral": 6.875,
+            "indice_escalai": 6.875,
+            "proximo_confronto": "vs VIT (Casa)"
         },
         {
             "apelido": "Puma Rodríguez",
@@ -157,16 +157,6 @@
     ],
     "Meia": [
         {
-            "apelido": "Danilo",
-            "clube_nome": "Botafogo",
-            "posicao_id": "mei",
-            "preco_num": 15.14,
-            "media_ultimas_5": 9.66,
-            "media_geral": 9.083333333333334,
-            "indice_escalai": 9.487,
-            "proximo_confronto": "vs COR (Casa)"
-        },
-        {
             "apelido": "Neymar",
             "clube_nome": "Santos",
             "posicao_id": "mei",
@@ -185,6 +175,16 @@
             "media_geral": 6.192857142857143,
             "indice_escalai": 7.415857142857143,
             "proximo_confronto": "vs PAL (Fora)"
+        },
+        {
+            "apelido": "Lucas Paquetá",
+            "clube_nome": "Flamengo",
+            "posicao_id": "mei",
+            "preco_num": 15.61,
+            "media_ultimas_5": 7.6,
+            "media_geral": 6.544444444444444,
+            "indice_escalai": 7.283333333333332,
+            "proximo_confronto": "vs CAP (Fora)"
         },
         {
             "apelido": "Savarino",
