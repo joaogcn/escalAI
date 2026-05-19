@@ -1,0 +1,32 @@
+{
+    "Goleiro": {
+        "apelido": "Diógenes",
+        "pontuacao_real": 0.0,
+        "sinal": "Vermelho"
+    },
+    "Lateral": {
+        "apelido": "Lucas Piton",
+        "pontuacao_real": 3.5,
+        "sinal": "Vermelho"
+    },
+    "Zagueiro": {
+        "apelido": "Adonis Frías",
+        "pontuacao_real": 3.0,
+        "sinal": "Vermelho"
+    },
+    "Meia": {
+        "apelido": "Garro",
+        "pontuacao_real": 13.4,
+        "sinal": "Verde"
+    },
+    "Atacante": {
+        "apelido": "John Kennedy",
+        "pontuacao_real": 10.0,
+        "sinal": "Verde"
+    },
+    "Técnico": {
+        "apelido": "Renato Gaúcho",
+        "pontuacao_real": 3.37,
+        "sinal": "Vermelho"
+    }
+}
