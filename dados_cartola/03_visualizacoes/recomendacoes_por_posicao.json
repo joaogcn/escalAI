@@ -93,14 +93,14 @@
             "proximo_confronto": "vs RBB (Casa)"
         },
         {
-            "apelido": "Varela",
-            "clube_nome": "Flamengo",
+            "apelido": "Giay",
+            "clube_nome": "Palmeiras",
             "posicao_id": "lat",
-            "preco_num": 9.01,
-            "media_ultimas_5": 6.319999999999999,
-            "media_geral": 5.641666666666667,
-            "indice_escalai": 6.116499999999999,
-            "proximo_confronto": "vs PAL (Casa)"
+            "preco_num": 6.91,
+            "media_ultimas_5": 6.760000000000001,
+            "media_geral": 4.571428571428571,
+            "indice_escalai": 6.103428571428571,
+            "proximo_confronto": "vs FLA (Fora)"
         }
     ],
     "Zagueiro": [
@@ -177,6 +177,16 @@
             "proximo_confronto": "vs CHA (Casa)"
         },
         {
+            "apelido": "Jorginho",
+            "clube_nome": "Flamengo",
+            "posicao_id": "mei",
+            "preco_num": 9.62,
+            "media_ultimas_5": 7.26,
+            "media_geral": 5.1125,
+            "indice_escalai": 6.61575,
+            "proximo_confronto": "vs PAL (Casa)"
+        },
+        {
             "apelido": "Acevedo",
             "clube_nome": "Bahia",
             "posicao_id": "mei",
@@ -195,16 +205,6 @@
             "media_geral": 5.857142857142857,
             "indice_escalai": 6.167142857142856,
             "proximo_confronto": "vs CFC (Fora)"
-        },
-        {
-            "apelido": "Gerson",
-            "clube_nome": "Cruzeiro",
-            "posicao_id": "mei",
-            "preco_num": 8.97,
-            "media_ultimas_5": 6.840000000000001,
-            "media_geral": 4.213333333333334,
-            "indice_escalai": 6.0520000000000005,
-            "proximo_confronto": "vs CHA (Casa)"
         }
     ],
     "Atacante": [
@@ -216,16 +216,6 @@
             "media_ultimas_5": 8.9,
             "media_geral": 9.115384615384615,
             "indice_escalai": 8.964615384615383,
-            "proximo_confronto": "vs PAL (Casa)"
-        },
-        {
-            "apelido": "Plata",
-            "clube_nome": "Flamengo",
-            "posicao_id": "ata",
-            "preco_num": 12.32,
-            "media_ultimas_5": 9.1,
-            "media_geral": 8.1625,
-            "indice_escalai": 8.81875,
             "proximo_confronto": "vs PAL (Casa)"
         },
         {
@@ -257,6 +247,16 @@
             "media_geral": 6.4875,
             "indice_escalai": 8.148249999999999,
             "proximo_confronto": "vs INT (Casa)"
+        },
+        {
+            "apelido": "Arthur Cabral",
+            "clube_nome": "Botafogo",
+            "posicao_id": "ata",
+            "preco_num": 13.48,
+            "media_ultimas_5": 8.4,
+            "media_geral": 7.191666666666666,
+            "indice_escalai": 8.0375,
+            "proximo_confronto": "vs SAO (Fora)"
         }
     ],
     "Técnico": [
