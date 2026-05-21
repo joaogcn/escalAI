@@ -73,16 +73,6 @@
             "proximo_confronto": "vs GRE (Fora)"
         },
         {
-            "apelido": "Matheus Bidu",
-            "clube_nome": "Corinthians",
-            "posicao_id": "lat",
-            "preco_num": 12.89,
-            "media_ultimas_5": 7.82,
-            "media_geral": 7.741666666666667,
-            "indice_escalai": 7.7965,
-            "proximo_confronto": "vs CAM (Casa)"
-        },
-        {
             "apelido": "Puma Rodríguez",
             "clube_nome": "Vasco",
             "posicao_id": "lat",
@@ -101,6 +91,16 @@
             "media_geral": 4.571428571428571,
             "indice_escalai": 6.103428571428571,
             "proximo_confronto": "vs FLA (Fora)"
+        },
+        {
+            "apelido": "Kaiki Bruno",
+            "clube_nome": "Cruzeiro",
+            "posicao_id": "lat",
+            "preco_num": 11.31,
+            "media_ultimas_5": 6.1,
+            "media_geral": 5.542857142857143,
+            "indice_escalai": 5.932857142857142,
+            "proximo_confronto": "vs CHA (Casa)"
         }
     ],
     "Zagueiro": [
