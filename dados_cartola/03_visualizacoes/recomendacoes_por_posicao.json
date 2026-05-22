@@ -105,6 +105,16 @@
     ],
     "Zagueiro": [
         {
+            "apelido": "Mercado",
+            "clube_nome": "Internacional",
+            "posicao_id": "zag",
+            "preco_num": 6.75,
+            "media_ultimas_5": 7.040000000000001,
+            "media_geral": 4.888888888888889,
+            "indice_escalai": 6.394666666666667,
+            "proximo_confronto": "vs VIT (Fora)"
+        },
+        {
             "apelido": "Viery",
             "clube_nome": "Grêmio",
             "posicao_id": "zag",
@@ -143,16 +153,6 @@
             "media_geral": 4.05,
             "indice_escalai": 4.869,
             "proximo_confronto": "vs FLU (Casa)"
-        },
-        {
-            "apelido": "Adonis Frías",
-            "clube_nome": "Santos",
-            "posicao_id": "zag",
-            "preco_num": 6.17,
-            "media_ultimas_5": 4.86,
-            "media_geral": 4.86,
-            "indice_escalai": 4.86,
-            "proximo_confronto": "vs GRE (Fora)"
         }
     ],
     "Meia": [
