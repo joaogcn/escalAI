@@ -83,24 +83,24 @@
             "proximo_confronto": "vs RBB (Casa)"
         },
         {
-            "apelido": "Giay",
-            "clube_nome": "Palmeiras",
+            "apelido": "Gilberto",
+            "clube_nome": "CAP",
             "posicao_id": "lat",
-            "preco_num": 6.91,
-            "media_ultimas_5": 6.760000000000001,
-            "media_geral": 4.571428571428571,
-            "indice_escalai": 6.103428571428571,
-            "proximo_confronto": "vs FLA (Fora)"
+            "preco_num": 7.21,
+            "media_ultimas_5": 6.575,
+            "media_geral": 6.575,
+            "indice_escalai": 6.575,
+            "proximo_confronto": "vs REM (Fora)"
         },
         {
-            "apelido": "Kaiki Bruno",
-            "clube_nome": "Cruzeiro",
+            "apelido": "Sant Anna",
+            "clube_nome": "Bragantino",
             "posicao_id": "lat",
-            "preco_num": 11.31,
-            "media_ultimas_5": 6.1,
-            "media_geral": 5.542857142857143,
-            "indice_escalai": 5.932857142857142,
-            "proximo_confronto": "vs CHA (Casa)"
+            "preco_num": 9.02,
+            "media_ultimas_5": 6.56,
+            "media_geral": 6.56,
+            "indice_escalai": 6.56,
+            "proximo_confronto": "vs VAS (Fora)"
         }
     ],
     "Zagueiro": [

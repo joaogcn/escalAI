@@ -1,7 +1,7 @@
 {
     "Goleiro": {
-        "apelido": "Hugo Souza",
-        "clube_nome": "COR"
+        "apelido": "Gabriel Brazão",
+        "clube_nome": "SAN"
     },
     "Lateral": {
         "apelido": "Renan Lodi",
@@ -16,8 +16,8 @@
         "clube_nome": "CFC"
     },
     "Atacante": {
-        "apelido": "Moisés",
-        "clube_nome": "SAN"
+        "apelido": "Carlos Vinícius",
+        "clube_nome": "GRE"
     },
     "Técnico": {
         "apelido": "Paulo Pezzolano",
