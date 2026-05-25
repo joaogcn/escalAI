@@ -1,5 +1,29 @@
 [
     {
+        "nome": "COR",
+        "id": 264,
+        "escudo_url": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/COR/60x60.png",
+        "indice_desempenho": 13,
+        "jogos": 5,
+        "vitorias": 3,
+        "empates": 0,
+        "derrotas": 2,
+        "gols_pro": 7,
+        "gols_contra": 7
+    },
+    {
+        "nome": "RBB",
+        "id": 280,
+        "escudo_url": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/RBB/60x60.png",
+        "indice_desempenho": 13,
+        "jogos": 5,
+        "vitorias": 3,
+        "empates": 0,
+        "derrotas": 2,
+        "gols_pro": 7,
+        "gols_contra": 4
+    },
+    {
         "nome": "PAL",
         "id": 275,
         "escudo_url": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/PAL/60x60.png",
@@ -10,6 +34,18 @@
         "derrotas": 0,
         "gols_pro": 7,
         "gols_contra": 3
+    },
+    {
+        "nome": "CRU",
+        "id": 283,
+        "escudo_url": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/CRU/60x60.png",
+        "indice_desempenho": 12,
+        "jogos": 5,
+        "vitorias": 3,
+        "empates": 0,
+        "derrotas": 1,
+        "gols_pro": 7,
+        "gols_contra": 6
     },
     {
         "nome": "GRE",
@@ -48,16 +84,16 @@
         "gols_contra": 7
     },
     {
-        "nome": "CRU",
-        "id": 283,
-        "escudo_url": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/CRU/60x60.png",
-        "indice_desempenho": 9,
-        "jogos": 4,
+        "nome": "CAP",
+        "id": 293,
+        "escudo_url": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/CAP/60x60.png",
+        "indice_desempenho": 10,
+        "jogos": 5,
         "vitorias": 2,
-        "empates": 0,
+        "empates": 2,
         "derrotas": 1,
-        "gols_pro": 5,
-        "gols_contra": 5
+        "gols_pro": 6,
+        "gols_contra": 4
     },
     {
         "nome": "MIR",
@@ -84,30 +120,6 @@
         "gols_contra": 8
     },
     {
-        "nome": "COR",
-        "id": 264,
-        "escudo_url": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/COR/60x60.png",
-        "indice_desempenho": 8,
-        "jogos": 4,
-        "vitorias": 2,
-        "empates": 0,
-        "derrotas": 2,
-        "gols_pro": 6,
-        "gols_contra": 7
-    },
-    {
-        "nome": "RBB",
-        "id": 280,
-        "escudo_url": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/RBB/60x60.png",
-        "indice_desempenho": 8,
-        "jogos": 4,
-        "vitorias": 2,
-        "empates": 0,
-        "derrotas": 2,
-        "gols_pro": 4,
-        "gols_contra": 4
-    },
-    {
         "nome": "SAN",
         "id": 277,
         "escudo_url": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/SAN/60x60.png",
@@ -124,12 +136,12 @@
         "id": 364,
         "escudo_url": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/REM/60x60.png",
         "indice_desempenho": 7,
-        "jogos": 4,
+        "jogos": 5,
         "vitorias": 2,
         "empates": 1,
-        "derrotas": 1,
-        "gols_pro": 6,
-        "gols_contra": 5
+        "derrotas": 2,
+        "gols_pro": 7,
+        "gols_contra": 7
     },
     {
         "nome": "SAO",
@@ -142,18 +154,6 @@
         "derrotas": 2,
         "gols_pro": 7,
         "gols_contra": 8
-    },
-    {
-        "nome": "CAP",
-        "id": 293,
-        "escudo_url": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/CAP/60x60.png",
-        "indice_desempenho": 7,
-        "jogos": 4,
-        "vitorias": 1,
-        "empates": 2,
-        "derrotas": 1,
-        "gols_pro": 4,
-        "gols_contra": 3
     },
     {
         "nome": "FLU",
@@ -172,12 +172,12 @@
         "id": 282,
         "escudo_url": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/CAM/60x60.png",
         "indice_desempenho": 7,
-        "jogos": 4,
+        "jogos": 5,
         "vitorias": 2,
         "empates": 1,
-        "derrotas": 1,
+        "derrotas": 2,
         "gols_pro": 7,
-        "gols_contra": 7
+        "gols_contra": 8
     },
     {
         "nome": "BOT",
@@ -196,12 +196,12 @@
         "id": 267,
         "escudo_url": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/VAS/60x60.png",
         "indice_desempenho": 6,
-        "jogos": 4,
+        "jogos": 5,
         "vitorias": 1,
         "empates": 0,
-        "derrotas": 2,
+        "derrotas": 3,
         "gols_pro": 4,
-        "gols_contra": 7
+        "gols_contra": 10
     },
     {
         "nome": "CFC",
@@ -232,11 +232,11 @@
         "id": 315,
         "escudo_url": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/CHA/60x60.png",
         "indice_desempenho": 1,
-        "jogos": 4,
+        "jogos": 5,
         "vitorias": 0,
         "empates": 0,
-        "derrotas": 3,
-        "gols_pro": 5,
-        "gols_contra": 8
+        "derrotas": 4,
+        "gols_pro": 6,
+        "gols_contra": 10
     }
 ]

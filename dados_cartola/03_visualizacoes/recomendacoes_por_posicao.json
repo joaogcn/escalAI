@@ -73,14 +73,14 @@
             "proximo_confronto": "vs GRE (Fora)"
         },
         {
-            "apelido": "Puma Rodríguez",
-            "clube_nome": "Vasco",
+            "apelido": "Matheus Bidu",
+            "clube_nome": "Corinthians",
             "posicao_id": "lat",
-            "preco_num": 8.0,
-            "media_ultimas_5": 7.419999999999999,
-            "media_geral": 5.454545454545454,
-            "indice_escalai": 6.830363636363636,
-            "proximo_confronto": "vs RBB (Casa)"
+            "preco_num": 12.89,
+            "media_ultimas_5": 7.82,
+            "media_geral": 7.741666666666667,
+            "indice_escalai": 7.7965,
+            "proximo_confronto": "vs CAM (Casa)"
         },
         {
             "apelido": "Gilberto",
@@ -167,16 +167,6 @@
             "proximo_confronto": "vs CAM (Casa)"
         },
         {
-            "apelido": "Christian",
-            "clube_nome": "Cruzeiro",
-            "posicao_id": "mei",
-            "preco_num": 10.08,
-            "media_ultimas_5": 7.040000000000001,
-            "media_geral": 6.306666666666667,
-            "indice_escalai": 6.82,
-            "proximo_confronto": "vs CHA (Casa)"
-        },
-        {
             "apelido": "Jorginho",
             "clube_nome": "Flamengo",
             "posicao_id": "mei",
@@ -205,6 +195,16 @@
             "media_geral": 5.857142857142857,
             "indice_escalai": 6.167142857142856,
             "proximo_confronto": "vs CFC (Fora)"
+        },
+        {
+            "apelido": "Gerson",
+            "clube_nome": "Cruzeiro",
+            "posicao_id": "mei",
+            "preco_num": 8.97,
+            "media_ultimas_5": 6.840000000000001,
+            "media_geral": 4.213333333333334,
+            "indice_escalai": 6.0520000000000005,
+            "proximo_confronto": "vs CHA (Casa)"
         }
     ],
     "Atacante": [
