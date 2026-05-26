@@ -167,16 +167,6 @@
             "proximo_confronto": "vs CAM (Casa)"
         },
         {
-            "apelido": "Jorginho",
-            "clube_nome": "Flamengo",
-            "posicao_id": "mei",
-            "preco_num": 9.62,
-            "media_ultimas_5": 7.26,
-            "media_geral": 5.1125,
-            "indice_escalai": 6.61575,
-            "proximo_confronto": "vs PAL (Casa)"
-        },
-        {
             "apelido": "Acevedo",
             "clube_nome": "Bahia",
             "posicao_id": "mei",
@@ -205,6 +195,16 @@
             "media_geral": 4.213333333333334,
             "indice_escalai": 6.0520000000000005,
             "proximo_confronto": "vs CHA (Casa)"
+        },
+        {
+            "apelido": "Arias",
+            "clube_nome": "Palmeiras",
+            "posicao_id": "mei",
+            "preco_num": 15.6,
+            "media_ultimas_5": 5.2,
+            "media_geral": 7.0,
+            "indice_escalai": 5.74,
+            "proximo_confronto": "vs FLA (Fora)"
         }
     ],
     "Atacante": [

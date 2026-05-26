@@ -108,6 +108,18 @@
         "gols_contra": 6
     },
     {
+        "nome": "CFC",
+        "id": 294,
+        "escudo_url": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/CFC/60x60.png",
+        "indice_desempenho": 9,
+        "jogos": 5,
+        "vitorias": 2,
+        "empates": 1,
+        "derrotas": 2,
+        "gols_pro": 9,
+        "gols_contra": 9
+    },
+    {
         "nome": "VIT",
         "id": 287,
         "escudo_url": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/VIT/60x60.png",
@@ -204,28 +216,16 @@
         "gols_contra": 10
     },
     {
-        "nome": "CFC",
-        "id": 294,
-        "escudo_url": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/CFC/60x60.png",
-        "indice_desempenho": 6,
-        "jogos": 4,
-        "vitorias": 1,
-        "empates": 1,
-        "derrotas": 2,
-        "gols_pro": 6,
-        "gols_contra": 7
-    },
-    {
         "nome": "BAH",
         "id": 265,
         "escudo_url": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/BAH/60x60.png",
         "indice_desempenho": 3,
-        "jogos": 4,
+        "jogos": 5,
         "vitorias": 0,
         "empates": 2,
-        "derrotas": 1,
-        "gols_pro": 6,
-        "gols_contra": 7
+        "derrotas": 2,
+        "gols_pro": 8,
+        "gols_contra": 10
     },
     {
         "nome": "CHA",
