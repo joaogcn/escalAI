@@ -4,23 +4,23 @@
         "clube_nome": "COR"
     },
     "Lateral": {
-        "apelido": "Renan Lodi",
-        "clube_nome": "CAM"
+        "apelido": "Nathan Mendes",
+        "clube_nome": "VIT"
     },
     "Zagueiro": {
-        "apelido": "Tiago Cóser",
-        "clube_nome": "CFC"
+        "apelido": "João Paulo",
+        "clube_nome": "CHA"
     },
     "Meia": {
-        "apelido": "Josué",
-        "clube_nome": "CFC"
+        "apelido": "Montoro",
+        "clube_nome": "BOT"
     },
     "Atacante": {
-        "apelido": "Carlos Vinícius",
-        "clube_nome": "GRE"
+        "apelido": "Viveros",
+        "clube_nome": "CAP"
     },
     "Técnico": {
-        "apelido": "Paulo Pezzolano",
-        "clube_nome": "INT"
+        "apelido": "Dorival Júnior",
+        "clube_nome": "SAO"
     }
 }

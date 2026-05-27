@@ -1,0 +1,32 @@
+{
+    "Goleiro": {
+        "apelido": "Tiago Volpi",
+        "pontuacao_real": 12.8,
+        "sinal": "Verde"
+    },
+    "Lateral": {
+        "apelido": "Bernabei",
+        "pontuacao_real": -0.1,
+        "sinal": "Vermelho"
+    },
+    "Zagueiro": {
+        "apelido": "Viery",
+        "pontuacao_real": 6.7,
+        "sinal": "Verde"
+    },
+    "Meia": {
+        "apelido": "Josué",
+        "pontuacao_real": 6.9,
+        "sinal": "Amarelo"
+    },
+    "Atacante": {
+        "apelido": "Carbonero",
+        "pontuacao_real": 0.0,
+        "sinal": "Vermelho"
+    },
+    "Técnico": {
+        "apelido": "Fernando Seabra",
+        "pontuacao_real": 6.25,
+        "sinal": "Amarelo"
+    }
+}
