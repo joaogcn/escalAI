@@ -11,16 +11,6 @@
             "proximo_confronto": "vs INT (Casa)"
         },
         {
-            "apelido": "Weverton",
-            "clube_nome": "Grêmio",
-            "posicao_id": "gol",
-            "preco_num": 7.67,
-            "media_ultimas_5": 6.08,
-            "media_geral": 4.882352941176471,
-            "indice_escalai": 5.720705882352941,
-            "proximo_confronto": "vs COR (Casa)"
-        },
-        {
             "apelido": "Rossi",
             "clube_nome": "Flamengo",
             "posicao_id": "gol",
@@ -49,6 +39,16 @@
             "media_geral": 4.5588235294117645,
             "indice_escalai": 4.573647058823529,
             "proximo_confronto": "vs CRU (Fora)"
+        },
+        {
+            "apelido": "Léo Jardim",
+            "clube_nome": "Vasco",
+            "posicao_id": "gol",
+            "preco_num": 6.97,
+            "media_ultimas_5": 4.46,
+            "media_geral": 2.6941176470588237,
+            "indice_escalai": 3.930235294117647,
+            "proximo_confronto": "vs CAM (Casa)"
         }
     ],
     "Lateral": [
