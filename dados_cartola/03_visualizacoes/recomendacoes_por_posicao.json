@@ -11,6 +11,16 @@
             "proximo_confronto": "vs INT (Casa)"
         },
         {
+            "apelido": "Ronaldo",
+            "clube_nome": "Bahia",
+            "posicao_id": "gol",
+            "preco_num": 7.57,
+            "media_ultimas_5": 5.619999999999999,
+            "media_geral": 5.028571428571428,
+            "indice_escalai": 5.442571428571427,
+            "proximo_confronto": "vs BOT (Casa)"
+        },
+        {
             "apelido": "Rossi",
             "clube_nome": "Flamengo",
             "posicao_id": "gol",
@@ -39,28 +49,18 @@
             "media_geral": 4.5588235294117645,
             "indice_escalai": 4.573647058823529,
             "proximo_confronto": "vs CRU (Fora)"
-        },
-        {
-            "apelido": "Léo Jardim",
-            "clube_nome": "Vasco",
-            "posicao_id": "gol",
-            "preco_num": 6.97,
-            "media_ultimas_5": 4.46,
-            "media_geral": 2.6941176470588237,
-            "indice_escalai": 3.930235294117647,
-            "proximo_confronto": "vs CAM (Casa)"
         }
     ],
     "Lateral": [
         {
-            "apelido": "Igor Vinícius",
-            "clube_nome": "Santos",
+            "apelido": "Matheus Bidu",
+            "clube_nome": "Corinthians",
             "posicao_id": "lat",
-            "preco_num": 9.68,
-            "media_ultimas_5": 7.5,
-            "media_geral": 6.709090909090909,
-            "indice_escalai": 7.262727272727273,
-            "proximo_confronto": "vs VIT (Casa)"
+            "preco_num": 13.22,
+            "media_ultimas_5": 7.18,
+            "media_geral": 7.800000000000001,
+            "indice_escalai": 7.366,
+            "proximo_confronto": "vs GRE (Fora)"
         },
         {
             "apelido": "Bruno Pacheco",
@@ -83,16 +83,6 @@
             "proximo_confronto": "vs INT (Casa)"
         },
         {
-            "apelido": "Nathan Mendes",
-            "clube_nome": "Vitória",
-            "posicao_id": "lat",
-            "preco_num": 7.52,
-            "media_ultimas_5": 6.859999999999999,
-            "media_geral": 5.008333333333333,
-            "indice_escalai": 6.304499999999999,
-            "proximo_confronto": "vs SAN (Fora)"
-        },
-        {
             "apelido": "Kaiki Bruno",
             "clube_nome": "Cruzeiro",
             "posicao_id": "lat",
@@ -101,6 +91,16 @@
             "media_geral": 5.46,
             "indice_escalai": 5.795999999999999,
             "proximo_confronto": "vs FLU (Casa)"
+        },
+        {
+            "apelido": "Arthur",
+            "clube_nome": "Palmeiras",
+            "posicao_id": "lat",
+            "preco_num": 5.38,
+            "media_ultimas_5": 6.12,
+            "media_geral": 4.663636363636363,
+            "indice_escalai": 5.683090909090909,
+            "proximo_confronto": "vs CHA (Casa)"
         }
     ],
     "Zagueiro": [
@@ -229,6 +229,16 @@
             "proximo_confronto": "vs FLA (Fora)"
         },
         {
+            "apelido": "Renê",
+            "clube_nome": "Vitória",
+            "posicao_id": "ata",
+            "preco_num": 9.49,
+            "media_ultimas_5": 10.36,
+            "media_geral": 6.922222222222222,
+            "indice_escalai": 9.328666666666665,
+            "proximo_confronto": "vs SAN (Fora)"
+        },
+        {
             "apelido": "Pedro",
             "clube_nome": "Flamengo",
             "posicao_id": "ata",
@@ -247,16 +257,6 @@
             "media_geral": 7.6,
             "indice_escalai": 7.9079999999999995,
             "proximo_confronto": "vs CRU (Fora)"
-        },
-        {
-            "apelido": "Arthur Cabral",
-            "clube_nome": "Botafogo",
-            "posicao_id": "ata",
-            "preco_num": 10.12,
-            "media_ultimas_5": 8.239999999999998,
-            "media_geral": 6.738461538461538,
-            "indice_escalai": 7.78953846153846,
-            "proximo_confronto": "vs BAH (Fora)"
         }
     ],
     "Técnico": [
