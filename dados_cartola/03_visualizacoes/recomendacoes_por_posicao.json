@@ -31,16 +31,6 @@
             "proximo_confronto": "vs CFC (Casa)"
         },
         {
-            "apelido": "Lucas Arcanjo",
-            "clube_nome": "Vitória",
-            "posicao_id": "gol",
-            "preco_num": 9.99,
-            "media_ultimas_5": 4.7,
-            "media_geral": 5.992307692307692,
-            "indice_escalai": 5.087692307692308,
-            "proximo_confronto": "vs SAN (Fora)"
-        },
-        {
             "apelido": "Fábio",
             "clube_nome": "Fluminense",
             "posicao_id": "gol",
@@ -49,6 +39,16 @@
             "media_geral": 4.5588235294117645,
             "indice_escalai": 4.573647058823529,
             "proximo_confronto": "vs CRU (Fora)"
+        },
+        {
+            "apelido": "Léo Jardim",
+            "clube_nome": "Vasco",
+            "posicao_id": "gol",
+            "preco_num": 6.97,
+            "media_ultimas_5": 4.46,
+            "media_geral": 2.6941176470588237,
+            "indice_escalai": 3.930235294117647,
+            "proximo_confronto": "vs CAM (Casa)"
         }
     ],
     "Lateral": [
@@ -61,6 +61,16 @@
             "media_geral": 7.800000000000001,
             "indice_escalai": 7.366,
             "proximo_confronto": "vs GRE (Fora)"
+        },
+        {
+            "apelido": "Igor Vinícius",
+            "clube_nome": "Santos",
+            "posicao_id": "lat",
+            "preco_num": 9.68,
+            "media_ultimas_5": 7.5,
+            "media_geral": 6.709090909090909,
+            "indice_escalai": 7.262727272727273,
+            "proximo_confronto": "vs VIT (Casa)"
         },
         {
             "apelido": "Bruno Pacheco",
@@ -91,16 +101,6 @@
             "media_geral": 5.46,
             "indice_escalai": 5.795999999999999,
             "proximo_confronto": "vs FLU (Casa)"
-        },
-        {
-            "apelido": "Arthur",
-            "clube_nome": "Palmeiras",
-            "posicao_id": "lat",
-            "preco_num": 5.38,
-            "media_ultimas_5": 6.12,
-            "media_geral": 4.663636363636363,
-            "indice_escalai": 5.683090909090909,
-            "proximo_confronto": "vs CHA (Casa)"
         }
     ],
     "Zagueiro": [
@@ -197,14 +197,14 @@
             "proximo_confronto": "vs BAH (Fora)"
         },
         {
-            "apelido": "Everton Ribeiro",
-            "clube_nome": "Bahia",
+            "apelido": "Raniele",
+            "clube_nome": "Corinthians",
             "posicao_id": "mei",
-            "preco_num": 10.23,
-            "media_ultimas_5": 5.959999999999999,
-            "media_geral": 5.433333333333334,
-            "indice_escalai": 5.801999999999999,
-            "proximo_confronto": "vs BOT (Casa)"
+            "preco_num": 7.93,
+            "media_ultimas_5": 6.28,
+            "media_geral": 4.607692307692307,
+            "indice_escalai": 5.778307692307692,
+            "proximo_confronto": "vs GRE (Fora)"
         }
     ],
     "Atacante": [
