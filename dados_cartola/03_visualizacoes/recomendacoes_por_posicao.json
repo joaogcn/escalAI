@@ -73,6 +73,16 @@
             "proximo_confronto": "vs VIT (Casa)"
         },
         {
+            "apelido": "Puma Rodríguez",
+            "clube_nome": "Vasco",
+            "posicao_id": "lat",
+            "preco_num": 8.0,
+            "media_ultimas_5": 7.419999999999999,
+            "media_geral": 5.454545454545454,
+            "indice_escalai": 6.830363636363636,
+            "proximo_confronto": "vs CAM (Casa)"
+        },
+        {
             "apelido": "Bruno Pacheco",
             "clube_nome": "CHA",
             "posicao_id": "lat",
@@ -91,16 +101,6 @@
             "media_geral": 6.533333333333334,
             "indice_escalai": 6.579999999999999,
             "proximo_confronto": "vs INT (Casa)"
-        },
-        {
-            "apelido": "Kaiki Bruno",
-            "clube_nome": "Cruzeiro",
-            "posicao_id": "lat",
-            "preco_num": 10.78,
-            "media_ultimas_5": 5.9399999999999995,
-            "media_geral": 5.46,
-            "indice_escalai": 5.795999999999999,
-            "proximo_confronto": "vs FLU (Casa)"
         }
     ],
     "Zagueiro": [
@@ -113,6 +113,16 @@
             "media_geral": 4.341666666666667,
             "indice_escalai": 6.0065,
             "proximo_confronto": "vs COR (Casa)"
+        },
+        {
+            "apelido": "Iván Román",
+            "clube_nome": "Atlético-MG",
+            "posicao_id": "zag",
+            "preco_num": 8.64,
+            "media_ultimas_5": 5.82,
+            "media_geral": 5.82,
+            "indice_escalai": 5.82,
+            "proximo_confronto": "vs VAS (Fora)"
         },
         {
             "apelido": "Willian Machado",
@@ -143,16 +153,6 @@
             "media_geral": 4.661538461538462,
             "indice_escalai": 4.856461538461538,
             "proximo_confronto": "vs CFC (Casa)"
-        },
-        {
-            "apelido": "Rafael Tolói",
-            "clube_nome": "São Paulo",
-            "posicao_id": "zag",
-            "preco_num": 8.24,
-            "media_ultimas_5": 4.82,
-            "media_geral": 4.82,
-            "indice_escalai": 4.82,
-            "proximo_confronto": "vs REM (Fora)"
         }
     ],
     "Meia": [
@@ -197,14 +197,14 @@
             "proximo_confronto": "vs BAH (Fora)"
         },
         {
-            "apelido": "Raniele",
-            "clube_nome": "Corinthians",
+            "apelido": "Alan Patrick",
+            "clube_nome": "Internacional",
             "posicao_id": "mei",
-            "preco_num": 7.93,
-            "media_ultimas_5": 6.28,
-            "media_geral": 4.607692307692307,
-            "indice_escalai": 5.778307692307692,
-            "proximo_confronto": "vs GRE (Fora)"
+            "preco_num": 8.11,
+            "media_ultimas_5": 6.220000000000001,
+            "media_geral": 4.945454545454546,
+            "indice_escalai": 5.8376363636363635,
+            "proximo_confronto": "vs RBB (Fora)"
         }
     ],
     "Atacante": [
