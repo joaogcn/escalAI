@@ -1,0 +1,32 @@
+{
+    "Goleiro": {
+        "apelido": "Marcelo Rangel",
+        "pontuacao_real": 0.0,
+        "sinal": "Vermelho"
+    },
+    "Lateral": {
+        "apelido": "Juninho Capixaba",
+        "pontuacao_real": 10.2,
+        "sinal": "Verde"
+    },
+    "Zagueiro": {
+        "apelido": "João Paulo",
+        "pontuacao_real": 1.7,
+        "sinal": "Vermelho"
+    },
+    "Meia": {
+        "apelido": "Allan",
+        "pontuacao_real": -2.1,
+        "sinal": "Vermelho"
+    },
+    "Atacante": {
+        "apelido": "Carlos Vinícius",
+        "pontuacao_real": 2.0,
+        "sinal": "Vermelho"
+    },
+    "Técnico": {
+        "apelido": "Abel Ferreira",
+        "pontuacao_real": 7.65,
+        "sinal": "Amarelo"
+    }
+}

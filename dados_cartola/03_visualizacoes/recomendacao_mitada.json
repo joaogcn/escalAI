@@ -1,26 +1,26 @@
 {
     "Goleiro": {
-        "apelido": "Hugo Souza",
-        "clube_nome": "COR"
+        "apelido": "Carlos Miguel",
+        "clube_nome": "PAL"
     },
     "Lateral": {
-        "apelido": "Claudinho",
-        "clube_nome": "CAP"
+        "apelido": "Marcelinho",
+        "clube_nome": "REM"
     },
     "Zagueiro": {
-        "apelido": "João Paulo",
-        "clube_nome": "CHA"
+        "apelido": "Aguirre",
+        "clube_nome": "CAP"
     },
     "Meia": {
-        "apelido": "Montoro",
-        "clube_nome": "BOT"
+        "apelido": "Maurício",
+        "clube_nome": "PAL"
     },
     "Atacante": {
         "apelido": "Viveros",
         "clube_nome": "CAP"
     },
     "Técnico": {
-        "apelido": "Rogério Ceni",
-        "clube_nome": "BAH"
+        "apelido": "Odair Hellmann",
+        "clube_nome": "CAP"
     }
 }
