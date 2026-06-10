@@ -4,23 +4,23 @@
         "clube_nome": "PAL"
     },
     "Lateral": {
-        "apelido": "Fagner",
-        "clube_nome": "CRU"
+        "apelido": "Marcelinho",
+        "clube_nome": "REM"
     },
     "Zagueiro": {
-        "apelido": "Lyanco",
-        "clube_nome": "CAM"
+        "apelido": "Aguirre",
+        "clube_nome": "CAP"
     },
     "Meia": {
         "apelido": "Maurício",
         "clube_nome": "PAL"
     },
     "Atacante": {
-        "apelido": "Carbonero",
-        "clube_nome": "INT"
+        "apelido": "Viveros",
+        "clube_nome": "CAP"
     },
     "Técnico": {
-        "apelido": "Dorival Júnior",
-        "clube_nome": "SAO"
+        "apelido": "Eduardo Domínguez",
+        "clube_nome": "CAM"
     }
 }
