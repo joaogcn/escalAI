@@ -53,6 +53,16 @@
     ],
     "Lateral": [
         {
+            "apelido": "Bernabei",
+            "clube_nome": "Internacional",
+            "posicao_id": "lat",
+            "preco_num": 9.66,
+            "media_ultimas_5": 8.72,
+            "media_geral": 6.6466666666666665,
+            "indice_escalai": 8.097999999999999,
+            "proximo_confronto": "vs CRU (Casa)"
+        },
+        {
             "apelido": "Marcelinho",
             "clube_nome": "REM",
             "posicao_id": "lat",
@@ -90,16 +100,6 @@
             "media_ultimas_5": 6.380000000000001,
             "media_geral": 5.038461538461538,
             "indice_escalai": 5.977538461538462,
-            "proximo_confronto": "vs REM (Casa)"
-        },
-        {
-            "apelido": "Matheus Bidu",
-            "clube_nome": "Corinthians",
-            "posicao_id": "lat",
-            "preco_num": 12.83,
-            "media_ultimas_5": 4.9799999999999995,
-            "media_geral": 7.728571428571429,
-            "indice_escalai": 5.804571428571428,
             "proximo_confronto": "vs REM (Casa)"
         }
     ],
