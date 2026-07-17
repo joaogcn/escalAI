@@ -167,26 +167,6 @@
             "proximo_confronto": "vs INT (Fora)"
         },
         {
-            "apelido": "Everton Ribeiro",
-            "clube_nome": "Bahia",
-            "posicao_id": "mei",
-            "preco_num": 9.27,
-            "media_ultimas_5": 6.3,
-            "media_geral": 5.253846153846154,
-            "indice_escalai": 5.9861538461538455,
-            "proximo_confronto": "vs CAM (Fora)"
-        },
-        {
-            "apelido": "Jean Lucas",
-            "clube_nome": "Bahia",
-            "posicao_id": "mei",
-            "preco_num": 9.55,
-            "media_ultimas_5": 5.819999999999999,
-            "media_geral": 5.573333333333333,
-            "indice_escalai": 5.745999999999999,
-            "proximo_confronto": "vs CAM (Fora)"
-        },
-        {
             "apelido": "Patrick",
             "clube_nome": "REM",
             "posicao_id": "mei",
@@ -205,6 +185,26 @@
             "media_geral": 6.492307692307692,
             "indice_escalai": 5.475692307692308,
             "proximo_confronto": "vs CFC (Fora)"
+        },
+        {
+            "apelido": "Bobadilla",
+            "clube_nome": "São Paulo",
+            "posicao_id": "mei",
+            "preco_num": 9.15,
+            "media_ultimas_5": 5.119999999999999,
+            "media_geral": 5.05,
+            "indice_escalai": 5.098999999999999,
+            "proximo_confronto": "vs CAP (Casa)"
+        },
+        {
+            "apelido": "Raniele",
+            "clube_nome": "Corinthians",
+            "posicao_id": "mei",
+            "preco_num": 7.72,
+            "media_ultimas_5": 5.359999999999999,
+            "media_geral": 4.478571428571429,
+            "indice_escalai": 5.095571428571428,
+            "proximo_confronto": "vs REM (Casa)"
         }
     ],
     "Atacante": [
