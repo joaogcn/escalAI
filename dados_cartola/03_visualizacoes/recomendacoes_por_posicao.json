@@ -135,16 +135,6 @@
             "proximo_confronto": "vs SAO (Fora)"
         },
         {
-            "apelido": "Léo Ortiz",
-            "clube_nome": "Flamengo",
-            "posicao_id": "zag",
-            "preco_num": 9.12,
-            "media_ultimas_5": 4.46,
-            "media_geral": 4.685714285714285,
-            "indice_escalai": 4.527714285714286,
-            "proximo_confronto": "vs CHA (Fora)"
-        },
-        {
             "apelido": "Lyanco",
             "clube_nome": "Atlético-MG",
             "posicao_id": "zag",
@@ -153,6 +143,16 @@
             "media_geral": 4.433333333333334,
             "indice_escalai": 4.354,
             "proximo_confronto": "vs BAH (Casa)"
+        },
+        {
+            "apelido": "David Duarte",
+            "clube_nome": "Bahia",
+            "posicao_id": "zag",
+            "preco_num": 7.01,
+            "media_ultimas_5": 4.26,
+            "media_geral": 4.01,
+            "indice_escalai": 4.185,
+            "proximo_confronto": "vs CAM (Fora)"
         }
     ],
     "Meia": [
