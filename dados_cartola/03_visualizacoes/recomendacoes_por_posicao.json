@@ -157,6 +157,16 @@
     ],
     "Meia": [
         {
+            "apelido": "Jorginho",
+            "clube_nome": "Flamengo",
+            "posicao_id": "mei",
+            "preco_num": 10.02,
+            "media_ultimas_5": 7.659999999999999,
+            "media_geral": 5.2555555555555555,
+            "indice_escalai": 6.938666666666666,
+            "proximo_confronto": "vs CHA (Fora)"
+        },
+        {
             "apelido": "Matheus Pereira",
             "clube_nome": "Cruzeiro",
             "posicao_id": "mei",
@@ -195,16 +205,6 @@
             "media_geral": 5.05,
             "indice_escalai": 5.098999999999999,
             "proximo_confronto": "vs CAP (Casa)"
-        },
-        {
-            "apelido": "Raniele",
-            "clube_nome": "Corinthians",
-            "posicao_id": "mei",
-            "preco_num": 7.72,
-            "media_ultimas_5": 5.359999999999999,
-            "media_geral": 4.478571428571429,
-            "indice_escalai": 5.095571428571428,
-            "proximo_confronto": "vs REM (Casa)"
         }
     ],
     "Atacante": [
