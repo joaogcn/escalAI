@@ -53,16 +53,6 @@
     ],
     "Lateral": [
         {
-            "apelido": "Bernabei",
-            "clube_nome": "Internacional",
-            "posicao_id": "lat",
-            "preco_num": 9.66,
-            "media_ultimas_5": 8.72,
-            "media_geral": 6.6466666666666665,
-            "indice_escalai": 8.097999999999999,
-            "proximo_confronto": "vs CRU (Casa)"
-        },
-        {
             "apelido": "Marcelinho",
             "clube_nome": "REM",
             "posicao_id": "lat",
@@ -83,16 +73,6 @@
             "proximo_confronto": "vs BAH (Casa)"
         },
         {
-            "apelido": "Giay",
-            "clube_nome": "Palmeiras",
-            "posicao_id": "lat",
-            "preco_num": 7.52,
-            "media_ultimas_5": 6.58,
-            "media_geral": 4.713333333333334,
-            "indice_escalai": 6.02,
-            "proximo_confronto": "vs CFC (Fora)"
-        },
-        {
             "apelido": "Matheuzinho",
             "clube_nome": "Corinthians",
             "posicao_id": "lat",
@@ -101,6 +81,26 @@
             "media_geral": 5.038461538461538,
             "indice_escalai": 5.977538461538462,
             "proximo_confronto": "vs REM (Casa)"
+        },
+        {
+            "apelido": "Matheus Bidu",
+            "clube_nome": "Corinthians",
+            "posicao_id": "lat",
+            "preco_num": 12.83,
+            "media_ultimas_5": 4.9799999999999995,
+            "media_geral": 7.728571428571429,
+            "indice_escalai": 5.804571428571428,
+            "proximo_confronto": "vs REM (Casa)"
+        },
+        {
+            "apelido": "Bruno Pacheco",
+            "clube_nome": "CHA",
+            "posicao_id": "lat",
+            "preco_num": 6.42,
+            "media_ultimas_5": 6.3,
+            "media_geral": 4.488888888888889,
+            "indice_escalai": 5.756666666666666,
+            "proximo_confronto": "vs FLA (Casa)"
         }
     ],
     "Zagueiro": [
@@ -115,13 +115,13 @@
             "proximo_confronto": "vs INT (Fora)"
         },
         {
-            "apelido": "Rafael Tolói",
+            "apelido": "Arboleda",
             "clube_nome": "São Paulo",
             "posicao_id": "zag",
-            "preco_num": 8.24,
-            "media_ultimas_5": 4.82,
-            "media_geral": 4.82,
-            "indice_escalai": 4.82,
+            "preco_num": 8.95,
+            "media_ultimas_5": 4.779999999999999,
+            "media_geral": 4.779999999999999,
+            "indice_escalai": 4.779999999999999,
             "proximo_confronto": "vs CAP (Casa)"
         },
         {
