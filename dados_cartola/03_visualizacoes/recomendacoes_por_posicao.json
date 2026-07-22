@@ -53,6 +53,16 @@
     ],
     "Lateral": [
         {
+            "apelido": "Bernabei",
+            "clube_nome": "Internacional",
+            "posicao_id": "lat",
+            "preco_num": 9.66,
+            "media_ultimas_5": 8.72,
+            "media_geral": 6.6466666666666665,
+            "indice_escalai": 8.097999999999999,
+            "proximo_confronto": "vs CRU (Casa)"
+        },
+        {
             "apelido": "Marcelinho",
             "clube_nome": "REM",
             "posicao_id": "lat",
@@ -91,16 +101,6 @@
             "media_geral": 7.728571428571429,
             "indice_escalai": 5.804571428571428,
             "proximo_confronto": "vs REM (Casa)"
-        },
-        {
-            "apelido": "Bruno Pacheco",
-            "clube_nome": "CHA",
-            "posicao_id": "lat",
-            "preco_num": 6.42,
-            "media_ultimas_5": 6.3,
-            "media_geral": 4.488888888888889,
-            "indice_escalai": 5.756666666666666,
-            "proximo_confronto": "vs FLA (Casa)"
         }
     ],
     "Zagueiro": [
