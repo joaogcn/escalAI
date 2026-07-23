@@ -73,6 +73,16 @@
             "proximo_confronto": "vs COR (Fora)"
         },
         {
+            "apelido": "Piquerez",
+            "clube_nome": "Palmeiras",
+            "posicao_id": "lat",
+            "preco_num": 11.43,
+            "media_ultimas_5": 6.659999999999999,
+            "media_geral": 6.433333333333334,
+            "indice_escalai": 6.591999999999999,
+            "proximo_confronto": "vs CFC (Fora)"
+        },
+        {
             "apelido": "Renan Lodi",
             "clube_nome": "Atlético-MG",
             "posicao_id": "lat",
@@ -83,24 +93,14 @@
             "proximo_confronto": "vs BAH (Casa)"
         },
         {
-            "apelido": "Matheuzinho",
-            "clube_nome": "Corinthians",
+            "apelido": "Emerson Royal",
+            "clube_nome": "Flamengo",
             "posicao_id": "lat",
-            "preco_num": 10.2,
-            "media_ultimas_5": 6.380000000000001,
-            "media_geral": 5.038461538461538,
-            "indice_escalai": 5.977538461538462,
-            "proximo_confronto": "vs REM (Casa)"
-        },
-        {
-            "apelido": "Matheus Bidu",
-            "clube_nome": "Corinthians",
-            "posicao_id": "lat",
-            "preco_num": 12.83,
-            "media_ultimas_5": 4.9799999999999995,
-            "media_geral": 7.728571428571429,
-            "indice_escalai": 5.804571428571428,
-            "proximo_confronto": "vs REM (Casa)"
+            "preco_num": 7.61,
+            "media_ultimas_5": 6.459999999999999,
+            "media_geral": 5.716666666666666,
+            "indice_escalai": 6.236999999999999,
+            "proximo_confronto": "vs CHA (Fora)"
         }
     ],
     "Zagueiro": [
@@ -115,6 +115,16 @@
             "proximo_confronto": "vs INT (Fora)"
         },
         {
+            "apelido": "Rafael Tolói",
+            "clube_nome": "São Paulo",
+            "posicao_id": "zag",
+            "preco_num": 8.24,
+            "media_ultimas_5": 4.82,
+            "media_geral": 4.82,
+            "indice_escalai": 4.82,
+            "proximo_confronto": "vs CAP (Casa)"
+        },
+        {
             "apelido": "Arboleda",
             "clube_nome": "São Paulo",
             "posicao_id": "zag",
@@ -125,6 +135,16 @@
             "proximo_confronto": "vs CAP (Casa)"
         },
         {
+            "apelido": "Félix Torres",
+            "clube_nome": "Internacional",
+            "posicao_id": "zag",
+            "preco_num": 5.58,
+            "media_ultimas_5": 4.959999999999999,
+            "media_geral": 4.13,
+            "indice_escalai": 4.7109999999999985,
+            "proximo_confronto": "vs CRU (Casa)"
+        },
+        {
             "apelido": "Aguirre",
             "clube_nome": "CAP",
             "posicao_id": "zag",
@@ -133,26 +153,6 @@
             "media_geral": 3.6916666666666664,
             "indice_escalai": 4.6355,
             "proximo_confronto": "vs SAO (Fora)"
-        },
-        {
-            "apelido": "Lyanco",
-            "clube_nome": "Atlético-MG",
-            "posicao_id": "zag",
-            "preco_num": 9.5,
-            "media_ultimas_5": 4.32,
-            "media_geral": 4.433333333333334,
-            "indice_escalai": 4.354,
-            "proximo_confronto": "vs BAH (Casa)"
-        },
-        {
-            "apelido": "David Duarte",
-            "clube_nome": "Bahia",
-            "posicao_id": "zag",
-            "preco_num": 7.01,
-            "media_ultimas_5": 4.26,
-            "media_geral": 4.01,
-            "indice_escalai": 4.185,
-            "proximo_confronto": "vs CAM (Fora)"
         }
     ],
     "Meia": [
