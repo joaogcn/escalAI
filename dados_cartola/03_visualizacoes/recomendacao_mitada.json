@@ -4,23 +4,23 @@
         "clube_nome": "PAL"
     },
     "Lateral": {
-        "apelido": "Marcelinho",
-        "clube_nome": "REM"
+        "apelido": "Román Gómez",
+        "clube_nome": "BAH"
     },
     "Zagueiro": {
-        "apelido": "Aguirre",
-        "clube_nome": "CAP"
+        "apelido": "Thiago Silva",
+        "clube_nome": "FLU"
     },
     "Meia": {
-        "apelido": "Arias",
-        "clube_nome": "PAL"
+        "apelido": "Josué",
+        "clube_nome": "CFC"
     },
     "Atacante": {
-        "apelido": "Ramón Sosa",
-        "clube_nome": "PAL"
+        "apelido": "Leozinho",
+        "clube_nome": "CAP"
     },
     "Técnico": {
-        "apelido": "Eduardo Domínguez",
-        "clube_nome": "CAM"
+        "apelido": "Dorival Júnior",
+        "clube_nome": "SAO"
     }
 }
