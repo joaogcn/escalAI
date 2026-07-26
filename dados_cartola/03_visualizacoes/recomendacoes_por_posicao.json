@@ -135,6 +135,16 @@
             "proximo_confronto": "vs INT (Casa)"
         },
         {
+            "apelido": "Félix Torres",
+            "clube_nome": "Internacional",
+            "posicao_id": "zag",
+            "preco_num": 4.71,
+            "media_ultimas_5": 4.7,
+            "media_geral": 4.090909090909091,
+            "indice_escalai": 4.5172727272727276,
+            "proximo_confronto": "vs CAP (Fora)"
+        },
+        {
             "apelido": "David Duarte",
             "clube_nome": "Bahia",
             "posicao_id": "zag",
@@ -143,16 +153,6 @@
             "media_geral": 4.027272727272727,
             "indice_escalai": 4.358181818181818,
             "proximo_confronto": "vs COR (Casa)"
-        },
-        {
-            "apelido": "Lyanco",
-            "clube_nome": "Atlético-MG",
-            "posicao_id": "zag",
-            "preco_num": 9.5,
-            "media_ultimas_5": 4.32,
-            "media_geral": 4.433333333333334,
-            "indice_escalai": 4.354,
-            "proximo_confronto": "vs PAL (Fora)"
         }
     ],
     "Meia": [
