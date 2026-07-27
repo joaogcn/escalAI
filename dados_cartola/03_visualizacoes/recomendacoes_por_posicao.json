@@ -21,16 +21,6 @@
             "proximo_confronto": "vs SAO (Casa)"
         },
         {
-            "apelido": "Weverton",
-            "clube_nome": "Grêmio",
-            "posicao_id": "gol",
-            "preco_num": 7.67,
-            "media_ultimas_5": 6.08,
-            "media_geral": 4.882352941176471,
-            "indice_escalai": 5.720705882352941,
-            "proximo_confronto": "vs FLU (Casa)"
-        },
-        {
             "apelido": "Marcelo Rangel",
             "clube_nome": "REM",
             "posicao_id": "gol",
@@ -49,6 +39,16 @@
             "media_geral": 5.992307692307692,
             "indice_escalai": 5.087692307692308,
             "proximo_confronto": "vs REM (Fora)"
+        },
+        {
+            "apelido": "Ronaldo",
+            "clube_nome": "Bahia",
+            "posicao_id": "gol",
+            "preco_num": 7.42,
+            "media_ultimas_5": 5.14,
+            "media_geral": 4.699999999999999,
+            "indice_escalai": 5.007999999999999,
+            "proximo_confronto": "vs COR (Casa)"
         }
     ],
     "Lateral": [
@@ -73,6 +73,16 @@
             "proximo_confronto": "vs BAH (Fora)"
         },
         {
+            "apelido": "Emerson Royal",
+            "clube_nome": "Flamengo",
+            "posicao_id": "lat",
+            "preco_num": 8.53,
+            "media_ultimas_5": 7.720000000000001,
+            "media_geral": 6.542857142857143,
+            "indice_escalai": 7.3668571428571425,
+            "proximo_confronto": "vs SAO (Casa)"
+        },
+        {
             "apelido": "Bernabei",
             "clube_nome": "Internacional",
             "posicao_id": "lat",
@@ -81,16 +91,6 @@
             "media_geral": 6.425,
             "indice_escalai": 7.121499999999999,
             "proximo_confronto": "vs CAP (Fora)"
-        },
-        {
-            "apelido": "Matheus Bidu",
-            "clube_nome": "Corinthians",
-            "posicao_id": "lat",
-            "preco_num": 13.3,
-            "media_ultimas_5": 6.719999999999999,
-            "media_geral": 7.86,
-            "indice_escalai": 7.061999999999999,
-            "proximo_confronto": "vs BAH (Fora)"
         },
         {
             "apelido": "Juninho Capixaba",
@@ -104,16 +104,6 @@
         }
     ],
     "Zagueiro": [
-        {
-            "apelido": "Bruno Fuchs",
-            "clube_nome": "Palmeiras",
-            "posicao_id": "zag",
-            "preco_num": 8.5,
-            "media_ultimas_5": 5.6,
-            "media_geral": 4.916666666666667,
-            "indice_escalai": 5.395,
-            "proximo_confronto": "vs CAM (Casa)"
-        },
         {
             "apelido": "Jonathan Jesus",
             "clube_nome": "Cruzeiro",
@@ -153,9 +143,29 @@
             "media_geral": 4.027272727272727,
             "indice_escalai": 4.358181818181818,
             "proximo_confronto": "vs COR (Casa)"
+        },
+        {
+            "apelido": "Lyanco",
+            "clube_nome": "Atlético-MG",
+            "posicao_id": "zag",
+            "preco_num": 9.5,
+            "media_ultimas_5": 4.32,
+            "media_geral": 4.433333333333334,
+            "indice_escalai": 4.354,
+            "proximo_confronto": "vs PAL (Fora)"
         }
     ],
     "Meia": [
+        {
+            "apelido": "Danilo",
+            "clube_nome": "Botafogo",
+            "posicao_id": "mei",
+            "preco_num": 15.14,
+            "media_ultimas_5": 9.66,
+            "media_geral": 9.083333333333334,
+            "indice_escalai": 9.487,
+            "proximo_confronto": "vs CRU (Fora)"
+        },
         {
             "apelido": "Neymar",
             "clube_nome": "Santos",
@@ -195,16 +205,6 @@
             "media_geral": 4.050000000000001,
             "indice_escalai": 6.646999999999999,
             "proximo_confronto": "vs RBB (Fora)"
-        },
-        {
-            "apelido": "Medina",
-            "clube_nome": "Botafogo",
-            "posicao_id": "mei",
-            "preco_num": 7.74,
-            "media_ultimas_5": 7.3,
-            "media_geral": 4.588888888888889,
-            "indice_escalai": 6.486666666666666,
-            "proximo_confronto": "vs CRU (Fora)"
         }
     ],
     "Atacante": [
