@@ -1,0 +1,32 @@
+{
+    "Goleiro": {
+        "apelido": "Rossi",
+        "pontuacao_real": -1.0,
+        "sinal": "Vermelho"
+    },
+    "Lateral": {
+        "apelido": "Fagner",
+        "pontuacao_real": -0.8,
+        "sinal": "Vermelho"
+    },
+    "Zagueiro": {
+        "apelido": "Ruan",
+        "pontuacao_real": 4.7,
+        "sinal": "Amarelo"
+    },
+    "Meia": {
+        "apelido": "Maurício",
+        "pontuacao_real": 2.0,
+        "sinal": "Vermelho"
+    },
+    "Atacante": {
+        "apelido": "Leozinho",
+        "pontuacao_real": 15.1,
+        "sinal": "Verde"
+    },
+    "Técnico": {
+        "apelido": "Leonardo Jardim",
+        "pontuacao_real": 4.93,
+        "sinal": "Vermelho"
+    }
+}
