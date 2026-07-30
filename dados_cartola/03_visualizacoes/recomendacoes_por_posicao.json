@@ -135,6 +135,16 @@
             "proximo_confronto": "vs CFC (Fora)"
         },
         {
+            "apelido": "Terán",
+            "clube_nome": "CAP",
+            "posicao_id": "zag",
+            "preco_num": 6.15,
+            "media_ultimas_5": 5.42,
+            "media_geral": 3.8818181818181823,
+            "indice_escalai": 4.958545454545455,
+            "proximo_confronto": "vs COR (Fora)"
+        },
+        {
             "apelido": "Léo Pereira",
             "clube_nome": "Flamengo",
             "posicao_id": "zag",
@@ -143,16 +153,6 @@
             "media_geral": 4.453333333333333,
             "indice_escalai": 4.598,
             "proximo_confronto": "vs INT (Fora)"
-        },
-        {
-            "apelido": "Jacy",
-            "clube_nome": "CFC",
-            "posicao_id": "zag",
-            "preco_num": 6.18,
-            "media_ultimas_5": 4.28,
-            "media_geral": 4.258823529411765,
-            "indice_escalai": 4.27364705882353,
-            "proximo_confronto": "vs CRU (Casa)"
         }
     ],
     "Meia": [
@@ -197,14 +197,14 @@
             "proximo_confronto": "vs CRU (Casa)"
         },
         {
-            "apelido": "Zé Vitor",
-            "clube_nome": "Vitória",
+            "apelido": "Allan",
+            "clube_nome": "Palmeiras",
             "posicao_id": "mei",
-            "preco_num": 6.56,
-            "media_ultimas_5": 7.32,
-            "media_geral": 4.529999999999999,
-            "indice_escalai": 6.483,
-            "proximo_confronto": "vs PAL (Casa)"
+            "preco_num": 12.0,
+            "media_ultimas_5": 6.68,
+            "media_geral": 6.205882352941177,
+            "indice_escalai": 6.537764705882353,
+            "proximo_confronto": "vs VIT (Fora)"
         }
     ],
     "Atacante": [
