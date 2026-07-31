@@ -115,16 +115,6 @@
             "proximo_confronto": "vs CRU (Casa)"
         },
         {
-            "apelido": "Aguirre",
-            "clube_nome": "CAP",
-            "posicao_id": "zag",
-            "preco_num": 5.93,
-            "media_ultimas_5": 5.720000000000001,
-            "media_geral": 3.757142857142857,
-            "indice_escalai": 5.131142857142858,
-            "proximo_confronto": "vs COR (Fora)"
-        },
-        {
             "apelido": "Jonathan Jesus",
             "clube_nome": "Cruzeiro",
             "posicao_id": "zag",
@@ -153,6 +143,16 @@
             "media_geral": 4.453333333333333,
             "indice_escalai": 4.598,
             "proximo_confronto": "vs INT (Fora)"
+        },
+        {
+            "apelido": "Jacy",
+            "clube_nome": "CFC",
+            "posicao_id": "zag",
+            "preco_num": 6.18,
+            "media_ultimas_5": 4.28,
+            "media_geral": 4.258823529411765,
+            "indice_escalai": 4.27364705882353,
+            "proximo_confronto": "vs CRU (Casa)"
         }
     ],
     "Meia": [
@@ -177,16 +177,6 @@
             "proximo_confronto": "vs VIT (Fora)"
         },
         {
-            "apelido": "Garro",
-            "clube_nome": "Corinthians",
-            "posicao_id": "mei",
-            "preco_num": 10.36,
-            "media_ultimas_5": 7.8199999999999985,
-            "media_geral": 5.376470588235295,
-            "indice_escalai": 7.086941176470587,
-            "proximo_confronto": "vs CAP (Casa)"
-        },
-        {
             "apelido": "Josué",
             "clube_nome": "CFC",
             "posicao_id": "mei",
@@ -205,6 +195,16 @@
             "media_geral": 6.205882352941177,
             "indice_escalai": 6.537764705882353,
             "proximo_confronto": "vs VIT (Fora)"
+        },
+        {
+            "apelido": "Jorginho",
+            "clube_nome": "Flamengo",
+            "posicao_id": "mei",
+            "preco_num": 9.76,
+            "media_ultimas_5": 6.459999999999999,
+            "media_geral": 5.045454545454546,
+            "indice_escalai": 6.035636363636363,
+            "proximo_confronto": "vs INT (Fora)"
         }
     ],
     "Atacante": [
