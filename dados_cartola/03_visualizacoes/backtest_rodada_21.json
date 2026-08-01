@@ -1,0 +1,32 @@
+{
+    "Goleiro": {
+        "apelido": "Warleson",
+        "pontuacao_real": 0.0,
+        "sinal": "Vermelho"
+    },
+    "Lateral": {
+        "apelido": "Igor Formiga",
+        "pontuacao_real": 3.2,
+        "sinal": "Vermelho"
+    },
+    "Zagueiro": {
+        "apelido": "Justino",
+        "pontuacao_real": 0.0,
+        "sinal": "Vermelho"
+    },
+    "Meia": {
+        "apelido": "Neymar",
+        "pontuacao_real": 0.0,
+        "sinal": "Vermelho"
+    },
+    "Atacante": {
+        "apelido": "Viveros",
+        "pontuacao_real": 2.2,
+        "sinal": "Vermelho"
+    },
+    "Técnico": {
+        "apelido": "Léo Condé",
+        "pontuacao_real": 3.81,
+        "sinal": "Vermelho"
+    }
+}

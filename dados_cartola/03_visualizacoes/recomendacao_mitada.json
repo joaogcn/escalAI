@@ -1,26 +1,26 @@
 {
     "Goleiro": {
-        "apelido": "Hugo Souza",
-        "clube_nome": "COR"
+        "apelido": "Carlos Miguel",
+        "clube_nome": "PAL"
     },
     "Lateral": {
         "apelido": "Luciano Juba",
         "clube_nome": "BAH"
     },
     "Zagueiro": {
-        "apelido": "Marllon",
-        "clube_nome": "REM"
+        "apelido": "Terán",
+        "clube_nome": "CAP"
     },
     "Meia": {
-        "apelido": "Arias",
-        "clube_nome": "PAL"
+        "apelido": "Picco",
+        "clube_nome": "REM"
     },
     "Atacante": {
-        "apelido": "Viveros",
-        "clube_nome": "CAP"
+        "apelido": "Carlos Vinícius",
+        "clube_nome": "GRE"
     },
     "Técnico": {
-        "apelido": "Odair Hellmann",
-        "clube_nome": "CAP"
+        "apelido": "Dorival Júnior",
+        "clube_nome": "SAO"
     }
 }
