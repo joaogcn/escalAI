@@ -53,16 +53,6 @@
     ],
     "Lateral": [
         {
-            "apelido": "Claudinho",
-            "clube_nome": "CAP",
-            "posicao_id": "lat",
-            "preco_num": 7.84,
-            "media_ultimas_5": 8.919999999999998,
-            "media_geral": 7.516666666666666,
-            "indice_escalai": 8.498999999999997,
-            "proximo_confronto": "vs SAN (Fora)"
-        },
-        {
             "apelido": "Matheuzinho",
             "clube_nome": "Corinthians",
             "posicao_id": "lat",
@@ -101,6 +91,16 @@
             "media_geral": 7.86,
             "indice_escalai": 7.061999999999999,
             "proximo_confronto": "vs RBB (Fora)"
+        },
+        {
+            "apelido": "Piquerez",
+            "clube_nome": "Palmeiras",
+            "posicao_id": "lat",
+            "preco_num": 12.48,
+            "media_ultimas_5": 7.019999999999999,
+            "media_geral": 6.866666666666666,
+            "indice_escalai": 6.973999999999998,
+            "proximo_confronto": "vs INT (Casa)"
         }
     ],
     "Zagueiro": [
