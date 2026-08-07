@@ -105,16 +105,6 @@
     ],
     "Zagueiro": [
         {
-            "apelido": "Bruno Fuchs",
-            "clube_nome": "Palmeiras",
-            "posicao_id": "zag",
-            "preco_num": 8.5,
-            "media_ultimas_5": 5.6,
-            "media_geral": 4.916666666666667,
-            "indice_escalai": 5.395,
-            "proximo_confronto": "vs INT (Casa)"
-        },
-        {
             "apelido": "David Duarte",
             "clube_nome": "Bahia",
             "posicao_id": "zag",
@@ -153,6 +143,16 @@
             "media_geral": 4.6499999999999995,
             "indice_escalai": 4.895,
             "proximo_confronto": "vs MIR (Casa)"
+        },
+        {
+            "apelido": "Adonis Frías",
+            "clube_nome": "Santos",
+            "posicao_id": "zag",
+            "preco_num": 5.66,
+            "media_ultimas_5": 5.040000000000001,
+            "media_geral": 4.183333333333334,
+            "indice_escalai": 4.783,
+            "proximo_confronto": "vs CAP (Casa)"
         }
     ],
     "Meia": [
@@ -187,16 +187,6 @@
             "proximo_confronto": "vs FLU (Casa)"
         },
         {
-            "apelido": "Miguelito",
-            "clube_nome": "Santos",
-            "posicao_id": "mei",
-            "preco_num": 7.41,
-            "media_ultimas_5": 6.880000000000001,
-            "media_geral": 4.875,
-            "indice_escalai": 6.278499999999999,
-            "proximo_confronto": "vs CAP (Casa)"
-        },
-        {
             "apelido": "Denilson",
             "clube_nome": "Mirassol",
             "posicao_id": "mei",
@@ -205,6 +195,16 @@
             "media_geral": 4.336363636363637,
             "indice_escalai": 6.2149090909090905,
             "proximo_confronto": "vs CRU (Fora)"
+        },
+        {
+            "apelido": "Maurício",
+            "clube_nome": "Palmeiras",
+            "posicao_id": "mei",
+            "preco_num": 7.76,
+            "media_ultimas_5": 7.040000000000001,
+            "media_geral": 4.170588235294117,
+            "indice_escalai": 6.179176470588235,
+            "proximo_confronto": "vs INT (Casa)"
         }
     ],
     "Atacante": [
