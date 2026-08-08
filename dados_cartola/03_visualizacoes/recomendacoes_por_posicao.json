@@ -83,16 +83,6 @@
             "proximo_confronto": "vs VAS (Casa)"
         },
         {
-            "apelido": "Matheus Bidu",
-            "clube_nome": "Corinthians",
-            "posicao_id": "lat",
-            "preco_num": 13.3,
-            "media_ultimas_5": 6.719999999999999,
-            "media_geral": 7.86,
-            "indice_escalai": 7.061999999999999,
-            "proximo_confronto": "vs RBB (Fora)"
-        },
-        {
             "apelido": "Piquerez",
             "clube_nome": "Palmeiras",
             "posicao_id": "lat",
@@ -101,6 +91,16 @@
             "media_geral": 6.866666666666666,
             "indice_escalai": 6.973999999999998,
             "proximo_confronto": "vs INT (Casa)"
+        },
+        {
+            "apelido": "Marlon",
+            "clube_nome": "Grêmio",
+            "posicao_id": "lat",
+            "preco_num": 8.85,
+            "media_ultimas_5": 6.279999999999999,
+            "media_geral": 5.771428571428571,
+            "indice_escalai": 6.12742857142857,
+            "proximo_confronto": "vs SAO (Casa)"
         }
     ],
     "Zagueiro": [
