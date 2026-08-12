@@ -1,0 +1,32 @@
+{
+    "Goleiro": {
+        "apelido": "Ronaldo",
+        "pontuacao_real": 8.9,
+        "sinal": "Verde"
+    },
+    "Lateral": {
+        "apelido": "Samuel Xavier",
+        "pontuacao_real": 0.1,
+        "sinal": "Vermelho"
+    },
+    "Zagueiro": {
+        "apelido": "João Victor",
+        "pontuacao_real": 2.7,
+        "sinal": "Vermelho"
+    },
+    "Meia": {
+        "apelido": "Picco",
+        "pontuacao_real": 1.2,
+        "sinal": "Vermelho"
+    },
+    "Atacante": {
+        "apelido": "Vitinho",
+        "pontuacao_real": 3.8,
+        "sinal": "Vermelho"
+    },
+    "Técnico": {
+        "apelido": "Abel Ferreira",
+        "pontuacao_real": 6.31,
+        "sinal": "Amarelo"
+    }
+}
