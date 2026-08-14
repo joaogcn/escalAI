@@ -135,16 +135,6 @@
             "proximo_confronto": "vs MIR (Fora)"
         },
         {
-            "apelido": "Alexander Barboza",
-            "clube_nome": "Palmeiras",
-            "posicao_id": "zag",
-            "preco_num": 10.94,
-            "media_ultimas_5": 5.46,
-            "media_geral": 5.107142857142857,
-            "indice_escalai": 5.354142857142857,
-            "proximo_confronto": "vs FLU (Fora)"
-        },
-        {
             "apelido": "Léo Ortiz",
             "clube_nome": "Flamengo",
             "posicao_id": "zag",
@@ -153,6 +143,16 @@
             "media_geral": 4.84,
             "indice_escalai": 4.616,
             "proximo_confronto": "vs MIR (Fora)"
+        },
+        {
+            "apelido": "Gustavo Henrique",
+            "clube_nome": "Corinthians",
+            "posicao_id": "zag",
+            "preco_num": 8.59,
+            "media_ultimas_5": 4.640000000000001,
+            "media_geral": 3.758823529411765,
+            "indice_escalai": 4.37564705882353,
+            "proximo_confronto": "vs CRU (Casa)"
         }
     ],
     "Meia": [
