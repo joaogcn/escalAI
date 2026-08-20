@@ -1,26 +1,26 @@
 {
     "Goleiro": {
-        "apelido": "Carlos Miguel",
-        "clube_nome": "PAL"
+        "apelido": "Gabriel Brazão",
+        "clube_nome": "SAN"
     },
     "Lateral": {
         "apelido": "Luciano Juba",
         "clube_nome": "BAH"
     },
     "Zagueiro": {
-        "apelido": "Wallace",
-        "clube_nome": "GRE"
+        "apelido": "Thiago Silva",
+        "clube_nome": "FLU"
     },
     "Meia": {
-        "apelido": "Villasanti",
-        "clube_nome": "GRE"
+        "apelido": "Giovanni Augusto",
+        "clube_nome": "CHA"
     },
     "Atacante": {
-        "apelido": "Viveros",
-        "clube_nome": "CAP"
+        "apelido": "Carlos Vinícius",
+        "clube_nome": "GRE"
     },
     "Técnico": {
-        "apelido": "Pedro Emanuel",
-        "clube_nome": "VAS"
+        "apelido": "Cuca",
+        "clube_nome": "SAN"
     }
 }

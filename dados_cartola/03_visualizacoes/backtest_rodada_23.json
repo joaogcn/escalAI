@@ -1,0 +1,32 @@
+{
+    "Goleiro": {
+        "apelido": "Fábio",
+        "pontuacao_real": 1.9,
+        "sinal": "Vermelho"
+    },
+    "Lateral": {
+        "apelido": "Matheuzinho",
+        "pontuacao_real": 7.4,
+        "sinal": "Verde"
+    },
+    "Zagueiro": {
+        "apelido": "Léo Pereira",
+        "pontuacao_real": 1.5,
+        "sinal": "Vermelho"
+    },
+    "Meia": {
+        "apelido": "Carrascal",
+        "pontuacao_real": 24.9,
+        "sinal": "Verde"
+    },
+    "Atacante": {
+        "apelido": "Viveros",
+        "pontuacao_real": 7.4,
+        "sinal": "Amarelo"
+    },
+    "Técnico": {
+        "apelido": "Leonardo Jardim",
+        "pontuacao_real": 11.64,
+        "sinal": "Verde"
+    }
+}
