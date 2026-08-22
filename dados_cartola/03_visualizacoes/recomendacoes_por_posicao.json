@@ -11,14 +11,14 @@
             "proximo_confronto": "vs GRE (Casa)"
         },
         {
-            "apelido": "Warleson",
-            "clube_nome": "Botafogo",
+            "apelido": "Santos",
+            "clube_nome": "CAP",
             "posicao_id": "gol",
-            "preco_num": 6.12,
-            "media_ultimas_5": 5.666666666666667,
-            "media_geral": 5.666666666666667,
-            "indice_escalai": 5.666666666666667,
-            "proximo_confronto": "vs CAP (Casa)"
+            "preco_num": 8.38,
+            "media_ultimas_5": 6.92,
+            "media_geral": 4.245,
+            "indice_escalai": 6.1175,
+            "proximo_confronto": "vs BOT (Fora)"
         },
         {
             "apelido": "Everson",
@@ -93,14 +93,14 @@
             "proximo_confronto": "vs CFC (Fora)"
         },
         {
-            "apelido": "Emerson Royal",
-            "clube_nome": "Flamengo",
+            "apelido": "Cuiabano",
+            "clube_nome": "Vasco",
             "posicao_id": "lat",
-            "preco_num": 7.39,
-            "media_ultimas_5": 7.8,
-            "media_geral": 6.077777777777778,
-            "indice_escalai": 7.283333333333333,
-            "proximo_confronto": "vs CRU (Fora)"
+            "preco_num": 13.58,
+            "media_ultimas_5": 6.640000000000001,
+            "media_geral": 7.676923076923076,
+            "indice_escalai": 6.951076923076922,
+            "proximo_confronto": "vs PAL (Fora)"
         }
     ],
     "Zagueiro": [
@@ -145,14 +145,14 @@
             "proximo_confronto": "vs VAS (Casa)"
         },
         {
-            "apelido": "Léo Pereira",
-            "clube_nome": "Flamengo",
+            "apelido": "Willian Machado",
+            "clube_nome": "Mirassol",
             "posicao_id": "zag",
-            "preco_num": 8.96,
-            "media_ultimas_5": 5.58,
-            "media_geral": 4.555555555555555,
-            "indice_escalai": 5.272666666666666,
-            "proximo_confronto": "vs CRU (Fora)"
+            "preco_num": 5.54,
+            "media_ultimas_5": 5.18,
+            "media_geral": 4.085714285714286,
+            "indice_escalai": 4.851714285714285,
+            "proximo_confronto": "vs SAN (Fora)"
         }
     ],
     "Meia": [
