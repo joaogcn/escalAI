@@ -115,16 +115,6 @@
             "proximo_confronto": "vs VIT (Fora)"
         },
         {
-            "apelido": "Vitor Hugo",
-            "clube_nome": "Atlético-MG",
-            "posicao_id": "zag",
-            "preco_num": 8.29,
-            "media_ultimas_5": 6.0200000000000005,
-            "media_geral": 4.8875,
-            "indice_escalai": 5.680250000000001,
-            "proximo_confronto": "vs INT (Fora)"
-        },
-        {
             "apelido": "Gustavo Gómez",
             "clube_nome": "Palmeiras",
             "posicao_id": "zag",
@@ -153,6 +143,16 @@
             "media_geral": 4.085714285714286,
             "indice_escalai": 4.851714285714285,
             "proximo_confronto": "vs SAN (Fora)"
+        },
+        {
+            "apelido": "Pedro Henrique",
+            "clube_nome": "Bragantino",
+            "posicao_id": "zag",
+            "preco_num": 7.72,
+            "media_ultimas_5": 5.159999999999999,
+            "media_geral": 3.9214285714285713,
+            "indice_escalai": 4.788428571428571,
+            "proximo_confronto": "vs GRE (Casa)"
         }
     ],
     "Meia": [
@@ -187,6 +187,16 @@
             "proximo_confronto": "vs FLA (Casa)"
         },
         {
+            "apelido": "Carrascal",
+            "clube_nome": "Flamengo",
+            "posicao_id": "mei",
+            "preco_num": 13.34,
+            "media_ultimas_5": 8.18,
+            "media_geral": 6.260000000000001,
+            "indice_escalai": 7.603999999999999,
+            "proximo_confronto": "vs CRU (Fora)"
+        },
+        {
             "apelido": "Rodrigo Nestor",
             "clube_nome": "Bahia",
             "posicao_id": "mei",
@@ -195,16 +205,6 @@
             "media_geral": 3.8,
             "indice_escalai": 6.9639999999999995,
             "proximo_confronto": "vs VIT (Fora)"
-        },
-        {
-            "apelido": "Giovanni Augusto",
-            "clube_nome": "CHA",
-            "posicao_id": "mei",
-            "preco_num": 7.19,
-            "media_ultimas_5": 7.540000000000001,
-            "media_geral": 3.6692307692307695,
-            "indice_escalai": 6.378769230769231,
-            "proximo_confronto": "vs SAO (Casa)"
         }
     ],
     "Atacante": [
