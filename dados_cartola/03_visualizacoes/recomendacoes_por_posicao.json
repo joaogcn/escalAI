@@ -21,6 +21,16 @@
             "proximo_confronto": "vs BOT (Fora)"
         },
         {
+            "apelido": "Kauê",
+            "clube_nome": "Corinthians",
+            "posicao_id": "gol",
+            "preco_num": 5.52,
+            "media_ultimas_5": 5.8,
+            "media_geral": 5.8,
+            "indice_escalai": 5.8,
+            "proximo_confronto": "vs CFC (Fora)"
+        },
+        {
             "apelido": "Everson",
             "clube_nome": "Atlético-MG",
             "posicao_id": "gol",
@@ -39,29 +49,9 @@
             "media_geral": 5.629411764705883,
             "indice_escalai": 5.244823529411764,
             "proximo_confronto": "vs BAH (Casa)"
-        },
-        {
-            "apelido": "Ronaldo",
-            "clube_nome": "Bahia",
-            "posicao_id": "gol",
-            "preco_num": 6.92,
-            "media_ultimas_5": 5.159999999999999,
-            "media_geral": 5.015384615384615,
-            "indice_escalai": 5.1166153846153835,
-            "proximo_confronto": "vs VIT (Fora)"
         }
     ],
     "Lateral": [
-        {
-            "apelido": "Matheuzinho",
-            "clube_nome": "Corinthians",
-            "posicao_id": "lat",
-            "preco_num": 11.15,
-            "media_ultimas_5": 10.319999999999999,
-            "media_geral": 6.505555555555556,
-            "indice_escalai": 9.175666666666665,
-            "proximo_confronto": "vs CFC (Fora)"
-        },
         {
             "apelido": "Juninho Capixaba",
             "clube_nome": "Bragantino",
@@ -83,16 +73,6 @@
             "proximo_confronto": "vs CRU (Fora)"
         },
         {
-            "apelido": "Matheus Bidu",
-            "clube_nome": "Corinthians",
-            "posicao_id": "lat",
-            "preco_num": 12.32,
-            "media_ultimas_5": 7.24,
-            "media_geral": 7.594117647058823,
-            "indice_escalai": 7.346235294117646,
-            "proximo_confronto": "vs CFC (Fora)"
-        },
-        {
             "apelido": "Cuiabano",
             "clube_nome": "Vasco",
             "posicao_id": "lat",
@@ -101,6 +81,26 @@
             "media_geral": 7.676923076923076,
             "indice_escalai": 6.951076923076922,
             "proximo_confronto": "vs PAL (Fora)"
+        },
+        {
+            "apelido": "Gilberto",
+            "clube_nome": "CAP",
+            "posicao_id": "lat",
+            "preco_num": 7.82,
+            "media_ultimas_5": 7.5,
+            "media_geral": 4.841666666666667,
+            "indice_escalai": 6.7025,
+            "proximo_confronto": "vs BOT (Fora)"
+        },
+        {
+            "apelido": "Luciano Juba",
+            "clube_nome": "Bahia",
+            "posicao_id": "lat",
+            "preco_num": 11.26,
+            "media_ultimas_5": 6.319999999999999,
+            "media_geral": 7.300000000000001,
+            "indice_escalai": 6.613999999999999,
+            "proximo_confronto": "vs VIT (Fora)"
         }
     ],
     "Zagueiro": [
@@ -167,16 +167,6 @@
             "proximo_confronto": "vs MIR (Casa)"
         },
         {
-            "apelido": "Arias",
-            "clube_nome": "Palmeiras",
-            "posicao_id": "mei",
-            "preco_num": 13.91,
-            "media_ultimas_5": 10.42,
-            "media_geral": 7.583333333333333,
-            "indice_escalai": 9.568999999999999,
-            "proximo_confronto": "vs VAS (Casa)"
-        },
-        {
             "apelido": "Matheus Pereira",
             "clube_nome": "Cruzeiro",
             "posicao_id": "mei",
@@ -195,6 +185,16 @@
             "media_geral": 6.260000000000001,
             "indice_escalai": 7.603999999999999,
             "proximo_confronto": "vs CRU (Fora)"
+        },
+        {
+            "apelido": "Maurício",
+            "clube_nome": "Palmeiras",
+            "posicao_id": "mei",
+            "preco_num": 7.74,
+            "media_ultimas_5": 8.540000000000001,
+            "media_geral": 4.3052631578947365,
+            "indice_escalai": 7.269578947368421,
+            "proximo_confronto": "vs VAS (Casa)"
         },
         {
             "apelido": "Rodrigo Nestor",
