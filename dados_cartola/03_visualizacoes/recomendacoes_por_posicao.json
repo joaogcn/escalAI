@@ -83,16 +83,6 @@
             "proximo_confronto": "vs PAL (Fora)"
         },
         {
-            "apelido": "Gilberto",
-            "clube_nome": "CAP",
-            "posicao_id": "lat",
-            "preco_num": 7.82,
-            "media_ultimas_5": 7.5,
-            "media_geral": 4.841666666666667,
-            "indice_escalai": 6.7025,
-            "proximo_confronto": "vs BOT (Fora)"
-        },
-        {
             "apelido": "Luciano Juba",
             "clube_nome": "Bahia",
             "posicao_id": "lat",
@@ -101,6 +91,16 @@
             "media_geral": 7.300000000000001,
             "indice_escalai": 6.613999999999999,
             "proximo_confronto": "vs VIT (Fora)"
+        },
+        {
+            "apelido": "Marlon",
+            "clube_nome": "Grêmio",
+            "posicao_id": "lat",
+            "preco_num": 8.97,
+            "media_ultimas_5": 6.8,
+            "media_geral": 5.4875,
+            "indice_escalai": 6.40625,
+            "proximo_confronto": "vs RBB (Fora)"
         }
     ],
     "Zagueiro": [

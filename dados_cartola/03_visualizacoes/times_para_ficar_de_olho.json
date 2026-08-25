@@ -3,13 +3,13 @@
         "nome": "CAP",
         "id": 293,
         "escudo_url": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/CAP/60x60.png",
-        "indice_desempenho": 14,
-        "jogos": 4,
-        "vitorias": 2,
+        "indice_desempenho": 17,
+        "jogos": 5,
+        "vitorias": 3,
         "empates": 1,
         "derrotas": 0,
-        "gols_pro": 5,
-        "gols_contra": 1
+        "gols_pro": 8,
+        "gols_contra": 3
     },
     {
         "nome": "CRU",
@@ -172,12 +172,12 @@
         "id": 263,
         "escudo_url": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/BOT/60x60.png",
         "indice_desempenho": 6,
-        "jogos": 3,
+        "jogos": 4,
         "vitorias": 1,
         "empates": 1,
-        "derrotas": 1,
-        "gols_pro": 2,
-        "gols_contra": 2
+        "derrotas": 2,
+        "gols_pro": 4,
+        "gols_contra": 5
     },
     {
         "nome": "MIR",
