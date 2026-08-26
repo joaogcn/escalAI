@@ -1,7 +1,7 @@
 {
     "Goleiro": {
-        "apelido": "Gabriel Brazão",
-        "clube_nome": "SAN"
+        "apelido": "Hugo Souza",
+        "clube_nome": "COR"
     },
     "Lateral": {
         "apelido": "Luciano Juba",
@@ -16,8 +16,8 @@
         "clube_nome": "CHA"
     },
     "Atacante": {
-        "apelido": "Alejo Véliz",
-        "clube_nome": "BAH"
+        "apelido": "Carlos Vinícius",
+        "clube_nome": "GRE"
     },
     "Técnico": {
         "apelido": "Cuca",
