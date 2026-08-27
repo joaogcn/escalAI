@@ -1,0 +1,32 @@
+{
+    "Goleiro": {
+        "apelido": "Lucas Arcanjo",
+        "pontuacao_real": 4.5,
+        "sinal": "Vermelho"
+    },
+    "Lateral": {
+        "apelido": "Renan Lodi",
+        "pontuacao_real": 5.5,
+        "sinal": "Amarelo"
+    },
+    "Zagueiro": {
+        "apelido": "Luan Peres",
+        "pontuacao_real": 8.2,
+        "sinal": "Verde"
+    },
+    "Meia": {
+        "apelido": "Carrascal",
+        "pontuacao_real": 5.9,
+        "sinal": "Amarelo"
+    },
+    "Atacante": {
+        "apelido": "Pedro",
+        "pontuacao_real": 12.0,
+        "sinal": "Verde"
+    },
+    "Técnico": {
+        "apelido": "Leonardo Jardim",
+        "pontuacao_real": 4.78,
+        "sinal": "Vermelho"
+    }
+}

@@ -22,95 +22,95 @@
         },
         {
             "index":"variacao_num",
-            "pontos_num":0.6059100459
+            "pontos_num":0.6055973932
         },
         {
             "index":"media_num",
-            "pontos_num":0.5013650553
+            "pontos_num":0.5012885078
         },
         {
             "index":"preco_num",
-            "pontos_num":0.4701008375
+            "pontos_num":0.470523199
         },
         {
             "index":"jogos_num",
-            "pontos_num":0.2901225189
+            "pontos_num":0.2913392222
         },
         {
             "index":"G",
-            "pontos_num":0.2722204641
+            "pontos_num":0.2730617623
         },
         {
             "index":"FS",
-            "pontos_num":0.2517161419
+            "pontos_num":0.2529406486
         },
         {
             "index":"A",
-            "pontos_num":0.2458538463
+            "pontos_num":0.2460030258
         },
         {
             "index":"FF",
-            "pontos_num":0.2448281042
+            "pontos_num":0.2456373118
         },
         {
             "index":"FD",
-            "pontos_num":0.241345842
+            "pontos_num":0.2420649273
         },
         {
             "index":"DS",
-            "pontos_num":0.2359197174
+            "pontos_num":0.2370965262
         },
         {
             "index":"FC",
-            "pontos_num":0.2102091331
+            "pontos_num":0.2113580229
         },
         {
             "index":"CA",
-            "pontos_num":0.1740508621
+            "pontos_num":0.1749863692
         },
         {
             "index":"SG",
-            "pontos_num":0.1696954675
+            "pontos_num":0.1698876996
         },
         {
             "index":"I",
-            "pontos_num":0.1665009741
+            "pontos_num":0.1669958399
         },
         {
             "index":"FT",
-            "pontos_num":0.1627897881
+            "pontos_num":0.1628592115
         },
         {
             "index":"V",
-            "pontos_num":0.1545304306
+            "pontos_num":0.1549444875
         },
         {
             "index":"PS",
-            "pontos_num":0.1149863061
+            "pontos_num":0.1154254839
         },
         {
             "index":"PP",
-            "pontos_num":0.0729447745
+            "pontos_num":0.0726256701
         },
         {
             "index":"GS",
-            "pontos_num":0.0618217906
-        },
-        {
-            "index":"DP",
-            "pontos_num":0.0485395501
+            "pontos_num":0.0619047465
         },
         {
             "index":"PC",
-            "pontos_num":0.0484175929
+            "pontos_num":0.0486557238
+        },
+        {
+            "index":"DP",
+            "pontos_num":0.0482962822
         },
         {
             "index":"CV",
-            "pontos_num":0.0281142
+            "pontos_num":0.0293150364
         },
         {
             "index":"GC",
-            "pontos_num":0.0208029077
+            "pontos_num":0.0207677719
         }
     ]
 }
