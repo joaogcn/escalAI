@@ -145,14 +145,14 @@
             "proximo_confronto": "vs BOT (Casa)"
         },
         {
-            "apelido": "Alexander Barboza",
-            "clube_nome": "Palmeiras",
+            "apelido": "Pedro Henrique",
+            "clube_nome": "Bragantino",
             "posicao_id": "zag",
-            "preco_num": 10.3,
-            "media_ultimas_5": 5.18,
-            "media_geral": 5.166666666666667,
-            "indice_escalai": 5.175999999999999,
-            "proximo_confronto": "vs MIR (Fora)"
+            "preco_num": 7.02,
+            "media_ultimas_5": 5.68,
+            "media_geral": 3.993333333333333,
+            "indice_escalai": 5.1739999999999995,
+            "proximo_confronto": "vs SAO (Fora)"
         }
     ],
     "Meia": [
@@ -165,16 +165,6 @@
             "media_geral": 10.081818181818182,
             "indice_escalai": 11.144545454545455,
             "proximo_confronto": "vs COR (Fora)"
-        },
-        {
-            "apelido": "Arias",
-            "clube_nome": "Palmeiras",
-            "posicao_id": "mei",
-            "preco_num": 14.45,
-            "media_ultimas_5": 10.64,
-            "media_geral": 7.526315789473684,
-            "indice_escalai": 9.705894736842104,
-            "proximo_confronto": "vs MIR (Fora)"
         },
         {
             "apelido": "Barreal",
@@ -205,6 +195,16 @@
             "media_geral": 3.85,
             "indice_escalai": 7.020999999999999,
             "proximo_confronto": "vs GRE (Fora)"
+        },
+        {
+            "apelido": "Jadson",
+            "clube_nome": "CAP",
+            "posicao_id": "mei",
+            "preco_num": 6.32,
+            "media_ultimas_5": 6.779999999999999,
+            "media_geral": 3.8470588235294123,
+            "indice_escalai": 5.900117647058823,
+            "proximo_confronto": "vs FLU (Casa)"
         }
     ],
     "Atacante": [
