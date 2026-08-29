@@ -31,14 +31,14 @@
             "proximo_confronto": "vs FLU (Casa)"
         },
         {
-            "apelido": "Everson",
-            "clube_nome": "Atlético-MG",
+            "apelido": "Matheus Cunha",
+            "clube_nome": "Internacional",
             "posicao_id": "gol",
-            "preco_num": 9.67,
-            "media_ultimas_5": 4.9799999999999995,
-            "media_geral": 4.578260869565217,
-            "indice_escalai": 4.859478260869564,
-            "proximo_confronto": "vs VIT (Casa)"
+            "preco_num": 5.64,
+            "media_ultimas_5": 5.619999999999999,
+            "media_geral": 3.9538461538461536,
+            "indice_escalai": 5.120153846153846,
+            "proximo_confronto": "vs BAH (Fora)"
         },
         {
             "apelido": "Lucas Arcanjo",
@@ -93,13 +93,13 @@
             "proximo_confronto": "vs CRU (Casa)"
         },
         {
-            "apelido": "Ayrton Lucas",
+            "apelido": "Emerson Royal",
             "clube_nome": "Flamengo",
             "posicao_id": "lat",
-            "preco_num": 8.79,
-            "media_ultimas_5": 7.719999999999999,
-            "media_geral": 5.583333333333333,
-            "indice_escalai": 7.078999999999999,
+            "preco_num": 7.39,
+            "media_ultimas_5": 7.8,
+            "media_geral": 6.077777777777778,
+            "indice_escalai": 7.283333333333333,
             "proximo_confronto": "vs BOT (Casa)"
         }
     ],
@@ -177,16 +177,6 @@
             "proximo_confronto": "vs COR (Fora)"
         },
         {
-            "apelido": "Matheus Pereira",
-            "clube_nome": "Cruzeiro",
-            "posicao_id": "mei",
-            "preco_num": 14.41,
-            "media_ultimas_5": 8.82,
-            "media_geral": 6.723809523809523,
-            "indice_escalai": 8.191142857142857,
-            "proximo_confronto": "vs VAS (Fora)"
-        },
-        {
             "apelido": "Giovanni Augusto",
             "clube_nome": "CHA",
             "posicao_id": "mei",
@@ -205,6 +195,16 @@
             "media_geral": 3.8470588235294123,
             "indice_escalai": 5.900117647058823,
             "proximo_confronto": "vs FLU (Casa)"
+        },
+        {
+            "apelido": "Acevedo",
+            "clube_nome": "Bahia",
+            "posicao_id": "mei",
+            "preco_num": 7.51,
+            "media_ultimas_5": 6.0200000000000005,
+            "media_geral": 4.9523809523809526,
+            "indice_escalai": 5.699714285714286,
+            "proximo_confronto": "vs INT (Casa)"
         }
     ],
     "Atacante": [

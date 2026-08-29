@@ -8,8 +8,8 @@
         "clube_nome": "BAH"
     },
     "Zagueiro": {
-        "apelido": "Thiago Silva",
-        "clube_nome": "FLU"
+        "apelido": "Arboleda",
+        "clube_nome": "SAO"
     },
     "Meia": {
         "apelido": "Montoro",
@@ -20,7 +20,7 @@
         "clube_nome": "CAP"
     },
     "Técnico": {
-        "apelido": "Dorival Júnior",
-        "clube_nome": "SAO"
+        "apelido": "Rafael Lacerda",
+        "clube_nome": "CHA"
     }
 }
