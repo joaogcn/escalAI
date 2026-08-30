@@ -83,16 +83,6 @@
             "proximo_confronto": "vs SAN (Casa)"
         },
         {
-            "apelido": "Cuiabano",
-            "clube_nome": "Vasco",
-            "posicao_id": "lat",
-            "preco_num": 12.01,
-            "media_ultimas_5": 7.3,
-            "media_geral": 7.3999999999999995,
-            "indice_escalai": 7.329999999999999,
-            "proximo_confronto": "vs CRU (Casa)"
-        },
-        {
             "apelido": "Emerson Royal",
             "clube_nome": "Flamengo",
             "posicao_id": "lat",
@@ -101,19 +91,19 @@
             "media_geral": 6.077777777777778,
             "indice_escalai": 7.283333333333333,
             "proximo_confronto": "vs BOT (Casa)"
+        },
+        {
+            "apelido": "Ayrton Lucas",
+            "clube_nome": "Flamengo",
+            "posicao_id": "lat",
+            "preco_num": 8.79,
+            "media_ultimas_5": 7.719999999999999,
+            "media_geral": 5.583333333333333,
+            "indice_escalai": 7.078999999999999,
+            "proximo_confronto": "vs BOT (Casa)"
         }
     ],
     "Zagueiro": [
-        {
-            "apelido": "Vitor Hugo",
-            "clube_nome": "Atlético-MG",
-            "posicao_id": "zag",
-            "preco_num": 7.59,
-            "media_ultimas_5": 6.720000000000001,
-            "media_geral": 5.033333333333333,
-            "indice_escalai": 6.2139999999999995,
-            "proximo_confronto": "vs VIT (Casa)"
-        },
         {
             "apelido": "David Duarte",
             "clube_nome": "Bahia",
@@ -153,6 +143,16 @@
             "media_geral": 3.993333333333333,
             "indice_escalai": 5.1739999999999995,
             "proximo_confronto": "vs SAO (Fora)"
+        },
+        {
+            "apelido": "Ignácio",
+            "clube_nome": "Fluminense",
+            "posicao_id": "zag",
+            "preco_num": 6.15,
+            "media_ultimas_5": 5.4399999999999995,
+            "media_geral": 4.2555555555555555,
+            "indice_escalai": 5.084666666666666,
+            "proximo_confronto": "vs CAP (Fora)"
         }
     ],
     "Meia": [
