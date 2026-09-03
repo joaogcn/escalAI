@@ -8,19 +8,19 @@
         "clube_nome": "BAH"
     },
     "Zagueiro": {
-        "apelido": "Thiago Silva",
-        "clube_nome": "FLU"
+        "apelido": "Tchamba",
+        "clube_nome": "REM"
     },
     "Meia": {
-        "apelido": "Arias",
-        "clube_nome": "PAL"
+        "apelido": "Paulinho",
+        "clube_nome": "INT"
     },
     "Atacante": {
-        "apelido": "Viveros",
-        "clube_nome": "CAP"
+        "apelido": "Carlos Vinícius",
+        "clube_nome": "GRE"
     },
     "Técnico": {
-        "apelido": "Rafael Lacerda",
-        "clube_nome": "CHA"
+        "apelido": "Jair Ventura",
+        "clube_nome": "VIT"
     }
 }

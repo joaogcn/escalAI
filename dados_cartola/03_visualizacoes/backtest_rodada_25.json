@@ -1,0 +1,32 @@
+{
+    "Goleiro": {
+        "apelido": "Matheus Cunha",
+        "pontuacao_real": 2.2,
+        "sinal": "Vermelho"
+    },
+    "Lateral": {
+        "apelido": "JP Chermont",
+        "pontuacao_real": 2.9,
+        "sinal": "Vermelho"
+    },
+    "Zagueiro": {
+        "apelido": "Gustavo Marques",
+        "pontuacao_real": 2.5,
+        "sinal": "Vermelho"
+    },
+    "Meia": {
+        "apelido": "Barreal",
+        "pontuacao_real": 1.1,
+        "sinal": "Vermelho"
+    },
+    "Atacante": {
+        "apelido": "Flaco López",
+        "pontuacao_real": 9.0,
+        "sinal": "Amarelo"
+    },
+    "Técnico": {
+        "apelido": "Abel Ferreira",
+        "pontuacao_real": 4.69,
+        "sinal": "Vermelho"
+    }
+}
