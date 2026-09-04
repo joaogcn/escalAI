@@ -21,16 +21,6 @@
             "proximo_confronto": "vs BAH (Casa)"
         },
         {
-            "apelido": "Santos",
-            "clube_nome": "CAP",
-            "posicao_id": "gol",
-            "preco_num": 7.97,
-            "media_ultimas_5": 6.359999999999999,
-            "media_geral": 4.209090909090909,
-            "indice_escalai": 5.714727272727272,
-            "proximo_confronto": "vs CRU (Fora)"
-        },
-        {
             "apelido": "Rossi",
             "clube_nome": "Flamengo",
             "posicao_id": "gol",
@@ -49,6 +39,16 @@
             "media_geral": 4.904166666666667,
             "indice_escalai": 4.9712499999999995,
             "proximo_confronto": "vs BOT (Fora)"
+        },
+        {
+            "apelido": "Lucas Arcanjo",
+            "clube_nome": "Vitória",
+            "posicao_id": "gol",
+            "preco_num": 9.28,
+            "media_ultimas_5": 4.2,
+            "media_geral": 5.578947368421052,
+            "indice_escalai": 4.613684210526316,
+            "proximo_confronto": "vs GRE (Casa)"
         }
     ],
     "Lateral": [
@@ -93,14 +93,14 @@
             "proximo_confronto": "vs BOT (Fora)"
         },
         {
-            "apelido": "Matheus Bidu",
-            "clube_nome": "Corinthians",
+            "apelido": "Gilberto",
+            "clube_nome": "CAP",
             "posicao_id": "lat",
-            "preco_num": 12.06,
-            "media_ultimas_5": 6.3,
-            "media_geral": 7.383333333333334,
-            "indice_escalai": 6.624999999999999,
-            "proximo_confronto": "vs CHA (Casa)"
+            "preco_num": 7.82,
+            "media_ultimas_5": 7.5,
+            "media_geral": 4.841666666666667,
+            "indice_escalai": 6.7025,
+            "proximo_confronto": "vs CRU (Fora)"
         }
     ],
     "Zagueiro": [
