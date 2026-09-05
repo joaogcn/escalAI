@@ -73,16 +73,6 @@
             "proximo_confronto": "vs INT (Fora)"
         },
         {
-            "apelido": "Emerson Royal",
-            "clube_nome": "Flamengo",
-            "posicao_id": "lat",
-            "preco_num": 8.03,
-            "media_ultimas_5": 7.220000000000001,
-            "media_geral": 6.18,
-            "indice_escalai": 6.908,
-            "proximo_confronto": "vs REM (Fora)"
-        },
-        {
             "apelido": "Piquerez",
             "clube_nome": "Palmeiras",
             "posicao_id": "lat",
@@ -101,6 +91,16 @@
             "media_geral": 4.841666666666667,
             "indice_escalai": 6.7025,
             "proximo_confronto": "vs CRU (Fora)"
+        },
+        {
+            "apelido": "Matheus Bidu",
+            "clube_nome": "Corinthians",
+            "posicao_id": "lat",
+            "preco_num": 12.06,
+            "media_ultimas_5": 6.3,
+            "media_geral": 7.383333333333334,
+            "indice_escalai": 6.624999999999999,
+            "proximo_confronto": "vs CHA (Casa)"
         }
     ],
     "Zagueiro": [
@@ -145,14 +145,14 @@
             "proximo_confronto": "vs REM (Fora)"
         },
         {
-            "apelido": "Gustavo Gómez",
-            "clube_nome": "Palmeiras",
+            "apelido": "David Duarte",
+            "clube_nome": "Bahia",
             "posicao_id": "zag",
-            "preco_num": 10.45,
-            "media_ultimas_5": 5.68,
-            "media_geral": 5.157142857142857,
-            "indice_escalai": 5.523142857142856,
-            "proximo_confronto": "vs BOT (Fora)"
+            "preco_num": 6.2,
+            "media_ultimas_5": 5.84,
+            "media_geral": 4.59375,
+            "indice_escalai": 5.466125,
+            "proximo_confronto": "vs RBB (Fora)"
         }
     ],
     "Meia": [
