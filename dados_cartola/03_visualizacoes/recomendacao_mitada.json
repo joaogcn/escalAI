@@ -1,7 +1,7 @@
 {
     "Goleiro": {
-        "apelido": "Gabriel Brazão",
-        "clube_nome": "SAN"
+        "apelido": "Carlos Miguel",
+        "clube_nome": "PAL"
     },
     "Lateral": {
         "apelido": "Luciano Juba",
@@ -12,8 +12,8 @@
         "clube_nome": "REM"
     },
     "Meia": {
-        "apelido": "Arias",
-        "clube_nome": "PAL"
+        "apelido": "Montoro",
+        "clube_nome": "BOT"
     },
     "Atacante": {
         "apelido": "Carlos Vinícius",
