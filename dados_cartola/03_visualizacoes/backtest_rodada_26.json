@@ -1,0 +1,32 @@
+{
+    "Goleiro": {
+        "apelido": "Rossi",
+        "pontuacao_real": 6.3,
+        "sinal": "Amarelo"
+    },
+    "Lateral": {
+        "apelido": "Benavídez",
+        "pontuacao_real": 0.0,
+        "sinal": "Vermelho"
+    },
+    "Zagueiro": {
+        "apelido": "Gustavo Martins",
+        "pontuacao_real": 3.8,
+        "sinal": "Vermelho"
+    },
+    "Meia": {
+        "apelido": "Tchê Tchê",
+        "pontuacao_real": 2.6,
+        "sinal": "Vermelho"
+    },
+    "Atacante": {
+        "apelido": "Samuel Lino",
+        "pontuacao_real": 17.0,
+        "sinal": "Verde"
+    },
+    "Técnico": {
+        "apelido": "Leonardo Jardim",
+        "pontuacao_real": 8.45,
+        "sinal": "Verde"
+    }
+}

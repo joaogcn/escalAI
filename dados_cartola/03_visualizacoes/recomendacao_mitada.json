@@ -1,26 +1,26 @@
 {
     "Goleiro": {
-        "apelido": "Hugo Souza",
-        "clube_nome": "COR"
+        "apelido": "Gabriel Batista",
+        "clube_nome": "BOT"
     },
     "Lateral": {
         "apelido": "Luciano Juba",
         "clube_nome": "BAH"
     },
     "Zagueiro": {
-        "apelido": "Tchamba",
-        "clube_nome": "REM"
+        "apelido": "Domingos Duarte",
+        "clube_nome": "SAO"
     },
     "Meia": {
-        "apelido": "Montoro",
-        "clube_nome": "BOT"
+        "apelido": "Wallisson",
+        "clube_nome": "MIR"
     },
     "Atacante": {
-        "apelido": "Carlos Vinícius",
-        "clube_nome": "GRE"
+        "apelido": "Marcinho",
+        "clube_nome": "CHA"
     },
     "Técnico": {
-        "apelido": "Jair Ventura",
-        "clube_nome": "VIT"
+        "apelido": "Marcão",
+        "clube_nome": "FLU"
     }
 }
