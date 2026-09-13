@@ -63,6 +63,16 @@
             "proximo_confronto": "vs REM (Casa)"
         },
         {
+            "apelido": "Igor Vinícius",
+            "clube_nome": "Santos",
+            "posicao_id": "lat",
+            "preco_num": 10.22,
+            "media_ultimas_5": 7.6800000000000015,
+            "media_geral": 6.629411764705883,
+            "indice_escalai": 7.364823529411765,
+            "proximo_confronto": "vs CRU (Casa)"
+        },
+        {
             "apelido": "Cuiabano",
             "clube_nome": "Vasco",
             "posicao_id": "lat",
@@ -83,24 +93,14 @@
             "proximo_confronto": "vs CHA (Fora)"
         },
         {
-            "apelido": "Juninho Capixaba",
-            "clube_nome": "Bragantino",
+            "apelido": "Piquerez",
+            "clube_nome": "Palmeiras",
             "posicao_id": "lat",
-            "preco_num": 12.86,
-            "media_ultimas_5": 6.04,
-            "media_geral": 7.095454545454545,
-            "indice_escalai": 6.356636363636364,
-            "proximo_confronto": "vs BOT (Fora)"
-        },
-        {
-            "apelido": "Ayrton Lucas",
-            "clube_nome": "Flamengo",
-            "posicao_id": "lat",
-            "preco_num": 9.05,
-            "media_ultimas_5": 6.4399999999999995,
-            "media_geral": 5.728571428571429,
-            "indice_escalai": 6.226571428571428,
-            "proximo_confronto": "vs COR (Casa)"
+            "preco_num": 11.1,
+            "media_ultimas_5": 6.4799999999999995,
+            "media_geral": 6.541666666666667,
+            "indice_escalai": 6.4985,
+            "proximo_confronto": "vs SAO (Casa)"
         }
     ],
     "Zagueiro": [
@@ -115,14 +115,14 @@
             "proximo_confronto": "vs SAO (Casa)"
         },
         {
-            "apelido": "Domingos Duarte",
-            "clube_nome": "São Paulo",
+            "apelido": "Vitor Hugo",
+            "clube_nome": "Atlético-MG",
             "posicao_id": "zag",
-            "preco_num": 8.38,
-            "media_ultimas_5": 6.125,
-            "media_geral": 6.125,
-            "indice_escalai": 6.125,
-            "proximo_confronto": "vs PAL (Fora)"
+            "preco_num": 6.39,
+            "media_ultimas_5": 6.499999999999998,
+            "media_geral": 4.5,
+            "indice_escalai": 5.899999999999998,
+            "proximo_confronto": "vs FLU (Casa)"
         },
         {
             "apelido": "Ferraresi",
@@ -229,6 +229,16 @@
             "proximo_confronto": "vs COR (Casa)"
         },
         {
+            "apelido": "Fernando",
+            "clube_nome": "Bragantino",
+            "posicao_id": "ata",
+            "preco_num": 5.52,
+            "media_ultimas_5": 9.000000000000002,
+            "media_geral": 5.3999999999999995,
+            "indice_escalai": 7.920000000000001,
+            "proximo_confronto": "vs BOT (Fora)"
+        },
+        {
             "apelido": "Alejo Véliz",
             "clube_nome": "Bahia",
             "posicao_id": "ata",
@@ -239,24 +249,14 @@
             "proximo_confronto": "vs REM (Casa)"
         },
         {
-            "apelido": "Erick Pulga",
-            "clube_nome": "Bahia",
+            "apelido": "Canobbio",
+            "clube_nome": "Fluminense",
             "posicao_id": "ata",
-            "preco_num": 7.62,
-            "media_ultimas_5": 7.380000000000001,
-            "media_geral": 4.5,
-            "indice_escalai": 6.516,
-            "proximo_confronto": "vs REM (Casa)"
-        },
-        {
-            "apelido": "Andrés Gómez",
-            "clube_nome": "Vasco",
-            "posicao_id": "ata",
-            "preco_num": 11.61,
-            "media_ultimas_5": 5.839999999999999,
-            "media_geral": 6.9523809523809526,
-            "indice_escalai": 6.173714285714285,
-            "proximo_confronto": "vs GRE (Fora)"
+            "preco_num": 11.05,
+            "media_ultimas_5": 7.0200000000000005,
+            "media_geral": 7.277777777777778,
+            "indice_escalai": 7.097333333333333,
+            "proximo_confronto": "vs CAM (Fora)"
         }
     ],
     "Técnico": [
