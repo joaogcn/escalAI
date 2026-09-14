@@ -83,6 +83,16 @@
             "proximo_confronto": "vs GRE (Fora)"
         },
         {
+            "apelido": "Mateus Silva",
+            "clube_nome": "Vitória",
+            "posicao_id": "lat",
+            "preco_num": 7.66,
+            "media_ultimas_5": 7.0,
+            "media_geral": 7.0,
+            "indice_escalai": 7.0,
+            "proximo_confronto": "vs MIR (Fora)"
+        },
+        {
             "apelido": "Bernabei",
             "clube_nome": "Internacional",
             "posicao_id": "lat",
@@ -91,16 +101,6 @@
             "media_geral": 6.368181818181818,
             "indice_escalai": 6.936454545454545,
             "proximo_confronto": "vs CHA (Fora)"
-        },
-        {
-            "apelido": "Piquerez",
-            "clube_nome": "Palmeiras",
-            "posicao_id": "lat",
-            "preco_num": 11.1,
-            "media_ultimas_5": 6.4799999999999995,
-            "media_geral": 6.541666666666667,
-            "indice_escalai": 6.4985,
-            "proximo_confronto": "vs SAO (Casa)"
         }
     ],
     "Zagueiro": [
@@ -157,16 +157,6 @@
     ],
     "Meia": [
         {
-            "apelido": "Carrascal",
-            "clube_nome": "Flamengo",
-            "posicao_id": "mei",
-            "preco_num": 10.52,
-            "media_ultimas_5": 12.1,
-            "media_geral": 6.388888888888889,
-            "indice_escalai": 10.386666666666665,
-            "proximo_confronto": "vs COR (Casa)"
-        },
-        {
             "apelido": "Matheus Pereira",
             "clube_nome": "Cruzeiro",
             "posicao_id": "mei",
@@ -205,9 +195,29 @@
             "media_geral": 6.875,
             "indice_escalai": 6.875,
             "proximo_confronto": "vs INT (Casa)"
+        },
+        {
+            "apelido": "Arrascaeta",
+            "clube_nome": "Flamengo",
+            "posicao_id": "mei",
+            "preco_num": 14.16,
+            "media_ultimas_5": 6.3,
+            "media_geral": 5.452941176470588,
+            "indice_escalai": 6.045882352941176,
+            "proximo_confronto": "vs COR (Casa)"
         }
     ],
     "Atacante": [
+        {
+            "apelido": "Samuel Lino",
+            "clube_nome": "Flamengo",
+            "posicao_id": "ata",
+            "preco_num": 13.46,
+            "media_ultimas_5": 12.6,
+            "media_geral": 8.625,
+            "indice_escalai": 11.407499999999999,
+            "proximo_confronto": "vs COR (Casa)"
+        },
         {
             "apelido": "Flaco López",
             "clube_nome": "Palmeiras",
@@ -247,16 +257,6 @@
             "media_geral": 6.314285714285715,
             "indice_escalai": 7.760285714285713,
             "proximo_confronto": "vs REM (Casa)"
-        },
-        {
-            "apelido": "Canobbio",
-            "clube_nome": "Fluminense",
-            "posicao_id": "ata",
-            "preco_num": 11.05,
-            "media_ultimas_5": 7.0200000000000005,
-            "media_geral": 7.277777777777778,
-            "indice_escalai": 7.097333333333333,
-            "proximo_confronto": "vs CAM (Fora)"
         }
     ],
     "Técnico": [
