@@ -1,0 +1,32 @@
+{
+    "Goleiro": {
+        "apelido": "Gabriel Batista",
+        "pontuacao_real": 8.1,
+        "sinal": "Verde"
+    },
+    "Lateral": {
+        "apelido": "Igor Formiga",
+        "pontuacao_real": 8.5,
+        "sinal": "Verde"
+    },
+    "Zagueiro": {
+        "apelido": "Domingos Duarte",
+        "pontuacao_real": 0.0,
+        "sinal": "Vermelho"
+    },
+    "Meia": {
+        "apelido": "Lucas Romero",
+        "pontuacao_real": 3.0,
+        "sinal": "Vermelho"
+    },
+    "Atacante": {
+        "apelido": "Marcinho",
+        "pontuacao_real": 8.5,
+        "sinal": "Amarelo"
+    },
+    "Técnico": {
+        "apelido": "Jair Ventura",
+        "pontuacao_real": 6.0,
+        "sinal": "Amarelo"
+    }
+}
