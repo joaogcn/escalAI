@@ -145,27 +145,17 @@
             "proximo_confronto": "vs INT (Casa)"
         },
         {
-            "apelido": "Gustavo Marques",
-            "clube_nome": "Bragantino",
+            "apelido": "Bruno Fuchs",
+            "clube_nome": "Palmeiras",
             "posicao_id": "zag",
-            "preco_num": 7.38,
-            "media_ultimas_5": 5.760000000000001,
-            "media_geral": 4.866666666666667,
-            "indice_escalai": 5.492,
-            "proximo_confronto": "vs FLA (Fora)"
+            "preco_num": 8.31,
+            "media_ultimas_5": 6.2,
+            "media_geral": 5.271428571428571,
+            "indice_escalai": 5.921428571428571,
+            "proximo_confronto": "vs GRE (Fora)"
         }
     ],
     "Meia": [
-        {
-            "apelido": "Carrascal",
-            "clube_nome": "Flamengo",
-            "posicao_id": "mei",
-            "preco_num": 10.52,
-            "media_ultimas_5": 12.1,
-            "media_geral": 6.388888888888889,
-            "indice_escalai": 10.386666666666665,
-            "proximo_confronto": "vs RBB (Casa)"
-        },
         {
             "apelido": "Matheus Pereira",
             "clube_nome": "Cruzeiro",
@@ -197,14 +187,24 @@
             "proximo_confronto": "vs CAM (Fora)"
         },
         {
-            "apelido": "Maurício",
-            "clube_nome": "Palmeiras",
+            "apelido": "Yago Felipe",
+            "clube_nome": "CHA",
             "posicao_id": "mei",
-            "preco_num": 7.72,
-            "media_ultimas_5": 7.120000000000002,
-            "media_geral": 4.840909090909091,
-            "indice_escalai": 6.436272727272728,
-            "proximo_confronto": "vs GRE (Fora)"
+            "preco_num": 8.16,
+            "media_ultimas_5": 5.7,
+            "media_geral": 5.7,
+            "indice_escalai": 5.699999999999999,
+            "proximo_confronto": "vs CAM (Fora)"
+        },
+        {
+            "apelido": "Eduardo",
+            "clube_nome": "Mirassol",
+            "posicao_id": "mei",
+            "preco_num": 6.66,
+            "media_ultimas_5": 6.44,
+            "media_geral": 3.770588235294117,
+            "indice_escalai": 5.639176470588235,
+            "proximo_confronto": "vs BOT (Casa)"
         }
     ],
     "Atacante": [
