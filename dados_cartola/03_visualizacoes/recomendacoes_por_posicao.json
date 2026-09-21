@@ -145,17 +145,27 @@
             "proximo_confronto": "vs INT (Casa)"
         },
         {
-            "apelido": "Bruno Fuchs",
-            "clube_nome": "Palmeiras",
+            "apelido": "Vitor Hugo",
+            "clube_nome": "Atlético-MG",
             "posicao_id": "zag",
-            "preco_num": 8.31,
-            "media_ultimas_5": 6.2,
-            "media_geral": 5.271428571428571,
-            "indice_escalai": 5.921428571428571,
-            "proximo_confronto": "vs GRE (Fora)"
+            "preco_num": 6.39,
+            "media_ultimas_5": 6.499999999999998,
+            "media_geral": 4.5,
+            "indice_escalai": 5.899999999999998,
+            "proximo_confronto": "vs CHA (Casa)"
         }
     ],
     "Meia": [
+        {
+            "apelido": "Carrascal",
+            "clube_nome": "Flamengo",
+            "posicao_id": "mei",
+            "preco_num": 10.52,
+            "media_ultimas_5": 12.1,
+            "media_geral": 6.388888888888889,
+            "indice_escalai": 10.386666666666665,
+            "proximo_confronto": "vs RBB (Casa)"
+        },
         {
             "apelido": "Matheus Pereira",
             "clube_nome": "Cruzeiro",
@@ -187,24 +197,14 @@
             "proximo_confronto": "vs CAM (Fora)"
         },
         {
-            "apelido": "Yago Felipe",
-            "clube_nome": "CHA",
+            "apelido": "Erick",
+            "clube_nome": "Bahia",
             "posicao_id": "mei",
-            "preco_num": 8.16,
-            "media_ultimas_5": 5.7,
-            "media_geral": 5.7,
-            "indice_escalai": 5.699999999999999,
-            "proximo_confronto": "vs CAM (Fora)"
-        },
-        {
-            "apelido": "Eduardo",
-            "clube_nome": "Mirassol",
-            "posicao_id": "mei",
-            "preco_num": 6.66,
-            "media_ultimas_5": 6.44,
-            "media_geral": 3.770588235294117,
-            "indice_escalai": 5.639176470588235,
-            "proximo_confronto": "vs BOT (Casa)"
+            "preco_num": 7.71,
+            "media_ultimas_5": 6.639999999999999,
+            "media_geral": 4.861111111111111,
+            "indice_escalai": 6.106333333333332,
+            "proximo_confronto": "vs CAP (Fora)"
         }
     ],
     "Atacante": [
