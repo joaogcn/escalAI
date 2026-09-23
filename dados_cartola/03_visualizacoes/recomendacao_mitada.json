@@ -8,19 +8,19 @@
         "clube_nome": "BAH"
     },
     "Zagueiro": {
-        "apelido": "Thiago Silva",
-        "clube_nome": "FLU"
+        "apelido": "Wallace",
+        "clube_nome": "GRE"
     },
     "Meia": {
-        "apelido": "Paulinho",
-        "clube_nome": "INT"
+        "apelido": "Lescano",
+        "clube_nome": "VAS"
     },
     "Atacante": {
-        "apelido": "Renê",
-        "clube_nome": "VIT"
+        "apelido": "Bruno Duarte",
+        "clube_nome": "VAS"
     },
     "Técnico": {
-        "apelido": "Eduardo Domínguez",
-        "clube_nome": "CAM"
+        "apelido": "Pedro Emanuel",
+        "clube_nome": "VAS"
     }
 }

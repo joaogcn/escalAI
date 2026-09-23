@@ -1,0 +1,32 @@
+{
+    "Goleiro": {
+        "apelido": "Gabriel Batista",
+        "pontuacao_real": 4.5,
+        "sinal": "Vermelho"
+    },
+    "Lateral": {
+        "apelido": "Arthur",
+        "pontuacao_real": 5.0,
+        "sinal": "Amarelo"
+    },
+    "Zagueiro": {
+        "apelido": "Murilo",
+        "pontuacao_real": 0.0,
+        "sinal": "Vermelho"
+    },
+    "Meia": {
+        "apelido": "Reinier",
+        "pontuacao_real": 0.0,
+        "sinal": "Vermelho"
+    },
+    "Atacante": {
+        "apelido": "Cuello",
+        "pontuacao_real": 7.2,
+        "sinal": "Amarelo"
+    },
+    "Técnico": {
+        "apelido": "Abel Ferreira",
+        "pontuacao_real": 7.9,
+        "sinal": "Amarelo"
+    }
+}
