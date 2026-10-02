@@ -135,6 +135,16 @@
             "proximo_confronto": "vs SAN (Fora)"
         },
         {
+            "apelido": "Ferraresi",
+            "clube_nome": "Botafogo",
+            "posicao_id": "zag",
+            "preco_num": 6.8,
+            "media_ultimas_5": 7.26,
+            "media_geral": 3.7363636363636363,
+            "indice_escalai": 6.202909090909091,
+            "proximo_confronto": "vs VAS (Casa)"
+        },
+        {
             "apelido": "Alexander Barboza",
             "clube_nome": "Palmeiras",
             "posicao_id": "zag",
@@ -143,16 +153,6 @@
             "media_geral": 5.3,
             "indice_escalai": 6.167999999999999,
             "proximo_confronto": "vs BAH (Casa)"
-        },
-        {
-            "apelido": "Marcos Victor",
-            "clube_nome": "Bahia",
-            "posicao_id": "zag",
-            "preco_num": 5.05,
-            "media_ultimas_5": 5.65,
-            "media_geral": 5.65,
-            "indice_escalai": 5.65,
-            "proximo_confronto": "vs PAL (Fora)"
         }
     ],
     "Meia": [
