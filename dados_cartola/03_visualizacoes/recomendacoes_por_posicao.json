@@ -229,16 +229,6 @@
             "proximo_confronto": "vs SAN (Fora)"
         },
         {
-            "apelido": "Viveros",
-            "clube_nome": "CAP",
-            "posicao_id": "ata",
-            "preco_num": 12.78,
-            "media_ultimas_5": 11.499999999999998,
-            "media_geral": 8.965217391304348,
-            "indice_escalai": 10.739565217391304,
-            "proximo_confronto": "vs CAM (Casa)"
-        },
-        {
             "apelido": "Renê",
             "clube_nome": "Vitória",
             "posicao_id": "ata",
@@ -257,6 +247,16 @@
             "media_geral": 8.133333333333333,
             "indice_escalai": 8.809999999999999,
             "proximo_confronto": "vs BOT (Fora)"
+        },
+        {
+            "apelido": "Flaco López",
+            "clube_nome": "Palmeiras",
+            "posicao_id": "ata",
+            "preco_num": 13.42,
+            "media_ultimas_5": 9.059999999999999,
+            "media_geral": 6.852,
+            "indice_escalai": 8.397599999999999,
+            "proximo_confronto": "vs BAH (Casa)"
         }
     ],
     "Técnico": [
