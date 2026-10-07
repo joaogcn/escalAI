@@ -93,37 +93,17 @@
             "proximo_confronto": "vs PAL (Fora)"
         },
         {
-            "apelido": "Bruno Pacheco",
-            "clube_nome": "CHA",
+            "apelido": "Benavídez",
+            "clube_nome": "CAP",
             "posicao_id": "lat",
-            "preco_num": 7.34,
-            "media_ultimas_5": 7.76,
-            "media_geral": 5.2125,
-            "indice_escalai": 6.995749999999999,
-            "proximo_confronto": "vs VIT (Fora)"
+            "preco_num": 9.33,
+            "media_ultimas_5": 7.760000000000001,
+            "media_geral": 5.3999999999999995,
+            "indice_escalai": 7.0520000000000005,
+            "proximo_confronto": "vs CAM (Casa)"
         }
     ],
     "Zagueiro": [
-        {
-            "apelido": "Gustavo Gómez",
-            "clube_nome": "Palmeiras",
-            "posicao_id": "zag",
-            "preco_num": 10.67,
-            "media_ultimas_5": 7.340000000000001,
-            "media_geral": 5.683333333333334,
-            "indice_escalai": 6.843,
-            "proximo_confronto": "vs BAH (Casa)"
-        },
-        {
-            "apelido": "Terán",
-            "clube_nome": "CAP",
-            "posicao_id": "zag",
-            "preco_num": 6.98,
-            "media_ultimas_5": 7.580000000000001,
-            "media_geral": 4.433333333333334,
-            "indice_escalai": 6.636,
-            "proximo_confronto": "vs CAM (Casa)"
-        },
         {
             "apelido": "Léo Pereira",
             "clube_nome": "Flamengo",
@@ -145,14 +125,34 @@
             "proximo_confronto": "vs VAS (Casa)"
         },
         {
-            "apelido": "Alexander Barboza",
-            "clube_nome": "Palmeiras",
+            "apelido": "Marcos Victor",
+            "clube_nome": "Bahia",
             "posicao_id": "zag",
-            "preco_num": 10.36,
-            "media_ultimas_5": 6.539999999999999,
-            "media_geral": 5.3,
-            "indice_escalai": 6.167999999999999,
-            "proximo_confronto": "vs BAH (Casa)"
+            "preco_num": 5.05,
+            "media_ultimas_5": 5.65,
+            "media_geral": 5.65,
+            "indice_escalai": 5.65,
+            "proximo_confronto": "vs PAL (Fora)"
+        },
+        {
+            "apelido": "Gustavo Henrique",
+            "clube_nome": "Corinthians",
+            "posicao_id": "zag",
+            "preco_num": 9.46,
+            "media_ultimas_5": 6.180000000000001,
+            "media_geral": 4.309090909090909,
+            "indice_escalai": 5.6187272727272735,
+            "proximo_confronto": "vs INT (Fora)"
+        },
+        {
+            "apelido": "Rafael Tolói",
+            "clube_nome": "São Paulo",
+            "posicao_id": "zag",
+            "preco_num": 8.49,
+            "media_ultimas_5": 5.5600000000000005,
+            "media_geral": 5.1875,
+            "indice_escalai": 5.44825,
+            "proximo_confronto": "vs CRU (Fora)"
         }
     ],
     "Meia": [
@@ -165,16 +165,6 @@
             "media_geral": 7.468,
             "indice_escalai": 10.010399999999999,
             "proximo_confronto": "vs SAO (Casa)"
-        },
-        {
-            "apelido": "Carrascal",
-            "clube_nome": "Flamengo",
-            "posicao_id": "mei",
-            "preco_num": 11.5,
-            "media_ultimas_5": 11.379999999999999,
-            "media_geral": 6.626315789473685,
-            "indice_escalai": 9.953894736842104,
-            "proximo_confronto": "vs SAN (Fora)"
         },
         {
             "apelido": "Eduardo",
@@ -205,6 +195,16 @@
             "media_geral": 3.9764705882352938,
             "indice_escalai": 7.226941176470589,
             "proximo_confronto": "vs VIT (Fora)"
+        },
+        {
+            "apelido": "Reinier",
+            "clube_nome": "Atlético-MG",
+            "posicao_id": "mei",
+            "preco_num": 7.03,
+            "media_ultimas_5": 8.34,
+            "media_geral": 4.422222222222222,
+            "indice_escalai": 7.164666666666665,
+            "proximo_confronto": "vs CAP (Fora)"
         }
     ],
     "Atacante": [
@@ -217,16 +217,6 @@
             "media_geral": 6.95,
             "indice_escalai": 11.787000000000003,
             "proximo_confronto": "vs CFC (Casa)"
-        },
-        {
-            "apelido": "Samuel Lino",
-            "clube_nome": "Flamengo",
-            "posicao_id": "ata",
-            "preco_num": 12.45,
-            "media_ultimas_5": 12.88,
-            "media_geral": 8.632,
-            "indice_escalai": 11.605599999999999,
-            "proximo_confronto": "vs SAN (Fora)"
         },
         {
             "apelido": "Renê",
@@ -257,6 +247,16 @@
             "media_geral": 6.852,
             "indice_escalai": 8.397599999999999,
             "proximo_confronto": "vs BAH (Casa)"
+        },
+        {
+            "apelido": "Cuello",
+            "clube_nome": "Atlético-MG",
+            "posicao_id": "ata",
+            "preco_num": 9.91,
+            "media_ultimas_5": 9.080000000000002,
+            "media_geral": 6.634782608695652,
+            "indice_escalai": 8.346434782608696,
+            "proximo_confronto": "vs CAP (Fora)"
         }
     ],
     "Técnico": [
