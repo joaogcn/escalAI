@@ -1,0 +1,32 @@
+{
+    "Goleiro": {
+        "apelido": "Weverton",
+        "pontuacao_real": 11.7,
+        "sinal": "Verde"
+    },
+    "Lateral": {
+        "apelido": "Igor Formiga",
+        "pontuacao_real": 5.8,
+        "sinal": "Amarelo"
+    },
+    "Zagueiro": {
+        "apelido": "Saldivia",
+        "pontuacao_real": 4.4,
+        "sinal": "Amarelo"
+    },
+    "Meia": {
+        "apelido": "Eduardo",
+        "pontuacao_real": 2.7,
+        "sinal": "Vermelho"
+    },
+    "Atacante": {
+        "apelido": "Arroyo",
+        "pontuacao_real": 1.5,
+        "sinal": "Vermelho"
+    },
+    "Técnico": {
+        "apelido": "Pedro Emanuel",
+        "pontuacao_real": 7.41,
+        "sinal": "Amarelo"
+    }
+}

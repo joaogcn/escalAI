@@ -4,23 +4,23 @@
         "clube_nome": "PAL"
     },
     "Lateral": {
-        "apelido": "Luciano Juba",
-        "clube_nome": "BAH"
+        "apelido": "Mateus Silva",
+        "clube_nome": "VIT"
     },
     "Zagueiro": {
-        "apelido": "Saldivia",
-        "clube_nome": "VAS"
+        "apelido": "Thiago Silva",
+        "clube_nome": "FLU"
     },
     "Meia": {
         "apelido": "Lescano",
         "clube_nome": "VAS"
     },
     "Atacante": {
-        "apelido": "Bruno Duarte",
-        "clube_nome": "VAS"
+        "apelido": "Carlos Vinícius",
+        "clube_nome": "GRE"
     },
     "Técnico": {
-        "apelido": "Pedro Emanuel",
-        "clube_nome": "VAS"
+        "apelido": "Marcão",
+        "clube_nome": "FLU"
     }
 }
