@@ -115,14 +115,14 @@
             "proximo_confronto": "vs COR (Casa)"
         },
         {
-            "apelido": "Rafael Tolói",
-            "clube_nome": "São Paulo",
+            "apelido": "Ignácio",
+            "clube_nome": "Fluminense",
             "posicao_id": "zag",
-            "preco_num": 8.17,
-            "media_ultimas_5": 6.3,
-            "media_geral": 5.300000000000001,
-            "indice_escalai": 5.999999999999999,
-            "proximo_confronto": "vs VIT (Casa)"
+            "preco_num": 7.19,
+            "media_ultimas_5": 8.940000000000001,
+            "media_geral": 5.4818181818181815,
+            "indice_escalai": 7.902545454545455,
+            "proximo_confronto": "vs FLA (Fora)"
         },
         {
             "apelido": "Saldivia",
@@ -197,27 +197,17 @@
             "proximo_confronto": "vs BAH (Fora)"
         },
         {
-            "apelido": "Reinier",
-            "clube_nome": "Atlético-MG",
+            "apelido": "Matheuzinho",
+            "clube_nome": "Vitória",
             "posicao_id": "mei",
-            "preco_num": 5.49,
-            "media_ultimas_5": 9.2,
-            "media_geral": 4.4263157894736835,
-            "indice_escalai": 7.767894736842105,
-            "proximo_confronto": "vs SAN (Casa)"
+            "preco_num": 9.83,
+            "media_ultimas_5": 8.5,
+            "media_geral": 5.113636363636363,
+            "indice_escalai": 7.4840909090909085,
+            "proximo_confronto": "vs SAO (Fora)"
         }
     ],
     "Atacante": [
-        {
-            "apelido": "Hulk",
-            "clube_nome": "Fluminense",
-            "posicao_id": "ata",
-            "preco_num": 13.05,
-            "media_ultimas_5": 13.459999999999999,
-            "media_geral": 7.061904761904763,
-            "indice_escalai": 11.540571428571427,
-            "proximo_confronto": "vs FLA (Fora)"
-        },
         {
             "apelido": "Samuel Lino",
             "clube_nome": "Flamengo",
@@ -257,6 +247,16 @@
             "media_geral": 7.0200000000000005,
             "indice_escalai": 8.867999999999999,
             "proximo_confronto": "vs SAO (Fora)"
+        },
+        {
+            "apelido": "Pedro Rocha",
+            "clube_nome": "CFC",
+            "posicao_id": "ata",
+            "preco_num": 7.2,
+            "media_ultimas_5": 8.52,
+            "media_geral": 4.562962962962963,
+            "indice_escalai": 7.332888888888888,
+            "proximo_confronto": "vs BOT (Casa)"
         }
     ],
     "Técnico": [
