@@ -1,0 +1,32 @@
+{
+    "Goleiro": {
+        "apelido": "Lucas Arcanjo",
+        "pontuacao_real": 3.2,
+        "sinal": "Vermelho"
+    },
+    "Lateral": {
+        "apelido": "Mateus Silva",
+        "pontuacao_real": 3.4,
+        "sinal": "Vermelho"
+    },
+    "Zagueiro": {
+        "apelido": "Alexander Barboza",
+        "pontuacao_real": 10.1,
+        "sinal": "Verde"
+    },
+    "Meia": {
+        "apelido": "Savarino",
+        "pontuacao_real": 0.5,
+        "sinal": "Vermelho"
+    },
+    "Atacante": {
+        "apelido": "Kaio Jorge",
+        "pontuacao_real": 6.5,
+        "sinal": "Vermelho"
+    },
+    "Técnico": {
+        "apelido": "Abel Ferreira",
+        "pontuacao_real": 7.35,
+        "sinal": "Amarelo"
+    }
+}
