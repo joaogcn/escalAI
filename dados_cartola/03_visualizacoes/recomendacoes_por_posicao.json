@@ -53,16 +53,6 @@
     ],
     "Lateral": [
         {
-            "apelido": "Cuiabano",
-            "clube_nome": "Vasco",
-            "posicao_id": "lat",
-            "preco_num": 13.02,
-            "media_ultimas_5": 7.9799999999999995,
-            "media_geral": 7.76111111111111,
-            "indice_escalai": 7.9143333333333326,
-            "proximo_confronto": "vs SAO (Fora)"
-        },
-        {
             "apelido": "Jamerson",
             "clube_nome": "Vitória",
             "posicao_id": "lat",
@@ -101,6 +91,16 @@
             "media_geral": 6.178947368421053,
             "indice_escalai": 6.851684210526316,
             "proximo_confronto": "vs SAN (Casa)"
+        },
+        {
+            "apelido": "Iago",
+            "clube_nome": "São Paulo",
+            "posicao_id": "lat",
+            "preco_num": 6.38,
+            "media_ultimas_5": 7.18,
+            "media_geral": 5.04,
+            "indice_escalai": 6.538,
+            "proximo_confronto": "vs VAS (Casa)"
         }
     ],
     "Zagueiro": [
@@ -145,14 +145,14 @@
             "proximo_confronto": "vs CAP (Fora)"
         },
         {
-            "apelido": "Gustavo Martins",
-            "clube_nome": "Grêmio",
+            "apelido": "Vitor Hugo",
+            "clube_nome": "Atlético-MG",
             "posicao_id": "zag",
-            "preco_num": 7.11,
-            "media_ultimas_5": 5.9399999999999995,
-            "media_geral": 3.935294117647059,
-            "indice_escalai": 5.338588235294117,
-            "proximo_confronto": "vs CRU (Casa)"
+            "preco_num": 7.74,
+            "media_ultimas_5": 5.76,
+            "media_geral": 4.6000000000000005,
+            "indice_escalai": 5.412,
+            "proximo_confronto": "vs CFC (Casa)"
         }
     ],
     "Meia": [
@@ -239,16 +239,6 @@
             "proximo_confronto": "vs COR (Fora)"
         },
         {
-            "apelido": "Cuello",
-            "clube_nome": "Atlético-MG",
-            "posicao_id": "ata",
-            "preco_num": 9.41,
-            "media_ultimas_5": 9.46,
-            "media_geral": 6.495833333333334,
-            "indice_escalai": 8.57075,
-            "proximo_confronto": "vs CFC (Casa)"
-        },
-        {
             "apelido": "Gabriel",
             "clube_nome": "Santos",
             "posicao_id": "ata",
@@ -257,6 +247,16 @@
             "media_geral": 6.163157894736842,
             "indice_escalai": 8.246947368421052,
             "proximo_confronto": "vs FLU (Fora)"
+        },
+        {
+            "apelido": "Colidio",
+            "clube_nome": "Vasco",
+            "posicao_id": "ata",
+            "preco_num": 10.12,
+            "media_ultimas_5": 8.02,
+            "media_geral": 7.6625,
+            "indice_escalai": 7.912749999999999,
+            "proximo_confronto": "vs SAO (Fora)"
         }
     ],
     "Técnico": [
