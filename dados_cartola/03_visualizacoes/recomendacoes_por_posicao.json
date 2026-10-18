@@ -53,6 +53,16 @@
     ],
     "Lateral": [
         {
+            "apelido": "Cuiabano",
+            "clube_nome": "Vasco",
+            "posicao_id": "lat",
+            "preco_num": 13.02,
+            "media_ultimas_5": 7.9799999999999995,
+            "media_geral": 7.76111111111111,
+            "indice_escalai": 7.9143333333333326,
+            "proximo_confronto": "vs SAO (Fora)"
+        },
+        {
             "apelido": "Jamerson",
             "clube_nome": "Vitória",
             "posicao_id": "lat",
@@ -91,16 +101,6 @@
             "media_geral": 6.178947368421053,
             "indice_escalai": 6.851684210526316,
             "proximo_confronto": "vs SAN (Casa)"
-        },
-        {
-            "apelido": "Iago",
-            "clube_nome": "São Paulo",
-            "posicao_id": "lat",
-            "preco_num": 6.38,
-            "media_ultimas_5": 7.18,
-            "media_geral": 5.04,
-            "indice_escalai": 6.538,
-            "proximo_confronto": "vs VAS (Casa)"
         }
     ],
     "Zagueiro": [
@@ -115,16 +115,6 @@
             "proximo_confronto": "vs CAP (Fora)"
         },
         {
-            "apelido": "Saldivia",
-            "clube_nome": "Vasco",
-            "posicao_id": "zag",
-            "preco_num": 7.06,
-            "media_ultimas_5": 8.06,
-            "media_geral": 4.228571428571429,
-            "indice_escalai": 6.910571428571429,
-            "proximo_confronto": "vs SAO (Fora)"
-        },
-        {
             "apelido": "Ignácio",
             "clube_nome": "Fluminense",
             "posicao_id": "zag",
@@ -133,6 +123,16 @@
             "media_geral": 4.916666666666667,
             "indice_escalai": 6.683,
             "proximo_confronto": "vs SAN (Casa)"
+        },
+        {
+            "apelido": "Rafael Tolói",
+            "clube_nome": "São Paulo",
+            "posicao_id": "zag",
+            "preco_num": 8.17,
+            "media_ultimas_5": 6.3,
+            "media_geral": 5.300000000000001,
+            "indice_escalai": 5.999999999999999,
+            "proximo_confronto": "vs VAS (Casa)"
         },
         {
             "apelido": "Bruno Fuchs",
