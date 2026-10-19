@@ -145,14 +145,14 @@
             "proximo_confronto": "vs CAP (Fora)"
         },
         {
-            "apelido": "Vitor Hugo",
-            "clube_nome": "Atlético-MG",
+            "apelido": "Marcos Victor",
+            "clube_nome": "Bahia",
             "posicao_id": "zag",
-            "preco_num": 7.74,
-            "media_ultimas_5": 5.76,
-            "media_geral": 4.6000000000000005,
-            "indice_escalai": 5.412,
-            "proximo_confronto": "vs CFC (Casa)"
+            "preco_num": 5.27,
+            "media_ultimas_5": 5.840000000000001,
+            "media_geral": 5.840000000000001,
+            "indice_escalai": 5.84,
+            "proximo_confronto": "vs FLA (Casa)"
         }
     ],
     "Meia": [
@@ -197,14 +197,14 @@
             "proximo_confronto": "vs SAO (Fora)"
         },
         {
-            "apelido": "Lucas Paquetá",
-            "clube_nome": "Flamengo",
+            "apelido": "Matheuzinho",
+            "clube_nome": "Vitória",
             "posicao_id": "mei",
-            "preco_num": 14.67,
-            "media_ultimas_5": 9.059999999999999,
-            "media_geral": 6.847368421052631,
-            "indice_escalai": 8.396210526315787,
-            "proximo_confronto": "vs BAH (Fora)"
+            "preco_num": 6.08,
+            "media_ultimas_5": 8.16,
+            "media_geral": 4.860869565217391,
+            "indice_escalai": 7.170260869565217,
+            "proximo_confronto": "vs COR (Fora)"
         }
     ],
     "Atacante": [
