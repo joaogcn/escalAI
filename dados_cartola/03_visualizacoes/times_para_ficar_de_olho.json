@@ -156,6 +156,18 @@
         "gols_contra": 6
     },
     {
+        "nome": "VIT",
+        "id": 287,
+        "escudo_url": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/VIT/60x60.png",
+        "indice_desempenho": 7,
+        "jogos": 5,
+        "vitorias": 1,
+        "empates": 0,
+        "derrotas": 2,
+        "gols_pro": 9,
+        "gols_contra": 8
+    },
+    {
         "nome": "RBB",
         "id": 280,
         "escudo_url": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/RBB/60x60.png",
@@ -164,18 +176,6 @@
         "vitorias": 1,
         "empates": 1,
         "derrotas": 1,
-        "gols_pro": 8,
-        "gols_contra": 7
-    },
-    {
-        "nome": "VIT",
-        "id": 287,
-        "escudo_url": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/VIT/60x60.png",
-        "indice_desempenho": 6,
-        "jogos": 4,
-        "vitorias": 1,
-        "empates": 0,
-        "derrotas": 2,
         "gols_pro": 8,
         "gols_contra": 7
     },
@@ -231,12 +231,12 @@
         "nome": "COR",
         "id": 264,
         "escudo_url": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/COR/60x60.png",
-        "indice_desempenho": 0,
-        "jogos": 4,
+        "indice_desempenho": 1,
+        "jogos": 5,
         "vitorias": 0,
-        "empates": 0,
+        "empates": 1,
         "derrotas": 4,
-        "gols_pro": 4,
-        "gols_contra": 11
+        "gols_pro": 5,
+        "gols_contra": 12
     }
 ]
