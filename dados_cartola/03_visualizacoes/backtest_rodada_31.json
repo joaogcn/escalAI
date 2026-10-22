@@ -1,32 +1,32 @@
 {
     "Goleiro": {
-        "apelido": "Everson",
-        "pontuacao_real": 13.1,
-        "sinal": "Verde"
+        "apelido": "Tiago Volpi",
+        "pontuacao_real": 4.2,
+        "sinal": "Vermelho"
     },
     "Lateral": {
-        "apelido": "Samuel Xavier",
+        "apelido": "Giay",
         "pontuacao_real": 0.0,
         "sinal": "Vermelho"
     },
     "Zagueiro": {
-        "apelido": "Arboleda",
-        "pontuacao_real": 6.2,
-        "sinal": "Verde"
+        "apelido": "Vitor Hugo",
+        "pontuacao_real": 5.9,
+        "sinal": "Amarelo"
     },
     "Meia": {
-        "apelido": "Bobadilla",
-        "pontuacao_real": 1.5,
-        "sinal": "Vermelho"
+        "apelido": "Nonato",
+        "pontuacao_real": 8.6,
+        "sinal": "Verde"
     },
     "Atacante": {
-        "apelido": "Carlos Vinícius",
-        "pontuacao_real": 1.7,
+        "apelido": "Calleri",
+        "pontuacao_real": 6.6,
         "sinal": "Vermelho"
     },
     "Técnico": {
-        "apelido": "Hernán Crespo",
-        "pontuacao_real": 8.94,
+        "apelido": "Leonardo Jardim",
+        "pontuacao_real": 11.08,
         "sinal": "Verde"
     }
 }
