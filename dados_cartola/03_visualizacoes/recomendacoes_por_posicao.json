@@ -53,6 +53,16 @@
     ],
     "Lateral": [
         {
+            "apelido": "Pedro Lima",
+            "clube_nome": "São Paulo",
+            "posicao_id": "lat",
+            "preco_num": 11.05,
+            "media_ultimas_5": 9.175,
+            "media_geral": 9.175,
+            "indice_escalai": 9.175,
+            "proximo_confronto": "vs MIR (Fora)"
+        },
+        {
             "apelido": "Cuiabano",
             "clube_nome": "Vasco",
             "posicao_id": "lat",
@@ -91,16 +101,6 @@
             "media_geral": 7.503846153846154,
             "indice_escalai": 7.725153846153846,
             "proximo_confronto": "vs SAN (Fora)"
-        },
-        {
-            "apelido": "Iago",
-            "clube_nome": "São Paulo",
-            "posicao_id": "lat",
-            "preco_num": 6.74,
-            "media_ultimas_5": 7.5200000000000005,
-            "media_geral": 5.2272727272727275,
-            "indice_escalai": 6.832181818181819,
-            "proximo_confronto": "vs MIR (Fora)"
         }
     ],
     "Zagueiro": [
