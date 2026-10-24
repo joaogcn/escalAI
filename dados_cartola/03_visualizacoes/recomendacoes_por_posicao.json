@@ -125,16 +125,6 @@
             "proximo_confronto": "vs RBB (Casa)"
         },
         {
-            "apelido": "Saldivia",
-            "clube_nome": "Vasco",
-            "posicao_id": "zag",
-            "preco_num": 7.06,
-            "media_ultimas_5": 8.06,
-            "media_geral": 4.228571428571429,
-            "indice_escalai": 6.910571428571429,
-            "proximo_confronto": "vs COR (Casa)"
-        },
-        {
             "apelido": "Wallace",
             "clube_nome": "Grêmio",
             "posicao_id": "zag",
@@ -145,14 +135,24 @@
             "proximo_confronto": "vs CFC (Fora)"
         },
         {
-            "apelido": "Gustavo Martins",
-            "clube_nome": "Grêmio",
+            "apelido": "Igor Rabello",
+            "clube_nome": "Fluminense",
             "posicao_id": "zag",
-            "preco_num": 6.31,
-            "media_ultimas_5": 6.659999999999999,
-            "media_geral": 3.8444444444444446,
-            "indice_escalai": 5.815333333333332,
-            "proximo_confronto": "vs CFC (Fora)"
+            "preco_num": 8.43,
+            "media_ultimas_5": 5.75,
+            "media_geral": 5.75,
+            "indice_escalai": 5.749999999999999,
+            "proximo_confronto": "vs CHA (Fora)"
+        },
+        {
+            "apelido": "Ferraresi",
+            "clube_nome": "Botafogo",
+            "posicao_id": "zag",
+            "preco_num": 7.97,
+            "media_ultimas_5": 6.220000000000001,
+            "media_geral": 4.1160000000000005,
+            "indice_escalai": 5.5888,
+            "proximo_confronto": "vs INT (Fora)"
         }
     ],
     "Meia": [
@@ -165,16 +165,6 @@
             "media_geral": 9.971428571428572,
             "indice_escalai": 9.92142857142857,
             "proximo_confronto": "vs BAH (Casa)"
-        },
-        {
-            "apelido": "Lucas Paquetá",
-            "clube_nome": "Flamengo",
-            "posicao_id": "mei",
-            "preco_num": 14.23,
-            "media_ultimas_5": 10.520000000000001,
-            "media_geral": 6.95,
-            "indice_escalai": 9.449000000000002,
-            "proximo_confronto": "vs CAM (Casa)"
         },
         {
             "apelido": "Carrascal",
@@ -205,6 +195,16 @@
             "media_geral": 4.670833333333333,
             "indice_escalai": 7.1972499999999995,
             "proximo_confronto": "vs CAP (Casa)"
+        },
+        {
+            "apelido": "Reinier",
+            "clube_nome": "Atlético-MG",
+            "posicao_id": "mei",
+            "preco_num": 5.45,
+            "media_ultimas_5": 8.059999999999999,
+            "media_geral": 4.3950000000000005,
+            "indice_escalai": 6.960499999999999,
+            "proximo_confronto": "vs FLA (Fora)"
         }
     ],
     "Atacante": [
