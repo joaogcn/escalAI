@@ -125,6 +125,16 @@
             "proximo_confronto": "vs RBB (Casa)"
         },
         {
+            "apelido": "Saldivia",
+            "clube_nome": "Vasco",
+            "posicao_id": "zag",
+            "preco_num": 7.06,
+            "media_ultimas_5": 8.06,
+            "media_geral": 4.228571428571429,
+            "indice_escalai": 6.910571428571429,
+            "proximo_confronto": "vs COR (Casa)"
+        },
+        {
             "apelido": "Wallace",
             "clube_nome": "Grêmio",
             "posicao_id": "zag",
@@ -135,24 +145,14 @@
             "proximo_confronto": "vs CFC (Fora)"
         },
         {
-            "apelido": "Igor Rabello",
-            "clube_nome": "Fluminense",
+            "apelido": "Bruno Fuchs",
+            "clube_nome": "Palmeiras",
             "posicao_id": "zag",
-            "preco_num": 8.43,
-            "media_ultimas_5": 5.75,
-            "media_geral": 5.75,
-            "indice_escalai": 5.749999999999999,
-            "proximo_confronto": "vs CHA (Fora)"
-        },
-        {
-            "apelido": "Ferraresi",
-            "clube_nome": "Botafogo",
-            "posicao_id": "zag",
-            "preco_num": 7.97,
-            "media_ultimas_5": 6.220000000000001,
-            "media_geral": 4.1160000000000005,
-            "indice_escalai": 5.5888,
-            "proximo_confronto": "vs INT (Fora)"
+            "preco_num": 7.86,
+            "media_ultimas_5": 6.4799999999999995,
+            "media_geral": 5.3,
+            "indice_escalai": 6.1259999999999994,
+            "proximo_confronto": "vs RBB (Casa)"
         }
     ],
     "Meia": [
