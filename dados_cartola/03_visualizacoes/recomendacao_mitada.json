@@ -4,23 +4,23 @@
         "clube_nome": "PAL"
     },
     "Lateral": {
-        "apelido": "Pedro Lima",
-        "clube_nome": "SAO"
+        "apelido": "Luciano Juba",
+        "clube_nome": "BAH"
     },
     "Zagueiro": {
-        "apelido": "Arboleda",
-        "clube_nome": "SAO"
+        "apelido": "Thiago Silva",
+        "clube_nome": "FLU"
     },
     "Meia": {
-        "apelido": "Montoro",
-        "clube_nome": "BOT"
+        "apelido": "Giovanni Augusto",
+        "clube_nome": "CHA"
     },
     "Atacante": {
         "apelido": "Carlos Vinícius",
         "clube_nome": "GRE"
     },
     "Técnico": {
-        "apelido": "Eduardo Domínguez",
-        "clube_nome": "CAM"
+        "apelido": "Eduardo Baptista",
+        "clube_nome": "INT"
     }
 }

@@ -1,32 +1,32 @@
 {
     "Goleiro": {
-        "apelido": "Carlos Miguel",
-        "pontuacao_real": 7.6,
-        "sinal": "Amarelo"
+        "apelido": "Anderson",
+        "pontuacao_real": 3.9,
+        "sinal": "Vermelho"
     },
     "Lateral": {
-        "apelido": "Khellven",
-        "pontuacao_real": 10.6,
+        "apelido": "Pedro Lima",
+        "pontuacao_real": 11.9,
         "sinal": "Verde"
     },
     "Zagueiro": {
-        "apelido": "Gustavo Henrique",
-        "pontuacao_real": -1.9,
+        "apelido": "Ferraresi",
+        "pontuacao_real": 1.0,
         "sinal": "Vermelho"
     },
     "Meia": {
-        "apelido": "Felipe Anderson",
-        "pontuacao_real": 0.8,
+        "apelido": "Hércules",
+        "pontuacao_real": -0.3,
         "sinal": "Vermelho"
     },
     "Atacante": {
         "apelido": "Kaio Jorge",
-        "pontuacao_real": 8.1,
-        "sinal": "Amarelo"
+        "pontuacao_real": 0.0,
+        "sinal": "Vermelho"
     },
     "Técnico": {
-        "apelido": "Filipe Luís",
-        "pontuacao_real": 3.42,
-        "sinal": "Vermelho"
+        "apelido": "Abel Ferreira",
+        "pontuacao_real": 11.26,
+        "sinal": "Verde"
     }
 }
