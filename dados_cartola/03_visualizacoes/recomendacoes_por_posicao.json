@@ -125,16 +125,6 @@
             "proximo_confronto": "vs SAN (Fora)"
         },
         {
-            "apelido": "Saldivia",
-            "clube_nome": "Vasco",
-            "posicao_id": "zag",
-            "preco_num": 6.58,
-            "media_ultimas_5": 9.02,
-            "media_geral": 4.346666666666667,
-            "indice_escalai": 7.617999999999999,
-            "proximo_confronto": "vs FLA (Casa)"
-        },
-        {
             "apelido": "Wallace",
             "clube_nome": "Grêmio",
             "posicao_id": "zag",
@@ -153,6 +143,16 @@
             "media_geral": 3.931578947368421,
             "indice_escalai": 6.429473684210526,
             "proximo_confronto": "vs CAP (Casa)"
+        },
+        {
+            "apelido": "Murilo",
+            "clube_nome": "Palmeiras",
+            "posicao_id": "zag",
+            "preco_num": 7.54,
+            "media_ultimas_5": 7.279999999999999,
+            "media_geral": 4.326923076923077,
+            "indice_escalai": 6.394076923076922,
+            "proximo_confronto": "vs SAN (Fora)"
         }
     ],
     "Meia": [
