@@ -1,32 +1,32 @@
 {
     "Goleiro": {
-        "apelido": "Cássio",
-        "pontuacao_real": 9.9,
-        "sinal": "Verde"
+        "apelido": "Kauan Jesus",
+        "pontuacao_real": 3.7,
+        "sinal": "Vermelho"
     },
     "Lateral": {
-        "apelido": "William",
-        "pontuacao_real": 8.2,
-        "sinal": "Verde"
+        "apelido": "Bernabei",
+        "pontuacao_real": -0.1,
+        "sinal": "Vermelho"
     },
     "Zagueiro": {
-        "apelido": "Lucas Halter",
-        "pontuacao_real": 8.3,
-        "sinal": "Verde"
+        "apelido": "Juninho",
+        "pontuacao_real": 3.5,
+        "sinal": "Vermelho"
     },
     "Meia": {
-        "apelido": "Lucho Acosta",
-        "pontuacao_real": 3.2,
+        "apelido": "Giovanni Augusto",
+        "pontuacao_real": 3.9,
         "sinal": "Vermelho"
     },
     "Atacante": {
-        "apelido": "Vitor Roque",
-        "pontuacao_real": 13.7,
-        "sinal": "Verde"
+        "apelido": "Marino Hinestroza",
+        "pontuacao_real": 1.3,
+        "sinal": "Vermelho"
     },
     "Técnico": {
-        "apelido": "Jorge Sampaoli",
-        "pontuacao_real": 8.58,
-        "sinal": "Verde"
+        "apelido": "Eduardo Baptista",
+        "pontuacao_real": 4.56,
+        "sinal": "Vermelho"
     }
 }

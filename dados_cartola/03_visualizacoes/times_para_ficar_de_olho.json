@@ -172,12 +172,12 @@
         "id": 287,
         "escudo_url": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/VIT/60x60.png",
         "indice_desempenho": 7,
-        "jogos": 4,
+        "jogos": 5,
         "vitorias": 1,
         "empates": 1,
-        "derrotas": 1,
+        "derrotas": 2,
         "gols_pro": 7,
-        "gols_contra": 4
+        "gols_contra": 6
     },
     {
         "nome": "COR",
@@ -204,6 +204,18 @@
         "gols_contra": 8
     },
     {
+        "nome": "CFC",
+        "id": 294,
+        "escudo_url": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/CFC/60x60.png",
+        "indice_desempenho": 6,
+        "jogos": 5,
+        "vitorias": 1,
+        "empates": 1,
+        "derrotas": 3,
+        "gols_pro": 3,
+        "gols_contra": 7
+    },
+    {
         "nome": "CAP",
         "id": 293,
         "escudo_url": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/CAP/60x60.png",
@@ -226,17 +238,5 @@
         "derrotas": 4,
         "gols_pro": 3,
         "gols_contra": 13
-    },
-    {
-        "nome": "CFC",
-        "id": 294,
-        "escudo_url": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/escudos/CFC/60x60.png",
-        "indice_desempenho": 1,
-        "jogos": 4,
-        "vitorias": 0,
-        "empates": 1,
-        "derrotas": 3,
-        "gols_pro": 1,
-        "gols_contra": 7
     }
 ]

@@ -8,19 +8,19 @@
         "clube_nome": "BAH"
     },
     "Zagueiro": {
-        "apelido": "Thiago Silva",
-        "clube_nome": "FLU"
+        "apelido": "Wallace",
+        "clube_nome": "GRE"
     },
     "Meia": {
-        "apelido": "Giovanni Augusto",
-        "clube_nome": "CHA"
-    },
-    "Atacante": {
-        "apelido": "Marino Hinestroza",
+        "apelido": "Lescano",
         "clube_nome": "VAS"
     },
+    "Atacante": {
+        "apelido": "Luciano",
+        "clube_nome": "SAO"
+    },
     "Técnico": {
-        "apelido": "Eduardo Baptista",
-        "clube_nome": "INT"
+        "apelido": "Clarence Seedorf",
+        "clube_nome": "COR"
     }
 }
