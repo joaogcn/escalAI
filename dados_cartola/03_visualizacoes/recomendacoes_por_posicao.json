@@ -31,16 +31,6 @@
             "proximo_confronto": "vs BAH (Casa)"
         },
         {
-            "apelido": "Gabriel Delfim",
-            "clube_nome": "Atlético-MG",
-            "posicao_id": "gol",
-            "preco_num": 4.84,
-            "media_ultimas_5": 6.2,
-            "media_geral": 3.9555555555555557,
-            "indice_escalai": 5.526666666666666,
-            "proximo_confronto": "vs BOT (Fora)"
-        },
-        {
             "apelido": "Anderson",
             "clube_nome": "CHA",
             "posicao_id": "gol",
@@ -49,6 +39,16 @@
             "media_geral": 4.266666666666667,
             "indice_escalai": 5.242,
             "proximo_confronto": "vs MIR (Casa)"
+        },
+        {
+            "apelido": "Walter",
+            "clube_nome": "Mirassol",
+            "posicao_id": "gol",
+            "preco_num": 6.15,
+            "media_ultimas_5": 6.04,
+            "media_geral": 3.364,
+            "indice_escalai": 5.2372,
+            "proximo_confronto": "vs CHA (Fora)"
         }
     ],
     "Lateral": [
@@ -83,16 +83,6 @@
             "proximo_confronto": "vs CRU (Fora)"
         },
         {
-            "apelido": "Cuiabano",
-            "clube_nome": "Vasco",
-            "posicao_id": "lat",
-            "preco_num": 12.66,
-            "media_ultimas_5": 7.68,
-            "media_geral": 7.619047619047619,
-            "indice_escalai": 7.661714285714285,
-            "proximo_confronto": "vs CAP (Fora)"
-        },
-        {
             "apelido": "Matheus Bidu",
             "clube_nome": "Corinthians",
             "posicao_id": "lat",
@@ -101,6 +91,16 @@
             "media_geral": 7.311538461538461,
             "indice_escalai": 7.611461538461539,
             "proximo_confronto": "vs SAO (Fora)"
+        },
+        {
+            "apelido": "Varela",
+            "clube_nome": "Flamengo",
+            "posicao_id": "lat",
+            "preco_num": 8.66,
+            "media_ultimas_5": 7.5200000000000005,
+            "media_geral": 5.130434782608695,
+            "indice_escalai": 6.8031304347826085,
+            "proximo_confronto": "vs GRE (Casa)"
         }
     ],
     "Zagueiro": [
@@ -135,6 +135,16 @@
             "proximo_confronto": "vs CAP (Fora)"
         },
         {
+            "apelido": "Marcos Victor",
+            "clube_nome": "Bahia",
+            "posicao_id": "zag",
+            "preco_num": 7.19,
+            "media_ultimas_5": 7.24,
+            "media_geral": 6.300000000000001,
+            "indice_escalai": 6.958,
+            "proximo_confronto": "vs CRU (Fora)"
+        },
+        {
             "apelido": "Gustavo Gómez",
             "clube_nome": "Palmeiras",
             "posicao_id": "zag",
@@ -142,16 +152,6 @@
             "media_ultimas_5": 7.24,
             "media_geral": 5.8999999999999995,
             "indice_escalai": 6.837999999999999,
-            "proximo_confronto": "vs REM (Casa)"
-        },
-        {
-            "apelido": "Murilo",
-            "clube_nome": "Palmeiras",
-            "posicao_id": "zag",
-            "preco_num": 8.05,
-            "media_ultimas_5": 6.720000000000001,
-            "media_geral": 4.54074074074074,
-            "indice_escalai": 6.066222222222222,
             "proximo_confronto": "vs REM (Casa)"
         }
     ],
@@ -167,16 +167,6 @@
             "proximo_confronto": "vs GRE (Casa)"
         },
         {
-            "apelido": "Lescano",
-            "clube_nome": "Vasco",
-            "posicao_id": "mei",
-            "preco_num": 12.1,
-            "media_ultimas_5": 7.459999999999999,
-            "media_geral": 7.971428571428571,
-            "indice_escalai": 7.613428571428569,
-            "proximo_confronto": "vs CAP (Fora)"
-        },
-        {
             "apelido": "Matheuzinho",
             "clube_nome": "Vitória",
             "posicao_id": "mei",
@@ -187,16 +177,6 @@
             "proximo_confronto": "vs FLU (Casa)"
         },
         {
-            "apelido": "Bernard",
-            "clube_nome": "Atlético-MG",
-            "posicao_id": "mei",
-            "preco_num": 5.2,
-            "media_ultimas_5": 7.839999999999999,
-            "media_geral": 4.814285714285714,
-            "indice_escalai": 6.932285714285713,
-            "proximo_confronto": "vs BOT (Fora)"
-        },
-        {
             "apelido": "Savarino",
             "clube_nome": "Fluminense",
             "posicao_id": "mei",
@@ -205,9 +185,39 @@
             "media_geral": 5.4,
             "indice_escalai": 6.814,
             "proximo_confronto": "vs VIT (Fora)"
+        },
+        {
+            "apelido": "Garro",
+            "clube_nome": "Corinthians",
+            "posicao_id": "mei",
+            "preco_num": 11.24,
+            "media_ultimas_5": 6.340000000000001,
+            "media_geral": 5.153571428571429,
+            "indice_escalai": 5.984071428571429,
+            "proximo_confronto": "vs SAO (Fora)"
+        },
+        {
+            "apelido": "Arrascaeta",
+            "clube_nome": "Flamengo",
+            "posicao_id": "mei",
+            "preco_num": 13.24,
+            "media_ultimas_5": 5.9399999999999995,
+            "media_geral": 5.485714285714286,
+            "indice_escalai": 5.803714285714285,
+            "proximo_confronto": "vs GRE (Casa)"
         }
     ],
     "Atacante": [
+        {
+            "apelido": "Kaio Jorge",
+            "clube_nome": "Cruzeiro",
+            "posicao_id": "ata",
+            "preco_num": 12.17,
+            "media_ultimas_5": 12.620000000000001,
+            "media_geral": 6.545833333333333,
+            "indice_escalai": 10.797749999999999,
+            "proximo_confronto": "vs BAH (Casa)"
+        },
         {
             "apelido": "Samuel Lino",
             "clube_nome": "Flamengo",
@@ -229,14 +239,14 @@
             "proximo_confronto": "vs BAH (Casa)"
         },
         {
-            "apelido": "Flaco López",
-            "clube_nome": "Palmeiras",
+            "apelido": "Renê",
+            "clube_nome": "Vitória",
             "posicao_id": "ata",
-            "preco_num": 13.17,
-            "media_ultimas_5": 7.42,
-            "media_geral": 6.946666666666667,
-            "indice_escalai": 7.2780000000000005,
-            "proximo_confronto": "vs REM (Casa)"
+            "preco_num": 9.87,
+            "media_ultimas_5": 8.4,
+            "media_geral": 6.895454545454545,
+            "indice_escalai": 7.948636363636363,
+            "proximo_confronto": "vs FLU (Casa)"
         },
         {
             "apelido": "Calleri",
@@ -247,16 +257,6 @@
             "media_geral": 5.385714285714286,
             "indice_escalai": 7.271714285714285,
             "proximo_confronto": "vs COR (Casa)"
-        },
-        {
-            "apelido": "Viveros",
-            "clube_nome": "CAP",
-            "posicao_id": "ata",
-            "preco_num": 12.38,
-            "media_ultimas_5": 6.68,
-            "media_geral": 8.557142857142857,
-            "indice_escalai": 7.243142857142857,
-            "proximo_confronto": "vs VAS (Casa)"
         }
     ],
     "Técnico": [
